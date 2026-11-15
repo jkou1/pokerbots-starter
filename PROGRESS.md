@@ -3,10 +3,10 @@
 Coordinator: Codex. Window: Sunday 2026-11-15 00:27–09:00 PST.
 Standing orders: `/Users/lance/Documents/pokerbots-starter-grpo-history/AGENTS.md`.
 
-## Current status — 02:43 PST
+## Current status — 03:00 PST
 
 - **Goal:** reach #1 on the leaderboard and defend the lead through day 2. This autonomous run ends at 09:00 PST.
-- **Main training:** GRPO `train_f759c4cb331e` remains healthy on 6 GPUs, update84, 5,425 scored rollouts, 18 format failures (0.33%), no repair alerts. Checkpoint80 is saved as `ckpt_0556377bd1cb`. Natural completion at100 is expected around03:00; then the queued requested mixed-teacher SFT gets capacity. Running recipe remains fixed.
+- **Main training:** GRPO `train_f759c4cb331e` reached optimizer100, but finalcheckpoint save failed on trainer rank1 at10:58:29UTC (02:58PST). Platform automaticrestart/recovery is active; no100checkpoint registered yet. Checkpoint95 is safely saved. Ops is preserving logs and diagnosing recovery before any teardown; mixedSFT remains queued. No candidate100GPU allocation until actualsave/capacity verification.
 - **Account rule:** all future submissions and writes use the new `lmathias@berkeley.edu` identity (UID 10464). Existing jobs keep their owners and must not be canceled or restarted merely to migrate identity. Monitoring has switched to the new identity without touching the cloud job.
 - **Serving/evaluation:** Frozen RL20 final6 completed: meanplace2.0 vs3.1667, EVgain75.366BB/game [−23.208,+170.336],0busts,2/298invalid(0.671%) vs0/309baseline. All180cleanupupdatesaccepted vs139/180baseline. Two failures were enum `raises` and action`31`; exactstate repeats are being checked, not added totraining. Final table talk was silent with say exposed; boundedmanualreview passed. Possible monitoredcanary remains contingent on regression checks and restored Arena access. Current entry unchanged; UI/API submission access blocker persists.
 - **SFT:** both 40-update pilots finished and their checkpoints are preserved. Action-token loss still improved about 21% over the last 10 updates; the earlier convergence claim was corrected. Missing the intermediate stop/extend decision was a coordination gap. A tested milestone guard is ready for future runs.
@@ -219,3 +219,9 @@ The step85zero-variance alert resolved in subsequent16samplegroups with observed
 ## Separate final completed — 02:49 PST
 
 Selected RL20 passed the predeclared numerical legality gate (99.329%, decline0.671pp) and final directional performance was positive, but uncertainty remains wide. Six final placementdifferences[−3,+1,+1,+4,+2,+2] average+1.167places (95%CI[−0.667,+2.667]); EVgain75.366BB/game [−23.208,+170.336]. Cleanup180/180acceptedvs139/180 and41cuts forincumbent. Exactenumfailurestates are receiving4repeatprobes each as final-only regression checks. No checkpoint reselection or training on finalfailures. Actualfinal298outputs were silent with say available; no factualmemorysuperiority claim.
+
+## Final-save failure and recovery hold — 03:00 PST
+
+GRPO reached100optimizerupdates. Customer log states trainer rank1failed during checkpointsave(step100), automaticrestart mayrecover. This is a setup/save failure, not evidence against GRPO or convergence. Step95 is safely persisted. Keep currentjob intact while inspecting supported recovery/status and preserving completefailureoutput; no cancellationbeforepersistence.100deployment and mixedSFTcapacityhandoff temporarily wait for actualsave/teardown. A95fallback would require an explicit recorded decision if100cannotbe recovered.
+
+FinalRL20enumregression8/8legal; preexisting known-enum4/4alsolegal. Eligible monitoredcanary recommendation,111secondworkplacereview,freezeprovenance and finalsummary published undernewaccount in collectioncoll_6dbffac3ae9c. Currentpublicentry remainsincumbent, cachedrank16/rating937 at02:47PST; actualArenaaccess retry stillcgWindowNotFound. No entrymutation.
