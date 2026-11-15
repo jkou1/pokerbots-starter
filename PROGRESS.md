@@ -3,6 +3,19 @@
 Coordinator: Codex. Window: Sunday 2026-11-15 00:27–09:00 PST.
 Standing orders: `/Users/lance/Documents/pokerbots-starter-grpo-history/AGENTS.md`.
 
+## Current status — 01:03 PST
+
+- **Goal:** #1 leaderboard, then defend through day2. Current autonomous window ends09:00PST.
+- **Main training:** GRPO `train_f759c4cb331e` running;6GPUs,ad74parent,historical20k,frozenopponents,64rollouts/update,checkpoint5,manualevaluation. Startup repaired using the existing authorized working account identity; firstoptimizer/checkpoint stillpending.
+- **Serving/evaluation:** incumbent and frozenopponent retained; two SFTcandidate1GPUslots. Continuation candidate recreated underworkingidentity afterrestarts; basecandidate remainscontrol. Realtoolprobes and AC2fullgame comparisons pendingready. Totalintendedallocation10GPUs.
+- **SFT:** both40updatepilotsfinished, checkpoints preserved, jobs stopped. ImportantactionCE stillimproved~21%inlast10updates; coordinatorcorrectedearlierconvergenceclaim. Missingearlycheckpointdecision was a coordinationgap; tested milestoneguardprepared forfuture.
+- **Measured defects:** botholdcheckpoints0/39heldoutPetebets; incumbentcleanupoverlength/retriesconfirmedinfullgames. Newweightsmustfixthese withoutpreflop/legalityregression.
+- **AC2visibleevals:** `eval_bf31fcaff054`, `eval_521f73148d31`, `eval_7353b52d4873` (allcompleted). Dashboard: https://platform.appliedcompute.com/org_cd68943dd947/p/prj_ba36d29befaf/observability/evals . Other147/354diagnostics andongoingfullgameswerelocal, notpublished; nextfullgameswilluseAC2nativeBYOH. Publishingauditsasclearlylabeledprojectartifactsisunderway.
+- **Action-token audits:** [base](/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/base-action-ce.json), [continuation](/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/continuation-action-ce.json).
+- **Not running:** PokerBenchtraining, talksearch, syntheticreasoninggeneration. CorrectedPokerBenchv3isCPU-readyonly; failed/inconclusiveavenuesstopped.
+
+## Decision log
+
 ## Operating policy
 
 - Maximize leaderboard placement while preserving working entries and dependencies.
