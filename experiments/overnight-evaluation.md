@@ -82,3 +82,19 @@ Hypothesis: six official30hand games against the already-running frozen-ad74 opp
 Targeted approach: same original selection seed generator and seat cycling as other direct games; frozen opponent only; six games, concurrency2; preserve official rules and fixed baseline configuration. Compare future candidate on exactly these seeds/seats/opponent.
 
 Test/success: completed whole-game placement, errors and cleanup logs with no inferenceGPU allocation. Stop or reduce load on sustained endpoint errors or RL throughput degradation. This is selection evidence only; final holdout uses unused seeds.
+
+## Cleanup efficiency and factual retention preparation
+
+Problem: observed own frozen-model cleanups exceed5000characters repeatedly, wasting decode and retry time. Current selection games cannot become training data.
+
+Hypothesis: a small retention mixture of genuinely recorded concise successful own cleanup replies can preserve bounded factual memory while postflop training restores betting.
+
+Targeted approach: collect six fresh training-seed one-hand games with current incumbent against scripted legality-control opponents, concurrency2, using exact recorded cleanup inputs/replies. Preserve raw trace, source seed, split, model and checkpoint. Separately preserve up to ten actual overlong cleanup inputs from existing selection games as held-out stress cases, with no fabricated private notes.
+
+Test/success: identify at least three successful factual recorded replies <=1500characters; validate facts against the observed transcript/game log. Selection stress cases stay outside training, and no new GPU/job allocation occurs. Stop if source split or actual private-input provenance cannot be established. Proposed later training mix <=15%cleanup is not launched here.
+
+### Cleanup evidence result
+
+Collected six independent TRAIN-seed own games, preserving actual raw runtime inputs/replies and private cleanup success records. Four observed targets279–434characters passed exact board/stack and factual action-subset checks. Two short replies were rejected for wrong final boards/stacks; shortness alone is insufficient. Accepted targets were never rewritten. Their action notes are factual subsets, not claimed chronological transcripts. Saved `cleanup-own-train-v1/validated-train.jsonl` and `validation.json` with source hashes.
+
+Preserved ten distinct actual SELECT overlong cleanup inputs, five per model, as stress cases. Bounded initial-cleanup gateway sample: incumbent37/97over5000characters, frozen110/222. These are sampled request rates, not complete-game rates. Raw source rows, exact prompts/replies, cutoff and hashes live under `cleanup-stress-select-v1`; selection cases remain excluded from training.
