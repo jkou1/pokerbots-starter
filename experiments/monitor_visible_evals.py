@@ -14,13 +14,17 @@ while time.time()<1794762000:
  for p in (ROOT/'platform-official30-v1').glob('*/receipt.json'):
   r=json.loads(p.read_text())
   for label,e in r.get('evaluations',{}).items():tracked[e['eval_id']]={'label':label+'-'+p.parent.name,'expected':6,'kind':'official30'}
+ for p in (ROOT/'fullschema-functional30').glob('*/receipt.json'):
+  r=json.loads(p.read_text())
+  if r.get('eval_id'):tracked[r['eval_id']]={'label':p.parent.name+'-fullschema-functional30','expected':1,'kind':'functional30'}
  dev=ROOT/'base20-development-v1/receipt.json'
  if dev.exists():
   for label,r in json.loads(dev.read_text()).get('runs',{}).items():tracked[r['eval_id']]={'label':'dev4-'+label,'expected':4,'kind':'development30'}
  sealed=ROOT/'sealed-final-base20-v1/receipt.json'
  if sealed.exists():
   r=json.loads(sealed.read_text())
-  if r.get('baseline',{}).get('eval_id'):tracked[r['baseline']['eval_id']]={'label':'sealed-final-baseline-health-only','expected':6,'kind':'sealed_health_only'}
+  if r.get('baseline',{}).get('eval_id'):tracked[r['baseline']['eval_id']]={'label':'final-baseline' if not r.get('outcomes_sealed',True) else 'sealed-final-baseline-health-only','expected':6,'kind':'final30' if not r.get('outcomes_sealed',True) else 'sealed_health_only'}
+  if not r.get('outcomes_sealed',True) and r.get('selected_candidate') and r.get('candidate',{}).get('eval_id'):tracked[r['candidate']['eval_id']]={'label':'final-selected-candidate','expected':6,'kind':'final30'}
  report={'updated_at':datetime.now(timezone.utc).isoformat(),'read_identity':identity,'runs':{}}
  for rid,meta in tracked.items():
   if rid in cache:report['runs'][rid]=cache[rid];continue

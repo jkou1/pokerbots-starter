@@ -8,7 +8,7 @@ from vals_tools.cleanup_score import cleanup_protocol,aggregate_cleanup_protocol
 from vals_tools.game_score import bootstrap
 ROOT=Path(__file__).resolve().parent.parent/'data/experiments/base20-development-v1'
 SOURCE=Path('/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs')
-r=json.loads((ROOT/'receipt.json').read_text());seats={seed:'seat'+str(i) for i,seed in enumerate(r['seeds'])};c=Client(project='vals-hackathon',api_key=os.environ['AC2_API_KEY']);result={'scope':'Selection-only four paired official30hand development games. Raw EV uses official harness adjustment, with unsupported sidepots falling back to realized returns. Small sample, no claim of convergence.','frozen_opponent':r['frozen_opponent'],'runs':{}}
+r=json.loads((ROOT/'receipt.json').read_text());seats={seed:'seat'+str(i) for i,seed in enumerate(r['seeds'])};c=Client(project='vals-hackathon',api_key=os.environ['AC2_API_KEY']);result={'scope':'Selection-only four paired official30hand development games. Raw EV uses official harness adjustment, with unsupported sidepots falling back to realized returns. Small sample, no claim of convergence.','schema_scope':'Task submit_fields action/amount; live event server automatically adds say. Effective action/amount/say, omitting local-default p_win/read. Reduced optional diagnostic schema; sanitizer/caps unchanged. Live Arena code not independently retrieved.','frozen_opponent':r['frozen_opponent'],'runs':{}}
 for label,meta in r['runs'].items():
  run=c.eval.get(meta['eval_id']);out=ROOT/label;out.mkdir(exist_ok=True);rows=[];manifest=[]
  for path in SOURCE.glob('*.json'):

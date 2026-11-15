@@ -164,3 +164,13 @@ Targeted approach: four fresh selection-only deals, identical seats/seeds for bo
 Test/success: compare raw attributed logs for paired unclipped EV, placement, realized returns, busts, invalid decisions and cleanup. Directional gains with intact reliability justify candidate consideration; four games remain noisy. Dashboard clipped reward cannot establish quality.
 
 Stop/triage: repair technical failures or sustained stalls, preserve all model versions while requests are active, and do not inspect sealed final outcomes for development choice. Framework and receipt are written before native submission under verified lmathias UID10464.
+
+## Source-verified optional schema check and final selection
+
+Source correction: the event server automatically adds optional `say` even when a dataset specifies only `action` and `amount`. Existing paired games therefore expose the documented Arena action/amount/say interface; they are reduced optional diagnostic schema tests, not talk-disabled. The local default additionally exposes optional `p_win` and `read`. The live Arena server code has not been retrieved, so those local diagnostic fields are not asserted to be live Arena fields.
+
+Problem: a candidate should also preserve real-tool behavior when the local default diagnostic fields are present.
+
+Hypothesis/targeted approach: one fresh native 30-hand functional game, with no submit_fields override, against the pinned base20 opponent, retains legal action and cleanup behavior. Preserve normal event sanitizer, strict legality, carried stacks and token caps. This is functional evidence, not another performance ranking sample. Test actual native logs for valid tools/sizing, accepted cleanup, wrong tools and emitted raw/sanitized table talk; investigate any real protocol failures, without changing the running harness.
+
+Before opening final outcomes, the coordinator explicitly selected RL20 checkpoint11e7/inference9efa/version1 from all four completed development pairs, fixed32 evidence and protocol guards. The selection artifact hashes the full development summary and records uncertainty. Final release accepts only that selected candidate on the exact pre-existing six deals/seats/opponent/version/schema; no other checkpoint can be selected from its results. The local-default functional smoke runs concurrently and remains mandatory before promotion. The final collector refuses outcome access before the explicit selected-candidate submission/unseal condition.
