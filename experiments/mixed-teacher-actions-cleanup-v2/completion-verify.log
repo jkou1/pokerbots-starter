@@ -1,0 +1,37 @@
+{
+  "scope": "Independent CPU-only source/actual target verification from existing files, no new data/HTTP/API/modelcalls.",
+  "train_id": "train_41ab837f39e5",
+  "dataset_counts": {
+    "house-professor-pete": 3820,
+    "house-chatty-carlos": 3820,
+    "genuine-own-cleanup": 80
+  },
+  "original7640_action_task_hashes_preserved": true,
+  "all4_cleanup_contents_exactly_match_genuine_validated_outputs": true,
+  "genuine_cleanup_source_sha256": "4bff2d4907812addc213fbb4482e21fdbe4835f988213b752b2192b2e113dc75",
+  "managed_export_counts": {
+    "house-chatty-carlos": 651,
+    "house-professor-pete": 620,
+    "genuine-own-cleanup": 9
+  },
+  "managed_exported_targets": 1280,
+  "managed_errors": [],
+  "protocol_scaffold_counts": {
+    "Tool call follows.": 1280
+  },
+  "protocol_scaffold_is_NOT_teacher_private_reasoning": true,
+  "old_queued_replacement_had_zero_optimizer_updates": true,
+  "training_completed_at_planned_cap": true,
+  "no_within_run_behavior_early_stop_claim": "Checkpoint5 behavior arrived after this short10-update training completed. Negative gates prevented extension/promotion, not optimizer step5 completion.",
+  "early_frozen_gate_PASS": false,
+  "final_frozen_gate_PASS": false,
+  "resource_closure": "ops verified exit0 at2026-11-15T11:24:22UTC;4 GPUs released",
+  "serving_retirement_receipts": [
+    "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/mixed-checkpoint-serving/iter4-retirement.json",
+    "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/mixed-checkpoint-serving/iter9-retirement.json"
+  ],
+  "limitations": [
+    "Managed token visualization is an exported sample stream; all10exports contained128distinctsample/segmentpairs, not proof of unexposed backend events.",
+    "No pokerEV ranking was run after frozen behavior gates failed."
+  ]
+}

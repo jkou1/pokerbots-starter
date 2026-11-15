@@ -1,0 +1,136 @@
+{
+  "scope": "Independent CPU-only source/actual target verification from existing files, no new data/HTTP/API/modelcalls.",
+  "train_id": "train_41ab837f39e5",
+  "dataset_counts": {
+    "house-professor-pete": 3820,
+    "house-chatty-carlos": 3820,
+    "genuine-own-cleanup": 80
+  },
+  "original7640_action_task_hashes_preserved": true,
+  "all4_cleanup_contents_exactly_match_genuine_validated_outputs": true,
+  "genuine_cleanup_source_sha256": "4bff2d4907812addc213fbb4482e21fdbe4835f988213b752b2192b2e113dc75",
+  "managed_export_counts": {
+    "house-chatty-carlos": 651,
+    "house-professor-pete": 620,
+    "genuine-own-cleanup": 9
+  },
+  "managed_exported_targets": 1280,
+  "managed_errors": [],
+  "steps": {
+    "0": {
+      "exported_rows": 128,
+      "unique_sample_segment_indices": 128,
+      "kinds": {
+        "house-chatty-carlos": 57,
+        "house-professor-pete": 70,
+        "genuine-own-cleanup": 1
+      },
+      "file_sha256": "df9a9beaaa4a178c7871b34b5efc672fee35e59086563041741a8703a7e09dfa"
+    },
+    "1": {
+      "exported_rows": 128,
+      "unique_sample_segment_indices": 128,
+      "kinds": {
+        "house-chatty-carlos": 74,
+        "house-professor-pete": 54
+      },
+      "file_sha256": "782806e2ca450ff1551c9352ea905e163b68e8475f4a3b1c9252fbe2a5a1564c"
+    },
+    "2": {
+      "exported_rows": 128,
+      "unique_sample_segment_indices": 128,
+      "kinds": {
+        "house-chatty-carlos": 59,
+        "house-professor-pete": 69
+      },
+      "file_sha256": "e958f25a69bc00929973d2ce2d286e869ad4d46afd07c968ac54cb9345f724b3"
+    },
+    "3": {
+      "exported_rows": 128,
+      "unique_sample_segment_indices": 128,
+      "kinds": {
+        "house-professor-pete": 68,
+        "house-chatty-carlos": 59,
+        "genuine-own-cleanup": 1
+      },
+      "file_sha256": "522c7f681bb9b832acf55b38e407c33c2cb88735ff6c105e23b2b346a077bf8f"
+    },
+    "4": {
+      "exported_rows": 128,
+      "unique_sample_segment_indices": 128,
+      "kinds": {
+        "house-professor-pete": 72,
+        "house-chatty-carlos": 55,
+        "genuine-own-cleanup": 1
+      },
+      "file_sha256": "74b984ab45bad2a678dbd6e3ff1014b82edc7e7128478f2d01503b4f53394153"
+    },
+    "5": {
+      "exported_rows": 128,
+      "unique_sample_segment_indices": 128,
+      "kinds": {
+        "house-chatty-carlos": 72,
+        "house-professor-pete": 55,
+        "genuine-own-cleanup": 1
+      },
+      "file_sha256": "951c97753e6abb5ef6dd6f5941558dd675dbe74cb77c1f35e5961298671d2acd"
+    },
+    "6": {
+      "exported_rows": 128,
+      "unique_sample_segment_indices": 128,
+      "kinds": {
+        "house-chatty-carlos": 70,
+        "house-professor-pete": 57,
+        "genuine-own-cleanup": 1
+      },
+      "file_sha256": "8f2af2a720fde879d55d35429e9acae7a277be94f80a3adc3cb4faac2b1f40c2"
+    },
+    "7": {
+      "exported_rows": 128,
+      "unique_sample_segment_indices": 128,
+      "kinds": {
+        "house-chatty-carlos": 65,
+        "house-professor-pete": 60,
+        "genuine-own-cleanup": 3
+      },
+      "file_sha256": "2d5635641dca05a0377213af573e5cfec9af664a08233f95198d7b661288d89f"
+    },
+    "8": {
+      "exported_rows": 128,
+      "unique_sample_segment_indices": 128,
+      "kinds": {
+        "house-chatty-carlos": 74,
+        "house-professor-pete": 54
+      },
+      "file_sha256": "23a29180bbdc3f1a23b027e11cf9f6f62ba77bccff0407c767eadaaf695b8c38"
+    },
+    "9": {
+      "exported_rows": 128,
+      "unique_sample_segment_indices": 128,
+      "kinds": {
+        "house-professor-pete": 61,
+        "house-chatty-carlos": 66,
+        "genuine-own-cleanup": 1
+      },
+      "file_sha256": "95d4459490c88b798e3953b8523eca18b4781e1a10df7b0e2c751e334f1e1184"
+    }
+  },
+  "protocol_scaffold_counts": {
+    "Tool call follows.": 1280
+  },
+  "protocol_scaffold_is_NOT_teacher_private_reasoning": true,
+  "old_queued_replacement_had_zero_optimizer_updates": true,
+  "training_completed_at_planned_cap": true,
+  "no_within_run_behavior_early_stop_claim": "Checkpoint5 behavior arrived after this short10-update training completed. Negative gates prevented extension/promotion, not optimizer step5 completion.",
+  "early_frozen_gate_PASS": false,
+  "final_frozen_gate_PASS": false,
+  "resource_closure": "ops verified exit0 at2026-11-15T11:24:22UTC;4 GPUs released",
+  "serving_retirement_receipts": [
+    "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/mixed-checkpoint-serving/iter4-retirement.json",
+    "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/mixed-checkpoint-serving/iter9-retirement.json"
+  ],
+  "limitations": [
+    "Managed token visualization is an exported sample stream; all10exports contained128distinctsample/segmentpairs, not proof of unexposed backend events.",
+    "No pokerEV ranking was run after frozen behavior gates failed."
+  ]
+}
