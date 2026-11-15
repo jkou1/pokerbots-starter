@@ -18,7 +18,13 @@ for tag in ['incumbent','rl20']:
     try:note=(json.loads(calls[0])if isinstance(calls[0],str)else calls[0]).get('contents')
     except (ValueError,TypeError):pass
    score(tag,str(src['seed']),n,note,c['prompt'],ledger,digest(raw),cleanup_protocol([c]),'Actual recorded cleanup.prompt only; earlier cleanup prompts establish prior facts. Full raw engine state/cards never consulted.')
-progress=json.loads(Path('/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/base-grpo5-development-v1/progress.json').read_text());allowed=set(progress.get('policy_game_progress',{}))|set(progress.get('completed_agent_trace_ids',[]));spans=[json.loads(l)for l in gzip.open(R/'raw/parent5-visible-spans.jsonl.gz','rt')];grouped=collections.defaultdict(list)
+progress=json.loads(Path('/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/base-grpo5-development-v1/progress.json').read_text());allowed=set(progress.get('policy_game_progress',{}))|set(progress.get('completed_agent_trace_ids',[]));hostmeta=json.loads(Path('/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/base-grpo5-development-v1/summary.json').read_text());hostlookup=collections.defaultdict(list)
+for src in hostmeta['source_manifest']:
+ hp=Path('/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/base-grpo5-development-v1/raw')/Path(src['source']).name;hb=hp.read_bytes();assert digest(hb)==src['sha256'];hd=json.loads(hb);seat=next(g['seat']for g in hostmeta['games']if g['seed']==src['seed'])
+ for entry in hd['private'][seat]['hands'].values():
+  hc=entry.get('cleanup')
+  if hc and hc.get('prompt'):hostlookup[digest(hc['prompt'].encode())].append({'cleanup':hc,'source_sha256':digest(hb),'seed':src['seed'],'seat':seat})
+spans=[json.loads(l)for l in gzip.open(R/'raw/parent5-visible-spans.jsonl.gz','rt')];grouped=collections.defaultdict(list)
 for s in spans:
  if s['trace_id']not in allowed:raise ValueError('Unattributed nonpolicy trace: quarantine rather than mixing seats')
  grouped[s['trace_id']].append(s)
@@ -32,6 +38,12 @@ for trace,group in grouped.items():
    try:args=json.loads(calls[0]['arguments'])
    except (ValueError,TypeError):pass
   note=args.get('contents');protocol={'emitted_exact_one_contents_only_update':len(calls)==1 and calls[0].get('name')=='update_scratchpad'and set(args)=={'contents'}and isinstance(note,str)and len(note)<=5000,'host_acceptance_pending':True}
+  hosts=hostlookup[digest(last.encode())]
+  if len(hosts)==1:
+   host=hosts[0];hc=host['cleanup'];finalcalls=(hc.get('attempts')or[{}])[-1].get('update_calls')or[]
+   if len(finalcalls)==1:
+    actual=json.loads(finalcalls[0])if isinstance(finalcalls[0],str)else finalcalls[0];assert actual.get('contents')==note
+   protocol.update(cleanup_protocol([hc]));protocol.update(host_acceptance_pending=False,host_source_sha256=host['source_sha256'],host_seed=host['seed'])
   score('parent5',trace,n,note,last,ledger,digest((s['input']+'\n'+s['output']).encode()),protocol,'Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth.')
   (R/f'raw/evidence-{trace}-{n}.json').write_text(json.dumps({'span_id':s['span_id'],'input':p,'output':out},indent=2)+'\n')
 out={'at_epoch':time.time(),'predetermined_hands':H,'models':{},'sources':sources,'records':records,'no_model_calls':True,'no_FINAL_read':True,'strict_checker_scope':'Only full hand N: board ...; stacks {...} blocks are accepted. Free prose is UNKNOWN unless separately verified; zero checker acceptance is not a claim every note is false.','comparison_scope':'Cached C/RL20 same development seed set, different decisions/outcomes; parent5 incomplete so counts are not equal-exposure memory-quality ranking.'}

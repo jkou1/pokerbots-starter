@@ -1,5 +1,5 @@
 {
-  "at_epoch": 1794757211.406017,
+  "at_epoch": 1794758281.020509,
   "predetermined_hands": [
     5,
     10,
@@ -10,17 +10,17 @@
   "models": {
     "parent5": {
       "planned_checkpoints": 20,
-      "available": 8,
-      "pending_or_absent": 12,
+      "available": 20,
+      "pending_or_absent": 0,
       "missing_scope": "pending parent games/hand milestones",
       "strict_fully_verified_notes": 0,
-      "notes_with_unknown_residual_prose": 8,
-      "strict_unknown_or_rejected": 8,
+      "notes_with_unknown_residual_prose": 20,
+      "strict_unknown_or_rejected": 20,
       "notes_with_parsed_board_or_stack_contradiction": 0,
       "contradicted_current_blocks": 0,
       "contradicted_prior_blocks": 0,
       "verified_useful_prior_blocks": 0,
-      "format_emitted_exact_or_host_final_accepted": 8
+      "format_emitted_exact_or_host_final_accepted": 20
     },
     "incumbent": {
       "planned_checkpoints": 20,
@@ -110,13 +110,23 @@
     },
     {
       "model": "parent5",
+      "game_group": "27d0df8f8189ce496792c4302a084735",
+      "visible_cleanup_ledger_hands": 30
+    },
+    {
+      "model": "parent5",
       "game_group": "5e4af0640fa391eb6d27ea071a17f7e5",
-      "visible_cleanup_ledger_hands": 28
+      "visible_cleanup_ledger_hands": 30
     },
     {
       "model": "parent5",
       "game_group": "8d8271039addbe8de5d4a974a56143a5",
-      "visible_cleanup_ledger_hands": 25
+      "visible_cleanup_ledger_hands": 30
+    },
+    {
+      "model": "parent5",
+      "game_group": "e92dd85d01ddfd767fedaf9f53782453",
+      "visible_cleanup_ledger_hands": 30
     }
   ],
   "records": [
@@ -7499,6 +7509,236 @@
     },
     {
       "model": "parent5",
+      "game_group": "27d0df8f8189ce496792c4302a084735",
+      "hand": 30,
+      "source_sha256": "508f55dcd6d0e4148d40741ff14d558ca4f0e72887d62f4ee60f19da956f44b1",
+      "cleanup_input_sha256": "57bdadc64618a2cccb964f83bbf2feaf8d0df34be46501e1a12a0ff9d7d8a134",
+      "proposed_note_sha256": "a72f7fba849af4f9a79dbceceac488f409b98a8f00b49fa03dd662009f65efcf",
+      "proposed_note_characters": 775,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "a3419da469cee35a2fb1426ac3c597198ac5b4a536d9ba193175c2e362928742",
+        "host_seed": 30654206712091
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
+      "game_group": "27d0df8f8189ce496792c4302a084735",
+      "hand": 10,
+      "source_sha256": "f77ba33c6b06aebc1f8a996bef13b6554c0d6033e0bd1d989cccfb6853ce8045",
+      "cleanup_input_sha256": "1cb305d1d2fbaa88d369ff1bf3d6b398073c2db52bc246fc6498913c2eb7bfe2",
+      "proposed_note_sha256": "f1f72c0e72b83a9876448d50858982d6d960f98689f1ac3fbfa359013be2d122",
+      "proposed_note_characters": 1152,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "a3419da469cee35a2fb1426ac3c597198ac5b4a536d9ba193175c2e362928742",
+        "host_seed": 30654206712091
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
+      "game_group": "27d0df8f8189ce496792c4302a084735",
+      "hand": 5,
+      "source_sha256": "6a823c52b8718e6255bb03a7186fa5ba17357718e6ddc1b963e1c9f7b0f724e5",
+      "cleanup_input_sha256": "1089385f4b92b96b6b831b7e39a5d11afce06181961a2b84d7c78e5ecafac6de",
+      "proposed_note_sha256": "1c9b14ccfb64d75378e65c7ce19ce2d8dba97e1b55d71c747ae7556ea78da164",
+      "proposed_note_characters": 827,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "a3419da469cee35a2fb1426ac3c597198ac5b4a536d9ba193175c2e362928742",
+        "host_seed": 30654206712091
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
+      "game_group": "27d0df8f8189ce496792c4302a084735",
+      "hand": 20,
+      "source_sha256": "62dc5c9ac3b75405330e5359477f25f3b6506882dbec2b0f74b0ae68c10386d3",
+      "cleanup_input_sha256": "59328cc7f8db08c511925ea1f7b1c5fc89b845ce3dd09ce9b7df9641f29c6f73",
+      "proposed_note_sha256": "8effd535c2b071863aadafe2bc60efef45016b11f0cc44f141d308bb93db0350",
+      "proposed_note_characters": 950,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "a3419da469cee35a2fb1426ac3c597198ac5b4a536d9ba193175c2e362928742",
+        "host_seed": 30654206712091
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
+      "game_group": "27d0df8f8189ce496792c4302a084735",
+      "hand": 25,
+      "source_sha256": "af3de32996d6d6b8857ba3267a456d871c7c7606cf83978ecab98cd17420a8d7",
+      "cleanup_input_sha256": "aacef585aee97289e1dc32477922ee4c9bea347c0e55f281fd9a7b861c270b69",
+      "proposed_note_sha256": "20e36543edcb29b6afd609962d2e309cfe2c5e7e04cf1ebef7bab31e06e1323e",
+      "proposed_note_characters": 908,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "a3419da469cee35a2fb1426ac3c597198ac5b4a536d9ba193175c2e362928742",
+        "host_seed": 30654206712091
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
       "game_group": "5e4af0640fa391eb6d27ea071a17f7e5",
       "hand": 10,
       "source_sha256": "d006bf3e4d8fce17098f6b7e7204722125149f554e0f7cdb2c038bbcadcad3c5",
@@ -7507,7 +7747,28 @@
       "proposed_note_characters": 735,
       "format": {
         "emitted_exact_one_contents_only_update": true,
-        "host_acceptance_pending": true
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "0de5ad21998ecbbe80d3a5244dd3fb05cb3c830eee76d282dd2ab14ca6a0d6f0",
+        "host_seed": 25653399179912
       },
       "fact_checker": {
         "accepted": false,
@@ -7532,7 +7793,74 @@
       "proposed_note_characters": 821,
       "format": {
         "emitted_exact_one_contents_only_update": true,
-        "host_acceptance_pending": true
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "0de5ad21998ecbbe80d3a5244dd3fb05cb3c830eee76d282dd2ab14ca6a0d6f0",
+        "host_seed": 25653399179912
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
+      "game_group": "5e4af0640fa391eb6d27ea071a17f7e5",
+      "hand": 30,
+      "source_sha256": "82475bb1b02f3bc15a4d5327e65bbb15f0332a71439a002012eb59607ea14bf0",
+      "cleanup_input_sha256": "de6400154b01bec8058a04e1f076c75c3b6aa0566abe3a63654a1904e2d44cdc",
+      "proposed_note_sha256": "2a7be2ec9c5a6f46d00ea01a4130ccc9eb78ef132da120a7a5946c677fe8124d",
+      "proposed_note_characters": 393,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "0de5ad21998ecbbe80d3a5244dd3fb05cb3c830eee76d282dd2ab14ca6a0d6f0",
+        "host_seed": 25653399179912
       },
       "fact_checker": {
         "accepted": false,
@@ -7557,7 +7885,28 @@
       "proposed_note_characters": 1082,
       "format": {
         "emitted_exact_one_contents_only_update": true,
-        "host_acceptance_pending": true
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "0de5ad21998ecbbe80d3a5244dd3fb05cb3c830eee76d282dd2ab14ca6a0d6f0",
+        "host_seed": 25653399179912
       },
       "fact_checker": {
         "accepted": false,
@@ -7582,7 +7931,28 @@
       "proposed_note_characters": 793,
       "format": {
         "emitted_exact_one_contents_only_update": true,
-        "host_acceptance_pending": true
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "0de5ad21998ecbbe80d3a5244dd3fb05cb3c830eee76d282dd2ab14ca6a0d6f0",
+        "host_seed": 25653399179912
       },
       "fact_checker": {
         "accepted": false,
@@ -7607,7 +7977,28 @@
       "proposed_note_characters": 1195,
       "format": {
         "emitted_exact_one_contents_only_update": true,
-        "host_acceptance_pending": true
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "9463e4c4f48a1a20a2e23747398cb144540a69e20a4ac1cd1f568c021ecc0073",
+        "host_seed": 29855159051535
       },
       "fact_checker": {
         "accepted": false,
@@ -7632,7 +8023,28 @@
       "proposed_note_characters": 522,
       "format": {
         "emitted_exact_one_contents_only_update": true,
-        "host_acceptance_pending": true
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "9463e4c4f48a1a20a2e23747398cb144540a69e20a4ac1cd1f568c021ecc0073",
+        "host_seed": 29855159051535
       },
       "fact_checker": {
         "accepted": false,
@@ -7657,7 +8069,28 @@
       "proposed_note_characters": 794,
       "format": {
         "emitted_exact_one_contents_only_update": true,
-        "host_acceptance_pending": true
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "9463e4c4f48a1a20a2e23747398cb144540a69e20a4ac1cd1f568c021ecc0073",
+        "host_seed": 29855159051535
       },
       "fact_checker": {
         "accepted": false,
@@ -7682,7 +8115,304 @@
       "proposed_note_characters": 514,
       "format": {
         "emitted_exact_one_contents_only_update": true,
-        "host_acceptance_pending": true
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "9463e4c4f48a1a20a2e23747398cb144540a69e20a4ac1cd1f568c021ecc0073",
+        "host_seed": 29855159051535
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
+      "game_group": "8d8271039addbe8de5d4a974a56143a5",
+      "hand": 30,
+      "source_sha256": "3f224d721dcadb355685810a4ecba3737a3215310bfee69591103c3e167cb682",
+      "cleanup_input_sha256": "9ba42e44dbefbffcdd62b43133414c642a2d8b24186b6a0904f7d9f5511415de",
+      "proposed_note_sha256": "793e7691ab9457288ea5940972eb87b48fbe95571503d9531942934d198c4dab",
+      "proposed_note_characters": 439,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "9463e4c4f48a1a20a2e23747398cb144540a69e20a4ac1cd1f568c021ecc0073",
+        "host_seed": 29855159051535
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
+      "game_group": "e92dd85d01ddfd767fedaf9f53782453",
+      "hand": 5,
+      "source_sha256": "c959892eb4b2ea12b3516c5d0296850848d67bc0f77c73a1b815de6f0da94ac8",
+      "cleanup_input_sha256": "9d1bbc1ccefd82466cd005110289b28070391edc6e9d435d687d37f83545acf4",
+      "proposed_note_sha256": "16b822db57e9bce9f6768061af9452dc2aa95d75945aae5439db0a607075a221",
+      "proposed_note_characters": 890,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "a2dbf8b93e3ca48b8b03e3c0127c6340793da02ddce9e2392906a0e29c191b92",
+        "host_seed": 189543601549658
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
+      "game_group": "e92dd85d01ddfd767fedaf9f53782453",
+      "hand": 30,
+      "source_sha256": "a570e0472f75cd56933137a9bae2295ceb1262ef647fc98a7aa1f38bd44a56dd",
+      "cleanup_input_sha256": "3f6b22a2d1bd0600db66811b58510d214ee207c13a97c140613c7342ac5f1b0e",
+      "proposed_note_sha256": "e87d87c6981468ef97864467ac6eff1ae656b1da2819a6f41c41f1ec2c890988",
+      "proposed_note_characters": 481,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "a2dbf8b93e3ca48b8b03e3c0127c6340793da02ddce9e2392906a0e29c191b92",
+        "host_seed": 189543601549658
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
+      "game_group": "e92dd85d01ddfd767fedaf9f53782453",
+      "hand": 10,
+      "source_sha256": "3b590bf2795b639d8f33264af4bd19d94f9bde3c11f9dfb94a48a8650bcf25c7",
+      "cleanup_input_sha256": "ba1597c1f4bd5925ebd830a1ec7c662cb51a9c969655c4bdc1c9103ee11444a4",
+      "proposed_note_sha256": "5a03720a78df06c06e365d2a92b27babdf890a6123d2cc80ec09d3cf25d28335",
+      "proposed_note_characters": 491,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "a2dbf8b93e3ca48b8b03e3c0127c6340793da02ddce9e2392906a0e29c191b92",
+        "host_seed": 189543601549658
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
+      "game_group": "e92dd85d01ddfd767fedaf9f53782453",
+      "hand": 25,
+      "source_sha256": "b02edf636ae9c886dcca068b68fffd20e7d0d72a3a946b0c5f0a2e2366f0b585",
+      "cleanup_input_sha256": "7876d707d38be8cad79fc49e8f2cc4c2a01b1bfd6523a296c8594a38eb03eb63",
+      "proposed_note_sha256": "a0cbf393742776d8f77697cfe5d6e7b55325c0ffe55ffeaf446c4097b8327b1c",
+      "proposed_note_characters": 620,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "a2dbf8b93e3ca48b8b03e3c0127c6340793da02ddce9e2392906a0e29c191b92",
+        "host_seed": 189543601549658
+      },
+      "fact_checker": {
+        "accepted": false,
+        "errors": [
+          "no fully recognized factual blocks"
+        ],
+        "claims": 0
+      },
+      "parsed_blocks": [],
+      "useful_verified_prior_fact_blocks": 0,
+      "current_block_fully_verified": false,
+      "unknown_scope": "Residual/free prose is unverified, not automatically false. Prior scratchpad text is never a ground-truth ledger.",
+      "input_scope": "Exact native policy P/R, including original assistant/tool history. Ledger uses original cleanup USER observations, never incoming scratchpad as truth."
+    },
+    {
+      "model": "parent5",
+      "game_group": "e92dd85d01ddfd767fedaf9f53782453",
+      "hand": 20,
+      "source_sha256": "f2b1404b71609c3fe27082d318049d77135802b642531e7ecb283d9bf45db25f",
+      "cleanup_input_sha256": "b27937d39d196f006efee2f2a6de32a5f537b140ae69b9eedfd786309c9a1bb4",
+      "proposed_note_sha256": "799864b571f00e70e0b1c2dac681af7435941cc00aebedc3f4fcc1baf31e2e5b",
+      "proposed_note_characters": 391,
+      "format": {
+        "emitted_exact_one_contents_only_update": true,
+        "host_acceptance_pending": false,
+        "turns": 1,
+        "attempts": 1,
+        "accepted_updated": 1,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 1,
+        "exact_valid_final_updates": 1,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 1
+        },
+        "result_counts": {
+          "updated": 1
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok.",
+        "host_source_sha256": "a2dbf8b93e3ca48b8b03e3c0127c6340793da02ddce9e2392906a0e29c191b92",
+        "host_seed": 189543601549658
       },
       "fact_checker": {
         "accepted": false,

@@ -1,0 +1,565 @@
+{
+  "notes": 20,
+  "position_claims_checked": 5,
+  "notes_with_definite_current_position_error": 5,
+  "own_hole_card_claims_checked": 6,
+  "notes_with_definite_own_hole_card_error": 1,
+  "explicit_current_stack_values_checked": 66,
+  "incorrect_current_stack_values": 0,
+  "notes_with_checked_stack_values": 12,
+  "scope": "Only regex-supported explicit OWN claims in current HandN Summary and explicit stack line. Unknown prose not accepted as factual; no broad quality or prior-memory claim.",
+  "no_hidden_raw_state_or_scratchpad_truth": true,
+  "no_model_calls": true,
+  "records": [
+    {
+      "trace_id": "27d0df8f8189ce496792c4302a084735",
+      "span_id": "359e97900e51329a",
+      "hand": 30,
+      "input_sha256": "1cecbff1abf71c7a36f4c0daba4504073331b63a48e048cab917c849352f176c",
+      "output_sha256": "58686c0a23c973db7adaa6894e9c9d671fec658d62da3addceab57b8b391a7f3",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [],
+      "current_summary_header_found": false
+    },
+    {
+      "trace_id": "27d0df8f8189ce496792c4302a084735",
+      "span_id": "7b451adc7b8fca32",
+      "hand": 10,
+      "input_sha256": "8074c4e2fcba3c9827f339536a46e4bb199d782954c039ad718e0e30cb957de9",
+      "output_sha256": "81b9978c7f0386ffb53903ba530256b2ede49f5b7339a81c7f86dfebe411bb11",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [],
+      "current_summary_header_found": false
+    },
+    {
+      "trace_id": "27d0df8f8189ce496792c4302a084735",
+      "span_id": "7f498c3fd868a87c",
+      "hand": 5,
+      "input_sha256": "f2d506c397d52ca5f0d9c553591a8406259c205fd42c5b3474d0157a912787f4",
+      "output_sha256": "fb85ba609fa7f5dcdce90c16445f9fcd1e941c7ff7996b4c0de439c335e3cdcf",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [],
+      "current_summary_header_found": false
+    },
+    {
+      "trace_id": "27d0df8f8189ce496792c4302a084735",
+      "span_id": "87feac6ef9c76a12",
+      "hand": 20,
+      "input_sha256": "bc7fb28949650b80219824a614262bb495e912556c16deb161a64a4d724dc588",
+      "output_sha256": "97fc5b8f6518b94e3937ff477b3882f3d94fac0abfce0dc91a94f5a8274a3984",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [],
+      "current_summary_header_found": false
+    },
+    {
+      "trace_id": "27d0df8f8189ce496792c4302a084735",
+      "span_id": "899c51144c7c09e0",
+      "hand": 25,
+      "input_sha256": "3b77a77ab3991378b31d2ae445ecc3c8e358e6510973a9fedaae3f384b2d4e76",
+      "output_sha256": "91d5baee02ea3aba638a0d80e66332534dec909a721424a5516c01f053a111f9",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [],
+      "current_summary_header_found": false
+    },
+    {
+      "trace_id": "5e4af0640fa391eb6d27ea071a17f7e5",
+      "span_id": "0cf1fc09385a0b5a",
+      "hand": 10,
+      "input_sha256": "ac6288a0c87d6ba77b7f2105032b4b14e02025a62d2ed7b535dec3bc48663a4a",
+      "output_sha256": "fdc81fc32bcd0de6703b67ba54c46d3079850109468dc71b2a1cd86cfd1af37b",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 2,
+          "correct": true
+        },
+        {
+          "seat": 3,
+          "correct": true
+        },
+        {
+          "seat": 4,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": true
+    },
+    {
+      "trace_id": "5e4af0640fa391eb6d27ea071a17f7e5",
+      "span_id": "1b3aa3dac610ae30",
+      "hand": 5,
+      "input_sha256": "cc2e68972d815fa432631dd0004bcbef34827ba2ebcb342aea3c72305b3fba0b",
+      "output_sha256": "a579f9ffb4f0881b6fd8390a9e9034ab5d1489d61315d1729b8610b0cb01ea63",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [
+        {
+          "correct": true
+        }
+      ],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 2,
+          "correct": true
+        },
+        {
+          "seat": 3,
+          "correct": true
+        },
+        {
+          "seat": 4,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": true
+    },
+    {
+      "trace_id": "5e4af0640fa391eb6d27ea071a17f7e5",
+      "span_id": "52005fc03a15317b",
+      "hand": 30,
+      "input_sha256": "945d17aa32d7c23693fcccb8f19b1e3d03874f2d477b3a30e521217dec82090a",
+      "output_sha256": "2b1edec004f54b398358d20c773b04b392fb7ef7be798a97833afe66d42eba85",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [],
+      "current_summary_header_found": false
+    },
+    {
+      "trace_id": "5e4af0640fa391eb6d27ea071a17f7e5",
+      "span_id": "55b2a0c41a6a5938",
+      "hand": 25,
+      "input_sha256": "0162e5d1783ecb35b7d2b320704d1af89e12a0172a2968bc5af9549cb5898cb0",
+      "output_sha256": "7e61daadf104669803f39791a19741ec0e74efe99c905c8629f7137c18cc5d58",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 2,
+          "correct": true
+        },
+        {
+          "seat": 3,
+          "correct": true
+        },
+        {
+          "seat": 4,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": true
+    },
+    {
+      "trace_id": "5e4af0640fa391eb6d27ea071a17f7e5",
+      "span_id": "d7452b260856f852",
+      "hand": 20,
+      "input_sha256": "bc68241c74dc6a3cb86f6e68da5bf662afa0acf71164ba899069e83e8715d1f4",
+      "output_sha256": "f2468537d203ad5a9c8f135537c344026adff7aad1becd232d017cd028e71b92",
+      "own_current_position_claims": [
+        {
+          "claim": "BB",
+          "original_position": 2,
+          "correct": false
+        }
+      ],
+      "own_current_hole_card_claims": [
+        {
+          "correct": false
+        }
+      ],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 2,
+          "correct": true
+        },
+        {
+          "seat": 3,
+          "correct": true
+        },
+        {
+          "seat": 4,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": true
+    },
+    {
+      "trace_id": "8d8271039addbe8de5d4a974a56143a5",
+      "span_id": "0a3d92b2f5ab608c",
+      "hand": 5,
+      "input_sha256": "a12efd48ea346c4851135c0a6b215cd6f80bfb6a2b1f304748bc7a318d65bdea",
+      "output_sha256": "03d8ef9f1af63e366c0898185f82d4f120c509319e384f87e4e5d59fe6b4792e",
+      "own_current_position_claims": [
+        {
+          "claim": "SB",
+          "original_position": 2,
+          "correct": false
+        }
+      ],
+      "own_current_hole_card_claims": [
+        {
+          "correct": true
+        }
+      ],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 2,
+          "correct": true
+        },
+        {
+          "seat": 3,
+          "correct": true
+        },
+        {
+          "seat": 4,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": true
+    },
+    {
+      "trace_id": "8d8271039addbe8de5d4a974a56143a5",
+      "span_id": "2983d6a4414f5800",
+      "hand": 20,
+      "input_sha256": "e63a37d543cf588228afb7dac7ab0a322245f60cc6fec2574e92e11500bba40a",
+      "output_sha256": "253346836c35e1a63cb81fc44362417bfeed813f4da30d89b9d3aa28a0ed23cf",
+      "own_current_position_claims": [
+        {
+          "claim": "SB",
+          "original_position": 4,
+          "correct": false
+        }
+      ],
+      "own_current_hole_card_claims": [
+        {
+          "correct": true
+        }
+      ],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 2,
+          "correct": true
+        },
+        {
+          "seat": 3,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": true
+    },
+    {
+      "trace_id": "8d8271039addbe8de5d4a974a56143a5",
+      "span_id": "34d3daf419b5ce65",
+      "hand": 10,
+      "input_sha256": "bb2dea235350437df95b70a879ce6a8092093df21f34ab1b7b42e22f0c6268e5",
+      "output_sha256": "79ebd761dd34b618d946f071bdbf37be8868dea0952ee5d9d35c61c5e9147c33",
+      "own_current_position_claims": [
+        {
+          "claim": "SB",
+          "original_position": 3,
+          "correct": false
+        }
+      ],
+      "own_current_hole_card_claims": [
+        {
+          "correct": true
+        }
+      ],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 2,
+          "correct": true
+        },
+        {
+          "seat": 3,
+          "correct": true
+        },
+        {
+          "seat": 4,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": true
+    },
+    {
+      "trace_id": "8d8271039addbe8de5d4a974a56143a5",
+      "span_id": "523b02714d1c1880",
+      "hand": 25,
+      "input_sha256": "7e66b3f7152818ea7fbb7d54639fe3831b14031e5c8b36498754a520b84b819e",
+      "output_sha256": "8254b81fedd05e9ab2eb3c53b545dce99c63fe69c49b730372e9768716fbfbaa",
+      "own_current_position_claims": [
+        {
+          "claim": "SB",
+          "original_position": 4,
+          "correct": false
+        }
+      ],
+      "own_current_hole_card_claims": [
+        {
+          "correct": true
+        }
+      ],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 2,
+          "correct": true
+        },
+        {
+          "seat": 3,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": true
+    },
+    {
+      "trace_id": "8d8271039addbe8de5d4a974a56143a5",
+      "span_id": "57794ee50c074b76",
+      "hand": 30,
+      "input_sha256": "222c9abe7469d46545f7f50f49076a726c629f6c1bc8ea475a3042c501bd985a",
+      "output_sha256": "547931e05f1cff3464a4bb3aaefe33117953b6753524744a696054b0a2323983",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [],
+      "current_summary_header_found": false
+    },
+    {
+      "trace_id": "e92dd85d01ddfd767fedaf9f53782453",
+      "span_id": "037aac072871b66a",
+      "hand": 5,
+      "input_sha256": "25e5e24b274559c870aaa3ae1fd47e1d8c567f9fdb4cf2a5ffb9a47181c7df39",
+      "output_sha256": "9c6002fd9be0feba1861f34248ec99a2556187f3664a0ca8ef586cb907752c02",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 4,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": false
+    },
+    {
+      "trace_id": "e92dd85d01ddfd767fedaf9f53782453",
+      "span_id": "07ea780a5ef5945c",
+      "hand": 30,
+      "input_sha256": "033c95eea778b5b491adeb488040301350e1cf397b0d8012b5392ca93d059172",
+      "output_sha256": "1d73582f5f55095073e31f38d7878e90833a108c3db861860a11894ca8eddee9",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [],
+      "current_summary_header_found": false
+    },
+    {
+      "trace_id": "e92dd85d01ddfd767fedaf9f53782453",
+      "span_id": "9431294f21461638",
+      "hand": 10,
+      "input_sha256": "c1897e922e5d33de6abc987d3aba2ea0eb66d0ab74d882e13d0c3aa977f1e842",
+      "output_sha256": "dff63d5978770952572e9c68b9b768675523fd539344435344253c64a3593a67",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 4,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": false
+    },
+    {
+      "trace_id": "e92dd85d01ddfd767fedaf9f53782453",
+      "span_id": "b2846e904ade2f05",
+      "hand": 25,
+      "input_sha256": "969a321ce8f8979ae197abd2d4529b52f729a171ec7fc1008c47271d0f317614",
+      "output_sha256": "58fb0ea5b4b5dc4bb64fa0ec798b6f57626aebe34c1b2bab9c76cebd545855b7",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 2,
+          "correct": true
+        },
+        {
+          "seat": 3,
+          "correct": true
+        },
+        {
+          "seat": 4,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": true
+    },
+    {
+      "trace_id": "e92dd85d01ddfd767fedaf9f53782453",
+      "span_id": "ef60a29487ad614c",
+      "hand": 20,
+      "input_sha256": "1a3dbe42fc40e7b51b28dce5d767dbc369c01e255d7b812fc9a5d2140628318a",
+      "output_sha256": "797517146ab77e7d44e25f83037561645f87bf4e9da36e5c8a4067cfb443a63f",
+      "own_current_position_claims": [],
+      "own_current_hole_card_claims": [],
+      "current_stack_values": [
+        {
+          "seat": 0,
+          "correct": true
+        },
+        {
+          "seat": 1,
+          "correct": true
+        },
+        {
+          "seat": 2,
+          "correct": true
+        },
+        {
+          "seat": 3,
+          "correct": true
+        },
+        {
+          "seat": 4,
+          "correct": true
+        },
+        {
+          "seat": 5,
+          "correct": true
+        }
+      ],
+      "current_summary_header_found": false
+    }
+  ]
+}
