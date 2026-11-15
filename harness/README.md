@@ -14,6 +14,11 @@ code. The engine is ported from Vals' original engine and plays identically: `te
 set of over 2,000 seeded hands (6-max and 10-max, talk on and off, reset and carried stacks, all-ins, side pots and
 split pots, every action type) and checks every game log against digests recorded on Vals' engine.
 
+For single-hand training tasks only, `env_params.training_skip_final_cleanup: true` omits the terminal scratchpad
+update calls for all seats. There is no later hand to consume those notes. Betting actions, stacks and grading are
+unchanged; the game log records the opt-in. The default still performs cleanup. Requests enabling this option with
+anything other than `total_hands: 1` are rejected, so it must never be added to official 30-hand evaluation datasets.
+
 ## Serve
 
 ```bash

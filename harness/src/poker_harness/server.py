@@ -292,7 +292,12 @@ def create_app(
                     for i in range(seats)
                 ]
                 rollout.policy_seats = [f"seat{i}" for i in sorted(policy)]
-                rollout.log = await play_session(rollout.id, int(params["seed"]), players, rollout.rules)
+                rollout.log = await play_session(
+                    rollout.id, int(params["seed"]), players, rollout.rules,
+                    training_skip_final_cleanup=params.get("training_skip_final_cleanup", False),
+                )
+                if params.get("training_skip_final_cleanup"):
+                    rollout.log["training_skip_final_cleanup"] = True
                 if params.get("record_training_metadata") or params.get("training_stage"):
                     rollout.log["policy_seats"] = rollout.policy_seats
                     rollout.log["opponent_model"] = params.get("opponent_model")
@@ -336,6 +341,11 @@ def create_app(
         if "seed" not in params:
             raise HTTPException(status_code=422, detail="env_params.seed is required")
         rollout = Rollout(id=rollout_id, rules=table_rules(params))
+        skip_cleanup = params.get("training_skip_final_cleanup", False)
+        if type(skip_cleanup) is not bool:
+            raise HTTPException(status_code=422, detail="training_skip_final_cleanup must be a boolean")
+        if skip_cleanup and rollout.rules.total_hands != 1:
+            raise HTTPException(status_code=422, detail="training_skip_final_cleanup requires exactly one hand")
         rollouts[rollout_id] = rollout
         rollout.task = asyncio.create_task(run_table(rollout, request))
         logger.info("rollout %s: %d hands, relay %s", rollout_id, rollout.rules.total_hands, request.ac_api_url)

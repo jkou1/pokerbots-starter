@@ -118,9 +118,15 @@ async def play_session(
     players: Sequence[Player],
     rules: TableRules = DEFAULT_RULES,
     on_hand: Callable[[dict[str, Any]], None] | None = None,
+    *,
+    training_skip_final_cleanup: bool = False,
 ) -> dict[str, Any]:
     """Returns the game log. With `rules.reset_stacks`, every hand starts at `starting_stack` and nobody busts;
     `final_stacks` is then the starting stack plus the session's net chips."""
+    if type(training_skip_final_cleanup) is not bool:
+        raise ValueError("training_skip_final_cleanup must be a boolean")
+    if training_skip_final_cleanup and rules.total_hands != 1:
+        raise ValueError("training_skip_final_cleanup requires exactly one hand")
     names = [p.name for p in players]
     if len(set(names)) != len(names):
         raise ValueError(f"duplicate players at one table: {names}")
@@ -233,7 +239,7 @@ async def play_session(
             for seat in runner.order:
                 if hasattr(by_seat[seat], "hand_over"):
                     by_seat[seat].hand_over(summary)
-        if rules.scratchpad:  # every seat dealt in gets the after-hand turn, concurrently
+        if rules.scratchpad and not training_skip_final_cleanup:  # one-hand training can omit unused final notes
             dealt = [by_seat[s] for s in runner.order if hasattr(by_seat[s], "cleanup")]
             results = await asyncio.gather(*(p.cleanup(summary) for p in dealt), return_exceptions=True)
             for player, result in zip(dealt, results, strict=True):

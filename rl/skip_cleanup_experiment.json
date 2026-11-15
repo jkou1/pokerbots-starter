@@ -1,0 +1,8 @@
+{
+  "problem": "Single-hand training calls cleanup after terminal reward, although no later hand reads the scratchpad. Observed frozen game cleanup13\u201316seconds dominates~0.5secondactioncalls.",
+  "hypothesis": "Opt-in skipping only the final cleanup of exactly one-hand training tasks removes unrewarded inference time/tokens while preserving actions, stacks, reward and official defaults.",
+  "targeted_change": "Add training_skip_final_cleanup=False explicit option to play_session and pass opt-in envflag from server; reject if total_hands !=1. Default and everymulti-handgame unchanged.",
+  "test": "Focused mockedgame/server tests compare same-seed actions, finalstacks and grade with cleanup on/off, verify default cleanupcalls and reject multi-hand skip. Existing officialrules/engineparity suites. Live timing optional, no liveharness restart.",
+  "success": "SkippedonehandcleanupzeroAPIcalls; pokeraction/rewardparity; default/multihand behaviorpasses.",
+  "stop": "Any action/state/reward difference, any30hand skip acceptance, or inability toisolatechange. No production rollout without separatelyvalidatedharness."
+}
