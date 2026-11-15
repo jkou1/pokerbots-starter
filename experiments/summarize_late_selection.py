@@ -37,4 +37,18 @@ for label,run in runs.items():
  for opp in manifest['opponents']:
   values=[run['tasks'][tid]['ev_bb']-base[tid]['ev_bb']for tid in common if task_meta[tid]['opponent_stratum']==opp and base[tid]['ev_bb']is not None and run['tasks'][tid]['ev_bb']is not None];strata[opp]={'pairs':len(values),'mean_gain_bb':statistics.fmean(values)if values else None,'ci95':bootstrap(values)}
  report['comparisons'][label]={'paired_tasks':len(diffs),'mean_gain_bb':statistics.fmean(diffs)if diffs else None,'ci95':bootstrap(diffs),'opponent_strata':strata,'scope':'Complete64paired EV and manual protocol inspection required before advancing; no candidate selected from partial results.'}
+# Realtool channel is independent of legal action validity: official text-JSON fallback remains labeled.
+for label,entries in sources.items():
+ channel={'legal_real_tool':0,'legal_text_json_fallback':0,'legal_channel_unexposed':0,'invalid_actions':0}
+ for entry in entries:
+  log=json.loads(Path(entry['path']).read_text());policy='seat'+str(by_seed[entry['seed']]['policy_seat'])
+  for hand in log['hands']:
+   for action in hand['actions']:
+    if action['player']!=policy:continue
+    response=action.get('model_response',{})
+    if response.get('format_error'):channel['invalid_actions']+=1
+    elif response.get('submitted_by_tool')is True:channel['legal_real_tool']+=1
+    elif response.get('submitted_by_tool')is False:channel['legal_text_json_fallback']+=1
+    else:channel['legal_channel_unexposed']+=1
+ report['runs'][label]['policy_action_channel']=channel
 (ROOT/'summary.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({k:v for k,v in report.items()if k!='runs'}|{'runs':{k:{x:y for x,y in v.items()if x!='source_manifest'}for k,v in report['runs'].items()}},indent=2))
