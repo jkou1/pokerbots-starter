@@ -1,0 +1,75 @@
+{
+  "dataset_name": "pokerbots-fresh-final6-reserve-v2",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "file_sha256": "d3bf239d555adba594481780bc57501aa2ce1f12d0834dac726bf63a4713bfdf",
+  "selection_freeze_sha256": "a3a8fd974b1ca214144f51e55b17da1f346ad7a04e3f14240475fb5601f662e6",
+  "expected": 6,
+  "status": "verified",
+  "dataset_id": "ds_1ff5fed94c06",
+  "returned_new_task_ids": [
+    "tsk_9a23923ae289",
+    "tsk_345e13d858fa",
+    "tsk_e0f5139e45dc",
+    "tsk_9f14210a7a80",
+    "tsk_5e010f1689b5",
+    "tsk_e50bbcc338e6"
+  ],
+  "task_ids": [
+    "tsk_9a23923ae289",
+    "tsk_345e13d858fa",
+    "tsk_e0f5139e45dc",
+    "tsk_9f14210a7a80",
+    "tsk_5e010f1689b5",
+    "tsk_e50bbcc338e6"
+  ],
+  "content_hashes": [
+    "b06e83cdec2d67569ef402ed7c88f702b5c4d67f0461697f9293c230b81f1a90",
+    "b85f138a0697056eaf3c133e9982ccdbe1177f01322e171b8a42821198c5c10c",
+    "c8422b95a3b33f5a3310308ceaec1deaab550545e0ed951da7fb87032b3b0491",
+    "c4ea16c2c8bd0049273ea90244f4ab0e1e72a7f278301dfeaf2574a987e1640f",
+    "e829380a5a1fd98036f69834c9b9da2bd16fb399289a1950415ac3e00673c9f8",
+    "ded46d314308bc13df165606eb7cc5362cfcd4af86ca745f5ffe17d7eb4814d2"
+  ],
+  "all6_full_payload_verified": true,
+  "exact_membership": true,
+  "stable_membership_recheck": true,
+  "checks": [
+    {
+      "task_id": "tsk_9a23923ae289",
+      "content_hash": "b06e83cdec2d67569ef402ed7c88f702b5c4d67f0461697f9293c230b81f1a90",
+      "exact_input_env_tags_name_description_grader_verified": true
+    },
+    {
+      "task_id": "tsk_345e13d858fa",
+      "content_hash": "b85f138a0697056eaf3c133e9982ccdbe1177f01322e171b8a42821198c5c10c",
+      "exact_input_env_tags_name_description_grader_verified": true
+    },
+    {
+      "task_id": "tsk_e0f5139e45dc",
+      "content_hash": "c8422b95a3b33f5a3310308ceaec1deaab550545e0ed951da7fb87032b3b0491",
+      "exact_input_env_tags_name_description_grader_verified": true
+    },
+    {
+      "task_id": "tsk_9f14210a7a80",
+      "content_hash": "c4ea16c2c8bd0049273ea90244f4ab0e1e72a7f278301dfeaf2574a987e1640f",
+      "exact_input_env_tags_name_description_grader_verified": true
+    },
+    {
+      "task_id": "tsk_5e010f1689b5",
+      "content_hash": "e829380a5a1fd98036f69834c9b9da2bd16fb399289a1950415ac3e00673c9f8",
+      "exact_input_env_tags_name_description_grader_verified": true
+    },
+    {
+      "task_id": "tsk_e50bbcc338e6",
+      "content_hash": "ded46d314308bc13df165606eb7cc5362cfcd4af86ca745f5ffe17d7eb4814d2",
+      "exact_input_env_tags_name_description_grader_verified": true
+    }
+  ],
+  "verified_epoch": 1794758136.909733,
+  "no_model_calls": true
+}

@@ -1,0 +1,35 @@
+{
+  "frozen_epoch": 1794758131.71536,
+  "root_FINAL6_GO": true,
+  "selected_candidate_only": {
+    "inference_id": "infer_af5fa217b570",
+    "checkpoint": "ckpt_a7a227300baf",
+    "version": 1,
+    "state": "ready"
+  },
+  "reference": {
+    "inference_id": "infer_b0f5e9429b7e",
+    "checkpoint": "ckpt_51eee61470f7",
+    "version": 1,
+    "state": "ready"
+  },
+  "fixed_opponent": {
+    "inference_id": "infer_21f395f49bff",
+    "checkpoint": "ckpt_23b6b6239f26",
+    "version": 1,
+    "state": "ready"
+  },
+  "development_eval_id": "eval_c86991deffcc",
+  "development_summary_sha256": "4e8fee05c7380cd2803edfaf6dd9d1f4ce2dcc861ce72cfcd463a754644f98fd",
+  "development_practical_gate_pass": true,
+  "workplace_review": "Root/evalowner completed and passed before FINALGO; no broad factual-memory pass implied.",
+  "known_factual_memory_errors_preserved": "Initial8milestone review:5blind-positionerrors,1own-card-suiterror; currentboard/stacksconsistent where stated. No factual improvement claim.",
+  "independent_child_may_not_replace_parent_on_these_FINAL_results": true,
+  "no_checkpoint_choice_retraining_or_extra_variant_from_final": true,
+  "tasks_sha256": "d3bf239d555adba594481780bc57501aa2ce1f12d0834dac726bf63a4713bfdf",
+  "exclusion_plan_sha256": "d02fb9f00b2aefb193c4ad7786dd8870a5393fce537c0f7e04afb9f547169a66",
+  "exclusion_proof_sha256": "f19e9d195a524a053bf6caf2122467d780003113a63c7ce9dcf675a3b02b5048",
+  "seeds_frozen_before_candidate_selection": true,
+  "new_seeds_or_cards_generated": false,
+  "no_model_calls_by_data_agent": true
+}
