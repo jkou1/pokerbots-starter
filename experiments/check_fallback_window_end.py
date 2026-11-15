@@ -16,7 +16,7 @@ for label,iid in [('C','infer_b0f5e9429b7e'),('fallback','infer_c4c38820538f')]:
   attrs=json.loads(row['attributes'])if isinstance(row['attributes'],str)else row['attributes'];ids=[x for x in attrs.values()if isinstance(x,str)and x.startswith('vals-arena/')]
   if ids:arena.append({'start':row['start_time'],'end':row.get('end_time'),'span_id':row['span_id']})
  proof[label]={'actual_arena':arena,'inflight_requests':sum(not x.get('end_time')for x in rows)}
- if len(rows)==250:amb.append(label+'querysaturated')
+ if len(rows)==250 and label=='fallback':amb.append('fallbackquerysaturated')
 active=[]
 for status in ['running','pending','queued','created','starting']:
  page=c.eval.list(status=status,limit=100);active.extend({'eval_id':x.id,'status':x.status,'inference':x.inference_deployment_id}for x in page)
