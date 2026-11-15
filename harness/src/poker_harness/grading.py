@@ -50,7 +50,7 @@ MAX_SCORE_BYTES = 1 << 20  # AC2 rejects collect_score replies over 1 MiB
 
 # EXTENSION POINT 2: the `grader_params` keys your reward accepts. Unknown keys fail the grading, so a typo in a
 # dataset can't silently change the reward.
-GRADER_PARAMS: frozenset[str] = frozenset({"silence"})
+GRADER_PARAMS: frozenset[str] = frozenset({"silence", "objective"})
 
 
 class GradingError(ValueError):
@@ -78,6 +78,8 @@ def check_grader_params(grader_params: dict[str, Any] | None) -> dict[str, Any]:
         raise GradingError(f"unknown grader_params: {sorted(unknown)}")
     if params.get("silence") not in (None, "all", "preflop"):
         raise GradingError("silence must be all or preflop")
+    if params.get("objective") not in (None, "chips", "placement"):
+        raise GradingError("objective must be chips or placement")
     return params
 
 
@@ -128,6 +130,20 @@ def failure_score(reason: str) -> dict[str, Any]:
 def grade_log(log: dict[str, Any], policy_seats: list[str], params: dict[str, Any] | None = None) -> dict[str, Any]:
     """Score one finished game for its policy seats, as a `collect_score` reply."""
     result = seat_result(log, policy_seats)
+    placement = None
+    if (params or {}).get("objective") == "placement":
+        if (
+            len(policy_seats) != 1
+            or not log.get("complete")
+            or log.get("ranking", {}).get("mode") != "elimination"
+            or len(log["session_info"]["player_names"]) != 6
+            or log["session_info"].get("reset_stacks")
+            or (len(log["hands"]) != 30 and sum(v > 0 for v in log["final_stacks"].values()) != 1)
+        ):
+            raise GradingError(
+                "placement reward requires a complete official 30-hand, six-seat game and one policy seat"
+            )
+        placement = log["ranking"]["places"][policy_seats[0]]
     silence = (params or {}).get("silence")
     talk_violations = (
         sum(
@@ -142,13 +158,16 @@ def grade_log(log: dict[str, Any], policy_seats: list[str], params: dict[str, An
     if result.format_errors or talk_violations:  # model-caused failure: exactly 0, below every real hand
         score = FAILURE_SCORE
     else:
-        score = REWARD_OFFSET + max(REWARD_FLOOR, min(REWARD_CEILING, hand_reward(result, params or {})))
+        reward = 7 - 2 * placement if placement is not None else hand_reward(result, params or {})
+        score = REWARD_OFFSET + max(REWARD_FLOOR, min(REWARD_CEILING, reward))
     return {
         "score": score,
-        "reasoning": f"Policy seat {'/'.join(sorted(policy_seats))}: EV {result.ev_bb:+.1f} BB "
+        "reasoning": f"Policy seat {'/'.join(sorted(policy_seats))}: placement {placement}; EV {result.ev_bb:+.1f} BB "
         f"(realized {result.realized_bb:+.1f}), {result.method}, {result.format_errors} format errors.",
         # EXTENSION POINT 3: add any per-rollout numbers you want to analyze later.
         "artifacts": {
+            "objective": (params or {}).get("objective", "chips"),
+            "placement": placement,
             "ev_bb": result.ev_bb,
             "realized_bb": result.realized_bb,
             "ev_method": result.method,

@@ -110,7 +110,7 @@ def parser():
     p.add_argument("--model", default="Qwen/Qwen3.6-35B-A3B")
     p.add_argument(
         "--stage",
-        choices=["pete", "combined", "defense", "integration"],
+        choices=["pete", "combined", "defense", "integration", "matched", "talk"],
         default="pete",
     )
     p.add_argument("--steps", type=int, default=20)
@@ -152,6 +152,24 @@ def dataset_hashes(client, name):
         if len(page) < 1000:
             return result
         offset += len(page)
+
+
+def sync_tasks(client, name, tasks):
+    """Resume a partial upload and reuse a verified shared dataset unchanged."""
+    indexed = {compute_content_hash(task): task for task in tasks}
+    expected = set(indexed)
+    existing = dataset_hashes(client, name)
+    if not existing.issubset(expected):
+        raise ValueError(
+            "existing dataset contains unexpected tasks; use a fresh dataset name"
+        )
+    missing = [task for key, task in indexed.items() if key not in existing]
+    for start in range(0, len(missing), 500):
+        client.datasets.add_tasks(name, tasks=missing[start : start + 500])
+    actual = dataset_hashes(client, name) if missing else existing
+    if actual != expected:
+        raise ValueError("uploaded dataset does not match the validated training tasks")
+    return actual
 
 
 def main():
@@ -206,18 +224,7 @@ def main():
             description=f"{args.stage}: canonical final-reply supervision",
             exist_ok=True,
         )
-        expected = {compute_content_hash(task) for task in tasks}
-        if not dataset_hashes(client, args.dataset).issubset(expected):
-            raise ValueError(
-                "existing dataset contains unexpected tasks; use a fresh dataset name"
-            )
-        for start in range(0, len(tasks), 500):
-            client.datasets.add_tasks(args.dataset, tasks=tasks[start : start + 500])
-        actual = dataset_hashes(client, args.dataset)
-        if actual != expected:
-            raise ValueError(
-                "uploaded dataset does not match the validated training tasks"
-            )
+        actual = sync_tasks(client, args.dataset, tasks)
         manifest.update(
             status="uploaded",
             unique_tasks=len(actual),

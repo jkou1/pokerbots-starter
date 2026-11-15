@@ -7,13 +7,16 @@ def test_real_empty_reasoning_target_is_incompatible_with_single_newline_prefill
     # Captured from train_3061a33ce578's token_viz payload. The first double
     # newline was one token (271), while official inference prefills token 198.
     tokens = ["\n\n", "</think>", "\n\n", "<tool_call>", "\n", "<", "function"]
-    with pytest.raises(ValueError, match="one newline"):
-        audit_target({"sampled_tokens": tokens, "loss_mask": [1] * len(tokens)})
+    with pytest.raises(ValueError, match="single-newline thinking prefill"):
+        audit_target({
+            "student_prompt": "<|im_start|>assistant\n<think>",
+            "sampled_tokens": tokens,
+            "loss_mask": [1] * len(tokens),
+        })
 
 
 def test_protocol_target_closes_reasoning_before_call_with_loss_on_close():
     tokens = [
-        "\n",
         "Tool",
         " call",
         " follows",
@@ -23,10 +26,41 @@ def test_protocol_target_closes_reasoning_before_call_with_loss_on_close():
         "\n\n",
         "<tool_call>",
     ]
-    payload = {"sampled_tokens": tokens, "loss_mask": [1] * len(tokens)}
+    # Captured boundary from train_87b51a9211a1: the newline belongs to the
+    # student prompt, and the first target token is "Tool".
+    payload = {
+        "student_prompt": "<|im_start|>assistant\n<think>\n",
+        "sampled_tokens": tokens,
+        "loss_mask": [1] * len(tokens),
+    }
     assert audit_target(payload)["reasoning_close_supervised"]
-    payload["loss_mask"][6] = 0
+    payload["loss_mask"][5] = 0
     with pytest.raises(ValueError, match="explicitly supervised"):
+        audit_target(payload)
+
+
+@pytest.mark.parametrize("mutation,match", [
+    ("extra_newline", "protocol marker"),
+    ("missing_call", "contain a tool call"),
+    ("call_inside_reasoning", "before reasoning closes"),
+    ("short_mask", "matching lengths"),
+])
+def test_reject_malformed_target_even_with_correct_prompt(mutation, match):
+    tokens = ["Tool", " call", " follows", ".", "\n", "</think>", "\n\n", "<tool_call>"]
+    if mutation == "extra_newline":
+        tokens.insert(0, "\n")
+    elif mutation == "missing_call":
+        tokens.pop()
+    elif mutation == "call_inside_reasoning":
+        tokens[5], tokens[7] = tokens[7], tokens[5]
+    payload = {
+        "student_prompt": "<|im_start|>assistant\n<think>\n",
+        "sampled_tokens": tokens,
+        "loss_mask": [1] * len(tokens),
+    }
+    if mutation == "short_mask":
+        payload["loss_mask"].pop()
+    with pytest.raises(ValueError, match=match):
         audit_target(payload)
 
 

@@ -1,0 +1,147 @@
+{
+  "models": {
+    "control-select": {
+      "checkpoint": "ckpt_ff5b30f565bb",
+      "eval_id": "eval_9e175d13f47e",
+      "tasks": 144,
+      "canonical_mean": 6.034722222222222,
+      "ev_bb_mean": 1.3603541666666665,
+      "realized_bb_mean": 0.84375,
+      "policy_error_tasks": 2,
+      "policy_error_decisions": 2
+    },
+    "incumbent-select": {
+      "checkpoint": "ckpt_51eee61470f7",
+      "eval_id": "eval_6a1b00991184",
+      "tasks": 144,
+      "canonical_mean": 6.057291666666667,
+      "ev_bb_mean": -0.1684027777777778,
+      "realized_bb_mean": -0.16666666666666666,
+      "policy_error_tasks": 0,
+      "policy_error_decisions": 0
+    },
+    "pilot-select": {
+      "checkpoint": "ckpt_af78f07125f3",
+      "eval_id": "eval_bd3f57c7938f",
+      "tasks": 144,
+      "canonical_mean": 6.385416666666667,
+      "ev_bb_mean": 2.039173611111111,
+      "realized_bb_mean": 2.1458333333333335,
+      "policy_error_tasks": 1,
+      "policy_error_decisions": 1
+    },
+    "midpoint-select": {
+      "checkpoint": "ckpt_e0a4424e6718",
+      "eval_id": "eval_b7c24adef5d0",
+      "tasks": 144,
+      "canonical_mean": 6.180555555555555,
+      "ev_bb_mean": 1.5472847222222221,
+      "realized_bb_mean": 1.2465277777777777,
+      "policy_error_tasks": 2,
+      "policy_error_decisions": 2
+    },
+    "continuation-select": {
+      "checkpoint": "ckpt_0288f73279e0",
+      "eval_id": "eval_076a77e752a4",
+      "tasks": 144,
+      "canonical_mean": 6.046875,
+      "ev_bb_mean": 0.5407986111111112,
+      "realized_bb_mean": -0.5520833333333334,
+      "policy_error_tasks": 0,
+      "policy_error_decisions": 0
+    }
+  },
+  "paired": {
+    "pilot-select-minus-control-select": {
+      "mean_difference": 0.3506944444444444,
+      "bootstrap95": [
+        -0.16666666666666666,
+        0.8611111111111112
+      ],
+      "higher": 37,
+      "ties": 84,
+      "lower": 23
+    },
+    "pilot-select-minus-incumbent-select": {
+      "mean_difference": 0.328125,
+      "bootstrap95": [
+        -0.09722222222222222,
+        0.7604166666666666
+      ],
+      "higher": 37,
+      "ties": 81,
+      "lower": 26
+    },
+    "midpoint-select-minus-control-select": {
+      "mean_difference": 0.14583333333333334,
+      "bootstrap95": [
+        -0.3645833333333333,
+        0.6527777777777778
+      ],
+      "higher": 35,
+      "ties": 88,
+      "lower": 21
+    },
+    "midpoint-select-minus-incumbent-select": {
+      "mean_difference": 0.1232638888888889,
+      "bootstrap95": [
+        -0.3923611111111111,
+        0.6232638888888888
+      ],
+      "higher": 39,
+      "ties": 81,
+      "lower": 24
+    },
+    "midpoint-select-minus-pilot-select": {
+      "mean_difference": -0.2048611111111111,
+      "bootstrap95": [
+        -0.7534722222222222,
+        0.3506944444444444
+      ],
+      "higher": 32,
+      "ties": 81,
+      "lower": 31
+    },
+    "continuation-select-minus-control-select": {
+      "mean_difference": 0.012152777777777778,
+      "bootstrap95": [
+        -0.4809027777777778,
+        0.5104166666666666
+      ],
+      "higher": 34,
+      "ties": 80,
+      "lower": 30
+    },
+    "continuation-select-minus-incumbent-select": {
+      "mean_difference": -0.010416666666666666,
+      "bootstrap95": [
+        -0.40625,
+        0.4027777777777778
+      ],
+      "higher": 29,
+      "ties": 84,
+      "lower": 31
+    },
+    "continuation-select-minus-pilot-select": {
+      "mean_difference": -0.3385416666666667,
+      "bootstrap95": [
+        -0.796875,
+        0.1371527777777778
+      ],
+      "higher": 28,
+      "ties": 81,
+      "lower": 35
+    },
+    "continuation-select-minus-midpoint-select": {
+      "mean_difference": -0.13368055555555555,
+      "bootstrap95": [
+        -0.703125,
+        0.4375
+      ],
+      "higher": 27,
+      "ties": 85,
+      "lower": 32
+    }
+  },
+  "notes": "Same development selection set reused across checkpoints. Bootstrap intervals are descriptive; final full-game set remains sealed."
+}

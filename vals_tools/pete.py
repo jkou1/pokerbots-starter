@@ -23,7 +23,14 @@ from poker_harness.engine.table import (
     legal_actions,
     resolve,
 )
-from poker_harness.prompts import decision_prompt, sanitize_talk, system_prompt
+from poker_harness.prompts import (
+    cleanup_prompt,
+    decision_prompt,
+    sanitize_talk,
+    scratchpad_block,
+    system_prompt,
+)
+from pokerkit import ChipsPushing
 
 from vals_tools.arena import write_json, write_jsonl
 
@@ -60,7 +67,9 @@ def deal_identity(match: dict) -> str:
     return hashlib.sha256(json.dumps(value, sort_keys=True).encode()).hexdigest()
 
 
-def replay_hand(match: dict, hand: dict, *, stack_after_includes_award=False):
+def replay_hand(
+    match: dict, hand: dict, *, stack_after_includes_award=False, outcomes=None
+):
     """Yield pre-action contexts, then apply recorded actions. Nothing downstream enters the prompt."""
     fmt = match["format"]
     players = {
@@ -161,9 +170,20 @@ def replay_hand(match: dict, hand: dict, *, stack_after_includes_award=False):
     for seat in runner.order:
         if state.stacks[runner.order.index(seat)] != hand["stacks_after"][str(seat)]:
             raise ValueError("final stack mismatch")
+    if outcomes is not None:
+        won = Counter()
+        for operation in state.operations:
+            if isinstance(operation, ChipsPushing):
+                for index, amount in enumerate(operation.amounts):
+                    if amount:
+                        won[f"seat{runner.order[index]}"] += amount
+        outcomes["pot_won"] = dict(won)
+        outcomes["board"] = runner._board()
 
 
-def extract_match(match: dict) -> tuple[list[dict], list[dict], Counter]:
+def extract_match(
+    match: dict, *, streets=("preflop",), teachers=(PETE,), cleanup=False
+) -> tuple[list[dict], list[dict], Counter]:
     if (
         match.get("schema") != "vals-arena.match/1"
         or match.get("runner_version") != "0.1.0"
@@ -171,7 +191,9 @@ def extract_match(match: dict) -> tuple[list[dict], list[dict], Counter]:
         raise ValueError("unsupported schema/runner version")
     if match.get("status") != "complete":
         raise ValueError("match is not complete")
-    pete = {s["seat"] for s in match["seats"] if s["entry"]["id"] == PETE}
+    if not teachers or not set(streets).issubset(STREETS):
+        raise ValueError("explicit teachers and known streets are required")
+    pete = {s["seat"] for s in match["seats"] if s["entry"]["id"] in teachers}
     rules = table_rules(
         with_preset(
             {
@@ -182,8 +204,11 @@ def extract_match(match: dict) -> tuple[list[dict], list[dict], Counter]:
         )
     )
     decisions, talk, stats = [], [], Counter()
+    notes = dict.fromkeys(pete, "")
     for hand in match["hands"]:
-        for index, ctx, target, source in replay_hand(match, hand):
+        outcomes = {}
+        contexts = list(replay_hand(match, hand, outcomes=outcomes))
+        for index, ctx, target, source in contexts:
             provenance = {
                 "match_id": match["id"],
                 "hand": hand["hand_number"],
@@ -197,7 +222,7 @@ def extract_match(match: dict) -> tuple[list[dict], list[dict], Counter]:
             }
             if say := sanitize_talk(source.get("say")):
                 talk.append({"provenance": provenance, "say": say})
-            if ctx.seat not in pete or ctx.street != "preflop":
+            if ctx.seat not in pete or ctx.street not in streets:
                 continue
             stats["pete_seen"] += 1
             args = source.get("tool_args") or {}
@@ -223,10 +248,80 @@ def extract_match(match: dict) -> tuple[list[dict], list[dict], Counter]:
                 }
             )
             stats["kept"] += 1
+        if cleanup:
+            if hand["board"] != outcomes["board"]:
+                raise ValueError("cleanup board does not match the dealt public board")
+            # Reconstruct only public outcomes. All raw hole cards except the
+            # acting seat's and explicitly shown cards stay out of the prompt.
+            actions = []
+            for _, ctx, target, source in contexts:
+                actions.append(
+                    {
+                        "player": f"seat{ctx.seat}",
+                        "seat": ctx.seat,
+                        "street": ctx.street,
+                        "action": {"type": target["action"]}
+                        | ({"amount": target["amount"]} if "amount" in target else {}),
+                    }
+                )
+            stacks = {f"seat{s}": v for s, v in hand["stacks_after"].items()}
+            won = outcomes["pot_won"]
+            for player in hand["players"]:
+                seat = player["seat"]
+                if seat not in pete:
+                    continue
+                name = f"seat{seat}"
+                summary = {
+                    "hand_number": hand["hand_number"],
+                    "final_board": hand["board"],
+                    "starting_state": {name: player},
+                    "showdown": hand["showdown"],
+                    "shown_hole_cards": {
+                        f"seat{s}": c for s, c in hand["shown"].items()
+                    },
+                    "pot_won": won,
+                    "stacks": stacks,
+                    "eliminated": [f"seat{s}" for s in hand["eliminated"]],
+                }
+                facts = f"hand {hand['hand_number']}: stacks " + ", ".join(
+                    f"{s} {v}" for s, v in sorted(stacks.items())
+                )
+                decisions.append(
+                    {
+                        "input": [
+                            {"role": "system", "content": system_prompt(rules)},
+                            {
+                                "role": "user",
+                                "content": scratchpad_block(notes[seat], 5000),
+                            },
+                            {
+                                "role": "user",
+                                "content": cleanup_prompt(
+                                    summary, name, actions, True, False, 5000
+                                ),
+                            },
+                        ],
+                        "tool": "update_scratchpad",
+                        "target": {"contents": facts},
+                        "provenance": {
+                            "match_id": match["id"],
+                            "hand": hand["hand_number"],
+                            "seat": seat,
+                            "street": "cleanup",
+                            "teacher": "public-facts",
+                            "adapter": ADAPTER,
+                        },
+                        "observation_kind": "public_factual_cleanup",
+                    }
+                )
+                notes[seat] = facts
     return decisions, talk, stats
 
 
-def build(root: Path) -> dict:
+def build(
+    root: Path, *, streets=("preflop",), teachers=(PETE,), cleanup=False, output=None
+) -> dict:
+    output = output or root / "pete-preflop"
     rows = {s: [] for s in ("train", "select", "eval")}
     talks = {s: [] for s in rows}
     quality = {
@@ -244,7 +339,9 @@ def build(root: Path) -> dict:
             if identity in seen:
                 quality["duplicates"] += 1
                 continue
-            decisions, chatter, stats = extract_match(match)
+            decisions, chatter, stats = extract_match(
+                match, streets=streets, teachers=teachers, cleanup=cleanup
+            )
             seen.add(identity)
             split = split_for(identity)
             for row in decisions + chatter:
@@ -255,25 +352,46 @@ def build(root: Path) -> dict:
             quality["matches"] += 1
             quality["counts"].update(stats)
             quality["coverage"].update(
-                f"position:{r['position']} action:{r['target']['action']}"
+                f"street:{r['provenance']['street']} action:{r['target'].get('action', 'cleanup')}"
                 for r in decisions
             )
         except (ValueError, KeyError, TypeError, IndexError, AssertionError) as exc:
             quality["quarantined"][path.name] = f"{type(exc).__name__}: {exc}"
     for split, records in rows.items():
-        write_jsonl(root / "pete-preflop" / f"{split}.jsonl", records)
+        write_jsonl(output / f"{split}.jsonl", records)
         write_jsonl(root / "talk" / f"{split}.jsonl", talks[split])
     quality["splits"] = {s: len(r) for s, r in rows.items()}
     quality["train_ready"] = all(rows.values())
-    write_json(root / "quality.json", quality)
+    write_json(output / "quality.json", quality)
+    if output == root / "pete-preflop":
+        write_json(root / "quality.json", quality)
     return quality
 
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--root", type=Path, default=Path("data/arena"))
+    p.add_argument("--streets", nargs="+", choices=STREETS, default=["preflop"])
+    p.add_argument("--teachers", nargs="+", default=[PETE])
+    p.add_argument("--cleanup", action="store_true")
+    p.add_argument("--out", type=Path)
     args = p.parse_args()
-    print(json.dumps(build(args.root), indent=2))
+    if (
+        args.cleanup or args.streets != ["preflop"] or args.teachers != [PETE]
+    ) and not args.out:
+        p.error("use --out for a new release; preserve the original preflop holdouts")
+    print(
+        json.dumps(
+            build(
+                args.root,
+                streets=args.streets,
+                teachers=args.teachers,
+                cleanup=args.cleanup,
+                output=args.out,
+            ),
+            indent=2,
+        )
+    )
 
 
 if __name__ == "__main__":

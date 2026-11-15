@@ -101,6 +101,7 @@ def run_config(args: argparse.Namespace, name: str) -> RunConfig:
                     samples_per_problem=args.samples_per_hand,
                     checkpoint_interval=args.checkpoint_every,
                     keep_last_checkpoints=args.keep_checkpoints,
+                    seed=args.seed,
                 )
             ),
             tasks=TasksConfig(
@@ -145,6 +146,7 @@ def parser() -> argparse.ArgumentParser:
         help="base model (arena entries are this model or fine-tunes of it)",
     )
     p.add_argument("--checkpoint", help="continue the selected parent checkpoint")
+    p.add_argument("--seed", type=int, default=42, help="shared experiment seed")
     p.add_argument(
         "--dry-run",
         action="store_true",

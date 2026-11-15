@@ -46,7 +46,11 @@ def imitation_metrics(rows, predictions):
         raise ValueError(
             "every held-out example requires a prediction, including failed calls"
         )
-    per_action, per_position = defaultdict(list), defaultdict(list)
+    per_action, per_position, per_street = (
+        defaultdict(list),
+        defaultdict(list),
+        defaultdict(list),
+    )
     correct, exact, valid, baseline, sizing = [], [], [], [], []
     for row, predicted in zip(rows, predictions, strict=True):
         target = row["target"]
@@ -64,6 +68,7 @@ def imitation_metrics(rows, predictions):
         )
         per_action[target["action"]].append(hit)
         per_position[str(row["position"])].append(hit)
+        per_street[row.get("provenance", {}).get("street", "unknown")].append(hit)
         if hit and target["action"] in ("bet", "raise"):
             sizing.append(abs(predicted["amount"] - target["amount"]))
     average = lambda values: sum(values) / len(values)
@@ -81,6 +86,10 @@ def imitation_metrics(rows, predictions):
             k: {"examples": len(v), "accuracy": average(v)}
             for k, v in per_position.items()
         },
+        "per_street": {
+            k: {"examples": len(v), "accuracy": average(v)}
+            for k, v in per_street.items()
+        },
         "raise_amount_mae_chips": average(sizing) if sizing else None,
         "raise_amount_comparisons": len(sizing),
     }
@@ -93,6 +102,9 @@ def heldout_rows(path, limit=None):
         raise ValueError(
             "evaluation requires one nonempty held-out split; train/mixed records are refused"
         )
+    rows = [r for r in rows if r.get("tool", "submit_action") == "submit_action"]
+    if not rows:
+        raise ValueError("evaluation requires held-out action records")
     return rows[:limit] if limit else rows
 
 

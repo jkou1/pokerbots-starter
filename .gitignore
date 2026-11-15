@@ -9,3 +9,5 @@ harness/runs/
 data/arena/
 data/arena-*/
 data/experiments/
+data/pokerbench/
+node_modules/

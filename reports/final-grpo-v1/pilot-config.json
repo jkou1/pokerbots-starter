@@ -1,0 +1,58 @@
+{
+  "description": "GRPO on pokerbots-final-grpo-v1-train through the self-hosted poker harness, harness-side grading.",
+  "experiment_cfg": {
+    "eval": {
+      "mode": "off"
+    },
+    "method": {
+      "advantage": "grpo",
+      "kl_loss_coef": 0.01,
+      "type": "rl",
+      "use_kl_loss": true
+    },
+    "rollout": {
+      "global_sampling_concurrency": 8,
+      "max_response_len": 24576,
+      "max_total_len": 32768,
+      "n_inference_replicas": 1
+    },
+    "step": {
+      "checkpoint_interval": 5,
+      "keep_last_checkpoints": 1,
+      "num_train_steps": 5,
+      "problem_batch_size": 4,
+      "samples_per_problem": 8,
+      "seed": 42
+    },
+    "tasks": {
+      "apply_chat_template_kwargs": {
+        "enable_thinking": true
+      },
+      "custom_harness": {
+        "grading_timeout_seconds": 900.0
+      },
+      "datasets": [
+        {
+          "ac2_dataset_name": "pokerbots-final-grpo-v1-train"
+        }
+      ]
+    },
+    "trainer": {
+      "learning_rate": 5e-07
+    }
+  },
+  "internal_cfg": {
+    "launch": {
+      "tensorboard_enabled": true
+    }
+  },
+  "model": {
+    "checkpoint": "ckpt_ff5b30f565bb"
+  },
+  "name": "pokerbots-final-grpo-pilot-v1",
+  "tags": {
+    "benchmark": "pokerbots",
+    "dataset": "pokerbots-final-grpo-v1-train",
+    "method": "grpo"
+  }
+}

@@ -45,7 +45,13 @@ no-limit hold'em, deploy it, and enter it in the arena. This repo has:
 The examples are a starting point. What to train on, and how, is up to you.
 
 The [Pete supervised-run review](PETE_SFT.md) documents the first model's tool-format failure and its diagnosis.
-The [data strategy](DATA_STRATEGY.md) audits the starter's seeded tasks and refreshed Arena archive, and defines the corrected combined-data experiment from base Qwen weights. Evaluation is pending.
+The [data strategy](DATA_STRATEGY.md) audits the starter's seeded tasks and refreshed Arena archive, and defines the corrected combined-data experiment from base Qwen weights and records its evaluation results.
+
+The [canonical grader review](CANONICAL_GRADER_REVIEW.md) and [completed GRPO experiment](reports/final-grpo-v1/REPORT.md) compare measured checkpoint performance.
+
+The [matched experiment runbook](MATCHED_EXPERIMENT.md) adds pinned PokerBench
+conversion, all-street Arena supervision, equal-budget base/continuation runs,
+and full-game comparisons with frozen opponents and seed-group uncertainty.
 
 Our [training strategy](STRATEGY.md) separates pre-flop learning from post-flop betting and table talk. The
 [training runbook](TRAINING_RUNBOOK.md) defines the staged experiments, Professor Pete teacher-data requirements,

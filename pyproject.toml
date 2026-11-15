@@ -12,7 +12,7 @@ requires-python = ">=3.12"
 dependencies = []
 
 [dependency-groups]
-dev = ["ac2>=0.3.97", "pytest>=8.0.0", "poker-harness"]
+dev = ["ac2>=0.3.97", "pytest>=8.0.0", "poker-harness", "tokenizers>=0.22"]
 
 [tool.uv]
 package = true

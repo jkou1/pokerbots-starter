@@ -1,0 +1,56 @@
+{
+  "continuation-minus-control-select": {
+    "all": {
+      "tasks": 144,
+      "difference": 0.012152777777777778,
+      "bootstrap95": [
+        -0.4809027777777778,
+        0.5104166666666666
+      ]
+    },
+    "excluding_opponent_error_games": {
+      "tasks": 127,
+      "difference": 0.10433070866141732,
+      "bootstrap95": [
+        -0.3858267716535433,
+        0.6200787401574803
+      ]
+    }
+  },
+  "continuation-minus-incumbent-select": {
+    "all": {
+      "tasks": 144,
+      "difference": -0.010416666666666666,
+      "bootstrap95": [
+        -0.40625,
+        0.4027777777777778
+      ]
+    },
+    "excluding_opponent_error_games": {
+      "tasks": 132,
+      "difference": -0.01893939393939394,
+      "bootstrap95": [
+        -0.4318181818181818,
+        0.4015151515151515
+      ]
+    }
+  },
+  "continuation-minus-pilot-select": {
+    "all": {
+      "tasks": 144,
+      "difference": -0.3385416666666667,
+      "bootstrap95": [
+        -0.796875,
+        0.1371527777777778
+      ]
+    },
+    "excluding_opponent_error_games": {
+      "tasks": 129,
+      "difference": -0.30426356589147285,
+      "bootstrap95": [
+        -0.7790697674418605,
+        0.17635658914728683
+      ]
+    }
+  }
+}

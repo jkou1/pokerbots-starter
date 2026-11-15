@@ -21,7 +21,7 @@ Release manifests, unchanged raw source JSON, hashes, and quality reports remain
 
 ## Controlled combined-data pilot
 
-The first combined run, `train_ab817f9de7c1`, was stopped after the Pete-only model failed all 174 official-format decisions. Both used empty reasoning targets with a single-/double-newline mismatch at the reasoning boundary. The corrected run, `train_87b51a9211a1`, uses dataset `pokerbots-combined-base-sft-v3-train`, the same 2,268 source records plus an explicit synthetic protocol marker, verified as 2,268 unique task contents. Its receipt is `data/experiments/combined-base-sft-fixed/run.json`. It starts from base weights independently; the failed weights are not a parent. Evaluation is pending. See [PETE_SFT.md](PETE_SFT.md) for the reproduced failure.
+The first combined run, `train_ab817f9de7c1`, was stopped after the Pete-only model failed all 174 official-format decisions. Both used empty reasoning targets with a single-/double-newline mismatch at the reasoning boundary. The corrected run, `train_87b51a9211a1`, uses dataset `pokerbots-combined-base-sft-v3-train`, the same 2,268 source records plus an explicit synthetic protocol marker, verified as 2,268 unique task contents. Its receipt is `data/experiments/combined-base-sft-fixed/run.json`. It starts from base weights independently; the failed weights are not a parent. Training completed all 40 updates with final loss 0.00959 and checkpoint `ckpt_51eee61470f7`. The final checkpoint is served as `vals-hackathon/combined-sft-v3`, deployment `infer_b0f5e9429b7e`, and has completed the external selection and interface smoke checks below. See [PETE_SFT.md](PETE_SFT.md) for the reproduced failure.
 
 Start a fresh model from the same base Qwen weights. Mix approximately:
 
@@ -61,8 +61,22 @@ uv run python -m vals_tools.sft --stage combined --from-base \
 
 Compare base, Pete-only, and combined checkpoints against the same original 174 selection decisions with identical tool schemas and decoding. Report teacher action agreement, exact sizing agreement, macro action recall, and legal rate. `vals_tools.compare_pete` verifies matching provenance and computes a paired action-accuracy interval by resampling whole source matches. Only seven matches contribute to this selection set; teacher imitation is not poker win rate.
 
+The completed final-checkpoint comparison is saved in `data/experiments/combined-base-sft-fixed/base-comparison.json`:
+
+| Metric | Base | Corrected combined final checkpoint |
+| --- | ---: | ---: |
+| Legal action calls | 166/174 (95.40%) | 174/174 (100%) |
+| Teacher action agreement | 60.92% | 84.48% |
+| Exact action and sizing agreement | 54.02% | 80.46% |
+| Macro action recall | 68.67% | 73.43% |
+| Recall on teacher calls | 9/12 (75.00%) | 2/12 (16.67%) |
+
+The action-agreement gain is 23.56 percentage points; the match-cluster bootstrap 95% interval is +20.31 to +27.87 points. Calling remains a regression despite higher aggregate agreement. The passive check-or-fold baseline is 74.14%. These are seven-match teacher-imitation results, not tournament-strength estimates, and changes in formatting, fresh data, and rehearsal cannot be separated causally in this experiment.
+
+A six-hand event-rule game against scripted opponents (`local-95510001`) completed nine model betting decisions with zero failures: six pre-flop and one each on flop, turn, and river. All six scratchpad cleanup calls succeeded. The model lost 5 BB in this smoke game; it establishes interface coverage, not competitive strength. Full logs and `smoke-summary.json` remain beside the experiment receipt. Arena registration of the replacement has not been verified; the organizer's report identifies the old `infer_08c7ee4872c1` as the submitted deployment needing replacement.
+
 The user initially conditioned a repository push on an evaluation improvement, then explicitly requested committing and pushing the implementation first. Preserve the failed evaluation and pending status honestly in the committed documentation. Keep the user's unrelated `test.md` modification out of that commit. No loss-only or training-set result establishes a model-quality improvement.
 
-Before deployment, `vals_tools.sft_audit --train <run-id> --out <artifact.json>` checks actual managed-trainer token samples for a single-newline target prefix, the synthetic protocol marker, and a supervised `</think>` before the tool call. A tool-call string inside reasoning never counts as a valid action; retain the official parser. The first 20-update checkpoint can be evaluated while the 40-update budget completes; later checkpoints need their own comparison before replacing a selected deployment.
+Before deployment, `vals_tools.sft_audit --train <run-id> --out <artifact.json>` checks actual managed-trainer samples for a student prompt ending in the official `<think>\n` prefill, a target starting with the synthetic protocol marker, and a supervised `</think>` before the tool call. In the corrected run, the newline is part of the prompt and the first target token is `Tool`; the initial audit incorrectly required the newline in the target and stopped deployment. The corrected audit passes all eight saved samples. A tool-call string inside reasoning never counts as a valid action; retain the official parser. The first 20-update checkpoint can be evaluated while the 40-update budget completes; later checkpoints need their own comparison before replacing a selected deployment.
 
 Deploy the combined checkpoint for the requested Arena experiment after checking it serves real tool calls and completes a local event-rule smoke game. Arena results then provide live evidence; a local teacher-imitation gain alone does not establish stronger tournament performance. Inference deployment and Arena registration are separate operations. Only claim Arena entry after the console or an authenticated submission response confirms it.

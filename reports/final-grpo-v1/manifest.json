@@ -1,0 +1,91 @@
+{
+  "datasets": {
+    "game-eval": {
+      "hands_per_task": 30,
+      "opponents": {
+        "vals-hackathon/combined-sft-v3": 24,
+        "vals-hackathon/pete-postflop-base-s20-jkou": 24,
+        "vals-hackathon/selfplay-ad74c826c9ad": 24
+      },
+      "positions": {
+        "0": 12,
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 12,
+        "5": 12
+      },
+      "sha256": "9a7791c546d6fc8b6c2bf034a65389360a5fac86fc8a0d59bb6e823b3a020fff",
+      "tasks": 72
+    },
+    "game-select": {
+      "hands_per_task": 30,
+      "opponents": {
+        "vals-hackathon/combined-sft-v3": 12,
+        "vals-hackathon/pete-postflop-base-s20-jkou": 12,
+        "vals-hackathon/selfplay-ad74c826c9ad": 12
+      },
+      "positions": {
+        "0": 6,
+        "1": 6,
+        "2": 6,
+        "3": 6,
+        "4": 6,
+        "5": 6
+      },
+      "sha256": "32a13b19e1ae22d827ef4d0e7a4e147a6ff27eaa9751af6dbc8a08adcd8b1f10",
+      "tasks": 36
+    },
+    "select": {
+      "hands_per_task": 1,
+      "opponents": {
+        "vals-hackathon/combined-sft-v3": 48,
+        "vals-hackathon/pete-postflop-base-s20-jkou": 48,
+        "vals-hackathon/selfplay-ad74c826c9ad": 48
+      },
+      "positions": {
+        "0": 24,
+        "1": 24,
+        "2": 24,
+        "3": 24,
+        "4": 24,
+        "5": 24
+      },
+      "sha256": "e6ddf12becd43f4b9f20ef74309dfd8959e46ab34a6db7ad03da03bf1ec4b1ef",
+      "tasks": 144
+    },
+    "train": {
+      "hands_per_task": 1,
+      "opponents": {
+        "vals-hackathon/combined-sft-v3": 720,
+        "vals-hackathon/pete-postflop-base-s20-jkou": 720,
+        "vals-hackathon/selfplay-ad74c826c9ad": 720
+      },
+      "positions": {
+        "0": 360,
+        "1": 360,
+        "2": 360,
+        "3": 360,
+        "4": 360,
+        "5": 360
+      },
+      "sha256": "8475daf1b983dea2e0086f719ce54b9fd9421c3af38e034d4958ce9dec241c9f",
+      "tasks": 2160
+    }
+  },
+  "eval_policy": "No in-run sidecar in the bounded pilot. Evaluate starting and saved policies separately on select; keep game-eval sealed.",
+  "gpu_estimate": "GPUs while running: about 6 (4 training + 2 rollout inference + 0 eval)",
+  "historical_overlap_limit": "Checked starter splits, previous64 selection and matched official-game plans; audit remaining historical datasets before upload.",
+  "initial_checkpoint": "ckpt_ff5b30f565bb",
+  "known_prior_seeds_checked": 5580,
+  "nominal_consumed_rollouts": 160,
+  "opponents": [
+    "vals-hackathon/selfplay-ad74c826c9ad",
+    "vals-hackathon/pete-postflop-base-s20-jkou",
+    "vals-hackathon/combined-sft-v3"
+  ],
+  "pilot_updates": 5,
+  "prefix": "pokerbots-final-grpo-v1",
+  "status": "prepared-local-only",
+  "unchanged_incumbent_checkpoint": "ckpt_51eee61470f7"
+}

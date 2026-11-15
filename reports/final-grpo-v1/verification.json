@@ -1,0 +1,70 @@
+{
+  "evals": {
+    "control-select": {
+      "eval_id": "eval_9e175d13f47e",
+      "status": "succeeded"
+    },
+    "incumbent-select": {
+      "eval_id": "eval_6a1b00991184",
+      "status": "succeeded"
+    },
+    "pilot-select": {
+      "eval_id": "eval_bd3f57c7938f",
+      "status": "succeeded"
+    },
+    "midpoint-select": {
+      "eval_id": "eval_b7c24adef5d0",
+      "status": "succeeded"
+    },
+    "continuation-select": {
+      "eval_id": "eval_076a77e752a4",
+      "status": "succeeded"
+    }
+  },
+  "opponents_unchanged": [
+    {
+      "id": "infer_21f395f49bff",
+      "name": "pete-postflop-base-s20-jkou",
+      "state": "ready",
+      "version": 1,
+      "checkpoint_id": "ckpt_23b6b6239f26"
+    },
+    {
+      "id": "infer_af82066205bf",
+      "name": "selfplay-ad74c826c9ad",
+      "state": "ready",
+      "version": 1,
+      "checkpoint_id": "ckpt_ad74c826c9ad"
+    },
+    {
+      "id": "infer_b0f5e9429b7e",
+      "name": "combined-sft-v3",
+      "state": "ready",
+      "version": 1,
+      "checkpoint_id": "ckpt_51eee61470f7"
+    }
+  ],
+  "harness": [
+    {
+      "project_name": "vals-hackathon",
+      "connected": true
+    }
+  ],
+  "source_hashes": {
+    "harness_source_sha256": "7258ba9a152fa1c314f8a3c478563e5af2b62829b4d02b3f2d47e06b52376928",
+    "grader_source_sha256": "336afe215a611e157a4fadad6b08a27b186f559320fb078044f5277923570f98"
+  },
+  "archived_original_logs": 1464,
+  "continuation_training_scores": 534,
+  "unscored_completed_prefetch_games": 2,
+  "prefetch_score_gap_groups": [
+    {
+      "group": 67,
+      "scored": 6,
+      "expected": 8
+    }
+  ],
+  "all_consumed_training_rollouts_scored": true,
+  "cleanup": "All four temporary evaluation deployments deleted; trained checkpoints preserved; incumbent unchanged.",
+  "full_game_sets_unchanged_and_not_uploaded": true
+}

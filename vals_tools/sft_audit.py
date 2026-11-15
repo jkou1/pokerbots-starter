@@ -29,12 +29,14 @@ def audit_target(payload):
         raise ValueError("unsupported reasoning prefill in training prompt")
     if not tokens or not text.startswith(expected_prefix):
         raise ValueError(
-            "combined boundary must contain one newline after <think>, then the protocol marker"
+            "combined boundary must match the official single-newline thinking prefill: one newline after <think>, then the protocol marker"
         )
     if len(mask) != len(tokens):
-        raise ValueError("loss mask and sampled tokens must have equal lengths")
+        raise ValueError("target tokens and loss mask must have matching lengths")
     if "</think>" not in tokens or mask[tokens.index("</think>")] != 1:
         raise ValueError("reasoning close must be an explicitly supervised token")
+    if "<tool_call>" not in tokens:
+        raise ValueError("target must contain a tool call")
     if text.index("</think>") > text.index("<tool_call>"):
         raise ValueError("tool call occurs before reasoning closes")
     return {
@@ -42,6 +44,7 @@ def audit_target(payload):
         "first_target_token": tokens[0],
         "prefill_newline_location": newline_location,
         "combined_boundary_verified": True,
+        "prompt_matches_thinking_prefill": True,
         "reasoning_close_supervised": True,
     }
 

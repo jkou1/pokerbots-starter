@@ -55,7 +55,8 @@ def supervised_task(row: dict) -> Task:
             # An empty reasoning block starts with a merged double-newline token in
             # managed SFT. Official inference prefills a single newline after <think>,
             # which led the first run to omit </think>. A nonempty protocol marker
-            # makes that single newline an ordinary target-prefix token. This is a
+            # makes the managed prompt include the same single-newline prefill as
+            # inference. The target then starts with the marker. This is a
             # serialization scaffold, never a claimed explanation from the teacher.
             Reasoning(content=PROTOCOL_MARKER),
             FunctionCall(call_id="decision", name=name, arguments=json.dumps(target)),
