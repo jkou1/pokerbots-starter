@@ -3,7 +3,7 @@
 Coordinator: Codex. Window: Sunday 2026-11-15 00:27–09:00 PST.
 Standing orders: `/Users/lance/Documents/pokerbots-starter-grpo-history/AGENTS.md`.
 
-## Current status — 04:10 PST
+## Current status — 04:29 PST
 
 - **Goal:** reach #1 and defend through day 2. Autonomous coordination continues until 09:00 PST. The latest cached public team page (02:47 PST) showed rank #16, rating 937; this is not a claim that the goal has been achieved.
 - **Live entry:** `return of rain man`, inference `infer_b0f5e9429b7e`, checkpoint `ckpt_51eee61470f7`. Unchanged. The candidate is eligible for a monitored canary, but authenticated Arena control is unavailable (`cgWindowNotFound`). SDK/CLI/source inspection found no supported submission API. No guessed write or credential migration was attempted.
@@ -320,3 +320,13 @@ Own-source weights-only GRPO control succeeded: optimizer 12:06:14 UTC (gradient
 Before spending more RL on the weaker own-family policy, a one-GPU real-tool-ready endpoint and the same fresh64 baseline screen are authorized after conversion. This is quality measurement, not promotion or an extension of the closed teacher SFT experiment. Longer training remains blocked on the result/root decision. A ten-update own-family continuation config is prepared CPU-only, with weights-only save after five/ten; no auto-launch.
 
 Reliable step20 serving `infer_d9d92f687429` passed its real-tool probe at age340.9seconds, before the independent hard deadline, which was canceled. Initial two fresh TRAIN games started in native `eval_0eab37d83222` / `job_e4d260c6c910` at 12:07:07 UTC, verified two-task membership/content, parallel2, fixed base20 opponent. Collection-wide deadline12:52:07. No expansion before provenance/factual/long-context process proof, no FINAL/SFT launch. The working teacher endpoint is again warm for a possible candidate promotion, but actual Arena control remains unavailable.
+
+## Memory collection stopped; grounded offline OPSD probe — 04:29 PST
+
+The initial two TRAIN games completed. Only five unchanged replies retained both visible current facts and a provided verified prior fact; none qualified as useful long-memory targets. Expansion is stopped, so no further six-game rollout tranche or SFT payload follows this failed data hypothesis.
+
+A different, pre-output framework uses genuine incumbent-C Arena cleanup contexts with naturally long incoming notes. A bounded512-row source query returned222cleanup inputs,182unique long inputs after exclusions,16wholematches. The frozen whole-match split has140long TRAIN contexts from13matches and three held-out matches. Source cutoff12:26:48.093798UTC. Original runtime message content is preserved; original Arena tool definitions were not in telemetry, so the new isolated experiment explicitly supplies the published canonical main-tool schema to both student and teacher and does not claim byte-identical original tool definitions.
+
+Preferred test is native OFFLINE OPSD: actual unhinted OWN10 replies sampled on these contexts, same-model teacher with a teacher-only compression/prior-retention hint, and `HintSelection.rollout_prefix_len` masking the full existing history. Contexts are off-policy; fresh reply samples are on-policy for the OWN10 checkpoint. It is not cross-model SFT, does not quote/rewrite prior assistant messages, and does not supervise their old tokens. Authentic complete defective replies may be represented for reverse-KL reweighting; truncated/unrenderable cases are excluded and reported. Managed backend permission/rendering/token masks and teacher benefit remain unproven. The external paid judge is explicitly disabled. No training is authorized yet.
+
+OWN10 probe endpoint `infer_42df4eab0ad2` / checkpoint `ckpt_95bc5ed22ed8` was requested12:27:54UTC on one GPU after genuine source-count proof. A hard eight-minute real-tool guard applies. Up to32paired hinted/unhinted cases are authorized only after factual eligibility and measured token fit; this is at most64model calls, not a new training run. Four existing endpoints remain warm. B5's serving conversion still had no completion at its12:23deadline; no baseline endpoint or longer RL was launched. A passive five-minute status watcher may catch late terminal completion without holding a GPU or retrying conversion.
