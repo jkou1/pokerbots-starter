@@ -98,3 +98,13 @@ Test/success: identify at least three successful factual recorded replies <=1500
 Collected six independent TRAIN-seed own games, preserving actual raw runtime inputs/replies and private cleanup success records. Four observed targets279–434characters passed exact board/stack and factual action-subset checks. Two short replies were rejected for wrong final boards/stacks; shortness alone is insufficient. Accepted targets were never rewritten. Their action notes are factual subsets, not claimed chronological transcripts. Saved `cleanup-own-train-v1/validated-train.jsonl` and `validation.json` with source hashes.
 
 Preserved ten distinct actual SELECT overlong cleanup inputs, five per model, as stress cases. Bounded initial-cleanup gateway sample: incumbent37/97over5000characters, frozen110/222. These are sampled request rates, not complete-game rates. Raw source rows, exact prompts/replies, cutoff and hashes live under `cleanup-stress-select-v1`; selection cases remain excluded from training.
+
+## Preflop retention guard
+
+Problem: postflop-targeted updates could damage the incumbent's preflop policy despite retaining25%preflop targets.
+
+Hypothesis: a fixed source-match-held-out preflop diagnostic detects large action or legality regressions cheaply before full-game promotion.
+
+Targeted approach: evaluate all354preflop selection records from the same frozen Pete release on incumbent once, then proposed candidates only. Temperature zero, official schema/thinking, concurrency4, no final holdout usage.
+
+Test/success: compare legal rate, macro/per-action recall and source-match-clustered agreement change. Block gross legality decline and investigate substantial preflop accuracy loss; teacher agreement remains a guardrail, not a poker-win estimate. No new GPU allocation.
