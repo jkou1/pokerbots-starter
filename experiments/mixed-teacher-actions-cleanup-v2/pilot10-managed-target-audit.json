@@ -1,0 +1,233 @@
+{
+  "updated_at": "2026-11-15T11:24:27.268148+00:00",
+  "watcher_pid": 49197,
+  "train_id": "train_41ab837f39e5",
+  "training_updates": 10,
+  "actual_managed_steps": {
+    "0": {
+      "observed_sequences": 128,
+      "expected_batch": 128,
+      "full_batch_export": true,
+      "kind_counts": {
+        "house-chatty-carlos": 57,
+        "house-professor-pete": 70,
+        "genuine-own-cleanup": 1
+      },
+      "supervised_target_tokens": {
+        "house-chatty-carlos": 2290,
+        "house-professor-pete": 2636,
+        "genuine-own-cleanup": 197
+      },
+      "cleanup_target_token_fraction": 0.03845403084130392,
+      "cleanup_contents_ce": 0.5347904536086957,
+      "tool_route_ce": {
+        "update_scratchpad": 0.00244492375,
+        "submit_action": 0.009616059664173228
+      },
+      "sample_cache_sha256": "df9a9beaaa4a178c7871b34b5efc672fee35e59086563041741a8703a7e09dfa"
+    },
+    "1": {
+      "observed_sequences": 128,
+      "expected_batch": 128,
+      "full_batch_export": true,
+      "kind_counts": {
+        "house-chatty-carlos": 74,
+        "house-professor-pete": 54
+      },
+      "supervised_target_tokens": {
+        "house-chatty-carlos": 2938,
+        "house-professor-pete": 2000
+      },
+      "cleanup_target_token_fraction": 0.0,
+      "cleanup_contents_ce": null,
+      "tool_route_ce": {
+        "submit_action": 0.009397143630078125
+      },
+      "sample_cache_sha256": "782806e2ca450ff1551c9352ea905e163b68e8475f4a3b1c9252fbe2a5a1564c"
+    },
+    "2": {
+      "observed_sequences": 128,
+      "expected_batch": 128,
+      "full_batch_export": true,
+      "kind_counts": {
+        "house-chatty-carlos": 59,
+        "house-professor-pete": 69
+      },
+      "supervised_target_tokens": {
+        "house-chatty-carlos": 2357,
+        "house-professor-pete": 2675
+      },
+      "cleanup_target_token_fraction": 0.0,
+      "cleanup_contents_ce": null,
+      "tool_route_ce": {
+        "submit_action": 0.00250396555234375
+      },
+      "sample_cache_sha256": "e958f25a69bc00929973d2ce2d286e869ad4d46afd07c968ac54cb9345f724b3"
+    },
+    "3": {
+      "observed_sequences": 128,
+      "expected_batch": 128,
+      "full_batch_export": true,
+      "kind_counts": {
+        "house-professor-pete": 68,
+        "house-chatty-carlos": 59,
+        "genuine-own-cleanup": 1
+      },
+      "supervised_target_tokens": {
+        "house-professor-pete": 2611,
+        "house-chatty-carlos": 2261,
+        "genuine-own-cleanup": 174
+      },
+      "cleanup_target_token_fraction": 0.034482758620689655,
+      "cleanup_contents_ce": 0.6050955012826087,
+      "tool_route_ce": {
+        "update_scratchpad": 0.35150405274999996,
+        "submit_action": 0.001536595566929134
+      },
+      "sample_cache_sha256": "522c7f681bb9b832acf55b38e407c33c2cb88735ff6c105e23b2b346a077bf8f"
+    },
+    "4": {
+      "observed_sequences": 128,
+      "expected_batch": 128,
+      "full_batch_export": true,
+      "kind_counts": {
+        "house-professor-pete": 72,
+        "house-chatty-carlos": 55,
+        "genuine-own-cleanup": 1
+      },
+      "supervised_target_tokens": {
+        "house-professor-pete": 2755,
+        "house-chatty-carlos": 2049,
+        "genuine-own-cleanup": 174
+      },
+      "cleanup_target_token_fraction": 0.03495379670550422,
+      "cleanup_contents_ce": 0.4648303553695652,
+      "tool_route_ce": {
+        "update_scratchpad": 0.00516092725,
+        "submit_action": 9.705561811023622e-05
+      },
+      "sample_cache_sha256": "74b984ab45bad2a678dbd6e3ff1014b82edc7e7128478f2d01503b4f53394153"
+    },
+    "5": {
+      "observed_sequences": 128,
+      "expected_batch": 128,
+      "full_batch_export": true,
+      "kind_counts": {
+        "house-chatty-carlos": 72,
+        "house-professor-pete": 55,
+        "genuine-own-cleanup": 1
+      },
+      "supervised_target_tokens": {
+        "house-chatty-carlos": 2853,
+        "house-professor-pete": 2050,
+        "genuine-own-cleanup": 191
+      },
+      "cleanup_target_token_fraction": 0.037495092265410285,
+      "cleanup_contents_ce": 0.3018664472258064,
+      "tool_route_ce": {
+        "update_scratchpad": 0.000413871,
+        "submit_action": 3.925363385826772e-05
+      },
+      "sample_cache_sha256": "951c97753e6abb5ef6dd6f5941558dd675dbe74cb77c1f35e5961298671d2acd"
+    },
+    "6": {
+      "observed_sequences": 128,
+      "expected_batch": 128,
+      "full_batch_export": true,
+      "kind_counts": {
+        "house-chatty-carlos": 70,
+        "house-professor-pete": 57,
+        "genuine-own-cleanup": 1
+      },
+      "supervised_target_tokens": {
+        "house-chatty-carlos": 2686,
+        "house-professor-pete": 2202,
+        "genuine-own-cleanup": 197
+      },
+      "cleanup_target_token_fraction": 0.038741396263520154,
+      "cleanup_contents_ce": 0.24746975913043479,
+      "tool_route_ce": {
+        "update_scratchpad": 1.50206e-05,
+        "submit_action": 6.982714173228347e-06
+      },
+      "sample_cache_sha256": "8f2af2a720fde879d55d35429e9acae7a277be94f80a3adc3cb4faac2b1f40c2"
+    },
+    "7": {
+      "observed_sequences": 128,
+      "expected_batch": 128,
+      "full_batch_export": true,
+      "kind_counts": {
+        "house-chatty-carlos": 65,
+        "house-professor-pete": 60,
+        "genuine-own-cleanup": 3
+      },
+      "supervised_target_tokens": {
+        "house-chatty-carlos": 2524,
+        "house-professor-pete": 2259,
+        "genuine-own-cleanup": 579
+      },
+      "cleanup_target_token_fraction": 0.10798209623274897,
+      "cleanup_contents_ce": 0.18464520858355707,
+      "tool_route_ce": {
+        "update_scratchpad": 1.2755e-05,
+        "submit_action": 7.6358596e-06
+      },
+      "sample_cache_sha256": "2d5635641dca05a0377213af573e5cfec9af664a08233f95198d7b661288d89f"
+    },
+    "8": {
+      "observed_sequences": 128,
+      "expected_batch": 128,
+      "full_batch_export": true,
+      "kind_counts": {
+        "house-chatty-carlos": 74,
+        "house-professor-pete": 54
+      },
+      "supervised_target_tokens": {
+        "house-chatty-carlos": 2911,
+        "house-professor-pete": 2086
+      },
+      "cleanup_target_token_fraction": 0.0,
+      "cleanup_contents_ce": null,
+      "tool_route_ce": {
+        "submit_action": 5.645193359375e-06
+      },
+      "sample_cache_sha256": "23a29180bbdc3f1a23b027e11cf9f6f62ba77bccff0407c767eadaaf695b8c38"
+    },
+    "9": {
+      "observed_sequences": 128,
+      "expected_batch": 128,
+      "full_batch_export": true,
+      "kind_counts": {
+        "house-professor-pete": 61,
+        "house-chatty-carlos": 66,
+        "genuine-own-cleanup": 1
+      },
+      "supervised_target_tokens": {
+        "house-professor-pete": 2245,
+        "house-chatty-carlos": 2581,
+        "genuine-own-cleanup": 191
+      },
+      "cleanup_target_token_fraction": 0.03807056009567471,
+      "cleanup_contents_ce": 0.08821607350322581,
+      "tool_route_ce": {
+        "update_scratchpad": 6.0793e-06,
+        "submit_action": 4.81008031496063e-06
+      },
+      "sample_cache_sha256": "95d4459490c88b798e3953b8523eca18b4781e1a10df7b0e2c751e334f1e1184"
+    }
+  },
+  "observed_supervised_target_tokens": {
+    "house-chatty-carlos": 25450,
+    "house-professor-pete": 23519,
+    "genuine-own-cleanup": 1703
+  },
+  "observed_cleanup_target_token_fraction": 0.03360830438901168,
+  "cleanup_contents_ce": 0.3106893573190008,
+  "source": "Existing exact managed token caches from monitor; no additional API/model calls",
+  "limitations": [
+    "Token visualization may be a sampled export of each optimizer batch.",
+    "Different minibatches are not fixed validation; token CE is not poker quality.",
+    "Cleanup contents CE measures genuine target imitation, not general factual correctness."
+  ],
+  "no_dataset_or_job_mutation": true
+}

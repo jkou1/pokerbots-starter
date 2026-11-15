@@ -1,0 +1,47 @@
+{
+  "collection_id": "coll_6c119f846b5e",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "local_evaluations_fabricated": false,
+  "artifacts": {
+    "PILOT10_AUDIT_README.md": {
+      "id": "art_adcd4bf9cb5d",
+      "state": "ready",
+      "sha256": "73dc44e172875d9af8254c8320bb7d242b55f6ec219bb28c04790da0ce75358e"
+    },
+    "pilot10-action-ce.json": {
+      "id": "art_b46fe67802af",
+      "state": "ready",
+      "sha256": "11dad277c15c67981ed90b59b3a0f23fea93f2ad0099e62609c7fa287e825a70"
+    },
+    "pilot10-managed-target-audit.json": {
+      "id": "art_ae8b99a30238",
+      "state": "ready",
+      "sha256": "9cc0a50dc1272861abdbaa6821aa15e90fbdb36b9964eb1afe0be550748e98b0"
+    },
+    "early-offline-audit.json": {
+      "id": "art_5259e2931118",
+      "state": "ready",
+      "sha256": "1a85db3516dfc0c01bd1637a35d3894092514408c7eb766b16ca79532da64132"
+    },
+    "startup-triage-brief.json": {
+      "id": "art_61351df92f0e",
+      "state": "ready",
+      "sha256": "fc84d3dbac12518ce08abcd28edd8b3a96c481f2443c1f9e2c491b68235aa472"
+    },
+    "remote-list-order-audit.json": {
+      "id": "art_733f8a786789",
+      "state": "ready",
+      "sha256": "9175b21e9cf982608ab357e6676eed3467c1260e1e879949a4aae349c74563a3"
+    },
+    "local-template-length-audit.json": {
+      "id": "art_e2180ef3eb98",
+      "state": "ready",
+      "sha256": "4fd6d42f2f7a10da94203a3fc6a54b70b8bd57b0d0c8ba6d91d326f3ed28c6a1"
+    }
+  }
+}

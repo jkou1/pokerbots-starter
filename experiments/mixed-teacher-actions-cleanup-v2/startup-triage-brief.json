@@ -1,0 +1,80 @@
+{
+  "recorded_at": "2026-11-15T11:19:51.375869+00:00",
+  "train_id": "train_41ab837f39e5",
+  "job_id": "job_669c09f1d753",
+  "milestones": {
+    "environment_ready": "2026-11-15T11:11:38.267241Z",
+    "run_started": "2026-11-15T11:11:53.225550Z",
+    "actor_TP4_initialization": "2026-11-15T11:12:18.186431Z",
+    "all_four_ranks_initialized": "2026-11-15T11:13:00.535504Z",
+    "marked_parameter_dtypes_enforced": "2026-11-15T11:13:09.570777Z",
+    "exact_7720_sample_manifest_loaded": "2026-11-15T11:14:24.872922Z",
+    "expected_base_dataset_state_lookup": "2026-11-15T11:14:43.952720Z",
+    "first_full_128_sequence_managed_forward_observed": "2026-11-15T11:19:06.099118Z"
+  },
+  "observed_resources": {
+    "running_pods": 1,
+    "pending_pods": 0,
+    "restarts": 0,
+    "gpu_memory_aggregate_progress_bytes": [
+      345266716672,
+      563605405696,
+      587890425856
+    ],
+    "last_captured_memory_sample": "2026-11-15T11:17:47.666Z",
+    "latest_captured_utilization_ratio": 0.0,
+    "ops_subsequent_utilization_report_ratio": 0.745,
+    "ops_report_received_around": "2026-11-15T11:18:00Z"
+  },
+  "actual_first_batch": {
+    "at": "2026-11-15T11:19:06.099118+00:00",
+    "train_id": "train_41ab837f39e5",
+    "stage": "offline token trace availability, independent of optimizer metric publication",
+    "steps": {
+      "0": {
+        "observed_rows": 128,
+        "kinds": {
+          "house-chatty-carlos": 57,
+          "house-professor-pete": 70,
+          "genuine-own-cleanup": 1
+        },
+        "errors": [],
+        "unique_sequences": 128
+      }
+    },
+    "status": "available",
+    "no_model_calls": true,
+    "no_job_or_dataset_mutation": true
+  },
+  "interpretation": "Forward/target processing and changing allocation are proven. Optimizer completion is not assumed. Recent zero utilization samples were disclosed; no claim of continuous GPU work. Expected dataset-state missing file is not a weight-load failure.",
+  "bounded_rule": {
+    "authorized_by": "root direct instruction",
+    "no_progress_duration_seconds": 300,
+    "progress_sources": [
+      "new optimizer step",
+      "new substantive customer log milestone",
+      "changed GPU memory allocation",
+      "new actual managed step forward evidence"
+    ],
+    "action": "After five consecutive minutes without any such progress, diagnose exact failure and propose a concrete fix; no cold restart solely because first step is slow.",
+    "automatic_restart": false,
+    "automatic_job_stop": false
+  },
+  "new_gpu_allocations": 0,
+  "data_or_config_mutation": false,
+  "resolved_without_restart": true,
+  "optimizer_confirmation": {
+    "at": "2026-11-15T11:20:16.200635+00:00",
+    "updates": 3,
+    "latest_train_metrics": {
+      "step": 2,
+      "train/grad_norm": 30.5535831451416,
+      "train/loss": 0.20413237118379868,
+      "train/lr-pg_0": 4.28281643926228e-06,
+      "train/lr-pg_1": 4.28281643926228e-06,
+      "train/lr-pg_2": 4.28281643926228e-06
+    },
+    "managed_batches": 3,
+    "target_errors": 0
+  }
+}

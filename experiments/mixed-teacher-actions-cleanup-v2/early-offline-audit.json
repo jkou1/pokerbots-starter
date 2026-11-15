@@ -1,0 +1,20 @@
+{
+  "at": "2026-11-15T11:19:06.099118+00:00",
+  "train_id": "train_41ab837f39e5",
+  "stage": "offline token trace availability, independent of optimizer metric publication",
+  "steps": {
+    "0": {
+      "observed_rows": 128,
+      "kinds": {
+        "house-chatty-carlos": 57,
+        "house-professor-pete": 70,
+        "genuine-own-cleanup": 1
+      },
+      "errors": [],
+      "unique_sequences": 128
+    }
+  },
+  "status": "available",
+  "no_model_calls": true,
+  "no_job_or_dataset_mutation": true
+}

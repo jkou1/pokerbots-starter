@@ -1,0 +1,72 @@
+{
+  "train_id": "train_41ab837f39e5",
+  "training_updates": 10,
+  "managed_steps": 10,
+  "all_full_batches": true,
+  "all_target_audits_passed": true,
+  "windows": {
+    "0-4": {
+      "kinds": {
+        "house-chatty-carlos": 304,
+        "house-professor-pete": 333,
+        "genuine-own-cleanup": 3
+      },
+      "actions": {
+        "bet": {
+          "samples": 66,
+          "ce": 1.0979469696969697
+        },
+        "call": {
+          "samples": 62,
+          "ce": 1.3839697096774193
+        },
+        "check": {
+          "samples": 132,
+          "ce": 0.5640834318181818
+        },
+        "fold": {
+          "samples": 258,
+          "ce": 0.48387748139534886
+        },
+        "raise": {
+          "samples": 119,
+          "ce": 1.2345215025210083
+        }
+      },
+      "macro_action_ce": 0.9528798190217855,
+      "amount_ce": 1.9555799999999999
+    },
+    "5-9": {
+      "kinds": {
+        "house-chatty-carlos": 347,
+        "house-professor-pete": 287,
+        "genuine-own-cleanup": 6
+      },
+      "actions": {
+        "bet": {
+          "samples": 69,
+          "ce": 0.9473130434782611
+        },
+        "call": {
+          "samples": 74,
+          "ce": 1.3476594594594595
+        },
+        "check": {
+          "samples": 109,
+          "ce": 0.7313412844036697
+        },
+        "fold": {
+          "samples": 272,
+          "ce": 0.655518099264706
+        },
+        "raise": {
+          "samples": 110,
+          "ce": 0.944918590909091
+        }
+      },
+      "macro_action_ce": 0.9253500955030376,
+      "amount_ce": 1.5115131843575418
+    }
+  },
+  "limitations": "Changing minibatches; class-balanced action CE is training evidence, not fixed validation or poker EV. No automatic extension."
+}
