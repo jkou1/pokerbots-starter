@@ -1,0 +1,9 @@
+{
+  "corrected_scan_method": "Path.rglob/read_text, bypassignore rules for explicit .venv source",
+  "non_pyc_files_scanned": 295,
+  "arena_symbol_files": [
+    "runtime/completions/prices_data.json"
+  ],
+  "arena_API_client_or_schema_found": false,
+  "prior_default_rg_scan_could_skip_ignored_venv": true
+}

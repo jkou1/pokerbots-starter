@@ -1,0 +1,18 @@
+{
+  "url": "https://api.appliedcompute.com/v1/pypi/simple/ac2/",
+  "status": 200,
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "auth_scheme_source": "installedac2/sdk/cli/upgrade.py:66 and cli/auth.py:199-200",
+  "scheme": "HTTPBasicusername__token__,currentnewaccountAPIkey(no credentialURLprinted)",
+  "redirects_followed": false,
+  "sha256": "8a92dc28b53181da2415c99eb942f8b8ec394ccbb80013d803a0b81a404195ce",
+  "latest_version": "0.4.7",
+  "installed_version": "0.4.7",
+  "installed_is_latest": true,
+  "no_install_upgrade_execution": true
+}

@@ -1,0 +1,8 @@
+{
+  "source_backed_by": "starteruv.lockofficialac2packageindex",
+  "url": "https://api.appliedcompute.com/v1/pypi/simple/ac2/",
+  "status": 401,
+  "sha256": "a10d58061396f366e40ef4525d28c11882b6fbaea2495b272fe1d47195dd75ef",
+  "authorization_sent": false,
+  "versions": []
+}

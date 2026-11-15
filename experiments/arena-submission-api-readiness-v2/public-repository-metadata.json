@@ -1,0 +1,10 @@
+{
+  "url": "https://api.github.com/orgs/Applied-Compute/repos?per_page=100&type=public",
+  "status": 200,
+  "public_repo_count": 4,
+  "sdk_named_candidates": [
+    "ac2-cookbook"
+  ],
+  "authorization_sent": false,
+  "sha256": "d15192294cea6a089fb8d61b61fb0637968a898d517e7a46717f9ce661a9e565"
+}

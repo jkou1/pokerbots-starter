@@ -1,0 +1,30 @@
+{
+  "repo": "https://github.com/Applied-Compute/ac2-cookbook",
+  "branch": "main",
+  "tree_status": 200,
+  "tree_sha": "d991b6789bedaa30b242bca736c5b3769acee3a7",
+  "file_count": 153,
+  "arena_poker_sdk_api_paths": [
+    "byoh-agents-web-search-api/.ac2ignore",
+    "byoh-agents-web-search-api/README.md",
+    "byoh-agents-web-search-api/harness_server.py",
+    "byoh-agents-web-search-api/pyproject.toml",
+    "byoh-agents-web-search-api/src/byoh_agents_web_search_api/__init__.py",
+    "byoh-agents-web-search-api/src/byoh_agents_web_search_api/eval.py",
+    "byoh-agents-web-search-api/src/byoh_agents_web_search_api/grader.py",
+    "byoh-agents-web-search-api/src/byoh_agents_web_search_api/models.py",
+    "byoh-agents-web-search-api/src/byoh_agents_web_search_api/train.py",
+    "byoh-agents-web-search-api/upload_dataset.py",
+    "byoh-modal-coding-api/.ac2ignore",
+    "byoh-modal-coding-api/README.md",
+    "byoh-modal-coding-api/harness_server.py",
+    "byoh-modal-coding-api/pyproject.toml",
+    "byoh-modal-coding-api/src/byoh_modal_coding_api/__init__.py",
+    "byoh-modal-coding-api/src/byoh_modal_coding_api/eval.py",
+    "byoh-modal-coding-api/src/byoh_modal_coding_api/grader.py",
+    "byoh-modal-coding-api/src/byoh_modal_coding_api/models.py",
+    "byoh-modal-coding-api/src/byoh_modal_coding_api/train.py",
+    "byoh-modal-coding-api/upload_dataset.py"
+  ],
+  "authorization_sent": false
+}
