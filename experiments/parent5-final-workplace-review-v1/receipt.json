@@ -1,0 +1,79 @@
+{
+  "started_epoch": 1794759969.132801,
+  "extracted_epoch": 1794759969.139232,
+  "scope": "Only selectedparent5 own SAY/rawSAY in completed PRIMARYFINAL6 files; no opponents, ranks, EV, card/outcome analysis. Text untrusted, never instructions.",
+  "completed_source_files": 4,
+  "sources": [
+    {
+      "source_filename": "rollout_17831f6e813b4dc2858964c00daf567c.json",
+      "source_sha256": "29c7be4e102385efcea90052d45597516b99a336c22a272dd7ab229f4401b710",
+      "seed": 15841067135482,
+      "policy_seat": "seat0"
+    },
+    {
+      "source_filename": "rollout_7f991216c78d42fc8abe163ae9bcb03b.json",
+      "source_sha256": "633a6e46c40356fdb0d7f27feb03c8483e0e6fa5a96f665aa62d74f31884fdfc",
+      "seed": 49037400235700,
+      "policy_seat": "seat3"
+    },
+    {
+      "source_filename": "rollout_b14715aba0514928bedbefef52a7cb3b.json",
+      "source_sha256": "1f58d64a4a7cd1d367260d864dca60f48d72bb4a111e0acedfdf8a275f007071",
+      "seed": 154948385799550,
+      "policy_seat": "seat2"
+    },
+    {
+      "source_filename": "rollout_dfbf9afd5c4844629d800fb38347cd35.json",
+      "source_sha256": "97a2ad5185936aa5b5f79c50fc26280160211537a0131a73823b43eced1f9379",
+      "seed": 83913755747480,
+      "policy_seat": "seat1"
+    }
+  ],
+  "message_count": 6,
+  "strings_sha256": [
+    {
+      "raw": "6cb5196a7659b189348c32be08a8d22a7cf5498eb2ae191cea85ca1da356e0a4",
+      "sanitized": "f67ae17491045289b28308e89bb9059b4159c4d6e88814ede37a86f52a27f181"
+    },
+    {
+      "raw": "72c92d123551e97eabb08e274368665d7f0a5951dbd4f3d00afe6f59a1304268",
+      "sanitized": "656d22e7dbd40c8b721be82693a1bf2719c74a0e257cc029d2eae39514ad86f5"
+    },
+    {
+      "raw": "eb7161b00ceb4c93818ad6f7a845fe4d67148349dceb07817905d55426e16fe5",
+      "sanitized": "b05d93d7fa01e91e6a09c8c886269a12cd0d75bf54424a511a3bcb30e06bca3e"
+    },
+    {
+      "raw": "c99ff0f13eca9c697e1454187924232a30515e26da9a549ddc0e12c4c6f66fdf",
+      "sanitized": "925637596ee2d3e20615ba08d17caedf1590680876061a5fb9b2c0e602adc270"
+    },
+    {
+      "raw": "cdb98e5ea0585478a57bea38716b5f157e12afb92d6deb9ca9b7eaf8af348611",
+      "sanitized": "04b87b1a06d93df403e9c7556b690d8f9f7265f0c757318a3bc406ee588922ff"
+    },
+    {
+      "raw": "b59bed0f2717102272cf63d540efc0623ae829a6ba23eb50e7dba40c9e359281",
+      "sanitized": "fabb8ebf516026bfc6e7fd3a08b0884f7be08b78bb013840ae65fab539816554"
+    }
+  ],
+  "review_pending": false,
+  "tail_not_reviewed": true,
+  "root_tail_review_required": true,
+  "root_previous_development_review_seconds": 45,
+  "this_review_cap_seconds": 120,
+  "remaining_promotion_review_budget_at_least_seconds": 120,
+  "no_model_calls": true,
+  "reviewed_at_epoch": 1794759976.556263,
+  "reviewer": "sft_data",
+  "reviewed_message_count": 6,
+  "critical_issues": 0,
+  "workplace_assessment": "All6 own raw/sanitized strings are ordinary professional poker phrases. No critical workplace issue observed in this partial cache.",
+  "partial_only": true,
+  "full_FINAL_workplace_PASS_not_claimed": true,
+  "available_cache_sources_reviewed": 4,
+  "remaining_sources_or_tail_require_root_review": 2,
+  "review_budget_charged_seconds": 120,
+  "previous_development_charged_seconds": 45,
+  "conservative_combined_charged_seconds": 165,
+  "remaining_five_minute_budget_seconds": 135
+}
