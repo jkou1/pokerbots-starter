@@ -1,0 +1,39 @@
+{
+  "verified_at": "2026-11-15T11:31:25.178621+00:00",
+  "train_id": "train_41ab837f39e5",
+  "train_status": "succeeded",
+  "optimizer_updates": 10,
+  "checkpoint_serving": {
+    "ckpt_9d62f73b201e": {
+      "iter_num": 4,
+      "requested": true,
+      "identity": {
+        "owner": "lmathias@berkeley.edu",
+        "org_id": "org_cd68943dd947",
+        "unix_uid": 10464,
+        "runtime_user_secret_exists": true
+      },
+      "requested_at": "2026-11-15T11:22:22.014981+00:00",
+      "state": "available"
+    },
+    "ckpt_95bc5ed22ed8": {
+      "iter_num": 9,
+      "requested": true,
+      "identity": {
+        "owner": "lmathias@berkeley.edu",
+        "org_id": "org_cd68943dd947",
+        "unix_uid": 10464,
+        "runtime_user_secret_exists": true
+      },
+      "requested_at": "2026-11-15T11:24:30.189317+00:00",
+      "state": "available"
+    }
+  },
+  "actual_compute_exit": "ops verified exit0 at2026-11-15T11:24:22UTC;4 GPUs released",
+  "all_target_audits_passed": true,
+  "exactly_one_conversion_request_per_checkpoint": true,
+  "no_extension": true,
+  "no_promotion": true,
+  "canary_active": false,
+  "dataset": "pokerbots-mixed-pete-carlos-actions-cleanup-v2-train"
+}

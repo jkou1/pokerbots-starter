@@ -1,0 +1,22 @@
+{
+  "collection_id": "coll_6c119f846b5e",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "local_not_native_eval": true,
+  "artifacts": {
+    "mixed-s10-BEHAVIOR.md": {
+      "id": "art_b0fc8f61bf06",
+      "state": "ready",
+      "sha256": "0dc3e0435ac856c5e8db0ca3ec73b667064d807aaff26b776faaf887ee164a33"
+    },
+    "mixed-s10-behavior-summary.json": {
+      "id": "art_7f64ff777686",
+      "state": "ready",
+      "sha256": "c4426ec4ff6a6f1f819c65f559fdc993a5fd4264f55cc634e995db860e912a97"
+    }
+  }
+}

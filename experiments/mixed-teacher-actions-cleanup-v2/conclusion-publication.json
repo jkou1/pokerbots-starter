@@ -1,0 +1,21 @@
+{
+  "collection_id": "coll_6c119f846b5e",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "artifacts": {
+    "CONCLUSION.md": {
+      "id": "art_bb4dfc08ab6f",
+      "state": "ready",
+      "sha256": "c1be3c172bdf1005ede7bb60156c26f22cc87cfa23e1343a6fe1648dba7e437b"
+    },
+    "checkpoint-readiness.json": {
+      "id": "art_d1ffd72a834d",
+      "state": "ready",
+      "sha256": "9cafe18aaefc00e5d62e15e595d7e7d68879ebedfd48d89a5daeddeb372d7080"
+    }
+  }
+}
