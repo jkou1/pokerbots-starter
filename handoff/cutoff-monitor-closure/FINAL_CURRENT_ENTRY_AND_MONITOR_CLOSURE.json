@@ -1,0 +1,2214 @@
+{
+  "verified_after_cutoff": "2026-11-15T17:00:20.064744+00:00",
+  "deadline_UTC": "2026-11-15T17:00:00Z",
+  "processes": {
+    "miner": {
+      "pid": 79064,
+      "own_monitor_still_active": false,
+      "process_exists": false,
+      "command_matches_expected_monitor": false
+    },
+    "canary": {
+      "pid": 6692,
+      "own_monitor_still_active": false,
+      "process_exists": false,
+      "command_matches_expected_monitor": false
+    }
+  },
+  "monitor_status_receipts": {
+    "miner": {
+      "path": "/tmp/pokerbots-public-failure-status.json",
+      "sha256": "e002d82d2dac3869040f4dfa3813cc3b027b2a42c7ff380e67b08ef242a996c0",
+      "operational_status": {
+        "pid": 79064,
+        "poller_alive": false,
+        "status": "stopped_deadline",
+        "stopped_at": "2026-11-15T17:00:00.009789Z",
+        "updated_at": "2026-11-15T16:57:43.122846Z",
+        "deadline": "2026-11-15T17:00:00Z"
+      }
+    },
+    "canary": {
+      "path": "/tmp/pokerbots-arena-canary-status.json",
+      "sha256": "d5765749446080d0a5a896cd7c2a17540e8026d4527570f54890f7d039e516a7",
+      "operational_status": {
+        "monitor_pid": 6692,
+        "mode": "stopped_at_deadline",
+        "updated_at": "2026-11-15T17:00:00.666314+00:00",
+        "read_only": true,
+        "automatic_rollback": false
+      }
+    }
+  },
+  "no_restart_or_rescheduling": true,
+  "final_existing_miner_cycle": "20261115T165721Z",
+  "final_existing_output_updated_at": "2026-11-15T16:57:43.122846Z",
+  "final_snapshot_sha256": "25c0943cb9ae08e4d45916a94c307cf22979ea1051b12739b01f9d2a5ad779f9",
+  "final_manifest_sha256": "b93e9c8c63865ef14fd478788404d7c7822c426d282c629c61074b5ef4ba6226",
+  "current_entry_only": {
+    "aggregation_scope": "exact_published_entry_metadata",
+    "appropriateness_flag_counts": {},
+    "appropriateness_flag_rates": {},
+    "category_rates_nonadditive": {
+      "explicit_engine_error": 0.003575685339690107,
+      "invalid_check": 0.0007151370679380214,
+      "invalid_enum": 0.0011918951132300357,
+      "invalid_raise": 0.0014302741358760429
+    },
+    "entry": {
+      "checkpoint_id": "ckpt_51eee61470f7",
+      "deployment_id": "infer_b0f5e9429b7e",
+      "deployment_version": 1,
+      "limitation": null,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "observed_in_match": "m_20261115t164137_5ef5d5",
+      "observed_started_at": "2026-11-15T16:41:37Z",
+      "selection": "exact_published_entry_metadata",
+      "submission_name": "return of rain man"
+    },
+    "execution_outcome_counts": {
+      "forced_fold_fallback": 7,
+      "legal_executed_coercion": 7,
+      "other_fallback": 1
+    },
+    "failure_counts_nonadditive": {
+      "explicit_engine_error": 15,
+      "invalid_check": 3,
+      "invalid_enum": 5,
+      "invalid_raise": 6
+    },
+    "matches": 98,
+    "per_match": [
+      {
+        "actions": 48,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:14:15Z",
+        "match_id": "m_20261115t082229_96a76f",
+        "started_at": "2026-11-15T08:22:29Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 66,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:11:13Z",
+        "match_id": "m_20261115t083637_02a1b7",
+        "started_at": "2026-11-15T08:36:37Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 46,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:13:59Z",
+        "match_id": "m_20261115t084110_5c47a9",
+        "started_at": "2026-11-15T08:41:10Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 48,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_check": 1
+        },
+        "finished_at": "2026-11-15T09:21:09Z",
+        "match_id": "m_20261115t084659_2dfe6e",
+        "started_at": "2026-11-15T08:46:59Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.020833333333333332,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 46,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:17:23Z",
+        "match_id": "m_20261115t084745_5f9cee",
+        "started_at": "2026-11-15T08:47:45Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 50,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:28:05Z",
+        "match_id": "m_20261115t085350_63b000",
+        "started_at": "2026-11-15T08:53:50Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 45,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:22:34Z",
+        "match_id": "m_20261115t085403_de46a3",
+        "started_at": "2026-11-15T08:54:03Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 59,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:24:54Z",
+        "match_id": "m_20261115t090829_132749",
+        "started_at": "2026-11-15T09:08:29Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 10,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:23:07Z",
+        "match_id": "m_20261115t090915_b13436",
+        "started_at": "2026-11-15T09:09:15Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 9,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:25:50Z",
+        "match_id": "m_20261115t090945_851896",
+        "started_at": "2026-11-15T09:09:45Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 57,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:29:59Z",
+        "match_id": "m_20261115t091015_4e7750",
+        "started_at": "2026-11-15T09:10:15Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 59,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 2,
+          "invalid_raise": 2
+        },
+        "finished_at": "2026-11-15T09:23:27Z",
+        "match_id": "m_20261115t091045_437780",
+        "started_at": "2026-11-15T09:10:45Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.03389830508474576,
+        "unique_affected_actions": 2
+      },
+      {
+        "actions": 41,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:29:25Z",
+        "match_id": "m_20261115t091117_58be4c",
+        "started_at": "2026-11-15T09:11:17Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 42,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:33:34Z",
+        "match_id": "m_20261115t091402_942273",
+        "started_at": "2026-11-15T09:14:02Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 41,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:31:29Z",
+        "match_id": "m_20261115t091419_c6f676",
+        "started_at": "2026-11-15T09:14:19Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 5,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:24:45Z",
+        "match_id": "m_20261115t091734_031585",
+        "started_at": "2026-11-15T09:17:34Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 64,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:40:02Z",
+        "match_id": "m_20261115t092122_798b04",
+        "started_at": "2026-11-15T09:21:22Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 53,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:39:06Z",
+        "match_id": "m_20261115t092238_6ddf51",
+        "started_at": "2026-11-15T09:22:38Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 44,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:31:57Z",
+        "match_id": "m_20261115t092308_9862e1",
+        "started_at": "2026-11-15T09:23:08Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 50,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:40:59Z",
+        "match_id": "m_20261115t092338_cbb5c8",
+        "started_at": "2026-11-15T09:23:38Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 41,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:41:56Z",
+        "match_id": "m_20261115t092511_a28e6a",
+        "started_at": "2026-11-15T09:25:11Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 41,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:44:32Z",
+        "match_id": "m_20261115t092555_96d792",
+        "started_at": "2026-11-15T09:25:55Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 44,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:49:08Z",
+        "match_id": "m_20261115t092812_9f031b",
+        "started_at": "2026-11-15T09:28:12Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 41,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:37:44Z",
+        "match_id": "m_20261115t092942_71e319",
+        "started_at": "2026-11-15T09:29:42Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 16,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_enum": 1
+        },
+        "finished_at": "2026-11-15T09:42:01Z",
+        "match_id": "m_20261115t093012_543780",
+        "started_at": "2026-11-15T09:30:12Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0625,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 54,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:50:26Z",
+        "match_id": "m_20261115t093143_817305",
+        "started_at": "2026-11-15T09:31:43Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 30,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:41:25Z",
+        "match_id": "m_20261115t093158_93a275",
+        "started_at": "2026-11-15T09:31:58Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 36,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:46:26Z",
+        "match_id": "m_20261115t093345_593f94",
+        "started_at": "2026-11-15T09:33:45Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 35,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:51:01Z",
+        "match_id": "m_20261115t093747_b943f3",
+        "started_at": "2026-11-15T09:37:47Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 3,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:47:33Z",
+        "match_id": "m_20261115t093803_4d8266",
+        "started_at": "2026-11-15T09:38:03Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 49,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:59:16Z",
+        "match_id": "m_20261115t093918_2b08da",
+        "started_at": "2026-11-15T09:39:18Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 41,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:02:11Z",
+        "match_id": "m_20261115t094104_d78191",
+        "started_at": "2026-11-15T09:41:04Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 62,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:58:39Z",
+        "match_id": "m_20261115t094134_a16446",
+        "started_at": "2026-11-15T09:41:34Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 48,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:01:34Z",
+        "match_id": "m_20261115t094220_b77725",
+        "started_at": "2026-11-15T09:42:20Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 38,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:04:07Z",
+        "match_id": "m_20261115t094237_bf463f",
+        "started_at": "2026-11-15T09:42:37Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 40,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:59:36Z",
+        "match_id": "m_20261115t094439_969162",
+        "started_at": "2026-11-15T09:44:39Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 39,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:02:36Z",
+        "match_id": "m_20261115t094639_0662af",
+        "started_at": "2026-11-15T09:46:39Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 53,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T09:57:56Z",
+        "match_id": "m_20261115t094740_9f24bc",
+        "started_at": "2026-11-15T09:47:40Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 51,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:06:47Z",
+        "match_id": "m_20261115t094912_37a72e",
+        "started_at": "2026-11-15T09:49:12Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 34,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:07:32Z",
+        "match_id": "m_20261115t095042_4ec98f",
+        "started_at": "2026-11-15T09:50:42Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 46,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:09:12Z",
+        "match_id": "m_20261115t095112_70e4f5",
+        "started_at": "2026-11-15T09:51:12Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 44,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:12:35Z",
+        "match_id": "m_20261115t095747_f892ea",
+        "started_at": "2026-11-15T09:57:47Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 33,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_check": 1
+        },
+        "finished_at": "2026-11-15T10:11:08Z",
+        "match_id": "m_20261115t095817_4c6889",
+        "started_at": "2026-11-15T09:58:17Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.030303030303030304,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 42,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:15:34Z",
+        "match_id": "m_20261115t095849_c80a98",
+        "started_at": "2026-11-15T09:58:49Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 53,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1
+        },
+        "finished_at": "2026-11-15T10:17:13Z",
+        "match_id": "m_20261115t095933_ce0f90",
+        "started_at": "2026-11-15T09:59:33Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.018867924528301886,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 53,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:18:28Z",
+        "match_id": "m_20261115t095948_364020",
+        "started_at": "2026-11-15T09:59:48Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 45,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:19:10Z",
+        "match_id": "m_20261115t100136_367246",
+        "started_at": "2026-11-15T10:01:36Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 40,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:11:10Z",
+        "match_id": "m_20261115t100222_2ac4d4",
+        "started_at": "2026-11-15T10:02:22Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 36,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:20:22Z",
+        "match_id": "m_20261115t100252_f22e5d",
+        "started_at": "2026-11-15T10:02:52Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 57,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:22:45Z",
+        "match_id": "m_20261115t100423_856e18",
+        "started_at": "2026-11-15T10:04:23Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 54,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:32:49Z",
+        "match_id": "m_20261115t100653_8fc01e",
+        "started_at": "2026-11-15T10:06:53Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 36,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:23:01Z",
+        "match_id": "m_20261115t100739_bd9752",
+        "started_at": "2026-11-15T10:07:39Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 57,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:30:42Z",
+        "match_id": "m_20261115t100926_7f27f0",
+        "started_at": "2026-11-15T10:09:26Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 41,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:29:32Z",
+        "match_id": "m_20261115t101112_f09721",
+        "started_at": "2026-11-15T10:11:12Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 59,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:27:29Z",
+        "match_id": "m_20261115t101128_cfef0f",
+        "started_at": "2026-11-15T10:11:28Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 38,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:31:54Z",
+        "match_id": "m_20261115t101243_3ab1a6",
+        "started_at": "2026-11-15T10:12:43Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 52,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 2,
+          "invalid_enum": 1,
+          "invalid_raise": 1
+        },
+        "finished_at": "2026-11-15T10:32:56Z",
+        "match_id": "m_20261115t101546_a9a1c7",
+        "started_at": "2026-11-15T10:15:46Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.038461538461538464,
+        "unique_affected_actions": 2
+      },
+      {
+        "actions": 15,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:28:53Z",
+        "match_id": "m_20261115t101716_aae20b",
+        "started_at": "2026-11-15T10:17:16Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 63,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:38:18Z",
+        "match_id": "m_20261115t101832_58ef98",
+        "started_at": "2026-11-15T10:18:32Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 46,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:37:26Z",
+        "match_id": "m_20261115t101918_e8b48d",
+        "started_at": "2026-11-15T10:19:18Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 46,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:41:43Z",
+        "match_id": "m_20261115t102033_02b1e5",
+        "started_at": "2026-11-15T10:20:33Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 50,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:37:08Z",
+        "match_id": "m_20261115t102251_63fd3d",
+        "started_at": "2026-11-15T10:22:51Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 60,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_check": 1
+        },
+        "finished_at": "2026-11-15T10:39:40Z",
+        "match_id": "m_20261115t102306_104ff6",
+        "started_at": "2026-11-15T10:23:06Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.016666666666666666,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 9,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:37:37Z",
+        "match_id": "m_20261115t102739_dae693",
+        "started_at": "2026-11-15T10:27:39Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 38,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:45:42Z",
+        "match_id": "m_20261115t102910_734112",
+        "started_at": "2026-11-15T10:29:10Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 50,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_enum": 1
+        },
+        "finished_at": "2026-11-15T10:45:18Z",
+        "match_id": "m_20261115t102942_7f3e01",
+        "started_at": "2026-11-15T10:29:42Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.02,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 42,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:51:23Z",
+        "match_id": "m_20261115t103056_16cb18",
+        "started_at": "2026-11-15T10:30:56Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 35,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:49:26Z",
+        "match_id": "m_20261115t103157_062ee8",
+        "started_at": "2026-11-15T10:31:57Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 51,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:50:30Z",
+        "match_id": "m_20261115t103258_dcb989",
+        "started_at": "2026-11-15T10:32:58Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 51,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_raise": 1
+        },
+        "finished_at": "2026-11-15T10:53:10Z",
+        "match_id": "m_20261115t103715_240508",
+        "started_at": "2026-11-15T10:37:15Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0196078431372549,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 47,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:54:35Z",
+        "match_id": "m_20261115t103731_78a466",
+        "started_at": "2026-11-15T10:37:31Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 48,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T10:54:21Z",
+        "match_id": "m_20261115t103747_e3fc2f",
+        "started_at": "2026-11-15T10:37:47Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 63,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T11:01:16Z",
+        "match_id": "m_20261115t104522_33b7de",
+        "started_at": "2026-11-15T10:45:22Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 40,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_enum": 1
+        },
+        "finished_at": "2026-11-15T11:07:09Z",
+        "match_id": "m_20261115t105040_81e3b1",
+        "started_at": "2026-11-15T10:50:40Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.025,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 50,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:20:00Z",
+        "match_id": "m_20261115t155745_930153",
+        "started_at": "2026-11-15T15:57:45Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 33,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:17:57Z",
+        "match_id": "m_20261115t155931_4b9dd9",
+        "started_at": "2026-11-15T15:59:31Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 53,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_enum": 1
+        },
+        "finished_at": "2026-11-15T16:21:31Z",
+        "match_id": "m_20261115t160016_00038d",
+        "started_at": "2026-11-15T16:00:16Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.018867924528301886,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 42,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:17:31Z",
+        "match_id": "m_20261115t160147_817991",
+        "started_at": "2026-11-15T16:01:47Z",
+        "target_seats": [
+          5
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 48,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:20:07Z",
+        "match_id": "m_20261115t160606_1bfb5e",
+        "started_at": "2026-11-15T16:06:06Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 43,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_raise": 1
+        },
+        "finished_at": "2026-11-15T16:26:34Z",
+        "match_id": "m_20261115t160940_c0c3fb",
+        "started_at": "2026-11-15T16:09:40Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.023255813953488372,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 45,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:25:12Z",
+        "match_id": "m_20261115t161009_87e100",
+        "started_at": "2026-11-15T16:10:09Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 40,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_raise": 1
+        },
+        "finished_at": "2026-11-15T16:29:12Z",
+        "match_id": "m_20261115t161112_9964dc",
+        "started_at": "2026-11-15T16:11:12Z",
+        "target_seats": [
+          1
+        ],
+        "unique_affected_action_rate": 0.025,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 54,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:30:37Z",
+        "match_id": "m_20261115t161256_969f24",
+        "started_at": "2026-11-15T16:12:56Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 41,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:34:36Z",
+        "match_id": "m_20261115t161412_4c3750",
+        "started_at": "2026-11-15T16:14:12Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 44,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:34:38Z",
+        "match_id": "m_20261115t161732_1c458c",
+        "started_at": "2026-11-15T16:17:32Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 2,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:20:21Z",
+        "match_id": "m_20261115t161745_d1a29a",
+        "started_at": "2026-11-15T16:17:45Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 48,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:40:36Z",
+        "match_id": "m_20261115t162018_07bfdb",
+        "started_at": "2026-11-15T16:20:18Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 38,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:42:28Z",
+        "match_id": "m_20261115t162142_6213fa",
+        "started_at": "2026-11-15T16:21:42Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 42,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:44:50Z",
+        "match_id": "m_20261115t162313_3303d6",
+        "started_at": "2026-11-15T16:23:13Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 43,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:41:07Z",
+        "match_id": "m_20261115t162400_003e51",
+        "started_at": "2026-11-15T16:24:00Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 36,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:43:47Z",
+        "match_id": "m_20261115t162445_9e428e",
+        "started_at": "2026-11-15T16:24:45Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 48,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:42:44Z",
+        "match_id": "m_20261115t162502_2ba77e",
+        "started_at": "2026-11-15T16:25:02Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 33,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:40:38Z",
+        "match_id": "m_20261115t162546_1ce045",
+        "started_at": "2026-11-15T16:25:46Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 34,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:40:20Z",
+        "match_id": "m_20261115t162600_47408d",
+        "started_at": "2026-11-15T16:26:00Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 37,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:50:46Z",
+        "match_id": "m_20261115t163819_d65dc9",
+        "started_at": "2026-11-15T16:38:19Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 41,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:54:08Z",
+        "match_id": "m_20261115t164006_39d374",
+        "started_at": "2026-11-15T16:40:06Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 43,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:54:44Z",
+        "match_id": "m_20261115t164036_8410a8",
+        "started_at": "2026-11-15T16:40:36Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 38,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:54:40Z",
+        "match_id": "m_20261115t164137_5ef5d5",
+        "started_at": "2026-11-15T16:41:37Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      }
+    ],
+    "published_say_messages": 0,
+    "tag_counts_warning": "Failure categories are non-additive tags; use unique_affected_actions for incident counts.",
+    "target_actions": 4195,
+    "time_window": {
+      "finished_at": "2026-11-15T16:54:44Z",
+      "started_at": "2026-11-15T08:22:29Z"
+    },
+    "unique_affected_action_rate": 0.003575685339690107,
+    "unique_affected_actions": 15,
+    "warning": "This is the only own aggregate representing the current published entry/version."
+  },
+  "coverage": {
+    "discovered_on_first_page": 25,
+    "file": "cycles/20261115T165721Z/own-listing.html",
+    "not_selected": 17,
+    "pagination": "first page only by design; listing URL followed from team page",
+    "selected": 8,
+    "sha256": "8f82a12f949f04baabb989b06addbb777a2883dcc19cf57f8f91c291fc3f29bb",
+    "team_file": "cycles/20261115T165721Z/own-team.html",
+    "team_sha256": "109977bde946a823b6bf7732f23306cc13e74d518dc91dccdb2173778f9cefe6",
+    "team_url": "https://www.pokerbots.ac/teams/org_cd68943dd947",
+    "url": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947"
+  },
+  "latest_cycle_new_raw_downloads_all_scopes_not_current_entry_count": 6,
+  "source_urls_and_hashes_current_entry_only": [
+    {
+      "match_id": "m_20261115t091045_437780",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t091045_437780-BQF8YO1f1qXCdZtWwVcOblwFHCKIBT.json",
+      "source_sha256": "9f2c6445ec61fa2c269636bda44810c1fa7345fa813efe85609aa6f500e69c6e",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t091045_437780",
+      "fetched_at": "2026-11-15T09:23:29.135496Z",
+      "started_at": "2026-11-15T09:10:45Z",
+      "finished_at": "2026-11-15T09:23:27Z"
+    },
+    {
+      "match_id": "m_20261115t090915_b13436",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t090915_b13436-VpWKJZl7R4159idHXoaqZGJIIuBbui.json",
+      "source_sha256": "ede3ff253699f5b1b8b60956f3c23c616a119f4fa45b74b7ff4a22d7115fd877",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t090915_b13436",
+      "fetched_at": "2026-11-15T09:23:31.180511Z",
+      "started_at": "2026-11-15T09:09:15Z",
+      "finished_at": "2026-11-15T09:23:07Z"
+    },
+    {
+      "match_id": "m_20261115t085403_de46a3",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t085403_de46a3-PSac7iRr2MY4rHKroqxsNwPwrPMNnx.json",
+      "source_sha256": "f9fba1f4ee4a130236b4aadabb3bf54a6df82185356476f19ad11fd9f4c68e61",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t085403_de46a3",
+      "fetched_at": "2026-11-15T09:23:33.091748Z",
+      "started_at": "2026-11-15T08:54:03Z",
+      "finished_at": "2026-11-15T09:22:34Z"
+    },
+    {
+      "match_id": "m_20261115t084659_2dfe6e",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t084659_2dfe6e-5oMaimYTSfm534fgpyvmvBFiOick3G.json",
+      "source_sha256": "e314c5c8d22da7e8979ae44b434275c2694c95dab962d9ad8f9cf7e225535e38",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t084659_2dfe6e",
+      "fetched_at": "2026-11-15T09:23:35.081514Z",
+      "started_at": "2026-11-15T08:46:59Z",
+      "finished_at": "2026-11-15T09:21:09Z"
+    },
+    {
+      "match_id": "m_20261115t084745_5f9cee",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t084745_5f9cee-e3nG4Fn9daT9Z1RqpTAJFDgpYvPSYk.json",
+      "source_sha256": "0a6fc5262d59e42380a5832a80bdf69a3402a71bf9d7bc760a97bd5774756136",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t084745_5f9cee",
+      "fetched_at": "2026-11-15T09:23:37.073683Z",
+      "started_at": "2026-11-15T08:47:45Z",
+      "finished_at": "2026-11-15T09:17:23Z"
+    },
+    {
+      "match_id": "m_20261115t082229_96a76f",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t082229_96a76f-YTazJnCGZwypJUCqnuVfoF4nCW1TES.json",
+      "source_sha256": "294cac86203556a8535a61f284222c96c3c3e6bcaab1b086048ad79cdfb6a5df",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t082229_96a76f",
+      "fetched_at": "2026-11-15T09:23:39.122119Z",
+      "started_at": "2026-11-15T08:22:29Z",
+      "finished_at": "2026-11-15T09:14:15Z"
+    },
+    {
+      "match_id": "m_20261115t084110_5c47a9",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t084110_5c47a9-v99stITWTjPogyYO7fquefJnIb4T3Z.json",
+      "source_sha256": "57ceff3f9e0e401291191a0b7efe6cb9944783f89835ef0624a2f6d897e945bc",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t084110_5c47a9",
+      "fetched_at": "2026-11-15T09:23:41.132301Z",
+      "started_at": "2026-11-15T08:41:10Z",
+      "finished_at": "2026-11-15T09:13:59Z"
+    },
+    {
+      "match_id": "m_20261115t083637_02a1b7",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t083637_02a1b7-VdtzdL7gaSLoSQvuFLwGzxuoNCp1ip.json",
+      "source_sha256": "b78e3c79ad10f4b14dd0e2461f999c348b523578cf36d7491c2d295897f73fcf",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t083637_02a1b7",
+      "fetched_at": "2026-11-15T09:23:43.086128Z",
+      "started_at": "2026-11-15T08:36:37Z",
+      "finished_at": "2026-11-15T09:11:13Z"
+    },
+    {
+      "match_id": "m_20261115t085350_63b000",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t085350_63b000-yse4WaFO0yKdc46xS5OfVP1y6hHHKQ.json",
+      "source_sha256": "f29f35e25907c421d202dea9d0c428ce889a8321679ff01767c5dbd48bbe4fc3",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t085350_63b000",
+      "fetched_at": "2026-11-15T09:29:26.643338Z",
+      "started_at": "2026-11-15T08:53:50Z",
+      "finished_at": "2026-11-15T09:28:05Z"
+    },
+    {
+      "match_id": "m_20261115t090945_851896",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t090945_851896-kFoSA3mmmP6mwogmywXP4ekDpgiWhB.json",
+      "source_sha256": "b4296f308efc3aa798a0f0368730135dbe0886cea4abbd28c01c23d09245f15c",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t090945_851896",
+      "fetched_at": "2026-11-15T09:29:28.482887Z",
+      "started_at": "2026-11-15T09:09:45Z",
+      "finished_at": "2026-11-15T09:25:50Z"
+    },
+    {
+      "match_id": "m_20261115t090829_132749",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t090829_132749-LohbsdR4ATtn4ny638BMAwmWAEEcug.json",
+      "source_sha256": "c39364cc3e973c633bdb229b9aa125af87c602768c9218b47b78d71abd37e92f",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t090829_132749",
+      "fetched_at": "2026-11-15T09:29:30.484682Z",
+      "started_at": "2026-11-15T09:08:29Z",
+      "finished_at": "2026-11-15T09:24:54Z"
+    },
+    {
+      "match_id": "m_20261115t091734_031585",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t091734_031585-NKhedU07IHGWVcQWFZ194N3eNyxUBP.json",
+      "source_sha256": "912ac193a5fc865488ca5be719bc4b6d9b81658bf242c6e2ef0a663dd351c087",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t091734_031585",
+      "fetched_at": "2026-11-15T09:29:32.517909Z",
+      "started_at": "2026-11-15T09:17:34Z",
+      "finished_at": "2026-11-15T09:24:45Z"
+    },
+    {
+      "match_id": "m_20261115t091117_58be4c",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t091117_58be4c-FmlHB5LWGsO9ndLEI8KMvgZR5EH4bf.json",
+      "source_sha256": "fd166ce76f38b48cc7a0c67cf205e11a7c57da61e910b17cc42fe27dd1c6d715",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t091117_58be4c",
+      "fetched_at": "2026-11-15T09:29:34.579719Z",
+      "started_at": "2026-11-15T09:11:17Z",
+      "finished_at": "2026-11-15T09:29:25Z"
+    },
+    {
+      "match_id": "m_20261115t091015_4e7750",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t091015_4e7750-syFtnGAktlCOIeG78sW5OdcUMddmYG.json",
+      "source_sha256": "78f74315c455eb6a1757bc3bf60090cb12ff146a2e8bb10b395364b0922ba8ab",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t091015_4e7750",
+      "fetched_at": "2026-11-15T09:30:23.081270Z",
+      "started_at": "2026-11-15T09:10:15Z",
+      "finished_at": "2026-11-15T09:29:59Z"
+    },
+    {
+      "match_id": "m_20261115t091402_942273",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t091402_942273-wfs8sPZ3Vrfic1syfzijK6Lrs8vdVI.json",
+      "source_sha256": "4181da38f515ae3ad1a2b2698a6b5efff78437d594165e8d8708e033feff7fa8",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t091402_942273",
+      "fetched_at": "2026-11-15T09:34:35.527199Z",
+      "started_at": "2026-11-15T09:14:02Z",
+      "finished_at": "2026-11-15T09:33:34Z"
+    },
+    {
+      "match_id": "m_20261115t092308_9862e1",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t092308_9862e1-QCso8kzwc7fcoiqGKXBVWCQqAEBYef.json",
+      "source_sha256": "34ecc2642b36856766d58710aeb4a08ce5621c236f2a806c29cfd164512fdb36",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t092308_9862e1",
+      "fetched_at": "2026-11-15T09:34:37.457771Z",
+      "started_at": "2026-11-15T09:23:08Z",
+      "finished_at": "2026-11-15T09:31:57Z"
+    },
+    {
+      "match_id": "m_20261115t091419_c6f676",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t091419_c6f676-8yVgZd8pJdsRpXHKO86g8f8mITxGZn.json",
+      "source_sha256": "bac1ef967bc26dcdeed68f77f707d780793632c2cfd67f32bccae8ccf3dc15f7",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t091419_c6f676",
+      "fetched_at": "2026-11-15T09:34:39.432490Z",
+      "started_at": "2026-11-15T09:14:19Z",
+      "finished_at": "2026-11-15T09:31:29Z"
+    },
+    {
+      "match_id": "m_20261115t092555_96d792",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t092555_96d792-miqP2553y5dvYTkoxcdNJNgp8ylRUD.json",
+      "source_sha256": "2c6abe3352f8e883985fa84a8e3c4a741f38e881078e1eac576453439e5a38ed",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t092555_96d792",
+      "fetched_at": "2026-11-15T09:44:55.541674Z",
+      "started_at": "2026-11-15T09:25:55Z",
+      "finished_at": "2026-11-15T09:44:32Z"
+    },
+    {
+      "match_id": "m_20261115t093012_543780",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t093012_543780-NsUikQ1AkaMIG5RzBiuOqyy5h6Hd1l.json",
+      "source_sha256": "9e2e6d59877a193937ef9200ccce4eaad00d862f972ef54a959b511910453e68",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t093012_543780",
+      "fetched_at": "2026-11-15T09:44:57.463047Z",
+      "started_at": "2026-11-15T09:30:12Z",
+      "finished_at": "2026-11-15T09:42:01Z"
+    },
+    {
+      "match_id": "m_20261115t092511_a28e6a",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t092511_a28e6a-Zr2ESlTC5J9sATGDcB4ahvQllciHUQ.json",
+      "source_sha256": "b8602100d748f4beb328fce682689e119c3ee4dd9c2452ac9445911815341c5b",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t092511_a28e6a",
+      "fetched_at": "2026-11-15T09:44:59.425915Z",
+      "started_at": "2026-11-15T09:25:11Z",
+      "finished_at": "2026-11-15T09:41:56Z"
+    },
+    {
+      "match_id": "m_20261115t093158_93a275",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t093158_93a275-1qnPMSb8ijOtA9KO55UtOCUAy6ujMt.json",
+      "source_sha256": "b402dbf76b368e70cea4c6e09f32f78fc250fb007ae199c77cbfe2aaaf697a73",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t093158_93a275",
+      "fetched_at": "2026-11-15T09:45:01.429239Z",
+      "started_at": "2026-11-15T09:31:58Z",
+      "finished_at": "2026-11-15T09:41:25Z"
+    },
+    {
+      "match_id": "m_20261115t092338_cbb5c8",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t092338_cbb5c8-OF8PjgmCbZS1N3jsmNyhBiXTRyTqcN.json",
+      "source_sha256": "3394ef810c5f6197bc90d8dbb40e8f7345c13a199cc0e082919238e5787ba76c",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t092338_cbb5c8",
+      "fetched_at": "2026-11-15T09:45:03.448529Z",
+      "started_at": "2026-11-15T09:23:38Z",
+      "finished_at": "2026-11-15T09:40:59Z"
+    },
+    {
+      "match_id": "m_20261115t092122_798b04",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t092122_798b04-nJlamj0xLiQQjo1K0os0PWcfrnQh6n.json",
+      "source_sha256": "a5ac5120276afbb96a3f26422330e12f0295091d050761a32bb31c444b0fc036",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t092122_798b04",
+      "fetched_at": "2026-11-15T09:45:05.437798Z",
+      "started_at": "2026-11-15T09:21:22Z",
+      "finished_at": "2026-11-15T09:40:02Z"
+    },
+    {
+      "match_id": "m_20261115t092238_6ddf51",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t092238_6ddf51-EJF0BEpUfZbjx1VhcYQGarY3igGRhR.json",
+      "source_sha256": "4218065ce06d283e88949da00aabe74f12f6c2c5f204f3d3d2054e8eee743427",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t092238_6ddf51",
+      "fetched_at": "2026-11-15T09:45:07.470877Z",
+      "started_at": "2026-11-15T09:22:38Z",
+      "finished_at": "2026-11-15T09:39:06Z"
+    },
+    {
+      "match_id": "m_20261115t092942_71e319",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t092942_71e319-IOoq8lRAUGOI7CL4Ucgzokyi9g1YIR.json",
+      "source_sha256": "f60133c646b28e7bf7a11b64fd5a09e398d6e494b16893824959a6c17a529b8e",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t092942_71e319",
+      "fetched_at": "2026-11-15T09:45:09.444934Z",
+      "started_at": "2026-11-15T09:29:42Z",
+      "finished_at": "2026-11-15T09:37:44Z"
+    },
+    {
+      "match_id": "m_20261115t093747_b943f3",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t093747_b943f3-Cv4kuNPPv0DoPuZrIJBrIRainq7V3O.json",
+      "source_sha256": "c119deeeac8f0421c5e99c7b381cdf36b70f87b76c5699805aa576f27748f84d",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t093747_b943f3",
+      "fetched_at": "2026-11-15T09:54:55.550988Z",
+      "started_at": "2026-11-15T09:37:47Z",
+      "finished_at": "2026-11-15T09:51:01Z"
+    },
+    {
+      "match_id": "m_20261115t093143_817305",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t093143_817305-mFVHTpubTX8kRE4M4v4zrr5JMaBdO0.json",
+      "source_sha256": "00080dfcf601df797f3e2f53500106dcb7570a64b90e36417b5dcbf988502783",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t093143_817305",
+      "fetched_at": "2026-11-15T09:54:57.480565Z",
+      "started_at": "2026-11-15T09:31:43Z",
+      "finished_at": "2026-11-15T09:50:26Z"
+    },
+    {
+      "match_id": "m_20261115t092812_9f031b",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t092812_9f031b-HEqB2W9QUhL7wt3DnJJiYn89Eif2Ds.json",
+      "source_sha256": "f483fe2a8ac12e2964f2f0b40d47ee500efabeebd93aa1bc7667e765106833ed",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t092812_9f031b",
+      "fetched_at": "2026-11-15T09:54:59.466671Z",
+      "started_at": "2026-11-15T09:28:12Z",
+      "finished_at": "2026-11-15T09:49:08Z"
+    },
+    {
+      "match_id": "m_20261115t093803_4d8266",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t093803_4d8266-gyTlI9z0i1bnu2Xp2Zx78h2hDrNlXk.json",
+      "source_sha256": "a9367ab325b6bf8b3ebe2a262ef11f0efb10f77352ee339259c345789f90b81d",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t093803_4d8266",
+      "fetched_at": "2026-11-15T09:55:01.456087Z",
+      "started_at": "2026-11-15T09:38:03Z",
+      "finished_at": "2026-11-15T09:47:33Z"
+    },
+    {
+      "match_id": "m_20261115t093345_593f94",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t093345_593f94-I4WbAuWxZmLwfNWJ1ZF3U3kBXFiCR3.json",
+      "source_sha256": "938316d5c72ee630bf001d08f9323c7d2fa09fbadb0bf8dcbb9bb23816e483f8",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t093345_593f94",
+      "fetched_at": "2026-11-15T09:55:03.473104Z",
+      "started_at": "2026-11-15T09:33:45Z",
+      "finished_at": "2026-11-15T09:46:26Z"
+    },
+    {
+      "match_id": "m_20261115t094237_bf463f",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t094237_bf463f-xqR3HQLORQpAPUoFORgylJB5HKlPWJ.json",
+      "source_sha256": "b0d403f4ba90c4b3ff86db9595a343c74b64e8ff99ba831295463610d558c21a",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t094237_bf463f",
+      "fetched_at": "2026-11-15T10:04:55.534646Z",
+      "started_at": "2026-11-15T09:42:37Z",
+      "finished_at": "2026-11-15T10:04:07Z"
+    },
+    {
+      "match_id": "m_20261115t094639_0662af",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t094639_0662af-eHc9q0gS6ZCl2ECWR9cKqlUT83VHBm.json",
+      "source_sha256": "64f5542d079e57170fa82d2ad2860fcbde527aa50eecd10ee4df9b53715380f5",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t094639_0662af",
+      "fetched_at": "2026-11-15T10:04:57.522138Z",
+      "started_at": "2026-11-15T09:46:39Z",
+      "finished_at": "2026-11-15T10:02:36Z"
+    },
+    {
+      "match_id": "m_20261115t094104_d78191",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t094104_d78191-JlvXOe1g7HhiITD79y0UhpVqA8rmH2.json",
+      "source_sha256": "caa38343e1fe545659324617ce5c8132348f5b8e2cfb453fd433c3e9c3e69b3b",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t094104_d78191",
+      "fetched_at": "2026-11-15T10:04:59.491923Z",
+      "started_at": "2026-11-15T09:41:04Z",
+      "finished_at": "2026-11-15T10:02:11Z"
+    },
+    {
+      "match_id": "m_20261115t094220_b77725",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t094220_b77725-2SAez19qhOkW0xKefBpzlyPnD4yO5i.json",
+      "source_sha256": "74fa3bffc7ae5bf6f41b2f661f9dc922bbaf06c350cbd3a00a2f9c39106efa2d",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t094220_b77725",
+      "fetched_at": "2026-11-15T10:05:01.486990Z",
+      "started_at": "2026-11-15T09:42:20Z",
+      "finished_at": "2026-11-15T10:01:34Z"
+    },
+    {
+      "match_id": "m_20261115t094439_969162",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t094439_969162-T4rnG89pr1xPzDc2s3PGwAmDl4YxPa.json",
+      "source_sha256": "3551b385ba0b50627bffb211c429b0822b31eda08408fbfa425278216d6c4d07",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t094439_969162",
+      "fetched_at": "2026-11-15T10:05:03.481490Z",
+      "started_at": "2026-11-15T09:44:39Z",
+      "finished_at": "2026-11-15T09:59:36Z"
+    },
+    {
+      "match_id": "m_20261115t093918_2b08da",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t093918_2b08da-JByPWs2hFmyI0uNEzg83hjLTnskr5D.json",
+      "source_sha256": "c490abbb56a5b915c5513e063f540a71d600ef60fd7d5351d812ce8f4baffb82",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t093918_2b08da",
+      "fetched_at": "2026-11-15T10:05:05.505106Z",
+      "started_at": "2026-11-15T09:39:18Z",
+      "finished_at": "2026-11-15T09:59:16Z"
+    },
+    {
+      "match_id": "m_20261115t094134_a16446",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t094134_a16446-vBvtVn9kQYqXOHLTdyijMv40uwmIwA.json",
+      "source_sha256": "0708203ecac3fd04a0999c85f900fe0e6f9faf99b8252d0187ae256fc49ac554",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t094134_a16446",
+      "fetched_at": "2026-11-15T10:05:07.574542Z",
+      "started_at": "2026-11-15T09:41:34Z",
+      "finished_at": "2026-11-15T09:58:39Z"
+    },
+    {
+      "match_id": "m_20261115t094740_9f24bc",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t094740_9f24bc-G2RAR6u6d1CZou5Ijclfpe3wvn5ynz.json",
+      "source_sha256": "c07941a4841d2267a2da753eef672f17c3fbdff292f827abd4c59fc0171f5b7b",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t094740_9f24bc",
+      "fetched_at": "2026-11-15T10:05:09.554302Z",
+      "started_at": "2026-11-15T09:47:40Z",
+      "finished_at": "2026-11-15T09:57:56Z"
+    },
+    {
+      "match_id": "m_20261115t094912_37a72e",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t094912_37a72e-ujL3SwleAu9eAGGj1PU5vFDdaLvfMk.json",
+      "source_sha256": "51927d8cb147fb57b51f55516956cebdf46fee76c7f4557a1c87cffc93cce792",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t094912_37a72e",
+      "fetched_at": "2026-11-15T10:07:26.347233Z",
+      "started_at": "2026-11-15T09:49:12Z",
+      "finished_at": "2026-11-15T10:06:47Z"
+    },
+    {
+      "match_id": "m_20261115t095933_ce0f90",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t095933_ce0f90-hnePckXJ5idE7ie2rzPoTG8X0qC4Ys.json",
+      "source_sha256": "952d0378f49f1d4f654a56abaff585a335883becf1994dffd80ac8ffebd32490",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t095933_ce0f90",
+      "fetched_at": "2026-11-15T10:17:26.365760Z",
+      "started_at": "2026-11-15T09:59:33Z",
+      "finished_at": "2026-11-15T10:17:13Z"
+    },
+    {
+      "match_id": "m_20261115t095849_c80a98",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t095849_c80a98-rFTkMjWc6ARMX4JgBoKSv7xN3uEebj.json",
+      "source_sha256": "941c9ba001662f3a87b3a10854f662251612c53be94e5b9c6f7642f5888a391b",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t095849_c80a98",
+      "fetched_at": "2026-11-15T10:17:28.400310Z",
+      "started_at": "2026-11-15T09:58:49Z",
+      "finished_at": "2026-11-15T10:15:34Z"
+    },
+    {
+      "match_id": "m_20261115t095747_f892ea",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t095747_f892ea-Wy4hElgUxktH0U1Saq5od1sxUQFRPO.json",
+      "source_sha256": "086496b1cb700d846a5cd9123d316e3d7ec4c0da91fc1df9aff3546d31c0f63a",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t095747_f892ea",
+      "fetched_at": "2026-11-15T10:17:30.279500Z",
+      "started_at": "2026-11-15T09:57:47Z",
+      "finished_at": "2026-11-15T10:12:35Z"
+    },
+    {
+      "match_id": "m_20261115t100222_2ac4d4",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t100222_2ac4d4-DMmP6oxd3HiXyUighODA4PqRR786C5.json",
+      "source_sha256": "5db1a8ee88fafdaacafce7f059e568b9667ede39b4c07a2db95eea9b7ccca60b",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t100222_2ac4d4",
+      "fetched_at": "2026-11-15T10:17:32.293027Z",
+      "started_at": "2026-11-15T10:02:22Z",
+      "finished_at": "2026-11-15T10:11:10Z"
+    },
+    {
+      "match_id": "m_20261115t095817_4c6889",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t095817_4c6889-gh8dr25xb9EQSwIjuChC2x6clTc1JN.json",
+      "source_sha256": "81612db490efd630415596a029e75cea6be63702ed0e210033062b4230612d51",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t095817_4c6889",
+      "fetched_at": "2026-11-15T10:17:34.276176Z",
+      "started_at": "2026-11-15T09:58:17Z",
+      "finished_at": "2026-11-15T10:11:08Z"
+    },
+    {
+      "match_id": "m_20261115t095112_70e4f5",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t095112_70e4f5-vv7jgvI4Itp7czw6ySUdbkGDQIjp1I.json",
+      "source_sha256": "5aafd034fe0b5448dda22afb3300042fd32962f7d147ceb0e4160eef60866cef",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t095112_70e4f5",
+      "fetched_at": "2026-11-15T10:17:36.329508Z",
+      "started_at": "2026-11-15T09:51:12Z",
+      "finished_at": "2026-11-15T10:09:12Z"
+    },
+    {
+      "match_id": "m_20261115t095042_4ec98f",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t095042_4ec98f-IkvJfEXCmgX7CylnT4Zoc4VJEhKUad.json",
+      "source_sha256": "69ebb9f950c15ad56e7381867c0e021483af602c654336a94860557b06fb0097",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t095042_4ec98f",
+      "fetched_at": "2026-11-15T10:17:38.367764Z",
+      "started_at": "2026-11-15T09:50:42Z",
+      "finished_at": "2026-11-15T10:07:32Z"
+    },
+    {
+      "match_id": "m_20261115t100739_bd9752",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t100739_bd9752-aKHR9Ou3zQa4OybTXNTPUHoy7VAlXz.json",
+      "source_sha256": "14622940217f61ffe519d8dbef3992341da69bd211eb00e88c055ac9602a77a9",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t100739_bd9752",
+      "fetched_at": "2026-11-15T10:27:26.424818Z",
+      "started_at": "2026-11-15T10:07:39Z",
+      "finished_at": "2026-11-15T10:23:01Z"
+    },
+    {
+      "match_id": "m_20261115t100423_856e18",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t100423_856e18-Svqch2bRqTThf9RU3tn2Df5BGJN8to.json",
+      "source_sha256": "df770e3cc5b025b21b21f6e0fabf4894021c2d7a9b84e189525451b3b816bb01",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t100423_856e18",
+      "fetched_at": "2026-11-15T10:27:28.322653Z",
+      "started_at": "2026-11-15T10:04:23Z",
+      "finished_at": "2026-11-15T10:22:45Z"
+    },
+    {
+      "match_id": "m_20261115t100252_f22e5d",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t100252_f22e5d-1GUPP1Ut0tbkU6pNUAgjkwmWhwHO7o.json",
+      "source_sha256": "2853ed2f139d03aa3d7a19be0aba0c422ef3c9b59488465a43e0906bbf3b9e3e",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t100252_f22e5d",
+      "fetched_at": "2026-11-15T10:27:30.281890Z",
+      "started_at": "2026-11-15T10:02:52Z",
+      "finished_at": "2026-11-15T10:20:22Z"
+    },
+    {
+      "match_id": "m_20261115t100136_367246",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t100136_367246-1b3dEx0Zl3RSXq54HTIf9nTCNPCnfg.json",
+      "source_sha256": "462cd2310ce621bdbd2a9c1467dfad6601ad5080b58c621840cbc7e4d362d8c4",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t100136_367246",
+      "fetched_at": "2026-11-15T10:27:32.289283Z",
+      "started_at": "2026-11-15T10:01:36Z",
+      "finished_at": "2026-11-15T10:19:10Z"
+    },
+    {
+      "match_id": "m_20261115t095948_364020",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t095948_364020-M3FSlMvCvNPpqBROdNwIMYQrci2DoP.json",
+      "source_sha256": "0baee23a0839854cacd34bebef8dd7edd90463e3706d6ed8b46bf5da63d65deb",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t095948_364020",
+      "fetched_at": "2026-11-15T10:27:34.297160Z",
+      "started_at": "2026-11-15T09:59:48Z",
+      "finished_at": "2026-11-15T10:18:28Z"
+    },
+    {
+      "match_id": "m_20261115t102251_63fd3d",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t102251_63fd3d-ljLWOKAiVXFSIFAMJIvZ1iH5TRTVJU.json",
+      "source_sha256": "a5e7344772da19c8e01daa1f5a4fadfcfc5c909bc63e8a7391d1e71f61a18aab",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t102251_63fd3d",
+      "fetched_at": "2026-11-15T10:37:26.340922Z",
+      "started_at": "2026-11-15T10:22:51Z",
+      "finished_at": "2026-11-15T10:37:08Z"
+    },
+    {
+      "match_id": "m_20261115t101546_a9a1c7",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t101546_a9a1c7-yz9aqCLOdbzYZ0AVR8vd67VDazMdld.json",
+      "source_sha256": "a31bb90450593405396830ddde94c69b1c9769b99fe9cdc805bb23a4d8ca3b5a",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t101546_a9a1c7",
+      "fetched_at": "2026-11-15T10:37:28.330954Z",
+      "started_at": "2026-11-15T10:15:46Z",
+      "finished_at": "2026-11-15T10:32:56Z"
+    },
+    {
+      "match_id": "m_20261115t100653_8fc01e",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t100653_8fc01e-X2XxnFLWpHuwVF4UK4ydHznUGviq4d.json",
+      "source_sha256": "96bf358c00a46529851597ddf25b99c53a81ce95f1bf7b235af35a0ab1a4d86f",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t100653_8fc01e",
+      "fetched_at": "2026-11-15T10:37:30.598692Z",
+      "started_at": "2026-11-15T10:06:53Z",
+      "finished_at": "2026-11-15T10:32:49Z"
+    },
+    {
+      "match_id": "m_20261115t101243_3ab1a6",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t101243_3ab1a6-bIdeOuBJFx0Is35TxF38dmVxxJw7Wt.json",
+      "source_sha256": "645e039b474c95ea4d6c6791438ad5fbd2f226d6294274d93722e67becc02462",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t101243_3ab1a6",
+      "fetched_at": "2026-11-15T10:37:32.662829Z",
+      "started_at": "2026-11-15T10:12:43Z",
+      "finished_at": "2026-11-15T10:31:54Z"
+    },
+    {
+      "match_id": "m_20261115t100926_7f27f0",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t100926_7f27f0-sfgmuaOaHGMnLQaQvR3MutUhvlSZiF.json",
+      "source_sha256": "318893ad969770e6c02d59d99534a07d7ed95cf4d6f1c57c1aa86b9b7927cf2c",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t100926_7f27f0",
+      "fetched_at": "2026-11-15T10:37:34.285276Z",
+      "started_at": "2026-11-15T10:09:26Z",
+      "finished_at": "2026-11-15T10:30:42Z"
+    },
+    {
+      "match_id": "m_20261115t101112_f09721",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t101112_f09721-YIOOGcCG9XZOhLqueNsIq3dg8UogLd.json",
+      "source_sha256": "60775b6414102bb3d53358440d0a94fbd1bdf19407fbbf376ec52c8e9311605c",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t101112_f09721",
+      "fetched_at": "2026-11-15T10:37:36.311966Z",
+      "started_at": "2026-11-15T10:11:12Z",
+      "finished_at": "2026-11-15T10:29:32Z"
+    },
+    {
+      "match_id": "m_20261115t101716_aae20b",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t101716_aae20b-dP4J0lRyWnXKTWy1de5laRtp0O93e9.json",
+      "source_sha256": "0babeb7f4035c425288ce8500079e1c77232372faa75603b7a84cef3767b2493",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t101716_aae20b",
+      "fetched_at": "2026-11-15T10:37:38.308383Z",
+      "started_at": "2026-11-15T10:17:16Z",
+      "finished_at": "2026-11-15T10:28:53Z"
+    },
+    {
+      "match_id": "m_20261115t101128_cfef0f",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t101128_cfef0f-jozAvlIoh8S6qQVe4xFVoukhbelvIk.json",
+      "source_sha256": "4a756b63f776196e88064f917c1707af18abfd70c2c277589cccf8b68592c0d5",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t101128_cfef0f",
+      "fetched_at": "2026-11-15T10:37:40.375672Z",
+      "started_at": "2026-11-15T10:11:28Z",
+      "finished_at": "2026-11-15T10:27:29Z"
+    },
+    {
+      "match_id": "m_20261115t102910_734112",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t102910_734112-6ASMgcq4Pc0h97GNvr5vA2Im9Cdl7N.json",
+      "source_sha256": "a96046ac18a4a253b17c38699d5a1a49c3dca96a44daad8ee91d1ff262cadbca",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t102910_734112",
+      "fetched_at": "2026-11-15T10:47:26.390638Z",
+      "started_at": "2026-11-15T10:29:10Z",
+      "finished_at": "2026-11-15T10:45:42Z"
+    },
+    {
+      "match_id": "m_20261115t102942_7f3e01",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t102942_7f3e01-9CxJGlEmROjNYVCTOyikSwDndZf2d0.json",
+      "source_sha256": "3460822cf0aa01c24249a43d5e4ee68a629ff90ef1cf0aa47c1a3cfe3cf13d39",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t102942_7f3e01",
+      "fetched_at": "2026-11-15T10:47:28.303311Z",
+      "started_at": "2026-11-15T10:29:42Z",
+      "finished_at": "2026-11-15T10:45:18Z"
+    },
+    {
+      "match_id": "m_20261115t102033_02b1e5",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t102033_02b1e5-j0zWJq52dgVqvx3LAitHFbwxjTBZiu.json",
+      "source_sha256": "e0608d95bb272e6ba7595feb0e1a12ddea769eac2a191def2385cfda58f6e682",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t102033_02b1e5",
+      "fetched_at": "2026-11-15T10:47:30.334825Z",
+      "started_at": "2026-11-15T10:20:33Z",
+      "finished_at": "2026-11-15T10:41:43Z"
+    },
+    {
+      "match_id": "m_20261115t102306_104ff6",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t102306_104ff6-TLxxF8lKdYUw909RxmypbnqD79MnPY.json",
+      "source_sha256": "72ea317c988ef8014cc82c73383932684b1d59ee0b620744d436077b28e73671",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t102306_104ff6",
+      "fetched_at": "2026-11-15T10:47:32.346575Z",
+      "started_at": "2026-11-15T10:23:06Z",
+      "finished_at": "2026-11-15T10:39:40Z"
+    },
+    {
+      "match_id": "m_20261115t101832_58ef98",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t101832_58ef98-fk9zSR0MSCQ9u4KbIIlQc1OtNX2NKm.json",
+      "source_sha256": "5020a8f15628c540f65abf13e85aaf1a8e19c3f9b5e73e08e99001ec53c72b42",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t101832_58ef98",
+      "fetched_at": "2026-11-15T10:47:34.318607Z",
+      "started_at": "2026-11-15T10:18:32Z",
+      "finished_at": "2026-11-15T10:38:18Z"
+    },
+    {
+      "match_id": "m_20261115t102739_dae693",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t102739_dae693-4rp08pjNOq3SGzcizZu3NBwdRRuAhz.json",
+      "source_sha256": "76a5ea03922860780d1fb8766dc5290d9b5fb892ab73989af20b68c5089d5e1c",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t102739_dae693",
+      "fetched_at": "2026-11-15T10:47:36.379421Z",
+      "started_at": "2026-11-15T10:27:39Z",
+      "finished_at": "2026-11-15T10:37:37Z"
+    },
+    {
+      "match_id": "m_20261115t101918_e8b48d",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t101918_e8b48d-HzJsDQTdDiZGvy7NxXDAkAQDzOxJb5.json",
+      "source_sha256": "14e6963dbb100589ab9759e981664abf2ca6e5e66c8fd387cab074a31cf2b244",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t101918_e8b48d",
+      "fetched_at": "2026-11-15T10:47:38.363363Z",
+      "started_at": "2026-11-15T10:19:18Z",
+      "finished_at": "2026-11-15T10:37:26Z"
+    },
+    {
+      "match_id": "m_20261115t103731_78a466",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t103731_78a466-HinbBM7huAKl7ik40HNUFjfZcypftq.json",
+      "source_sha256": "d08fdf66aaebcc6a9e31d3b6c9e7cb914c7dbd6da2367be3c54d2636f4b72187",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t103731_78a466",
+      "fetched_at": "2026-11-15T10:57:26.366542Z",
+      "started_at": "2026-11-15T10:37:31Z",
+      "finished_at": "2026-11-15T10:54:35Z"
+    },
+    {
+      "match_id": "m_20261115t103747_e3fc2f",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t103747_e3fc2f-E0DtVw5A525KzDGI3NLS6iC2RT5XVW.json",
+      "source_sha256": "b7dbbac98d1085ecd4bd5d48a3092895f6048092224c4006f58a2c4cae5960f9",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t103747_e3fc2f",
+      "fetched_at": "2026-11-15T10:57:28.314963Z",
+      "started_at": "2026-11-15T10:37:47Z",
+      "finished_at": "2026-11-15T10:54:21Z"
+    },
+    {
+      "match_id": "m_20261115t103715_240508",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t103715_240508-3GHNX1wCTzxkMOQMFP9LnY0XudJRQ5.json",
+      "source_sha256": "56d60d689fc0cb9b161f7ccc5b6aee9f7635611b64d4d10085a5b79a43201247",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t103715_240508",
+      "fetched_at": "2026-11-15T10:57:30.271368Z",
+      "started_at": "2026-11-15T10:37:15Z",
+      "finished_at": "2026-11-15T10:53:10Z"
+    },
+    {
+      "match_id": "m_20261115t103056_16cb18",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t103056_16cb18-rJ2okxDXtznNnaDFEZCtkSW95G7ReZ.json",
+      "source_sha256": "c543884fe50424ac7d0ae5826673fcb98bc06cd624bc728109c2dd043b2c05a8",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t103056_16cb18",
+      "fetched_at": "2026-11-15T10:57:32.344477Z",
+      "started_at": "2026-11-15T10:30:56Z",
+      "finished_at": "2026-11-15T10:51:23Z"
+    },
+    {
+      "match_id": "m_20261115t103258_dcb989",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t103258_dcb989-H1aVhnuKDBHd1sSaqVvOGPhm85lej4.json",
+      "source_sha256": "4c718be11256e06c262fba7a6ebcca011b841532d975d9309556495e9984b8e3",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t103258_dcb989",
+      "fetched_at": "2026-11-15T10:57:34.343031Z",
+      "started_at": "2026-11-15T10:32:58Z",
+      "finished_at": "2026-11-15T10:50:30Z"
+    },
+    {
+      "match_id": "m_20261115t103157_062ee8",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t103157_062ee8-xwgEbxSsxesIqaY5veSvIvEveyeEee.json",
+      "source_sha256": "937857f8ac2b615468d236ab84f88d7b9756e69006d15707ef95990b1ffdfc65",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t103157_062ee8",
+      "fetched_at": "2026-11-15T10:57:36.485690Z",
+      "started_at": "2026-11-15T10:31:57Z",
+      "finished_at": "2026-11-15T10:49:26Z"
+    },
+    {
+      "match_id": "m_20261115t105040_81e3b1",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t105040_81e3b1-yIvClfgeGZ5dPUI1GyzyJQknQPSMAE.json",
+      "source_sha256": "5f52efaa3d2b1fe0766e73d0019627872d1252199e1060b72e45af07a2748997",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t105040_81e3b1",
+      "fetched_at": "2026-11-15T11:07:26.433605Z",
+      "started_at": "2026-11-15T10:50:40Z",
+      "finished_at": "2026-11-15T11:07:09Z"
+    },
+    {
+      "match_id": "m_20261115t104522_33b7de",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t104522_33b7de-NTzBQ7N4VNXhoNFOyrmFl0GDn0rZCQ.json",
+      "source_sha256": "0f4ca6acbdd56b68d1dc657ba0c7b5e6866938ee3c00e65ba221f36214d683f2",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t104522_33b7de",
+      "fetched_at": "2026-11-15T11:07:28.330741Z",
+      "started_at": "2026-11-15T10:45:22Z",
+      "finished_at": "2026-11-15T11:01:16Z"
+    },
+    {
+      "match_id": "m_20261115t160940_c0c3fb",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t160940_c0c3fb-3qK6WdPypfnkBsgmW9ys1nmAdpeCTe.json",
+      "source_sha256": "b6649534ae28dceb25e86b7e0e92385603a75f0a1a1d1baf99fdd3310539ce73",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t160940_c0c3fb",
+      "fetched_at": "2026-11-15T16:27:26.631737Z",
+      "started_at": "2026-11-15T16:09:40Z",
+      "finished_at": "2026-11-15T16:26:34Z"
+    },
+    {
+      "match_id": "m_20261115t161009_87e100",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t161009_87e100-S70o9wAzEwnry053tWafJVFP12kOj1.json",
+      "source_sha256": "35311fac3172b36119869f3b4c5a13d995f5ec38e143477af5aba5e51fe1da74",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t161009_87e100",
+      "fetched_at": "2026-11-15T16:27:28.607133Z",
+      "started_at": "2026-11-15T16:10:09Z",
+      "finished_at": "2026-11-15T16:25:12Z"
+    },
+    {
+      "match_id": "m_20261115t160016_00038d",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t160016_00038d-7qUpuOSTRK93TgUHeI3DTVfydvcBhM.json",
+      "source_sha256": "8fb227318c93687ea6a7b5f87c2c3f3029979b41cee7e90eaec31b62c110b549",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t160016_00038d",
+      "fetched_at": "2026-11-15T16:27:30.708093Z",
+      "started_at": "2026-11-15T16:00:16Z",
+      "finished_at": "2026-11-15T16:21:31Z"
+    },
+    {
+      "match_id": "m_20261115t161745_d1a29a",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t161745_d1a29a-mlUcOHGtc3saN9v0BJLa1Bx7xKcWJy.json",
+      "source_sha256": "5df29d78ef8f76df4113afcc1c81a2b7d02e65d0a46581d26ac7a2d91a3dddc1",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t161745_d1a29a",
+      "fetched_at": "2026-11-15T16:27:32.571896Z",
+      "started_at": "2026-11-15T16:17:45Z",
+      "finished_at": "2026-11-15T16:20:21Z"
+    },
+    {
+      "match_id": "m_20261115t160606_1bfb5e",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t160606_1bfb5e-NJpIh2yBQCRssagwgaAZIvoZwrWHbl.json",
+      "source_sha256": "5faa89b9d129d9b6561b30a6029c8148d81a0e1dc839675b7f677bd7cecf1c97",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t160606_1bfb5e",
+      "fetched_at": "2026-11-15T16:27:34.586185Z",
+      "started_at": "2026-11-15T16:06:06Z",
+      "finished_at": "2026-11-15T16:20:07Z"
+    },
+    {
+      "match_id": "m_20261115t155745_930153",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t155745_930153-vdOejQdIXWDtjVr7tj8O2Y3lCZ4yeI.json",
+      "source_sha256": "cc1239826c3ff2f9ed52800cfb1ec55285422af57f1a7e29c230006acae84775",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t155745_930153",
+      "fetched_at": "2026-11-15T16:27:36.604052Z",
+      "started_at": "2026-11-15T15:57:45Z",
+      "finished_at": "2026-11-15T16:20:00Z"
+    },
+    {
+      "match_id": "m_20261115t155931_4b9dd9",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t155931_4b9dd9-DCHTN9bHTA4pIUFSO86cLD66lsMuLt.json",
+      "source_sha256": "e51d5a7e0e596f64557b7b1fa7b75504d44b863d36cc55f8ead55ea681be20b0",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t155931_4b9dd9",
+      "fetched_at": "2026-11-15T16:27:38.619457Z",
+      "started_at": "2026-11-15T15:59:31Z",
+      "finished_at": "2026-11-15T16:17:57Z"
+    },
+    {
+      "match_id": "m_20261115t160147_817991",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t160147_817991-4MJQBHEYTMarPj4OIl9Jpyq0xDvJ84.json",
+      "source_sha256": "aa20706e2657337d4fdafc36a6cf1ced6b505b0871d91654dae980654362ca2f",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t160147_817991",
+      "fetched_at": "2026-11-15T16:27:40.650845Z",
+      "started_at": "2026-11-15T16:01:47Z",
+      "finished_at": "2026-11-15T16:17:31Z"
+    },
+    {
+      "match_id": "m_20261115t161732_1c458c",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t161732_1c458c-rZcEMo0kdIwPla0U3bGZ5aTQvusv35.json",
+      "source_sha256": "58c46d6f63864abb37ed3dd7306eaed22c5630837be72cd0f29bfa271d767d4b",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t161732_1c458c",
+      "fetched_at": "2026-11-15T16:37:26.726576Z",
+      "started_at": "2026-11-15T16:17:32Z",
+      "finished_at": "2026-11-15T16:34:38Z"
+    },
+    {
+      "match_id": "m_20261115t161412_4c3750",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t161412_4c3750-VZ8rTbfgwivVyQoTbuUqOMPfsHVTwz.json",
+      "source_sha256": "15af1aec1e6a3a15148fef82eb06e96ccbfc2de3f9f1bc476f6a323a52456753",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t161412_4c3750",
+      "fetched_at": "2026-11-15T16:37:28.584266Z",
+      "started_at": "2026-11-15T16:14:12Z",
+      "finished_at": "2026-11-15T16:34:36Z"
+    },
+    {
+      "match_id": "m_20261115t161256_969f24",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t161256_969f24-RI3k0HCQJagWkzmZQLfIK3uYWOSsOj.json",
+      "source_sha256": "5230a21d1c42861465c2c43543aa5d1ad1b6551d5354c19f85260b93e5ce030d",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t161256_969f24",
+      "fetched_at": "2026-11-15T16:37:30.638357Z",
+      "started_at": "2026-11-15T16:12:56Z",
+      "finished_at": "2026-11-15T16:30:37Z"
+    },
+    {
+      "match_id": "m_20261115t161112_9964dc",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t161112_9964dc-G2JkE0qPbTsDXbYQjgKisEQGBOT5qx.json",
+      "source_sha256": "490ce51aae589e56cc7908ad1c7ff102f6e111ac69eb5ff269f80cd2ca81e941",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t161112_9964dc",
+      "fetched_at": "2026-11-15T16:37:32.609765Z",
+      "started_at": "2026-11-15T16:11:12Z",
+      "finished_at": "2026-11-15T16:29:12Z"
+    },
+    {
+      "match_id": "m_20261115t162313_3303d6",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t162313_3303d6-ywmIwS6mQ6qXcelzrEfEXvEKkDzxIo.json",
+      "source_sha256": "aa85df8fcada7043b9a2f806fb2da42515785fed5948e38e98e8858fc6193c2f",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t162313_3303d6",
+      "fetched_at": "2026-11-15T16:47:26.692134Z",
+      "started_at": "2026-11-15T16:23:13Z",
+      "finished_at": "2026-11-15T16:44:50Z"
+    },
+    {
+      "match_id": "m_20261115t162445_9e428e",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t162445_9e428e-VuHWKSoAkRTwAGz30xl4SKUNRt0mAu.json",
+      "source_sha256": "44e70820b2dbf4525c919f2d2abff01fcb245864d21c0454759c7af6f63f91a4",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t162445_9e428e",
+      "fetched_at": "2026-11-15T16:47:28.588323Z",
+      "started_at": "2026-11-15T16:24:45Z",
+      "finished_at": "2026-11-15T16:43:47Z"
+    },
+    {
+      "match_id": "m_20261115t162502_2ba77e",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t162502_2ba77e-iGGTT74MBPxNZsS0vZx0Omd1VUVSgV.json",
+      "source_sha256": "925250d5c0d0a516d5d35758f2742c3244b677c52152a8a8037ada4178bfe7d6",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t162502_2ba77e",
+      "fetched_at": "2026-11-15T16:47:30.642991Z",
+      "started_at": "2026-11-15T16:25:02Z",
+      "finished_at": "2026-11-15T16:42:44Z"
+    },
+    {
+      "match_id": "m_20261115t162142_6213fa",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t162142_6213fa-suEqJn1yh1ROaDygMb5UQj7bC0soQM.json",
+      "source_sha256": "8ba644ef73afa26239f6baeaf2c2c36aab75e874c7a0ae7ffe20857d0db2b3f1",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t162142_6213fa",
+      "fetched_at": "2026-11-15T16:47:32.597119Z",
+      "started_at": "2026-11-15T16:21:42Z",
+      "finished_at": "2026-11-15T16:42:28Z"
+    },
+    {
+      "match_id": "m_20261115t162400_003e51",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t162400_003e51-GV6e22QmOkrb1UE45ngZxDDX0uyOHE.json",
+      "source_sha256": "3da283b8671d0ea149a5ce4730a227ee532ec5d712ee342e36e6f2ccc4946ed2",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t162400_003e51",
+      "fetched_at": "2026-11-15T16:47:34.607036Z",
+      "started_at": "2026-11-15T16:24:00Z",
+      "finished_at": "2026-11-15T16:41:07Z"
+    },
+    {
+      "match_id": "m_20261115t162546_1ce045",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t162546_1ce045-dWUSA0ldYcA1JdbdOuYJmkXW7oWLZR.json",
+      "source_sha256": "1e24ac0c5edc006147e38e317100f184e496951918d979502f83448b16d1edc3",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t162546_1ce045",
+      "fetched_at": "2026-11-15T16:47:36.651556Z",
+      "started_at": "2026-11-15T16:25:46Z",
+      "finished_at": "2026-11-15T16:40:38Z"
+    },
+    {
+      "match_id": "m_20261115t162018_07bfdb",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t162018_07bfdb-1er9vlGR57hJWjTbxSp1Y3KI4Ht2h3.json",
+      "source_sha256": "3967f2173cda19cbaf03b676fcc2717a99890c22aa0b6f962334b63d3bdf365a",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t162018_07bfdb",
+      "fetched_at": "2026-11-15T16:47:38.649883Z",
+      "started_at": "2026-11-15T16:20:18Z",
+      "finished_at": "2026-11-15T16:40:36Z"
+    },
+    {
+      "match_id": "m_20261115t162600_47408d",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t162600_47408d-SLaFrYOxP1uvrfea7Clu8A10iq8Jpu.json",
+      "source_sha256": "748452ee50b6658ce9cbde5a8cf2d5facd66b68db1ee42f5b46ad26417c0b1a5",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t162600_47408d",
+      "fetched_at": "2026-11-15T16:47:40.633426Z",
+      "started_at": "2026-11-15T16:26:00Z",
+      "finished_at": "2026-11-15T16:40:20Z"
+    },
+    {
+      "match_id": "m_20261115t164036_8410a8",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t164036_8410a8-Xq2d5N5Q22bEB6WKq6WuFCyAGgj9hB.json",
+      "source_sha256": "3bb60c6b9582b362feb137cb48c9f3766bd8ccc22542049f4853ed5d3aa2f174",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t164036_8410a8",
+      "fetched_at": "2026-11-15T16:57:26.668114Z",
+      "started_at": "2026-11-15T16:40:36Z",
+      "finished_at": "2026-11-15T16:54:44Z"
+    },
+    {
+      "match_id": "m_20261115t164137_5ef5d5",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t164137_5ef5d5-Kt5PV5teYr725bWw3EiN5SCjpykOBs.json",
+      "source_sha256": "091e01aad9731784e2422a35e2951e2ef33ff42bd2bfeb1eddff1453563808d9",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t164137_5ef5d5",
+      "fetched_at": "2026-11-15T16:57:28.573728Z",
+      "started_at": "2026-11-15T16:41:37Z",
+      "finished_at": "2026-11-15T16:54:40Z"
+    },
+    {
+      "match_id": "m_20261115t164006_39d374",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t164006_39d374-g4E0tbjC222MHvrEfZKwXY31lkuhlH.json",
+      "source_sha256": "a5547adad8176a46b04c941ca313af2b857c0ce85a2d3e752ebcc3930cc7b116",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t164006_39d374",
+      "fetched_at": "2026-11-15T16:57:30.619995Z",
+      "started_at": "2026-11-15T16:40:06Z",
+      "finished_at": "2026-11-15T16:54:08Z"
+    },
+    {
+      "match_id": "m_20261115t163819_d65dc9",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t163819_d65dc9-5SeuQhYZVxx7jLjDDkjv1aDjpVbig0.json",
+      "source_sha256": "ecad14c23f5687b2fea78b2fa2330d6158f13d280d6a27aebb0385b71cb8b363",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t163819_d65dc9",
+      "fetched_at": "2026-11-15T16:57:32.632374Z",
+      "started_at": "2026-11-15T16:38:19Z",
+      "finished_at": "2026-11-15T16:50:46Z"
+    }
+  ],
+  "source_freshness_warning": "Archive is the last completed existing miner output, not a new17UTCfetch. Any earlier source timestamp or cycle failure must remain explicit.",
+  "diagnostic_limits": [
+    "Category tags are nonadditive; use uniqueaffectedactions for rate.",
+    "Legal executed coercions are different from forced folds.",
+    "Privatecleanup/notes/reasoning unavailable publicly; no such quality conclusion.",
+    "Boundedfirst-page sample is not wholeteamhistory or Arena superiority proof."
+  ],
+  "no_new_HTTP_API_model_calls_or_training_targets": true
+}
