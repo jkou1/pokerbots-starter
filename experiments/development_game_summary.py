@@ -1,5 +1,5 @@
 """Read only development eval outcomes; never open sealed final outcomes."""
-import hashlib,json,os,statistics
+import hashlib,json,os,statistics,re
 from collections import Counter
 from pathlib import Path
 from ac2.sdk import Client
@@ -12,7 +12,10 @@ r=json.loads((ROOT/'receipt.json').read_text());seats={seed:'seat'+str(i) for i,
 for label,meta in r['runs'].items():
  run=c.eval.get(meta['eval_id']);out=ROOT/label;out.mkdir(exist_ok=True);rows=[];manifest=[]
  for path in SOURCE.glob('*.json'):
-  try:raw=path.read_bytes();log=json.loads(raw)
+  try:
+   raw=path.read_bytes();job=re.search(rb'"relay_job_id"\s*:\s*"([^"]+)"',raw)
+   if not job or job.group(1).decode()!=run.job_id:continue
+   log=json.loads(raw)
   except (OSError,json.JSONDecodeError):continue
   if log.get('relay_job_id')!=run.job_id or not log.get('complete'):continue
   seed=log['session_info']['seed'];assert seed in seats;seat=seats[seed];graded=seat_result(log,[seat]);cleanups=[h.get('cleanup',{}) for h in log.get('private',{}).get(seat,{}).get('hands',{}).values()];attempts=[a for cleanup in cleanups for a in cleanup.get('attempts',[])]

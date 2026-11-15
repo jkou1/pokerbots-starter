@@ -1,5 +1,5 @@
 """Summarize native eval's raw attributed games, not its clipped reward."""
-import argparse,json,os,hashlib,statistics
+import argparse,json,os,hashlib,statistics,re
 from collections import Counter
 from pathlib import Path
 from ac2.sdk import Client
@@ -9,10 +9,14 @@ from vals_tools.collect_policy import deal_seeds
 from vals_tools.game_score import game_rows,summarize_games,bootstrap
 ROOT=Path(__file__).resolve().parent.parent/'data/experiments'
 SOURCE=Path('/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs')
-p=argparse.ArgumentParser();p.add_argument('--eval',required=True);p.add_argument('--label',required=True);a=p.parse_args();c=Client(project='vals-hackathon',api_key=os.environ['AC2_API_KEY']);run=c.eval.get(a.eval);out=ROOT/'native-official30'/a.label;out.mkdir(parents=True,exist_ok=True);seeds=deal_seeds('select',6);seats={s:i for i,s in enumerate(seeds)};manifest=[];rows=[]
+p=argparse.ArgumentParser();p.add_argument('--eval',required=True);p.add_argument('--label',required=True);a=p.parse_args();seal=ROOT/'sealed-final-base20-v1/receipt.json'
+if seal.exists() and json.loads(seal.read_text()).get('baseline',{}).get('eval_id')==a.eval:raise RuntimeError('Sealed final baseline is forbidden in this selection-only collector')
+c=Client(project='vals-hackathon',api_key=os.environ['AC2_API_KEY']);run=c.eval.get(a.eval);out=ROOT/'native-official30'/a.label;out.mkdir(parents=True,exist_ok=True);seeds=deal_seeds('select',6);seats={s:i for i,s in enumerate(seeds)};manifest=[];rows=[]
 for f in SOURCE.glob('*.json'):
  try:
-  raw=f.read_bytes();log=json.loads(raw)
+  raw=f.read_bytes();job=re.search(rb'"relay_job_id"\s*:\s*"([^"]+)"',raw)
+  if not job or job.group(1).decode()!=run.job_id:continue
+  log=json.loads(raw)
   if log.get('relay_job_id')!=run.job_id or not log.get('complete'):continue
   seed=log['session_info']['seed']
   if seed not in seats:raise ValueError('Native job produced unknown game seed')
