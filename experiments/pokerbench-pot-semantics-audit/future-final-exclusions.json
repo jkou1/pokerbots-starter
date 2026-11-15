@@ -1,0 +1,25 @@
+{
+  "reason": "Accidental broad original-source grep exposed up to2retainedV3finalsource rows; conservatively exclude their whole scenario groups from every futureV4/V5finalvalidation",
+  "exposed_source_metadata": [
+    {
+      "source_index": 390184,
+      "scenario_group": "e20229392be8ac77a709684c53a21b0b14818b8a50069bfbb63d4a855781e17d"
+    },
+    {
+      "source_index": 44873,
+      "scenario_group": "e846436b4fbb9e2936b0616c0a4b01c9e9c48a1b9f30df7d32ed9d59c7487f76"
+    }
+  ],
+  "excluded_scenario_groups": [
+    "e20229392be8ac77a709684c53a21b0b14818b8a50069bfbb63d4a855781e17d",
+    "e846436b4fbb9e2936b0616c0a4b01c9e9c48a1b9f30df7d32ed9d59c7487f76"
+  ],
+  "v4_original_final_sha256_preserved": "f08aefe5378a583039a47477ddcc44f8280eddd826bcb3ee50fc55a8fcef1b74",
+  "v4_original_rows": 389,
+  "v4_affected_rows": 1,
+  "v4_remaining_unexposed_rows": 388,
+  "v4_remaining_unexposed_groups": 291,
+  "original_final_file_unchanged": true,
+  "no_final_model_calls": true,
+  "train_select_current_job_unchanged": true
+}

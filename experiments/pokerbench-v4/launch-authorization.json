@@ -1,0 +1,13 @@
+{
+  "authorized_at": "2026-11-15T13:47:09.250803+00:00",
+  "root_GO_received": true,
+  "resource_release": "DR2job_88e24ee0b696 STOPPED2026-11-15T13:46:27.775UTC",
+  "one_4GPU_training_job_only": true,
+  "original_prepared_config_sha256": "27c4892da5d22ddab97fd4a24d214521fcbd26540c82664020c383ac1535c8f6",
+  "effective_config_sha256": "cc4cbd3ab92394515f903dc005fca3c043a4631a2da0f57ad70446d02aa0d366",
+  "save_weights_only": true,
+  "keep_last_checkpoints": 2,
+  "hard_updates": 10,
+  "no_extension": true,
+  "warm_control_is_same_pilot_startup": true
+}

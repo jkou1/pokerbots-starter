@@ -1,0 +1,559 @@
+{
+  "updated_at": "2026-11-15T14:01:25.269865+00:00",
+  "monitor_pid": 75871,
+  "train_id": "train_3c45262ddf1f",
+  "job_id": "job_a0a8857c71e4",
+  "status": "stopped",
+  "completed": true,
+  "training_updates": 10,
+  "latest_train_metrics": {
+    "step": 9,
+    "train/grad_norm": 1.252472162246704,
+    "train/loss": 0.030396634953502765,
+    "train/lr-pg_0": 1e-06,
+    "train/lr-pg_1": 1e-06,
+    "train/lr-pg_2": 1e-06
+  },
+  "managed_steps": {
+    "0": {
+      "samples": 64,
+      "expected_batch": 64,
+      "full_batch_export": true,
+      "source_kinds": {
+        "postflop": 30,
+        "preflop": 34
+      },
+      "pre_anchor_sampling_copies": {
+        "None": 30,
+        "1": 9,
+        "0": 17,
+        "2": 8
+      },
+      "supervised_tokens_by_kind": {
+        "postflop": 1105,
+        "preflop": 1253
+      },
+      "boundary_membership_errors": [],
+      "action_ce": {
+        "samples": 64,
+        "per_action": {
+          "bet": {
+            "samples": 1,
+            "action_ce": 4.642
+          },
+          "call": {
+            "samples": 12,
+            "action_ce": 0.6409583333333333
+          },
+          "check": {
+            "samples": 7,
+            "action_ce": 0.24012714285714284
+          },
+          "fold": {
+            "samples": 36,
+            "action_ce": 0.26869047222222225
+          },
+          "raise": {
+            "samples": 8,
+            "action_ce": 1.9899925
+          }
+        },
+        "class_balanced_action_ce": 1.5563536896825396,
+        "micro_action_ce": 0.618862296875,
+        "amount_samples": 9,
+        "amount_ce": 1.0634199999999998
+      },
+      "raw_sha256": "590a06dde203ecb385b67c45444c72c724988b1015b0130c61866d2034fbe926"
+    },
+    "1": {
+      "samples": 64,
+      "expected_batch": 64,
+      "full_batch_export": true,
+      "source_kinds": {
+        "postflop": 28,
+        "preflop": 36
+      },
+      "pre_anchor_sampling_copies": {
+        "None": 28,
+        "0": 16,
+        "1": 11,
+        "2": 9
+      },
+      "supervised_tokens_by_kind": {
+        "postflop": 1045,
+        "preflop": 1357
+      },
+      "boundary_membership_errors": [],
+      "action_ce": {
+        "samples": 64,
+        "per_action": {
+          "bet": {
+            "samples": 3,
+            "action_ce": 6.265666666666667
+          },
+          "call": {
+            "samples": 13,
+            "action_ce": 1.1790461538461539
+          },
+          "check": {
+            "samples": 6,
+            "action_ce": 0.12787166666666666
+          },
+          "fold": {
+            "samples": 32,
+            "action_ce": 0.53038521875
+          },
+          "raise": {
+            "samples": 10,
+            "action_ce": 1.136854
+          }
+        },
+        "class_balanced_action_ce": 1.8479647411858977,
+        "micro_action_ce": 0.988010890625,
+        "amount_samples": 13,
+        "amount_ce": 0.8999466666666667
+      },
+      "raw_sha256": "359b5553c517d93ca84de8183dbc414a3135ac9fef8bdc872b08f352edd98391"
+    },
+    "2": {
+      "samples": 64,
+      "expected_batch": 64,
+      "full_batch_export": true,
+      "source_kinds": {
+        "postflop": 31,
+        "preflop": 33
+      },
+      "pre_anchor_sampling_copies": {
+        "None": 31,
+        "0": 11,
+        "2": 11,
+        "1": 11
+      },
+      "supervised_tokens_by_kind": {
+        "postflop": 1098,
+        "preflop": 1216
+      },
+      "boundary_membership_errors": [],
+      "action_ce": {
+        "samples": 64,
+        "per_action": {
+          "bet": {
+            "samples": 1,
+            "action_ce": 4.561
+          },
+          "call": {
+            "samples": 14,
+            "action_ce": 0.6597142857142858
+          },
+          "check": {
+            "samples": 12,
+            "action_ce": 0.1966
+          },
+          "fold": {
+            "samples": 32,
+            "action_ce": 0.316939375
+          },
+          "raise": {
+            "samples": 5,
+            "action_ce": 0.73671
+          }
+        },
+        "class_balanced_action_ce": 1.2941927321428572,
+        "micro_action_ce": 0.46846578125,
+        "amount_samples": 6,
+        "amount_ce": 0.44766
+      },
+      "raw_sha256": "fe8466467f56e66bcffd85f2b15803bcc0196e9dea5abf0cba1b8d00cf4d4fa7"
+    },
+    "3": {
+      "samples": 64,
+      "expected_batch": 64,
+      "full_batch_export": true,
+      "source_kinds": {
+        "preflop": 36,
+        "postflop": 28
+      },
+      "pre_anchor_sampling_copies": {
+        "1": 10,
+        "None": 28,
+        "2": 18,
+        "0": 8
+      },
+      "supervised_tokens_by_kind": {
+        "preflop": 1369,
+        "postflop": 1047
+      },
+      "boundary_membership_errors": [],
+      "action_ce": {
+        "samples": 64,
+        "per_action": {
+          "bet": {
+            "samples": 1,
+            "action_ce": 6.816
+          },
+          "call": {
+            "samples": 7,
+            "action_ce": 0.8707571428571429
+          },
+          "check": {
+            "samples": 5,
+            "action_ce": 0.135004
+          },
+          "fold": {
+            "samples": 38,
+            "action_ce": 0.22545560526315792
+          },
+          "raise": {
+            "samples": 13,
+            "action_ce": 1.497113846153846
+          }
+        },
+        "class_balanced_action_ce": 1.9088661188548293,
+        "micro_action_ce": 0.650251765625,
+        "amount_samples": 14,
+        "amount_ce": 0.9732219047619048
+      },
+      "raw_sha256": "f4949d34376a377bc231113cc4d6fedbe5d81efd2c4cea40ff6302b1e5995021"
+    },
+    "4": {
+      "samples": 64,
+      "expected_batch": 64,
+      "full_batch_export": true,
+      "source_kinds": {
+        "preflop": 27,
+        "postflop": 37
+      },
+      "pre_anchor_sampling_copies": {
+        "1": 8,
+        "2": 12,
+        "None": 37,
+        "0": 7
+      },
+      "supervised_tokens_by_kind": {
+        "preflop": 982,
+        "postflop": 1416
+      },
+      "boundary_membership_errors": [],
+      "action_ce": {
+        "samples": 64,
+        "per_action": {
+          "bet": {
+            "samples": 3,
+            "action_ce": 4.72
+          },
+          "call": {
+            "samples": 15,
+            "action_ce": 0.7919666666666667
+          },
+          "check": {
+            "samples": 11,
+            "action_ce": 0.06123727272727273
+          },
+          "fold": {
+            "samples": 26,
+            "action_ce": 0.13154142307692307
+          },
+          "raise": {
+            "samples": 9,
+            "action_ce": 2.349133333333333
+          }
+        },
+        "class_balanced_action_ce": 1.610775739160839,
+        "micro_action_ce": 0.801177921875,
+        "amount_samples": 12,
+        "amount_ce": 1.5219602777777776
+      },
+      "raw_sha256": "979d1bc7ce453993685e2fc696e499d18b745857827f8663087495ec75bf8435"
+    },
+    "5": {
+      "samples": 64,
+      "expected_batch": 64,
+      "full_batch_export": true,
+      "source_kinds": {
+        "preflop": 36,
+        "postflop": 28
+      },
+      "pre_anchor_sampling_copies": {
+        "1": 9,
+        "None": 28,
+        "0": 16,
+        "2": 11
+      },
+      "supervised_tokens_by_kind": {
+        "preflop": 1382,
+        "postflop": 1071
+      },
+      "boundary_membership_errors": [],
+      "action_ce": {
+        "samples": 64,
+        "per_action": {
+          "bet": {
+            "samples": 6,
+            "action_ce": 3.4625000000000004
+          },
+          "call": {
+            "samples": 8,
+            "action_ce": 0.676875
+          },
+          "check": {
+            "samples": 11,
+            "action_ce": 0.10058727272727273
+          },
+          "fold": {
+            "samples": 28,
+            "action_ce": 0.26741735714285714
+          },
+          "raise": {
+            "samples": 11,
+            "action_ce": 1.0253990909090909
+          }
+        },
+        "class_balanced_action_ce": 1.1065557441558442,
+        "micro_action_ce": 0.71974275,
+        "amount_samples": 17,
+        "amount_ce": 1.0973207843137254
+      },
+      "raw_sha256": "7cbe64922a397e36b7e4336ee87b0e51008450b67531e1cae65997194692ad15"
+    },
+    "6": {
+      "samples": 64,
+      "expected_batch": 64,
+      "full_batch_export": true,
+      "source_kinds": {
+        "postflop": 37,
+        "preflop": 27
+      },
+      "pre_anchor_sampling_copies": {
+        "None": 37,
+        "1": 8,
+        "0": 10,
+        "2": 9
+      },
+      "supervised_tokens_by_kind": {
+        "postflop": 1347,
+        "preflop": 1041
+      },
+      "boundary_membership_errors": [],
+      "action_ce": {
+        "samples": 64,
+        "per_action": {
+          "bet": {
+            "samples": 3,
+            "action_ce": 1.9826666666666668
+          },
+          "call": {
+            "samples": 15,
+            "action_ce": 0.8588
+          },
+          "check": {
+            "samples": 15,
+            "action_ce": 0.151494
+          },
+          "fold": {
+            "samples": 22,
+            "action_ce": 0.5060324090909091
+          },
+          "raise": {
+            "samples": 9,
+            "action_ce": 0.6563175555555555
+          }
+        },
+        "class_balanced_action_ce": 0.8310621262626263,
+        "micro_action_ce": 0.595968453125,
+        "amount_samples": 12,
+        "amount_ce": 0.459495
+      },
+      "raw_sha256": "bee3d134baad2d5339b04257e1f90a313e4704ee8a3be0e6a765ff3cbe850c44"
+    },
+    "7": {
+      "samples": 64,
+      "expected_batch": 64,
+      "full_batch_export": true,
+      "source_kinds": {
+        "postflop": 29,
+        "preflop": 35
+      },
+      "pre_anchor_sampling_copies": {
+        "None": 29,
+        "1": 13,
+        "0": 15,
+        "2": 7
+      },
+      "supervised_tokens_by_kind": {
+        "postflop": 1094,
+        "preflop": 1285
+      },
+      "boundary_membership_errors": [],
+      "action_ce": {
+        "samples": 64,
+        "per_action": {
+          "bet": {
+            "samples": 2,
+            "action_ce": 3.0645
+          },
+          "call": {
+            "samples": 14,
+            "action_ce": 1.246807142857143
+          },
+          "check": {
+            "samples": 10,
+            "action_ce": 0.36214
+          },
+          "fold": {
+            "samples": 29,
+            "action_ce": 0.2919485172413793
+          },
+          "raise": {
+            "samples": 9,
+            "action_ce": 0.6753944444444444
+          }
+        },
+        "class_balanced_action_ce": 1.1281580209085933,
+        "micro_action_ce": 0.652355578125,
+        "amount_samples": 11,
+        "amount_ce": 1.1617969696969697
+      },
+      "raw_sha256": "c150ebbde55bc06cb39e77f279242d8f02e0432f46541e90ee84342c1a876393"
+    },
+    "8": {
+      "samples": 64,
+      "expected_batch": 64,
+      "full_batch_export": true,
+      "source_kinds": {
+        "postflop": 36,
+        "preflop": 28
+      },
+      "pre_anchor_sampling_copies": {
+        "None": 36,
+        "2": 8,
+        "1": 13,
+        "0": 7
+      },
+      "supervised_tokens_by_kind": {
+        "postflop": 1368,
+        "preflop": 1053
+      },
+      "boundary_membership_errors": [],
+      "action_ce": {
+        "samples": 64,
+        "per_action": {
+          "bet": {
+            "samples": 2,
+            "action_ce": 3.605
+          },
+          "call": {
+            "samples": 10,
+            "action_ce": 0.82882
+          },
+          "check": {
+            "samples": 15,
+            "action_ce": 0.3429653333333333
+          },
+          "fold": {
+            "samples": 25,
+            "action_ce": 0.3524084
+          },
+          "raise": {
+            "samples": 12,
+            "action_ce": 1.4112087500000001
+          }
+        },
+        "class_balanced_action_ce": 1.3080804966666668,
+        "micro_action_ce": 0.724803046875,
+        "amount_samples": 14,
+        "amount_ce": 0.9952388095238095
+      },
+      "raw_sha256": "17fbef5ca3693fb633148e3b34119503d0f1dacc11c848b77a39a260ab91fd95"
+    },
+    "9": {
+      "samples": 64,
+      "expected_batch": 64,
+      "full_batch_export": true,
+      "source_kinds": {
+        "preflop": 30,
+        "postflop": 34
+      },
+      "pre_anchor_sampling_copies": {
+        "0": 10,
+        "1": 12,
+        "None": 34,
+        "2": 8
+      },
+      "supervised_tokens_by_kind": {
+        "preflop": 1173,
+        "postflop": 1257
+      },
+      "boundary_membership_errors": [],
+      "action_ce": {
+        "samples": 64,
+        "per_action": {
+          "bet": {
+            "samples": 2,
+            "action_ce": 1.6435
+          },
+          "call": {
+            "samples": 12,
+            "action_ce": 0.8310916666666667
+          },
+          "check": {
+            "samples": 9,
+            "action_ce": 0.4438211111111111
+          },
+          "fold": {
+            "samples": 28,
+            "action_ce": 0.5612571428571428
+          },
+          "raise": {
+            "samples": 13,
+            "action_ce": 0.7656938461538462
+          }
+        },
+        "class_balanced_action_ce": 0.8490727533577533,
+        "micro_action_ce": 0.67068296875,
+        "amount_samples": 15,
+        "amount_ce": 0.9057593333333334
+      },
+      "raw_sha256": "6809f3ed16e5ba1f8d3b160b1a638c9bb5e8defd1007e69cd272ce4654dea927"
+    }
+  },
+  "checkpoints": [
+    {
+      "id": "ckpt_c1888900c315",
+      "train_job_id": "train_3c45262ddf1f",
+      "train_job_name": "pokerbench-v4-consistent-ad74-sft-10updates-lr1e6",
+      "project_name": "vals-hackathon",
+      "iter_num": 9,
+      "checkpoint_dir": "/data/ac2/vals-hackathon/train_3c45262ddf1f",
+      "hf_checkpoint": "/data/models/Qwen3.6-35B-A3B",
+      "created_at": "2026-11-15T13:58:03.414398Z"
+    },
+    {
+      "id": "ckpt_5d62ef1498b8",
+      "train_job_id": "train_3c45262ddf1f",
+      "train_job_name": "pokerbench-v4-consistent-ad74-sft-10updates-lr1e6",
+      "project_name": "vals-hackathon",
+      "iter_num": 4,
+      "checkpoint_dir": "/data/ac2/vals-hackathon/train_3c45262ddf1f",
+      "hf_checkpoint": "/data/models/Qwen3.6-35B-A3B",
+      "created_at": "2026-11-15T13:56:07.585000Z"
+    }
+  ],
+  "conversions": {
+    "ckpt_5d62ef1498b8": {
+      "iter_num": 4,
+      "requested": true,
+      "requested_at": "2026-11-15T13:56:39.402171+00:00",
+      "state": "available"
+    },
+    "ckpt_c1888900c315": {
+      "iter_num": 9,
+      "requested": true,
+      "requested_at": "2026-11-15T13:58:14.811371+00:00",
+      "state": "available"
+    }
+  },
+  "alerts": [],
+  "no_extension": true,
+  "no_auto_retry": true,
+  "generation_quality_not_established_by_target_audit": true
+}

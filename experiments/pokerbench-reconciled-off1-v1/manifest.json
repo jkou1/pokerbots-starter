@@ -1,0 +1,37 @@
+{
+  "stage": "CPUpreparedonly,no upload/training",
+  "source": "Only2439off-oneexistingTRAINrows; larger597quarantined, no SELECT/FINAL source read",
+  "eligible_off1_train": 2439,
+  "retained": 2439,
+  "target_legal_bounds_after_correction": 2439,
+  "quarantine": 0,
+  "unique_actual_input_target_fingerprints": 2439,
+  "collisions_with_existing_consistent_v4_train": 0,
+  "position_counts": {
+    "HJ": 543,
+    "BTN": 876,
+    "BB": 572,
+    "UTG": 253,
+    "CO": 195
+  },
+  "action_counts": {
+    "call": 574,
+    "fold": 655,
+    "check": 579,
+    "raise": 348,
+    "bet": 283
+  },
+  "source_scenario_groups": 2251,
+  "original_group_and_split_preserved": true,
+  "exposed_final_group_overlap": 0,
+  "input_edit": "Only current-pot numeric literal +1scaledchip; full history/cards/system otherwiseunchanged",
+  "target_status": "Original provider target unchanged apartfrom preexistingexact2xunitconversion; trainedunder roundedsourcepot; no corrected-stateoptimalityclaim",
+  "no_extra_original_numeric_pot_field": true,
+  "full_engine_action_order_legality_proven": false,
+  "not_combined_with_current_v4_job": true,
+  "sha256": {
+    "train.jsonl": "ef200c881cacefe19b937609defef44e7510fabfd05608cc32b786f637222ccf",
+    "quarantine.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "train-tasks.jsonl": "a73d071576d8d2849311497445f052f06b45c4faa0bf821914316f67feb5ad5c"
+  }
+}

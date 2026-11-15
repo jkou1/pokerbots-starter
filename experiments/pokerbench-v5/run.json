@@ -1,0 +1,94 @@
+{
+  "status": "pending",
+  "created_at": "2026-11-15T14:09:42.454696+00:00",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "config": {
+    "model": {
+      "checkpoint": "ckpt_ad74c826c9ad"
+    },
+    "name": "pokerbench-v5-reconciled-ad74-sft-20updates-lr2e6",
+    "description": "ROOTGO authorized ONE ad74V5coverage+potreconciliationSFTpilot;hard20updates/save10&20/weights-onlykeep2/4GPUzeroengines. Corrected-stateproviderlabeloptimalityuncertain.",
+    "tags": {
+      "stage": "pokerbench-v5-reconciled",
+      "parent": "old-SFT-ad74",
+      "dataset": "pokerbots-pokerbench-v5-reconciled-pre10x-train",
+      "gpu_budget": "4train/0rollout/0eval",
+      "submit_authorized": "rootGO",
+      "warm_control": "singlepilotstartup,noextracontrol"
+    },
+    "experiment_cfg": {
+      "method": {
+        "type": "sft"
+      },
+      "step": {
+        "num_train_steps": 20,
+        "problem_batch_size": 64,
+        "samples_per_problem": 1,
+        "checkpoint_interval": 10,
+        "seed": 42,
+        "no_save_optimizer_state": true,
+        "keep_last_checkpoints": 2
+      },
+      "tasks": {
+        "datasets": [
+          {
+            "ac2_dataset_name": "pokerbots-pokerbench-v5-reconciled-pre10x-train"
+          }
+        ]
+      },
+      "trainer": {
+        "learning_rate": 2e-06
+      },
+      "rollout": {
+        "n_inference_replicas": 0,
+        "max_total_len": 2048
+      },
+      "eval": {
+        "mode": "off"
+      }
+    },
+    "internal_cfg": {
+      "launch": {
+        "n_training_replicas": 1,
+        "tensorboard_enabled": true
+      }
+    }
+  },
+  "authorization": {
+    "root_GO_received": true,
+    "authorized_at": "2026-11-15T14:09:41.338916+00:00",
+    "quota": "protected4+DR2candidate1+serialSFTcandidate1+V5train4=10;no furtherGPU",
+    "one_4GPU_training_job_only": true,
+    "original_prepared_config_sha256": "2dc1216bcd35ded9f039cb56f545e35a0659b8de0d65abbe8ac505b72ee1f475",
+    "effective_config_sha256": "7ea60efb8994f0418f0eb8f60577f880e9b8553253ce9a700b11009df31cbc2f",
+    "hard_updates": 20,
+    "no_extension": true,
+    "save_weights_only": true,
+    "keep_last_checkpoints": 2,
+    "independent_money_audit": "grpo-history/history/training/catalog-base-drgrpo-short-v1/v5-train-money-audit.json"
+  },
+  "requested_gpus": {
+    "train": 4,
+    "rollout": 0,
+    "eval": 0
+  },
+  "no_identical_retry": true,
+  "hashes": {
+    "original-prepared-ad74-config.json": "2dc1216bcd35ded9f039cb56f545e35a0659b8de0d65abbe8ac505b72ee1f475",
+    "proposed-ad74-config.json": "7ea60efb8994f0418f0eb8f60577f880e9b8553253ce9a700b11009df31cbc2f",
+    "manifest.json": "a2fc987a83064d2e60dbea9944127f862d694c04c28390f8dde0b89d77c734f2",
+    "boundary-audit.json": "1edbf170e570d85fee6c8c46787577fde3de51b2d8410a9c4563a13c09293b15",
+    "upload-receipt.json": "0e69e38c499445008f202f049f614a35d5769344e671ac78c88369986a57d658",
+    "EXPERIMENT.md": "4a5135da8cffca670616b30254a381997b4511b740ef4552d4e8142184f161b5",
+    "frozen-gates.json": "4e220170900f23705d566c3bc553877614d7320960684955e48db0e600153af6"
+  },
+  "train_id": "train_091b190911a9",
+  "job_id": "job_984ecfb21123",
+  "actual_owner": "lmathias@berkeley.edu",
+  "actual_unix_uid": 10464
+}

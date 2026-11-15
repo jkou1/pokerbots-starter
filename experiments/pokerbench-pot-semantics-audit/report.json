@@ -1,0 +1,361 @@
+{
+  "scope": "Existing4096TRAIN only; no SELECT/FINAL/outputs/models changed",
+  "rows": 4096,
+  "position_counts": {
+    "all": {
+      "HJ": 710,
+      "BB": 1429,
+      "BTN": 1015,
+      "SB": 424,
+      "UTG": 323,
+      "CO": 195
+    },
+    "mismatch": {
+      "HJ": 698,
+      "BTN": 1004,
+      "BB": 782,
+      "UTG": 319,
+      "CO": 195,
+      "SB": 38
+    },
+    "consistent": {
+      "BB": 647,
+      "SB": 386,
+      "HJ": 12,
+      "UTG": 4,
+      "BTN": 11
+    }
+  },
+  "delta_counts": {
+    "-1": 2439,
+    "0": 1060,
+    "-7": 76,
+    "-10": 55,
+    "-3": 148,
+    "-5": 123,
+    "-4": 76,
+    "-11": 46,
+    "-9": 68,
+    "-27": 5
+  },
+  "mismatch_rows": 3036,
+  "off1_rows": 2439,
+  "off1_matches_active_only": 1667,
+  "off1_matches_floor_original_halfchip": 2439,
+  "all_mismatches_active_only_explained": 1667,
+  "larger_mismatch_deadmoney_explained": 0,
+  "examples_metadata_only": [
+    {
+      "source_index": 17493,
+      "source_row_sha256": "18bf1ec96133fe6f63d6ad07fc17dd9b1f54ead0da1aab8e91410f859fe98bc8",
+      "hero_position": "HJ",
+      "printed_pot": 42,
+      "canonical_pot": 43,
+      "printed_minus_canonical": -1,
+      "folded_dead_contributions": 1,
+      "printed_equals_active_only": true,
+      "printed_equals_floor_to_even_scaled_chips": true,
+      "contributions": {
+        "UTG": 0,
+        "HJ": 14,
+        "CO": 0,
+        "BTN": 0,
+        "SB": 1,
+        "BB": 28
+      },
+      "implicit_folded": [
+        "BTN",
+        "CO",
+        "SB",
+        "UTG"
+      ],
+      "explicit_or_implicit_folded": [
+        "BTN",
+        "CO",
+        "SB",
+        "UTG"
+      ]
+    },
+    {
+      "source_index": 429220,
+      "source_row_sha256": "0492e1db701e4b069fb8d7fd9c75fce822829ef8fe6c62f7bc75a6b6ac4981d5",
+      "hero_position": "BTN",
+      "printed_pot": 76,
+      "canonical_pot": 77,
+      "printed_minus_canonical": -1,
+      "folded_dead_contributions": 1,
+      "printed_equals_active_only": true,
+      "printed_equals_floor_to_even_scaled_chips": true,
+      "contributions": {
+        "UTG": 0,
+        "HJ": 0,
+        "CO": 0,
+        "BTN": 23,
+        "SB": 1,
+        "BB": 53
+      },
+      "implicit_folded": [
+        "CO",
+        "HJ",
+        "SB",
+        "UTG"
+      ],
+      "explicit_or_implicit_folded": [
+        "CO",
+        "HJ",
+        "SB",
+        "UTG"
+      ]
+    },
+    {
+      "source_index": 413665,
+      "source_row_sha256": "088498e9da96fa93d392ae8c52de343406ecd76f0793a736887a7918b70d1793",
+      "hero_position": "UTG",
+      "printed_pot": 74,
+      "canonical_pot": 77,
+      "printed_minus_canonical": -3,
+      "folded_dead_contributions": 1,
+      "printed_equals_active_only": false,
+      "printed_equals_floor_to_even_scaled_chips": false,
+      "contributions": {
+        "UTG": 38,
+        "HJ": 0,
+        "CO": 0,
+        "BTN": 0,
+        "SB": 1,
+        "BB": 38
+      },
+      "implicit_folded": [
+        "BTN",
+        "CO",
+        "HJ",
+        "SB"
+      ],
+      "explicit_or_implicit_folded": [
+        "BTN",
+        "CO",
+        "HJ",
+        "SB"
+      ]
+    },
+    {
+      "source_index": 29638,
+      "source_row_sha256": "9b81d0640f7e5d325d33be3ca03504fb20e2cbe42ae8cde928e979f32be74b8f",
+      "hero_position": "HJ",
+      "printed_pot": 30,
+      "canonical_pot": 33,
+      "printed_minus_canonical": -3,
+      "folded_dead_contributions": 1,
+      "printed_equals_active_only": false,
+      "printed_equals_floor_to_even_scaled_chips": false,
+      "contributions": {
+        "UTG": 0,
+        "HJ": 16,
+        "CO": 0,
+        "BTN": 0,
+        "SB": 1,
+        "BB": 16
+      },
+      "implicit_folded": [
+        "BTN",
+        "CO",
+        "SB",
+        "UTG"
+      ],
+      "explicit_or_implicit_folded": [
+        "BTN",
+        "CO",
+        "SB",
+        "UTG"
+      ]
+    },
+    {
+      "source_index": 247332,
+      "source_row_sha256": "499a7166b4e7dc3fda77609843031d4e83242efca60d4b6b6408a482b179409c",
+      "hero_position": "BTN",
+      "printed_pot": 274,
+      "canonical_pot": 279,
+      "printed_minus_canonical": -5,
+      "folded_dead_contributions": 3,
+      "printed_equals_active_only": false,
+      "printed_equals_floor_to_even_scaled_chips": false,
+      "contributions": {
+        "UTG": 200,
+        "HJ": 0,
+        "CO": 0,
+        "BTN": 76,
+        "SB": 1,
+        "BB": 2
+      },
+      "implicit_folded": [
+        "BB",
+        "CO",
+        "HJ",
+        "SB"
+      ],
+      "explicit_or_implicit_folded": [
+        "BB",
+        "CO",
+        "HJ",
+        "SB"
+      ]
+    },
+    {
+      "source_index": 274813,
+      "source_row_sha256": "b5d66a9dfd3982cd7590094e5a53421315b653a09e473433fed5490ce7a9ef7e",
+      "hero_position": "BTN",
+      "printed_pot": 102,
+      "canonical_pot": 107,
+      "printed_minus_canonical": -5,
+      "folded_dead_contributions": 1,
+      "printed_equals_active_only": false,
+      "printed_equals_floor_to_even_scaled_chips": false,
+      "contributions": {
+        "UTG": 0,
+        "HJ": 0,
+        "CO": 0,
+        "BTN": 53,
+        "SB": 1,
+        "BB": 53
+      },
+      "implicit_folded": [
+        "CO",
+        "HJ",
+        "SB",
+        "UTG"
+      ],
+      "explicit_or_implicit_folded": [
+        "CO",
+        "HJ",
+        "SB",
+        "UTG"
+      ]
+    },
+    {
+      "source_index": 206716,
+      "source_row_sha256": "71dcb31283412bd193de4219675c5a69c251456959b06559f28230e28fcc4e94",
+      "hero_position": "BB",
+      "printed_pot": 70,
+      "canonical_pot": 80,
+      "printed_minus_canonical": -10,
+      "folded_dead_contributions": 0,
+      "printed_equals_active_only": false,
+      "printed_equals_floor_to_even_scaled_chips": false,
+      "contributions": {
+        "UTG": 0,
+        "HJ": 0,
+        "CO": 0,
+        "BTN": 0,
+        "SB": 40,
+        "BB": 40
+      },
+      "implicit_folded": [
+        "BTN",
+        "CO",
+        "HJ",
+        "UTG"
+      ],
+      "explicit_or_implicit_folded": [
+        "BTN",
+        "CO",
+        "HJ",
+        "UTG"
+      ]
+    },
+    {
+      "source_index": 178128,
+      "source_row_sha256": "3689526ceee67c50ef5d86e281b746be6fc7b40bc07bc403c3268d3f2d7cab9f",
+      "hero_position": "BB",
+      "printed_pot": 174,
+      "canonical_pot": 184,
+      "printed_minus_canonical": -10,
+      "folded_dead_contributions": 0,
+      "printed_equals_active_only": false,
+      "printed_equals_floor_to_even_scaled_chips": false,
+      "contributions": {
+        "UTG": 0,
+        "HJ": 0,
+        "CO": 0,
+        "BTN": 0,
+        "SB": 92,
+        "BB": 92
+      },
+      "implicit_folded": [
+        "BTN",
+        "CO",
+        "HJ",
+        "UTG"
+      ],
+      "explicit_or_implicit_folded": [
+        "BTN",
+        "CO",
+        "HJ",
+        "UTG"
+      ]
+    },
+    {
+      "source_index": 127658,
+      "source_row_sha256": "ef22c55ed65a887198115f8c8834da395eeb1d4de6a31a7967d222c2a8247c1c",
+      "hero_position": "UTG",
+      "printed_pot": 284,
+      "canonical_pot": 311,
+      "printed_minus_canonical": -27,
+      "folded_dead_contributions": 3,
+      "printed_equals_active_only": false,
+      "printed_equals_floor_to_even_scaled_chips": false,
+      "contributions": {
+        "UTG": 108,
+        "HJ": 0,
+        "CO": 0,
+        "BTN": 200,
+        "SB": 1,
+        "BB": 2
+      },
+      "implicit_folded": [
+        "BB",
+        "CO",
+        "HJ",
+        "SB"
+      ],
+      "explicit_or_implicit_folded": [
+        "BB",
+        "CO",
+        "HJ",
+        "SB"
+      ]
+    },
+    {
+      "source_index": 467026,
+      "source_row_sha256": "7bed8e575a8204f0ff23a66b4d5be5d32b2fc758fb2f515313d52518861f4b68",
+      "hero_position": "UTG",
+      "printed_pot": 284,
+      "canonical_pot": 311,
+      "printed_minus_canonical": -27,
+      "folded_dead_contributions": 3,
+      "printed_equals_active_only": false,
+      "printed_equals_floor_to_even_scaled_chips": false,
+      "contributions": {
+        "UTG": 108,
+        "HJ": 0,
+        "CO": 0,
+        "BTN": 200,
+        "SB": 1,
+        "BB": 2
+      },
+      "implicit_folded": [
+        "BB",
+        "CO",
+        "HJ",
+        "SB"
+      ],
+      "explicit_or_implicit_folded": [
+        "BB",
+        "CO",
+        "HJ",
+        "SB"
+      ]
+    }
+  ],
+  "interpretation_limits": "Active-onlypot and originalhalfchipfloor explanations observationally coincide on manyoff1rows. Need explicit originalsource displayevidence, not infer solverlabelsemantics. No full engine action-order replay.",
+  "no_repairs_or_new_data": true
+}

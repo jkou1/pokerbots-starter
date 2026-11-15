@@ -1,0 +1,65 @@
+{
+  "label": "LOCAL imitation, not poker EV",
+  "model": "infer_af82066205bf",
+  "checkpoint": "ckpt_ad74c826c9ad",
+  "summary": {
+    "examples": 136,
+    "action_accuracy": 0.5882352941176471,
+    "exact_action_amount_accuracy": 0.5882352941176471,
+    "legal_rate": 1.0,
+    "check_or_fold_baseline_accuracy": 0.4852941176470588,
+    "macro_action_recall": 0.4794957983193277,
+    "per_action": {
+      "raise": {
+        "examples": 19,
+        "recall": 0.0
+      },
+      "call": {
+        "examples": 35,
+        "recall": 0.4857142857142857
+      },
+      "check": {
+        "examples": 32,
+        "recall": 1.0
+      },
+      "fold": {
+        "examples": 34,
+        "recall": 0.9117647058823529
+      },
+      "bet": {
+        "examples": 16,
+        "recall": 0.0
+      }
+    },
+    "per_position": {
+      "SB": {
+        "examples": 13,
+        "accuracy": 0.6923076923076923
+      },
+      "BB": {
+        "examples": 51,
+        "accuracy": 0.5882352941176471
+      },
+      "UTG": {
+        "examples": 12,
+        "accuracy": 0.5833333333333334
+      },
+      "BTN": {
+        "examples": 32,
+        "accuracy": 0.6875
+      },
+      "HJ": {
+        "examples": 23,
+        "accuracy": 0.391304347826087
+      },
+      "CO": {
+        "examples": 5,
+        "accuracy": 0.6
+      }
+    },
+    "raise_amount_mae_chips": null,
+    "raise_amount_comparisons": 0
+  },
+  "cached41_reused_with_exact_wireproof": true,
+  "fresh_policy_calls": 95
+}

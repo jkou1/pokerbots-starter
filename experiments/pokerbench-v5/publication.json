@@ -1,0 +1,70 @@
+{
+  "collection_id": "coll_d8234a434b56",
+  "collection_slug": "pokerbench-v5-reconciled-knowledge-pilot",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "train_id": "train_091b190911a9",
+  "artifacts": {
+    "README.md": {
+      "id": "art_29cce96ed0d6",
+      "state": "ready",
+      "sha256": "9feeaf5440d4a6b88eded8d031b4ac9cb120bde16121190707638a18d778e7c1"
+    },
+    "EXPERIMENT.md": {
+      "id": "art_65dd610859d4",
+      "state": "ready",
+      "sha256": "4a5135da8cffca670616b30254a381997b4511b740ef4552d4e8142184f161b5"
+    },
+    "manifest.json": {
+      "id": "art_1c005d55757b",
+      "state": "ready",
+      "sha256": "a2fc987a83064d2e60dbea9944127f862d694c04c28390f8dde0b89d77c734f2"
+    },
+    "boundary-audit.json": {
+      "id": "art_4174e8f6b4a4",
+      "state": "ready",
+      "sha256": "1edbf170e570d85fee6c8c46787577fde3de51b2d8410a9c4563a13c09293b15"
+    },
+    "upload-receipt.json": {
+      "id": "art_e629e8f0ad51",
+      "state": "ready",
+      "sha256": "0e69e38c499445008f202f049f614a35d5769344e671ac78c88369986a57d658"
+    },
+    "frozen-gates.json": {
+      "id": "art_034b4c43321e",
+      "state": "ready",
+      "sha256": "4e220170900f23705d566c3bc553877614d7320960684955e48db0e600153af6"
+    },
+    "proposed-ad74-config.json": {
+      "id": "art_6078cee6f25d",
+      "state": "ready",
+      "sha256": "7ea60efb8994f0418f0eb8f60577f880e9b8553253ce9a700b11009df31cbc2f"
+    },
+    "run.json": {
+      "id": "art_64858d3b903a",
+      "state": "ready",
+      "sha256": "175ecaf0b759b58ea3ff9b50dbce44d88841c24487bf91cfc061202dd5823f38"
+    },
+    "LOCAL_PARENT_REFERENCE.json": {
+      "id": "art_b97f3b94e9a8",
+      "state": "ready",
+      "sha256": "d87321008a00f344903a2c50b771e65614c204186b006ba561a43a24a6a28b2d"
+    },
+    "independent-money-scope-receipt.json": {
+      "id": "art_797b612d2a4b",
+      "state": "ready",
+      "sha256": "b0d4ebf5f1e0dbd4d07db6dcc8f166b8c97b85fe62c710381a269cf07a537850"
+    },
+    "primary-EV-screen-policy.json": {
+      "id": "art_f6770a75b509",
+      "state": "ready",
+      "sha256": "c557ab65b045fceb68d158df8d0c0ab2c7b4d3aa92910982da09c799fa69b7ca"
+    }
+  },
+  "train_linked": true,
+  "verified_membership": true
+}

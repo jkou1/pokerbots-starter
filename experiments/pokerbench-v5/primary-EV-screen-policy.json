@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-11-15T14:27:48.200219+00:00",
+  "v5_candidate_outputs_observed": false,
+  "native_EV_screen_checkpoint": "FINAL20only,noearly10substitution",
+  "eligibility": {
+    "all136staticlegal": true,
+    "pre354matches_min": 271,
+    "new_enum_regressions": 0,
+    "cleanup_wrong_tool_regressions": 0
+  },
+  "screen": "ONE cheap native64 on existing frozen selection/tasks/control; exact EV/protocol gates owned by evaluation agent",
+  "original_knowledge_gates_unchanged": true,
+  "failed_imitation_means_no_SFT_extension_or_teacher_quality_claim": true,
+  "EV_can_differ_from_imitation": "RL20 had0teacherbetrecall but stronger official poker evidence; primary outcome must be tested separately",
+  "no_full_games_unless_fixed_EV_and_protocol_gates_pass": true,
+  "shared_candidate_GPU_slots": 1,
+  "no_extra_GPU_training_or_sealed_final_calls": true
+}

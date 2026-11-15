@@ -1,0 +1,52 @@
+{
+  "model": {
+    "checkpoint": "ckpt_ad74c826c9ad"
+  },
+  "name": "pokerbench-v5-reconciled-ad74-sft-20updates-lr2e6",
+  "description": "ROOTGO authorized ONE ad74V5coverage+potreconciliationSFTpilot;hard20updates/save10&20/weights-onlykeep2/4GPUzeroengines. Corrected-stateproviderlabeloptimalityuncertain.",
+  "tags": {
+    "stage": "pokerbench-v5-reconciled",
+    "parent": "old-SFT-ad74",
+    "dataset": "pokerbots-pokerbench-v5-reconciled-pre10x-train",
+    "gpu_budget": "4train/0rollout/0eval",
+    "submit_authorized": "rootGO",
+    "warm_control": "singlepilotstartup,noextracontrol"
+  },
+  "experiment_cfg": {
+    "method": {
+      "type": "sft"
+    },
+    "step": {
+      "num_train_steps": 20,
+      "problem_batch_size": 64,
+      "samples_per_problem": 1,
+      "checkpoint_interval": 10,
+      "seed": 42,
+      "no_save_optimizer_state": true,
+      "keep_last_checkpoints": 2
+    },
+    "tasks": {
+      "datasets": [
+        {
+          "ac2_dataset_name": "pokerbots-pokerbench-v5-reconciled-pre10x-train"
+        }
+      ]
+    },
+    "trainer": {
+      "learning_rate": 2e-06
+    },
+    "rollout": {
+      "n_inference_replicas": 0,
+      "max_total_len": 2048
+    },
+    "eval": {
+      "mode": "off"
+    }
+  },
+  "internal_cfg": {
+    "launch": {
+      "n_training_replicas": 1,
+      "tensorboard_enabled": true
+    }
+  }
+}

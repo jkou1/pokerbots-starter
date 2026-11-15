@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "final_untouched": true,
+  "train": {
+    "name": "pokerbots-pokerbench-v5-reconciled-pre10x-train",
+    "dataset_id": "ds_a089002ee0cd",
+    "expected": 7369,
+    "file_sha256": "a348498b6a56d514e085f260c28668dbf2f69c8746a030d0686aa2537761d086",
+    "status": "verified",
+    "submitted_missing": 7369,
+    "remote_count": 7369,
+    "full_membership_equal": true,
+    "sampled_payloads": [
+      {
+        "task_id": "tsk_5cdfbe811f7d",
+        "content_hash": "00076f2ebedc3b764574d60f9b3fc131c1f2c06708e4ef0cf8ba387ad28e5ff8",
+        "exact_input_env_payload_verified": true
+      },
+      {
+        "task_id": "tsk_a49a0f6816f3",
+        "content_hash": "3073db19bcda317fa24e319d432ad54c5885303aac42cb3516e92f6885f235eb",
+        "exact_input_env_payload_verified": true
+      },
+      {
+        "task_id": "tsk_05d4bdf08deb",
+        "content_hash": "637aed8ad385213a3e9e844c1761ae50eec3a161c21a5f65c1ad588bbbf1f4f5",
+        "exact_input_env_payload_verified": true
+      },
+      {
+        "task_id": "tsk_91f048eaa857",
+        "content_hash": "987bf80126389423afc0f319ea9ca879e46cb9c1e4db55a605e14e411e43955c",
+        "exact_input_env_payload_verified": true
+      },
+      {
+        "task_id": "tsk_f2dc039eeb94",
+        "content_hash": "cb7a8b6bdd00404c2bfffc7437a676c97ac0ca5f61f1d6be58b0bceec60d7c73",
+        "exact_input_env_payload_verified": true
+      }
+    ]
+  },
+  "select": {
+    "name": "pokerbots-pokerbench-v5-reconciled-select",
+    "dataset_id": "ds_a4a86c864cb6",
+    "expected": 136,
+    "file_sha256": "d7848a690927d327abe18f5fa654ccb256da2699f598ce1581d87b5ad5a5b0fb",
+    "status": "verified",
+    "submitted_missing": 136,
+    "remote_count": 136,
+    "full_membership_equal": true,
+    "sampled_payloads": [
+      {
+        "task_id": "tsk_8d586b092a99",
+        "content_hash": "004c1da8057af404e46f56532298f4e648051a642aea5b219da5df105885d202",
+        "exact_input_env_payload_verified": true
+      },
+      {
+        "task_id": "tsk_7d40124521bb",
+        "content_hash": "304d41d7de276f4033170e8d60941bf83b0a691452d27fa8c3b06e2059ae863d",
+        "exact_input_env_payload_verified": true
+      },
+      {
+        "task_id": "tsk_b3ca9f9d312c",
+        "content_hash": "6e75c0d27439e560fd880962da9243607c040442322df9e0f831ee98c16699f5",
+        "exact_input_env_payload_verified": true
+      },
+      {
+        "task_id": "tsk_bbad58d8607e",
+        "content_hash": "9755f39649063d555d1f3518440161da28157b1128857b214a6d5d6ba700df82",
+        "exact_input_env_payload_verified": true
+      },
+      {
+        "task_id": "tsk_0450b0094a52",
+        "content_hash": "c97b3edf7a661fa1120830c01ab89de700a8a122329fdc425f575501a99afa53",
+        "exact_input_env_payload_verified": true
+      }
+    ]
+  }
+}

@@ -1,10 +1,10 @@
-# Proposed short ad74 knowledge pilot — not submitted
+# Bounded ad74 knowledge pilot — one authorized launch
 
 Problem: old SFT policy has weak postflop value betting; broader solver decisions were prepared but never trained. Hypothesis: a very small update from the stronger proven old SFT ad74 parent on unchanged, monetarily consistent PokerBench decisions improves action knowledge while preflop anchors preserve behavior.
 
 Target: checkpoint `ckpt_ad74c826c9ad`,1060unique consistent postflop rows plus387unique heldout-safe preflop rows sampled3times.2221weighted examples,52.27%preflop. No cleanup demonstrations or fabricated strategic reasoning; the existing nonempty protocol scaffold matches the old SFT format. Cash-game solver transfer and absent memory training remain limitations.
 
-Prepared config: LR1e-6,batch64,hard10updates,checkpoints at updates5/10(iterations4/9),seed42,one4GPU trainer,zero rollout/eval engines,max2048tokens versus measured1424max. No training launch before successful clean-runtime-secret ad74 warm-start control and explicit rootGO. Never use the stale V3 forty-step configuration.
+Prepared config: LR1e-6,batch64,hard10updates,checkpoints at updates5/10(iterations4/9),seed42,one4GPU trainer,zero rollout/eval engines,max2048tokens versus measured1424max. RootGO authorized exactly one launch after DR2 actual resource release. This same pilot startup is the clean-runtime-secret ad74 warm-start control; no duplicate control run is required or allowed. Environment loading is the first gate; actual managed source/boundary/CE auditing is next. Never use the stale V3 forty-step configuration.
 
 Test: freeze the same41PokerBench SELECT decisions and independent preflop retention suite; measure action-balanced agreement, exact sizing, legal enums/bounds, bet/check recall, and action/amount-token CE separately from protocol text. Report CPU versus managed-boundary evidence distinctly. Early/final checkpoints receive identical probes; no FINAL queries or ranking. Official paired poker EV/placement is primary for model advancement, not teacher agreement or loss.
 
@@ -15,3 +15,7 @@ Stop/extension rules: hard stop at10updates; no automatic extension. Inspect che
 These numerical knowledge gates are prospective and must be frozen before any model output on the41-case V4 selection. Parent reference and candidate outputs are not yet collected here. FINAL stays sealed and is never used to tune these rules.
 
 Additional targeted action gates were frozen by root after the parent baseline and before any candidate training/output. They test the measured passivity defect directly; call/fold gains alone cannot satisfy them. No candidate results exist at gate freeze.
+
+Authorized actual run: `train_3c45262ddf1f` / `job_a0a8857c71e4`, ownerlmathiasUID10464. Public supported step fields set `no_save_optimizer_state=True` and `keep_last_checkpoints=2`; the original prepared config and its SHA remain preserved separately. RootGO and actual DR2 release are recorded in `launch-authorization.json`. No identical retry on setup failure.
+
+Scope accepted by root:1,033of1,060postflop TRAIN rows (97.45%) are blind positions, so this tests narrow blind-position knowledge transfer rather than broad tournament coverage. Dataset remains fixed. Future final validation must exclude the exposed scenario groups in `../pokerbench-pot-semantics-audit/future-final-exclusions.json`; original final files/hashes remain unchanged and were never model-queried.

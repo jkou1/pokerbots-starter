@@ -1,0 +1,26 @@
+{
+  "incident": "Accidentalbroadsourcegrepemittedoriginalsourcefirst20rows; outputtruncated, conservativeexposureassumesall20",
+  "potential_retained_final_rows": [
+    {
+      "original_source_line": 4,
+      "source_index": 390184,
+      "v3_split": "eval",
+      "fractional_filter_eligible": true
+    },
+    {
+      "original_source_line": 5,
+      "source_index": 44873,
+      "v3_split": "eval",
+      "fractional_filter_eligible": true
+    }
+  ],
+  "no_final_model_queries": true,
+  "no_use_of_unscoped_rows_for_curation_or_modelchoice": true,
+  "present_in_v4_final_metadata": [
+    {
+      "source_index": 390184,
+      "scenario_group": "e20229392be8ac77a709684c53a21b0b14818b8a50069bfbb63d4a855781e17d"
+    }
+  ],
+  "v4_final_rows_changed": false
+}

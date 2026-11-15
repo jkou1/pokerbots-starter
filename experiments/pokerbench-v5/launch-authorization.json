@@ -1,0 +1,13 @@
+{
+  "root_GO_received": true,
+  "authorized_at": "2026-11-15T14:09:41.338916+00:00",
+  "quota": "protected4+DR2candidate1+serialSFTcandidate1+V5train4=10;no furtherGPU",
+  "one_4GPU_training_job_only": true,
+  "original_prepared_config_sha256": "2dc1216bcd35ded9f039cb56f545e35a0659b8de0d65abbe8ac505b72ee1f475",
+  "effective_config_sha256": "7ea60efb8994f0418f0eb8f60577f880e9b8553253ce9a700b11009df31cbc2f",
+  "hard_updates": 20,
+  "no_extension": true,
+  "save_weights_only": true,
+  "keep_last_checkpoints": 2,
+  "independent_money_audit": "grpo-history/history/training/catalog-base-drgrpo-short-v1/v5-train-money-audit.json"
+}

@@ -1,0 +1,79 @@
+{
+  "scope": "Three locked TRAIN examples only, HJ/BTN/BB",
+  "traces": [
+    {
+      "source_index": 17493,
+      "hero_position": "HJ",
+      "source_instruction_sha256": "d8000408c83100d83545f3ac83ef005dbdbdb5ca3f7a34b8062b789b6ea6be95",
+      "original_source_pot_literal": "21.0",
+      "original_source_pot_numeric": "21.0",
+      "canonical_original_contribution_sum": "21.5",
+      "scaled_pot_literal": "42",
+      "canonical_scaled_contribution_sum": 43,
+      "source_target_unchanged_label": "call",
+      "scaled_target": {
+        "action": "call"
+      },
+      "source_raw_keys": [
+        "instruction",
+        "output",
+        "source_index"
+      ],
+      "no_extra_original_numeric_pot_field": true,
+      "rounding_in_converter": false
+    },
+    {
+      "source_index": 429220,
+      "hero_position": "BTN",
+      "source_instruction_sha256": "ec01462426f36d05b8561f1c08a489820bb06eb547e7c1f1b383dff0c38213bf",
+      "original_source_pot_literal": "38.0",
+      "original_source_pot_numeric": "38.0",
+      "canonical_original_contribution_sum": "38.5",
+      "scaled_pot_literal": "76",
+      "canonical_scaled_contribution_sum": 77,
+      "source_target_unchanged_label": "fold",
+      "scaled_target": {
+        "action": "fold"
+      },
+      "source_raw_keys": [
+        "instruction",
+        "output",
+        "source_index"
+      ],
+      "no_extra_original_numeric_pot_field": true,
+      "rounding_in_converter": false
+    },
+    {
+      "source_index": 24100,
+      "hero_position": "BB",
+      "source_instruction_sha256": "c0fc13d6fe01198e8e39429eef87e51f70276ab255176a9b583ad739aa48c9ef",
+      "original_source_pot_literal": "70.0",
+      "original_source_pot_numeric": "70.0",
+      "canonical_original_contribution_sum": "70.5",
+      "scaled_pot_literal": "140",
+      "canonical_scaled_contribution_sum": 141,
+      "source_target_unchanged_label": "fold",
+      "scaled_target": {
+        "action": "fold"
+      },
+      "source_raw_keys": [
+        "instruction",
+        "output",
+        "source_index"
+      ],
+      "no_extra_original_numeric_pot_field": true,
+      "rounding_in_converter": false
+    }
+  ],
+  "pipeline": [
+    "json.loads preserves instruction string",
+    "AMOUNT regex matches numeric chip literal",
+    "Decimal(literal)*2",
+    "reject unless integral",
+    "int() only after integral assertion; no rounding"
+  ],
+  "converter_bug_found": false,
+  "finding": "Original source itself prints pot0.5below canonical contribution sum in these examples; exact2x converter preserves the discrepancy. No richer numeric pot field exists in original cached records.",
+  "cannot_infer_hidden_source_pot": "Recomputing pot is a new interpretation of the expert state, not recovery of an existing numeric field; cannot promise original expert label stays optimal.",
+  "no_repairs_newdata_upload_or_job_changes": true
+}

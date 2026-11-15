@@ -1,0 +1,48 @@
+{
+  "N_SELECT": 136,
+  "additional_exact_vs_parent_min": 10,
+  "macro_action_recall_not_worse": true,
+  "combined_bet_raise_examples": 35,
+  "combined_bet_raise_matches_min": 11,
+  "check_call_fold_recall_max_drop_pp": 10,
+  "all_select_legal": true,
+  "pre354_action_matches_min": 271,
+  "enum_guard_required": true,
+  "cleanup10_protocol_diagnostic_not_memoryfactualmetric": true,
+  "original41_report_separately": true,
+  "officialpairedEV_protocol_workplace_required_before_advancement": true,
+  "candidate_outputs_exist": false,
+  "parent_action_matches": 80,
+  "parent_exact_matches": 80,
+  "parent_macro_action_recall": 0.4794957983193277,
+  "exact_matches_min": 90,
+  "action_count_floors": {
+    "check": 29,
+    "call": 14,
+    "fold": 28
+  },
+  "parent_action_counts": {
+    "raise": {
+      "matches": 0,
+      "examples": 19
+    },
+    "call": {
+      "matches": 17,
+      "examples": 35
+    },
+    "check": {
+      "matches": 32,
+      "examples": 32
+    },
+    "fold": {
+      "matches": 31,
+      "examples": 34
+    },
+    "bet": {
+      "matches": 0,
+      "examples": 16
+    }
+  },
+  "v5_candidate_outputs_exist": false,
+  "parent_baseline_completed_before_v5_training": true
+}

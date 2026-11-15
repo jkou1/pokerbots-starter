@@ -1,0 +1,53 @@
+{
+  "at": "2026-11-15T14:09:19.680673+00:00",
+  "scope": "TRAIN artifacts only; no SELECT, FINAL, or original source content read. No data/stack/label edits.",
+  "artifacts": [
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pokerbench-v5/manifest.json",
+      "sha256": "a2fc987a83064d2e60dbea9944127f862d694c04c28390f8dde0b89d77c734f2"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pokerbench-v5/train-postflop.jsonl",
+      "sha256": "923d2f29b903e2361eaef6b7430e6d7d1b9f971a4f922176787f906a4043b266"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pokerbench-v5/train-postflop-tasks.jsonl",
+      "sha256": "1d8333ae74c07dcf7dbf3907da990c04e016b562ae1f7c39769fac9ad99b624b"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pokerbench-v5/weighted-train-tasks.jsonl",
+      "sha256": "a348498b6a56d514e085f260c28668dbf2f69c8746a030d0686aa2537761d086"
+    }
+  ],
+  "postflop": {
+    "unique_rows": 3499,
+    "explicitly_rendered_remaining_stack_tables": 0,
+    "derived_from_full_hand_commitments_under_declared200_each": 3499,
+    "printed_pot_equals_full_hand_contributions": 3499,
+    "derived_remaining_stacks_plus_pot_equals1200": 3499,
+    "derived_remaining_stacks_plus_pot_violation": 0,
+    "negative_derived_remaining_stack": 0,
+    "pot_above1200": 0,
+    "target_bet_raise_full_hand_commit_above200": 0,
+    "maximum_pot": 352,
+    "maximum_prior_position_commitment": 200,
+    "current_street_only_is_not_full_hand_ledger": 3499
+  },
+  "preflop": {
+    "unique_explicit_rendered_tables": 387,
+    "weighted_copies": 3870,
+    "six_table_stacks_plus_already_inclusive_pot_equals1200": 387,
+    "violations": 0,
+    "table_bet_must_not_be_added_again": true,
+    "carried_per_seat_stacks_can_exceed200": true
+  },
+  "weighted_total": 7369,
+  "necessary_money_invariant_violations": 0,
+  "interpretation": "Reset betting ledger per street, never restore each stack to200 between streets. Postflop remaining stacks are DERIVED, not source observations. Preflop pot explicitly includes current bets.",
+  "limitations": [
+    "Necessary monetary consistency only; not full game reachability, source cash-stack provenance, or target optimality.",
+    "Original cash-game stack variability cannot be established from permitted converted artifacts.",
+    "One-chip pot reconciliation keeps provider target labels unchanged; their optimality after correction remains uncertain."
+  ],
+  "locked_examples": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/catalog-base-drgrpo-short-v1/v5-train-money-locked-examples.json"
+}

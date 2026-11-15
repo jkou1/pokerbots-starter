@@ -1,0 +1,47 @@
+{
+  "stage": "CPUpreparedno upload/trainingyet",
+  "train_postflop": {
+    "original_consistent": 1060,
+    "reconciled_off1": 2439,
+    "total_unique": 3499,
+    "larger_mismatches_quarantined": 597
+  },
+  "anchors": {
+    "unique": 387,
+    "copies_per_source": 10,
+    "weighted": 3870,
+    "heldout_match_overlap": 0
+  },
+  "total": {
+    "unique": 3886,
+    "weighted": 7369,
+    "weighted_preflop_fraction": 0.5251730221196906
+  },
+  "select": {
+    "original41_unchanged_first": 41,
+    "reconciled_locked_off1": 95,
+    "total": 136,
+    "larger_mismatches_excluded": 11,
+    "action_counts": {
+      "raise": 19,
+      "call": 35,
+      "check": 32,
+      "fold": 34,
+      "bet": 16
+    },
+    "source": "Onlyoriginal147lockedfastSELECT;nofullselectexpansion"
+  },
+  "original_splits_and_groups_preserved": true,
+  "train_select_group_overlap": 0,
+  "exposed_final_group_overlap": 0,
+  "final_not_read_uploaded_or_queried": true,
+  "target_label_optimality_after_correction": "uncertain;unchangedproviderlabelunderroundedsourceinput",
+  "not_one_factor_ablation": "coverage,roundingreconciliation,weightingandpotentialpilotlength/LRchange",
+  "sha256": {
+    "train-postflop.jsonl": "923d2f29b903e2361eaef6b7430e6d7d1b9f971a4f922176787f906a4043b266",
+    "weighted-train-tasks.jsonl": "a348498b6a56d514e085f260c28668dbf2f69c8746a030d0686aa2537761d086",
+    "select.jsonl": "36551b66e093e69daa063e35ae85d3880381fb5407e8f4768eaa8d94b83e3a9c",
+    "select-tasks.jsonl": "d7848a690927d327abe18f5fa654ccb256da2699f598ce1581d87b5ad5a5b0fb",
+    "train-postflop-tasks.jsonl": "1d8333ae74c07dcf7dbf3907da990c04e016b562ae1f7c39769fac9ad99b624b"
+  }
+}

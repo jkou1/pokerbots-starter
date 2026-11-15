@@ -1,0 +1,731 @@
+{
+  "updated_at": "2026-11-15T13:57:58.219051+00:00",
+  "pid": 77896,
+  "train_id": "train_3c45262ddf1f",
+  "actual_training_updates": 10,
+  "steps": {
+    "0": {
+      "observed_sequences": 64,
+      "source_counts": {
+        "postflop": 30,
+        "preflop": 34
+      },
+      "supervised_target_tokens": {
+        "postflop": 1105,
+        "preflop": 1253
+      },
+      "action_ce_by_kind": {
+        "postflop": {
+          "samples": 30,
+          "per_action": {
+            "bet": {
+              "samples": 1,
+              "action_ce": 4.642
+            },
+            "call": {
+              "samples": 7,
+              "action_ce": 0.6499714285714286
+            },
+            "check": {
+              "samples": 7,
+              "action_ce": 0.24012714285714284
+            },
+            "fold": {
+              "samples": 12,
+              "action_ce": 0.5755583333333333
+            },
+            "raise": {
+              "samples": 3,
+              "action_ce": 4.199333333333333
+            }
+          },
+          "class_balanced_action_ce": 2.061398047619048,
+          "micro_action_ce": 1.0125796666666667,
+          "amount_samples": 4,
+          "amount_ce": 1.2298
+        },
+        "preflop": {
+          "samples": 34,
+          "per_action": {
+            "call": {
+              "samples": 5,
+              "action_ce": 0.62834
+            },
+            "fold": {
+              "samples": 24,
+              "action_ce": 0.11525654166666667
+            },
+            "raise": {
+              "samples": 5,
+              "action_ce": 0.664388
+            }
+          },
+          "class_balanced_action_ce": 0.4693281805555556,
+          "micro_action_ce": 0.2714646176470588,
+          "amount_samples": 5,
+          "amount_ce": 0.930316
+        }
+      },
+      "exact_target_errors": []
+    },
+    "1": {
+      "observed_sequences": 64,
+      "source_counts": {
+        "postflop": 28,
+        "preflop": 36
+      },
+      "supervised_target_tokens": {
+        "postflop": 1045,
+        "preflop": 1357
+      },
+      "action_ce_by_kind": {
+        "postflop": {
+          "samples": 28,
+          "per_action": {
+            "bet": {
+              "samples": 3,
+              "action_ce": 6.265666666666667
+            },
+            "call": {
+              "samples": 10,
+              "action_ce": 1.04979
+            },
+            "check": {
+              "samples": 4,
+              "action_ce": 0.1817875
+            },
+            "fold": {
+              "samples": 9,
+              "action_ce": 0.7030777777777778
+            },
+            "raise": {
+              "samples": 2,
+              "action_ce": 1.823
+            }
+          },
+          "class_balanced_action_ce": 2.004664388888889,
+          "micro_action_ce": 1.428419642857143,
+          "amount_samples": 5,
+          "amount_ce": 2.034813333333333
+        },
+        "preflop": {
+          "samples": 36,
+          "per_action": {
+            "call": {
+              "samples": 3,
+              "action_ce": 1.6098999999999999
+            },
+            "check": {
+              "samples": 2,
+              "action_ce": 0.020040000000000002
+            },
+            "fold": {
+              "samples": 23,
+              "action_ce": 0.46280986956521736
+            },
+            "raise": {
+              "samples": 8,
+              "action_ce": 0.9653175
+            }
+          },
+          "class_balanced_action_ce": 0.7645168423913044,
+          "micro_action_ce": 0.64547075,
+          "amount_samples": 8,
+          "amount_ce": 0.190655
+        }
+      },
+      "exact_target_errors": []
+    },
+    "2": {
+      "observed_sequences": 64,
+      "source_counts": {
+        "postflop": 31,
+        "preflop": 33
+      },
+      "supervised_target_tokens": {
+        "postflop": 1098,
+        "preflop": 1216
+      },
+      "action_ce_by_kind": {
+        "postflop": {
+          "samples": 31,
+          "per_action": {
+            "bet": {
+              "samples": 1,
+              "action_ce": 4.561
+            },
+            "call": {
+              "samples": 10,
+              "action_ce": 0.63927
+            },
+            "check": {
+              "samples": 12,
+              "action_ce": 0.1966
+            },
+            "fold": {
+              "samples": 8,
+              "action_ce": 0.40865
+            }
+          },
+          "class_balanced_action_ce": 1.45138,
+          "micro_action_ce": 0.5349064516129033,
+          "amount_samples": 1,
+          "amount_ce": 1.13625
+        },
+        "preflop": {
+          "samples": 33,
+          "per_action": {
+            "call": {
+              "samples": 4,
+              "action_ce": 0.710825
+            },
+            "fold": {
+              "samples": 24,
+              "action_ce": 0.2863691666666667
+            },
+            "raise": {
+              "samples": 5,
+              "action_ce": 0.73671
+            }
+          },
+          "class_balanced_action_ce": 0.5779680555555555,
+          "micro_action_ce": 0.4060518181818181,
+          "amount_samples": 5,
+          "amount_ce": 0.30994200000000005
+        }
+      },
+      "exact_target_errors": []
+    },
+    "3": {
+      "observed_sequences": 64,
+      "source_counts": {
+        "preflop": 36,
+        "postflop": 28
+      },
+      "supervised_target_tokens": {
+        "preflop": 1369,
+        "postflop": 1047
+      },
+      "action_ce_by_kind": {
+        "preflop": {
+          "samples": 36,
+          "per_action": {
+            "call": {
+              "samples": 1,
+              "action_ce": 2.353
+            },
+            "fold": {
+              "samples": 26,
+              "action_ce": 0.18222434615384617
+            },
+            "raise": {
+              "samples": 9,
+              "action_ce": 0.90172
+            }
+          },
+          "class_balanced_action_ce": 1.1456481153846154,
+          "micro_action_ce": 0.4223975833333333,
+          "amount_samples": 9,
+          "amount_ce": 0.40764333333333336
+        },
+        "postflop": {
+          "samples": 28,
+          "per_action": {
+            "bet": {
+              "samples": 1,
+              "action_ce": 6.816
+            },
+            "call": {
+              "samples": 6,
+              "action_ce": 0.6237166666666666
+            },
+            "check": {
+              "samples": 5,
+              "action_ce": 0.135004
+            },
+            "fold": {
+              "samples": 12,
+              "action_ce": 0.3191233333333333
+            },
+            "raise": {
+              "samples": 4,
+              "action_ce": 2.83675
+            }
+          },
+          "class_balanced_action_ce": 2.1461188,
+          "micro_action_ce": 0.9432071428571429,
+          "amount_samples": 5,
+          "amount_ce": 1.9912633333333332
+        }
+      },
+      "exact_target_errors": []
+    },
+    "4": {
+      "observed_sequences": 64,
+      "source_counts": {
+        "preflop": 27,
+        "postflop": 37
+      },
+      "supervised_target_tokens": {
+        "preflop": 982,
+        "postflop": 1416
+      },
+      "action_ce_by_kind": {
+        "preflop": {
+          "samples": 27,
+          "per_action": {
+            "call": {
+              "samples": 3,
+              "action_ce": 0.8815
+            },
+            "check": {
+              "samples": 2,
+              "action_ce": 0.024579999999999998
+            },
+            "fold": {
+              "samples": 19,
+              "action_ce": 0.06935142105263158
+            },
+            "raise": {
+              "samples": 3,
+              "action_ce": 1.0507333333333333
+            }
+          },
+          "class_balanced_action_ce": 0.5065411885964912,
+          "micro_action_ce": 0.2653161851851852,
+          "amount_samples": 3,
+          "amount_ce": 0.55111
+        },
+        "postflop": {
+          "samples": 37,
+          "per_action": {
+            "bet": {
+              "samples": 3,
+              "action_ce": 4.72
+            },
+            "call": {
+              "samples": 12,
+              "action_ce": 0.7695833333333333
+            },
+            "check": {
+              "samples": 9,
+              "action_ce": 0.06938333333333334
+            },
+            "fold": {
+              "samples": 7,
+              "action_ce": 0.3003428571428572
+            },
+            "raise": {
+              "samples": 6,
+              "action_ce": 2.998333333333333
+            }
+          },
+          "class_balanced_action_ce": 1.7715285714285713,
+          "micro_action_ce": 1.192212162162162,
+          "amount_samples": 9,
+          "amount_ce": 1.8455770370370368
+        }
+      },
+      "exact_target_errors": []
+    },
+    "5": {
+      "observed_sequences": 64,
+      "source_counts": {
+        "preflop": 36,
+        "postflop": 28
+      },
+      "supervised_target_tokens": {
+        "preflop": 1382,
+        "postflop": 1071
+      },
+      "action_ce_by_kind": {
+        "preflop": {
+          "samples": 36,
+          "per_action": {
+            "call": {
+              "samples": 5,
+              "action_ce": 0.78542
+            },
+            "check": {
+              "samples": 1,
+              "action_ce": 0.01411
+            },
+            "fold": {
+              "samples": 20,
+              "action_ce": 0.17976430000000002
+            },
+            "raise": {
+              "samples": 10,
+              "action_ce": 0.854139
+            }
+          },
+          "class_balanced_action_ce": 0.458358325,
+          "micro_action_ce": 0.4466079444444444,
+          "amount_samples": 10,
+          "amount_ce": 0.711242
+        },
+        "postflop": {
+          "samples": 28,
+          "per_action": {
+            "bet": {
+              "samples": 6,
+              "action_ce": 3.4625000000000004
+            },
+            "call": {
+              "samples": 3,
+              "action_ce": 0.49596666666666667
+            },
+            "check": {
+              "samples": 10,
+              "action_ce": 0.109235
+            },
+            "fold": {
+              "samples": 8,
+              "action_ce": 0.48655
+            },
+            "raise": {
+              "samples": 1,
+              "action_ce": 2.738
+            }
+          },
+          "class_balanced_action_ce": 1.4584503333333334,
+          "micro_action_ce": 1.0709160714285715,
+          "amount_samples": 7,
+          "amount_ce": 1.6488619047619049
+        }
+      },
+      "exact_target_errors": []
+    },
+    "6": {
+      "observed_sequences": 64,
+      "source_counts": {
+        "postflop": 37,
+        "preflop": 27
+      },
+      "supervised_target_tokens": {
+        "postflop": 1347,
+        "preflop": 1041
+      },
+      "action_ce_by_kind": {
+        "postflop": {
+          "samples": 37,
+          "per_action": {
+            "bet": {
+              "samples": 3,
+              "action_ce": 1.9826666666666668
+            },
+            "call": {
+              "samples": 13,
+              "action_ce": 0.7547692307692307
+            },
+            "check": {
+              "samples": 14,
+              "action_ce": 0.16072214285714284
+            },
+            "fold": {
+              "samples": 6,
+              "action_ce": 0.9410833333333333
+            },
+            "raise": {
+              "samples": 1,
+              "action_ce": 3.03
+            }
+          },
+          "class_balanced_action_ce": 1.3738482747252747,
+          "micro_action_ce": 0.7212597297297296,
+          "amount_samples": 4,
+          "amount_ce": 1.2748
+        },
+        "preflop": {
+          "samples": 27,
+          "per_action": {
+            "call": {
+              "samples": 2,
+              "action_ce": 1.5350000000000001
+            },
+            "check": {
+              "samples": 1,
+              "action_ce": 0.0223
+            },
+            "fold": {
+              "samples": 16,
+              "action_ce": 0.34288831249999996
+            },
+            "raise": {
+              "samples": 8,
+              "action_ce": 0.35960725
+            }
+          },
+          "class_balanced_action_ce": 0.564948890625,
+          "micro_action_ce": 0.42427299999999996,
+          "amount_samples": 8,
+          "amount_ce": 0.0518425
+        }
+      },
+      "exact_target_errors": []
+    },
+    "7": {
+      "observed_sequences": 64,
+      "source_counts": {
+        "postflop": 29,
+        "preflop": 35
+      },
+      "supervised_target_tokens": {
+        "postflop": 1094,
+        "preflop": 1285
+      },
+      "action_ce_by_kind": {
+        "postflop": {
+          "samples": 29,
+          "per_action": {
+            "bet": {
+              "samples": 2,
+              "action_ce": 3.0645
+            },
+            "call": {
+              "samples": 9,
+              "action_ce": 1.016388888888889
+            },
+            "check": {
+              "samples": 9,
+              "action_ce": 0.3969888888888889
+            },
+            "fold": {
+              "samples": 5,
+              "action_ce": 0.7173
+            },
+            "raise": {
+              "samples": 4,
+              "action_ce": 1.149475
+            }
+          },
+          "class_balanced_action_ce": 1.2689305555555557,
+          "micro_action_ce": 0.9322,
+          "amount_samples": 6,
+          "amount_ce": 1.3728694444444445
+        },
+        "preflop": {
+          "samples": 35,
+          "per_action": {
+            "call": {
+              "samples": 5,
+              "action_ce": 1.6615600000000001
+            },
+            "check": {
+              "samples": 1,
+              "action_ce": 0.0485
+            },
+            "fold": {
+              "samples": 24,
+              "action_ce": 0.203333625
+            },
+            "raise": {
+              "samples": 5,
+              "action_ce": 0.29613
+            }
+          },
+          "class_balanced_action_ce": 0.55238090625,
+          "micro_action_ce": 0.4204844857142857,
+          "amount_samples": 5,
+          "amount_ce": 0.90851
+        }
+      },
+      "exact_target_errors": []
+    },
+    "8": {
+      "observed_sequences": 64,
+      "source_counts": {
+        "postflop": 36,
+        "preflop": 28
+      },
+      "supervised_target_tokens": {
+        "postflop": 1368,
+        "preflop": 1053
+      },
+      "action_ce_by_kind": {
+        "postflop": {
+          "samples": 36,
+          "per_action": {
+            "bet": {
+              "samples": 2,
+              "action_ce": 3.605
+            },
+            "call": {
+              "samples": 8,
+              "action_ce": 0.80835
+            },
+            "check": {
+              "samples": 13,
+              "action_ce": 0.39185230769230767
+            },
+            "fold": {
+              "samples": 7,
+              "action_ce": 0.6007
+            },
+            "raise": {
+              "samples": 6,
+              "action_ce": 2.0627166666666668
+            }
+          },
+          "class_balanced_action_ce": 1.4937237948717947,
+          "micro_action_ce": 0.9820022222222222,
+          "amount_samples": 8,
+          "amount_ce": 1.5878604166666668
+        },
+        "preflop": {
+          "samples": 28,
+          "per_action": {
+            "call": {
+              "samples": 2,
+              "action_ce": 0.9107
+            },
+            "check": {
+              "samples": 2,
+              "action_ce": 0.0252
+            },
+            "fold": {
+              "samples": 18,
+              "action_ce": 0.2558505555555556
+            },
+            "raise": {
+              "samples": 6,
+              "action_ce": 0.7597008333333334
+            }
+          },
+          "class_balanced_action_ce": 0.48786284722222223,
+          "micro_action_ce": 0.3941183928571429,
+          "amount_samples": 6,
+          "amount_ce": 0.20507666666666668
+        }
+      },
+      "exact_target_errors": []
+    },
+    "9": {
+      "observed_sequences": 64,
+      "source_counts": {
+        "preflop": 30,
+        "postflop": 34
+      },
+      "supervised_target_tokens": {
+        "preflop": 1173,
+        "postflop": 1257
+      },
+      "action_ce_by_kind": {
+        "preflop": {
+          "samples": 30,
+          "per_action": {
+            "call": {
+              "samples": 3,
+              "action_ce": 0.9241666666666667
+            },
+            "check": {
+              "samples": 1,
+              "action_ce": 0.05103
+            },
+            "fold": {
+              "samples": 16,
+              "action_ce": 0.14319375
+            },
+            "raise": {
+              "samples": 10,
+              "action_ce": 0.496952
+            }
+          },
+          "class_balanced_action_ce": 0.4038356041666667,
+          "micro_action_ce": 0.3361383333333333,
+          "amount_samples": 10,
+          "amount_ce": 0.426129
+        },
+        "postflop": {
+          "samples": 34,
+          "per_action": {
+            "bet": {
+              "samples": 2,
+              "action_ce": 1.6435
+            },
+            "call": {
+              "samples": 9,
+              "action_ce": 0.8000666666666666
+            },
+            "check": {
+              "samples": 8,
+              "action_ce": 0.49292
+            },
+            "fold": {
+              "samples": 12,
+              "action_ce": 1.1186749999999999
+            },
+            "raise": {
+              "samples": 3,
+              "action_ce": 1.6615
+            }
+          },
+          "class_balanced_action_ce": 1.1433323333333332,
+          "micro_action_ce": 0.9658694117647059,
+          "amount_samples": 5,
+          "amount_ce": 1.8650200000000001
+        }
+      },
+      "exact_target_errors": []
+    }
+  },
+  "pooled_action_ce_by_kind": {
+    "postflop": {
+      "samples": 318,
+      "per_action": {
+        "bet": {
+          "samples": 24,
+          "action_ce": 3.8468750000000003
+        },
+        "call": {
+          "samples": 87,
+          "action_ce": 0.7877298850574712
+        },
+        "check": {
+          "samples": 91,
+          "action_ce": 0.24197263736263736
+        },
+        "fold": {
+          "samples": 86,
+          "action_ce": 0.6184869767441861
+        },
+        "raise": {
+          "samples": 30,
+          "action_ce": 2.44359
+        }
+      },
+      "class_balanced_action_ce": 1.587730899832859,
+      "micro_action_ce": 0.97287606918239,
+      "amount_samples": 54,
+      "amount_ce": 1.6611566666666666
+    },
+    "preflop": {
+      "samples": 322,
+      "per_action": {
+        "call": {
+          "samples": 33,
+          "action_ce": 1.082151515151515
+        },
+        "check": {
+          "samples": 10,
+          "action_ce": 0.027558
+        },
+        "fold": {
+          "samples": 210,
+          "action_ce": 0.22474795238095235
+        },
+        "raise": {
+          "samples": 69,
+          "action_ce": 0.7017729420289855
+        }
+      },
+      "class_balanced_action_ce": 0.5090576023903632,
+      "micro_action_ce": 0.4087142329192547,
+      "amount_samples": 69,
+      "amount_ce": 0.44362478260869564
+    }
+  },
+  "exact_target_errors": [],
+  "no_gpu_or_api_calls": true,
+  "not_generation_quality_or_convergence": true
+}

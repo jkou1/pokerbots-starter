@@ -3,13 +3,14 @@
     "checkpoint": "ckpt_ad74c826c9ad"
   },
   "name": "pokerbench-v4-consistent-ad74-sft-10updates-lr1e6",
-  "description": "Prepared ONLY; clean warm-start preflight and rootGO required.1060unchangedpostflop+387heldout-safepreanchors3x;10updates5/10checkpoints.",
+  "description": "RootGO authorized ONE old-SFTad74PokerBenchV4pilot afterDR2actualrelease; startup itself cleanwarmcontrol; hard10updates noextension,weights-onlysave5/10,4GPUzeroengines.",
   "tags": {
     "stage": "pokerbench-v4-consistent",
     "parent": "old-SFT-ad74",
     "dataset": "pokerbots-pokerbench-v4-consistent-pre3x-train",
     "gpu_budget": "4train/0rollout/0eval",
-    "submit_authorized": "false"
+    "submit_authorized": "rootGO",
+    "warm_control": "this_single_pilot_startup_no_duplicate"
   },
   "experiment_cfg": {
     "method": {
@@ -20,7 +21,9 @@
       "problem_batch_size": 64,
       "samples_per_problem": 1,
       "checkpoint_interval": 5,
-      "seed": 42
+      "seed": 42,
+      "no_save_optimizer_state": true,
+      "keep_last_checkpoints": 2
     },
     "tasks": {
       "datasets": [

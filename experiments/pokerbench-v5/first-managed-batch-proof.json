@@ -1,0 +1,105 @@
+{
+  "step": 0,
+  "actual_sequences": 64,
+  "source_counts": {
+    "postflop_reconciled": 19,
+    "preflop": 36,
+    "postflop_consistent": 9
+  },
+  "source_prompt_exact_text_matches": 64,
+  "all_actual_targets_equal_prepared_source_targets": true,
+  "reconciled_targets_equal_original_provider_label_after_exact2x": 19,
+  "reconciled_prompt_pot_plus1_mapping_verified": true,
+  "pre_sampling_copy_counts": {
+    "6": 3,
+    "1": 5,
+    "5": 3,
+    "4": 6,
+    "0": 4,
+    "9": 4,
+    "3": 4,
+    "7": 3,
+    "2": 3,
+    "8": 1
+  },
+  "supervised_target_tokens": {
+    "postflop_reconciled": 718,
+    "preflop": 1406,
+    "postflop_consistent": 342
+  },
+  "managed_boundary_mask_audit_errors": [],
+  "action_ce_by_kind": {
+    "postflop_reconciled": {
+      "samples": 19,
+      "per_action": {
+        "bet": {
+          "samples": 3,
+          "action_ce": 5.1979999999999995
+        },
+        "call": {
+          "samples": 6,
+          "action_ce": 0.8104
+        },
+        "check": {
+          "samples": 5,
+          "action_ce": 0.20454
+        },
+        "fold": {
+          "samples": 4,
+          "action_ce": 0.3897175
+        },
+        "raise": {
+          "samples": 1,
+          "action_ce": 2.597
+        }
+      },
+      "class_balanced_action_ce": 1.8399314999999998,
+      "micro_action_ce": 1.349208947368421,
+      "amount_samples": 4,
+      "amount_ce": 1.8849958333333334
+    },
+    "preflop": {
+      "samples": 36,
+      "per_action": {
+        "call": {
+          "samples": 4,
+          "action_ce": 1.461425
+        },
+        "fold": {
+          "samples": 20,
+          "action_ce": 0.26240579999999997
+        },
+        "raise": {
+          "samples": 12,
+          "action_ce": 1.3420916666666667
+        }
+      },
+      "class_balanced_action_ce": 1.0219741555555555,
+      "micro_action_ce": 0.7555254444444445,
+      "amount_samples": 12,
+      "amount_ce": 0.24820583333333335
+    },
+    "postflop_consistent": {
+      "samples": 9,
+      "per_action": {
+        "check": {
+          "samples": 3,
+          "action_ce": 0.13485666666666665
+        },
+        "fold": {
+          "samples": 4,
+          "action_ce": 0.282775
+        },
+        "raise": {
+          "samples": 2,
+          "action_ce": 4.233499999999999
+        }
+      },
+      "class_balanced_action_ce": 1.550377222222222,
+      "micro_action_ce": 1.1114077777777778,
+      "amount_samples": 2,
+      "amount_ce": 1.8145
+    }
+  },
+  "not_poker_quality_or_convergence": true
+}

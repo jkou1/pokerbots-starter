@@ -1,0 +1,128 @@
+{
+  "record_type": "LOCAL diagnostic, not nativeEval or poker EV",
+  "name": "s10",
+  "model": "infer_daea384f8778",
+  "checkpoint": "ckpt_c1888900c315",
+  "select41": {
+    "examples": 41,
+    "action_accuracy": 0.6097560975609756,
+    "exact_action_amount_accuracy": 0.5853658536585366,
+    "legal_rate": 1.0,
+    "check_or_fold_baseline_accuracy": 0.5365853658536586,
+    "macro_action_recall": 0.4844444444444444,
+    "per_action": {
+      "raise": {
+        "examples": 5,
+        "recall": 0.2
+      },
+      "call": {
+        "examples": 9,
+        "recall": 0.8888888888888888
+      },
+      "check": {
+        "examples": 13,
+        "recall": 1.0
+      },
+      "fold": {
+        "examples": 9,
+        "recall": 0.3333333333333333
+      },
+      "bet": {
+        "examples": 5,
+        "recall": 0.0
+      }
+    },
+    "per_position": {
+      "SB": {
+        "examples": 13,
+        "accuracy": 0.5384615384615384
+      },
+      "BB": {
+        "examples": 26,
+        "accuracy": 0.6538461538461539
+      },
+      "UTG": {
+        "examples": 2,
+        "accuracy": 0.5
+      }
+    },
+    "raise_amount_mae_chips": 22.0,
+    "raise_amount_comparisons": 1
+  },
+  "pre354": {
+    "examples": 354,
+    "action_accuracy": 0.847457627118644,
+    "exact_action_amount_accuracy": 0.8192090395480226,
+    "legal_rate": 1.0,
+    "check_or_fold_baseline_accuracy": 0.711864406779661,
+    "macro_action_recall": 0.7278805149655772,
+    "per_action": {
+      "fold": {
+        "examples": 241,
+        "recall": 0.9377593360995851
+      },
+      "raise": {
+        "examples": 74,
+        "recall": 0.7432432432432432
+      },
+      "call": {
+        "examples": 28,
+        "recall": 0.32142857142857145
+      },
+      "check": {
+        "examples": 11,
+        "recall": 0.9090909090909091
+      }
+    },
+    "per_position": {
+      "4": {
+        "examples": 62,
+        "accuracy": 0.7741935483870968
+      },
+      "3": {
+        "examples": 74,
+        "accuracy": 0.8918918918918919
+      },
+      "2": {
+        "examples": 65,
+        "accuracy": 0.9538461538461539
+      },
+      "1": {
+        "examples": 54,
+        "accuracy": 0.6851851851851852
+      },
+      "0": {
+        "examples": 71,
+        "accuracy": 0.8732394366197183
+      },
+      "5": {
+        "examples": 28,
+        "accuracy": 0.8928571428571429
+      }
+    },
+    "raise_amount_mae_chips": 0.7272727272727273,
+    "raise_amount_comparisons": 55
+  },
+  "cleanup10_protocol_only_not_factual_memory": {
+    "examples": 10,
+    "valid": 0,
+    "overlong": 10,
+    "wrong_tool_calls": 0
+  },
+  "core_knowledge_gates": {
+    "exact_29of41": false,
+    "macro_atleast_parent": false,
+    "bet_raise_3of10": false,
+    "checks_11of13": true,
+    "calls_5of9": true,
+    "folds_6of9": false,
+    "all41legal": true,
+    "pre_atleast271of354": true
+  },
+  "core_gates_pass": false,
+  "decision": "Closed negative: no full games, promotion or extension",
+  "explicit_enum_regression4": "not queried because knowledge gates fail; all395decision outputs observed legal",
+  "all405_requests_drained": true,
+  "no_retries": true,
+  "no_final": true
+}

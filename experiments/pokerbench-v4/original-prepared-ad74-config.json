@@ -1,0 +1,49 @@
+{
+  "model": {
+    "checkpoint": "ckpt_ad74c826c9ad"
+  },
+  "name": "pokerbench-v4-consistent-ad74-sft-10updates-lr1e6",
+  "description": "Prepared ONLY; clean warm-start preflight and rootGO required.1060unchangedpostflop+387heldout-safepreanchors3x;10updates5/10checkpoints.",
+  "tags": {
+    "stage": "pokerbench-v4-consistent",
+    "parent": "old-SFT-ad74",
+    "dataset": "pokerbots-pokerbench-v4-consistent-pre3x-train",
+    "gpu_budget": "4train/0rollout/0eval",
+    "submit_authorized": "false"
+  },
+  "experiment_cfg": {
+    "method": {
+      "type": "sft"
+    },
+    "step": {
+      "num_train_steps": 10,
+      "problem_batch_size": 64,
+      "samples_per_problem": 1,
+      "checkpoint_interval": 5,
+      "seed": 42
+    },
+    "tasks": {
+      "datasets": [
+        {
+          "ac2_dataset_name": "pokerbots-pokerbench-v4-consistent-pre3x-train"
+        }
+      ]
+    },
+    "trainer": {
+      "learning_rate": 1e-06
+    },
+    "rollout": {
+      "n_inference_replicas": 0,
+      "max_total_len": 2048
+    },
+    "eval": {
+      "mode": "off"
+    }
+  },
+  "internal_cfg": {
+    "launch": {
+      "n_training_replicas": 1,
+      "tensorboard_enabled": true
+    }
+  }
+}

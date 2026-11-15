@@ -1,0 +1,4 @@
+raw/
+*.jsonl
+__pycache__/
+task-membership-map.json
