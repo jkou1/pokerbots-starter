@@ -1,0 +1,157 @@
+{
+  "count": 16,
+  "source_cases_sha256": "c7951240c183d0920c45ba964ee6fd724e75015c9a6b1ccfef1e3e1dd5d9934b",
+  "max_student_prefix_tokens": 883,
+  "max_teacher_prefix_tokens": 1027,
+  "max_teacher_prefix_plus_planned_reply": 6027,
+  "tools_are_actual_OpenAI_function_wrappers_of_published_canonical": true,
+  "prefix_thinking_boundary_valid": true,
+  "actual_reply_and_managed_masks_not_yet_measured": true,
+  "no_model_calls": true,
+  "cases": [
+    {
+      "case": 0,
+      "source_group": "a25d744d1eb367caa21a62dccb5c18bcb8a9985e1cf96b9fe322b387e9d22fd3",
+      "student_prompt_tokens": 862,
+      "teacher_prompt_tokens": 1003,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "7c15943b624b927857a65850bffe2c8060feb5d2c1f5e6ef052b181936d51d41",
+      "teacher_hint_sha256": "15674d9b8a6e07b55553a3078756e895e7cb01cd68ee834f4ef1d79a74950c4d"
+    },
+    {
+      "case": 1,
+      "source_group": "416d158e1b89b46cb7affcc3ca8d5fb0cddd33fb539f4c31164f227621ab9497",
+      "student_prompt_tokens": 858,
+      "teacher_prompt_tokens": 999,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "8e3ef84249734ed732e29ba0c25dfeb05bf3d039d30e1fec78b0cdb3634bdde6",
+      "teacher_hint_sha256": "45dc35c5d5b1606f09f4e960f7a8c6bc0ef7da342d7f1abc63cc31521cf651ef"
+    },
+    {
+      "case": 2,
+      "source_group": "4c3d8f67d2a7f49cfe70e86070c1a039bfbfd013ab61beb3a517d14aba95ac1e",
+      "student_prompt_tokens": 859,
+      "teacher_prompt_tokens": 1000,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "31e06116fcb813b8ae0ee0379b31d5e15ebc1263da497b29f5c3a068ad7bba88",
+      "teacher_hint_sha256": "c43a77b81a5f5ac2a5b0ac43c85bfc1277cea9045057c73f7e8075940ec6cc87"
+    },
+    {
+      "case": 3,
+      "source_group": "9cfdb1f25b7e4cd087cab179bf3f1df66235ab96e6a07e904844d5a049999478",
+      "student_prompt_tokens": 867,
+      "teacher_prompt_tokens": 1008,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "7b5e21918d11363ca48b31e66be2efbae2c97c4474a03533bfa7c9ad660dee31",
+      "teacher_hint_sha256": "d785b095403debc5d812ccc3e7f2c13a1e9a3e3a3b797761bfd768327800dfca"
+    },
+    {
+      "case": 4,
+      "source_group": "be92ccae914652dde6894fc1676e77c28c3eb58606f0ed42dd96837ae33ca3ab",
+      "student_prompt_tokens": 867,
+      "teacher_prompt_tokens": 1011,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "4865a4392cd6c67f35d20348fc6b803ac108e233472fd2881c5a687cdf796017",
+      "teacher_hint_sha256": "a0be2ff7a89716eed2c1613a61b87b15ab953d07538f4e8f30fc7dea37c993f6"
+    },
+    {
+      "case": 5,
+      "source_group": "62853502efc11408cac0562db9ebd4ba09e87f3133e8f4c4f1127e30b4fe4f06",
+      "student_prompt_tokens": 883,
+      "teacher_prompt_tokens": 1027,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "93218e6d9c08235774d7bc62dc9187786b72e6636b822bb460a151a8ab14bd64",
+      "teacher_hint_sha256": "5b689510e8a1c115feaffbbf4ba9eab5e7a51b694996c060594b07b3a0d60de5"
+    },
+    {
+      "case": 6,
+      "source_group": "6b75e2e5f99378415c4457b414867651f00344da5387da38e1f3afd7ededdf07",
+      "student_prompt_tokens": 879,
+      "teacher_prompt_tokens": 1022,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "19f18c4dec27284d70b093c861914516a59340a0942bb80d43df97d8e6b65f7b",
+      "teacher_hint_sha256": "5e98d03af2437234a3c962923691f0f50509e58c6da7f60dbb4acf156361ca9c"
+    },
+    {
+      "case": 7,
+      "source_group": "09b1534b97e7496cc69117447442b4f0ac4d74b5b96178524a9b7056fa1f0bae",
+      "student_prompt_tokens": 870,
+      "teacher_prompt_tokens": 1011,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "5b7a778648b78ccde16c7670fd63c25ee84992f57244a4cc20136e6889ed5da8",
+      "teacher_hint_sha256": "72df035e438acda484772651337a2010bdc215db024f4176128a42f7007ac1e3"
+    },
+    {
+      "case": 8,
+      "source_group": "c2cf9e7b09a21bd201f37f167129cffefc10623937937b92112c43d49ffec3f2",
+      "student_prompt_tokens": 872,
+      "teacher_prompt_tokens": 1008,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "765775c419e54d188457cfafcf91a2b14de8f62402765b49cdbc6851f5f2930a",
+      "teacher_hint_sha256": "8a05b27bd4a9b16f5addcf4ccc6ea1c8683524748722058ffa2154655c0cc7f5"
+    },
+    {
+      "case": 9,
+      "source_group": "8333b939f92eaa732bc96fb0a67b209a178fecbf90b324f4d97fcf9f0bd02e3e",
+      "student_prompt_tokens": 855,
+      "teacher_prompt_tokens": 991,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "9b776d433f1062d89d95f2a4841835b014d5ea9c1a50da657423ca3eeb227d6c",
+      "teacher_hint_sha256": "0dc528ee798018640a873eaf77f6ba15902ece8e8b4cb85bf4b318114f3c85f2"
+    },
+    {
+      "case": 10,
+      "source_group": "cffb7e17b8e61b90986ed0d8ef2fceea9237a30a1bf3c85d3162e51e711ae0fa",
+      "student_prompt_tokens": 848,
+      "teacher_prompt_tokens": 984,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "7f970af22677ee3d240479febf783e7ec6846bb81f21373ace70832d6674eb17",
+      "teacher_hint_sha256": "2771f2c3236c161af3150c6934bfa0bba714fc4ad2b2a61a186f1b0f95225ac0"
+    },
+    {
+      "case": 11,
+      "source_group": "3df701ace0491ee614de87dceace900be8d3cdb53f4dc212807588a6f39eaf29",
+      "student_prompt_tokens": 851,
+      "teacher_prompt_tokens": 987,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "0d0e49635c7c9f0b1b4f8ed9b56be9c4bbe663514b8e7e91de70feb640887f46",
+      "teacher_hint_sha256": "8a9b26dcc54a732c568241fef2c41490af64c7a66721023a19e0e98570d58c39"
+    },
+    {
+      "case": 12,
+      "source_group": "ff2ecb045eebfcb329d21fda65c25c160ac8cd6c52f396f00a30850d9e4320a1",
+      "student_prompt_tokens": 874,
+      "teacher_prompt_tokens": 1010,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "35b4e41e907d43b4620d71fbb3c36cf1468313fa00f04de5667f19a028cd460b",
+      "teacher_hint_sha256": "ab4246e7d75ad71b95a9b5df19891a2971e5be104dd30492fa984b704019880c"
+    },
+    {
+      "case": 13,
+      "source_group": "f8879439d797d158488c03d4d0849b1437aa5d1164f89c92488b57a516942d71",
+      "student_prompt_tokens": 872,
+      "teacher_prompt_tokens": 1009,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "c3785fd0bd0f4972a9a11fd5c5a3103ee09e61678787ce40d6e8e1fbdaa37cf3",
+      "teacher_hint_sha256": "a489de826cfa7e319212b35341d41671b9a1419ef1a4d70e59df11bcaf00a701"
+    },
+    {
+      "case": 14,
+      "source_group": "0ff6d7be0f374fa6e5d705f33669da95faa34e3b6f758d97ab2b08c096b7e1c8",
+      "student_prompt_tokens": 855,
+      "teacher_prompt_tokens": 992,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "0413cdf9d405a8964e4a8b394a607e816217194a3b018c77a9b9174007a70ce0",
+      "teacher_hint_sha256": "9150f406a493f0936557febd62cf7737738c8af90c6ee823c739c6cf732e4cef"
+    },
+    {
+      "case": 15,
+      "source_group": "7c6e76c8ed7fd6ffbcede95c234d2d255a702435eb28afe8b20b171db2e86060",
+      "student_prompt_tokens": 864,
+      "teacher_prompt_tokens": 999,
+      "reply_budget_each_arm": 5000,
+      "student_original_input_sha256": "128cd1bfe290825409aba630f5adebc2b5dca7746a7886ec1c1b317ae788ee8b",
+      "teacher_hint_sha256": "d3bf115ec16186ac2a49a99071f54d0f6920afd3267efca7b03c50f7ef266ea4"
+    }
+  ]
+}

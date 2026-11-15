@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "logical_calls_started": 32,
+  "completed_pairs": 16,
+  "all_requests_drained": true
+}

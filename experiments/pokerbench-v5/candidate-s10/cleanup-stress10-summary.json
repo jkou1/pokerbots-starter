@@ -1,0 +1,11 @@
+{
+  "label": "LOCAL diagnostic, not poker EV",
+  "model": "infer_2be9e84cb33b",
+  "checkpoint": "ckpt_2d48668f564d",
+  "summary": {
+    "examples": 10,
+    "valid": 0,
+    "overlong": 10,
+    "wrong_tool_calls": 0
+  }
+}

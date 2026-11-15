@@ -1,0 +1,39 @@
+{
+  "stage": "CPUfrozen,no modelcalls/upload/train",
+  "source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pokerbench-v4/train.jsonl",
+  "source_sha256": "0ac0330c74fe09b74c05e27caa755ee3fb213c99c3314d8e8f60e597f03cd442",
+  "consistent_train_only": true,
+  "reconciled_select_final_cases": 0,
+  "cases": 16,
+  "distinct_original_scenario_groups": 16,
+  "action_counts": {
+    "bet": 4,
+    "raise": 4,
+    "call": 4,
+    "fold": 2,
+    "check": 2
+  },
+  "cards_verified_by": "PokerKit StandardHighHand.from_game,ownholecards+currentboard only;3focusedknownfixturespassinclstraight+flushnotstraightflush",
+  "teacher_hint_only_system_mutation": true,
+  "student_normal_P_unchanged": true,
+  "no_fabricated_provider_reasoning": true,
+  "canonical_tools_sha256": "16d72adbe15c257391213dda5c82ece7ad2bfcace7c1b9b9632bd972846d2736",
+  "cases_sha256": "c7951240c183d0920c45ba964ee6fd724e75015c9a6b1ccfef1e3e1dd5d9934b",
+  "prospective_probe": {
+    "model": "catalogQwen/Qwen3.6-35B-A3B,notSFTcheckpoint",
+    "pairs": 16,
+    "logical_calls": 32,
+    "temperature_both": 1,
+    "max_completion_tokens_both": 5000,
+    "retries": 0,
+    "separate_ephemeral_GPU": 1,
+    "requires_eval_READY_and_root32callGO": true
+  },
+  "frozen_gate": {
+    "hinted_exact_action_amount_min": 14,
+    "paired_case_gain_min": 4,
+    "all16_hinted_genuine_single_correct_tool_legal_not_truncated": true,
+    "fail_closes_without_native_training": true
+  },
+  "native_training_GO": false
+}

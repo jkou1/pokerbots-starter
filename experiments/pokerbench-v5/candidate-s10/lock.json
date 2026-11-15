@@ -1,0 +1,26 @@
+{
+  "candidate_name": "s10",
+  "frozen_parent_input_hashes_verified": true,
+  "model": "infer_2be9e84cb33b",
+  "checkpoint": "ckpt_2d48668f564d",
+  "version": 1,
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "started_utc_seconds": 1794754123.306315,
+  "wall_cap_seconds": 900,
+  "retries": 0,
+  "concurrency": 4,
+  "temperature": 0,
+  "input_files_sha256": {
+    "/Users/lance/Documents/pokerbots-pokerbench/experiments/pokerbench-v5/select.jsonl": "36551b66e093e69daa063e35ae85d3880381fb5407e8f4768eaa8d94b83e3a9c",
+    "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/preflop-select.jsonl": "23a06fc5a6c8f3f1638ee8053a53925a10d1d497b6234d86ec538422568a899f",
+    "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/cleanup-stress-select-v1/select.jsonl": "375585a0c8b95d690366eef1605dfddd94dd92ace5cd68d4a878d90c27768a61"
+  },
+  "preflop_train_match_and_deal_overlap": 0,
+  "local_imitation_not_ev": true,
+  "no_final": true
+}

@@ -1,0 +1,51 @@
+{
+  "label": "LOCAL original41subset within136,no extra queries",
+  "model": "infer_8e8197ae8a17",
+  "checkpoint": "ckpt_84112d4189e7",
+  "summary": {
+    "examples": 41,
+    "action_accuracy": 0.6829268292682927,
+    "exact_action_amount_accuracy": 0.6829268292682927,
+    "legal_rate": 1.0,
+    "check_or_fold_baseline_accuracy": 0.5365853658536586,
+    "macro_action_recall": 0.5333333333333333,
+    "per_action": {
+      "raise": {
+        "examples": 5,
+        "recall": 0.0
+      },
+      "call": {
+        "examples": 9,
+        "recall": 1.0
+      },
+      "check": {
+        "examples": 13,
+        "recall": 1.0
+      },
+      "fold": {
+        "examples": 9,
+        "recall": 0.6666666666666666
+      },
+      "bet": {
+        "examples": 5,
+        "recall": 0.0
+      }
+    },
+    "per_position": {
+      "SB": {
+        "examples": 13,
+        "accuracy": 0.5384615384615384
+      },
+      "BB": {
+        "examples": 26,
+        "accuracy": 0.7692307692307693
+      },
+      "UTG": {
+        "examples": 2,
+        "accuracy": 0.5
+      }
+    },
+    "raise_amount_mae_chips": null,
+    "raise_amount_comparisons": 0
+  }
+}

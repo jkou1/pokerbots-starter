@@ -1,0 +1,391 @@
+{
+  "kind": "LOCAL frozen imitation/protocol diagnostics, not nativeEval or pokerEV",
+  "knowledge_gate_pass": false,
+  "no_extension": true,
+  "s10": {
+    "pokerbench-select136-summary": {
+      "label": "LOCAL diagnostic, not poker EV",
+      "model": "infer_2be9e84cb33b",
+      "checkpoint": "ckpt_2d48668f564d",
+      "summary": {
+        "examples": 136,
+        "action_accuracy": 0.5735294117647058,
+        "exact_action_amount_accuracy": 0.5588235294117647,
+        "legal_rate": 1.0,
+        "check_or_fold_baseline_accuracy": 0.4852941176470588,
+        "macro_action_recall": 0.4923330384785493,
+        "per_action": {
+          "raise": {
+            "examples": 19,
+            "recall": 0.05263157894736842
+          },
+          "call": {
+            "examples": 35,
+            "recall": 0.34285714285714286
+          },
+          "check": {
+            "examples": 32,
+            "recall": 0.9375
+          },
+          "fold": {
+            "examples": 34,
+            "recall": 0.9411764705882353
+          },
+          "bet": {
+            "examples": 16,
+            "recall": 0.1875
+          }
+        },
+        "per_position": {
+          "SB": {
+            "examples": 13,
+            "accuracy": 0.5384615384615384
+          },
+          "BB": {
+            "examples": 51,
+            "accuracy": 0.6078431372549019
+          },
+          "UTG": {
+            "examples": 12,
+            "accuracy": 0.5833333333333334
+          },
+          "BTN": {
+            "examples": 32,
+            "accuracy": 0.625
+          },
+          "HJ": {
+            "examples": 23,
+            "accuracy": 0.4782608695652174
+          },
+          "CO": {
+            "examples": 5,
+            "accuracy": 0.4
+          }
+        },
+        "raise_amount_mae_chips": 2.25,
+        "raise_amount_comparisons": 4
+      }
+    },
+    "original41-subset-summary": {
+      "label": "LOCAL original41subset within136,no extra queries",
+      "model": "infer_2be9e84cb33b",
+      "checkpoint": "ckpt_2d48668f564d",
+      "summary": {
+        "examples": 41,
+        "action_accuracy": 0.5853658536585366,
+        "exact_action_amount_accuracy": 0.5853658536585366,
+        "legal_rate": 1.0,
+        "check_or_fold_baseline_accuracy": 0.5365853658536586,
+        "macro_action_recall": 0.4444444444444445,
+        "per_action": {
+          "raise": {
+            "examples": 5,
+            "recall": 0.0
+          },
+          "call": {
+            "examples": 9,
+            "recall": 0.2222222222222222
+          },
+          "check": {
+            "examples": 13,
+            "recall": 1.0
+          },
+          "fold": {
+            "examples": 9,
+            "recall": 1.0
+          },
+          "bet": {
+            "examples": 5,
+            "recall": 0.0
+          }
+        },
+        "per_position": {
+          "SB": {
+            "examples": 13,
+            "accuracy": 0.5384615384615384
+          },
+          "BB": {
+            "examples": 26,
+            "accuracy": 0.6153846153846154
+          },
+          "UTG": {
+            "examples": 2,
+            "accuracy": 0.5
+          }
+        },
+        "raise_amount_mae_chips": null,
+        "raise_amount_comparisons": 0
+      }
+    },
+    "preflop-select354-summary": {
+      "label": "LOCAL diagnostic, not poker EV",
+      "model": "infer_2be9e84cb33b",
+      "checkpoint": "ckpt_2d48668f564d",
+      "summary": {
+        "examples": 354,
+        "action_accuracy": 0.8615819209039548,
+        "exact_action_amount_accuracy": 0.8361581920903954,
+        "legal_rate": 1.0,
+        "check_or_fold_baseline_accuracy": 0.711864406779661,
+        "macro_action_recall": 0.7138281212451337,
+        "per_action": {
+          "fold": {
+            "examples": 241,
+            "recall": 0.9875518672199171
+          },
+          "raise": {
+            "examples": 74,
+            "recall": 0.6891891891891891
+          },
+          "call": {
+            "examples": 28,
+            "recall": 0.17857142857142858
+          },
+          "check": {
+            "examples": 11,
+            "recall": 1.0
+          }
+        },
+        "per_position": {
+          "4": {
+            "examples": 62,
+            "accuracy": 0.8870967741935484
+          },
+          "3": {
+            "examples": 74,
+            "accuracy": 0.8648648648648649
+          },
+          "2": {
+            "examples": 65,
+            "accuracy": 0.9538461538461539
+          },
+          "1": {
+            "examples": 54,
+            "accuracy": 0.7592592592592593
+          },
+          "0": {
+            "examples": 71,
+            "accuracy": 0.8169014084507042
+          },
+          "5": {
+            "examples": 28,
+            "accuracy": 0.8928571428571429
+          }
+        },
+        "raise_amount_mae_chips": 0.7647058823529411,
+        "raise_amount_comparisons": 51
+      }
+    },
+    "cleanup-stress10-summary": {
+      "label": "LOCAL diagnostic, not poker EV",
+      "model": "infer_2be9e84cb33b",
+      "checkpoint": "ckpt_2d48668f564d",
+      "summary": {
+        "examples": 10,
+        "valid": 0,
+        "overlong": 10,
+        "wrong_tool_calls": 0
+      }
+    },
+    "complete": {
+      "complete": true,
+      "calls": 500,
+      "all_requests_drained": true,
+      "no_retries": true,
+      "no_final": true
+    }
+  },
+  "s20": {
+    "pokerbench-select136-summary": {
+      "label": "LOCAL diagnostic, not poker EV",
+      "model": "infer_8e8197ae8a17",
+      "checkpoint": "ckpt_84112d4189e7",
+      "summary": {
+        "examples": 136,
+        "action_accuracy": 0.6102941176470589,
+        "exact_action_amount_accuracy": 0.6029411764705882,
+        "legal_rate": 1.0,
+        "check_or_fold_baseline_accuracy": 0.4852941176470588,
+        "macro_action_recall": 0.499265811587793,
+        "per_action": {
+          "raise": {
+            "examples": 19,
+            "recall": 0.05263157894736842
+          },
+          "call": {
+            "examples": 35,
+            "recall": 0.9142857142857143
+          },
+          "check": {
+            "examples": 32,
+            "recall": 1.0
+          },
+          "fold": {
+            "examples": 34,
+            "recall": 0.5294117647058824
+          },
+          "bet": {
+            "examples": 16,
+            "recall": 0.0
+          }
+        },
+        "per_position": {
+          "SB": {
+            "examples": 13,
+            "accuracy": 0.5384615384615384
+          },
+          "BB": {
+            "examples": 51,
+            "accuracy": 0.6862745098039216
+          },
+          "UTG": {
+            "examples": 12,
+            "accuracy": 0.6666666666666666
+          },
+          "BTN": {
+            "examples": 32,
+            "accuracy": 0.6875
+          },
+          "HJ": {
+            "examples": 23,
+            "accuracy": 0.391304347826087
+          },
+          "CO": {
+            "examples": 5,
+            "accuracy": 0.4
+          }
+        },
+        "raise_amount_mae_chips": 4.0,
+        "raise_amount_comparisons": 1
+      }
+    },
+    "original41-subset-summary": {
+      "label": "LOCAL original41subset within136,no extra queries",
+      "model": "infer_8e8197ae8a17",
+      "checkpoint": "ckpt_84112d4189e7",
+      "summary": {
+        "examples": 41,
+        "action_accuracy": 0.6829268292682927,
+        "exact_action_amount_accuracy": 0.6829268292682927,
+        "legal_rate": 1.0,
+        "check_or_fold_baseline_accuracy": 0.5365853658536586,
+        "macro_action_recall": 0.5333333333333333,
+        "per_action": {
+          "raise": {
+            "examples": 5,
+            "recall": 0.0
+          },
+          "call": {
+            "examples": 9,
+            "recall": 1.0
+          },
+          "check": {
+            "examples": 13,
+            "recall": 1.0
+          },
+          "fold": {
+            "examples": 9,
+            "recall": 0.6666666666666666
+          },
+          "bet": {
+            "examples": 5,
+            "recall": 0.0
+          }
+        },
+        "per_position": {
+          "SB": {
+            "examples": 13,
+            "accuracy": 0.5384615384615384
+          },
+          "BB": {
+            "examples": 26,
+            "accuracy": 0.7692307692307693
+          },
+          "UTG": {
+            "examples": 2,
+            "accuracy": 0.5
+          }
+        },
+        "raise_amount_mae_chips": null,
+        "raise_amount_comparisons": 0
+      }
+    },
+    "preflop-select354-summary": {
+      "label": "LOCAL diagnostic, not poker EV",
+      "model": "infer_8e8197ae8a17",
+      "checkpoint": "ckpt_84112d4189e7",
+      "summary": {
+        "examples": 354,
+        "action_accuracy": 0.8700564971751412,
+        "exact_action_amount_accuracy": 0.847457627118644,
+        "legal_rate": 1.0,
+        "check_or_fold_baseline_accuracy": 0.711864406779661,
+        "macro_action_recall": 0.7572485759726424,
+        "per_action": {
+          "fold": {
+            "examples": 241,
+            "recall": 0.9336099585062241
+          },
+          "raise": {
+            "examples": 74,
+            "recall": 0.8648648648648649
+          },
+          "call": {
+            "examples": 28,
+            "recall": 0.32142857142857145
+          },
+          "check": {
+            "examples": 11,
+            "recall": 0.9090909090909091
+          }
+        },
+        "per_position": {
+          "4": {
+            "examples": 62,
+            "accuracy": 0.8709677419354839
+          },
+          "3": {
+            "examples": 74,
+            "accuracy": 0.8918918918918919
+          },
+          "2": {
+            "examples": 65,
+            "accuracy": 0.9692307692307692
+          },
+          "1": {
+            "examples": 54,
+            "accuracy": 0.7777777777777778
+          },
+          "0": {
+            "examples": 71,
+            "accuracy": 0.8169014084507042
+          },
+          "5": {
+            "examples": 28,
+            "accuracy": 0.8928571428571429
+          }
+        },
+        "raise_amount_mae_chips": 0.296875,
+        "raise_amount_comparisons": 64
+      }
+    },
+    "cleanup-stress10-summary": {
+      "label": "LOCAL diagnostic, not poker EV",
+      "model": "infer_8e8197ae8a17",
+      "checkpoint": "ckpt_84112d4189e7",
+      "summary": {
+        "examples": 10,
+        "valid": 0,
+        "overlong": 10,
+        "wrong_tool_calls": 0
+      }
+    },
+    "complete": {
+      "complete": true,
+      "calls": 500,
+      "all_requests_drained": true,
+      "no_retries": true,
+      "no_final": true
+    }
+  }
+}

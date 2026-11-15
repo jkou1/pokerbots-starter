@@ -1,0 +1,483 @@
+{
+  "cases": [
+    {
+      "case": 0,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 141,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 3323,
+      "teacher_same_unhinted_reply_total_tokens": 3464,
+      "actual_reply_tokens_response_usage": 2460,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 862,
+          "fresh_reply_tokens": 2461,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 1003,
+          "fresh_reply_tokens": 2461,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 1,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 141,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 3491,
+      "teacher_same_unhinted_reply_total_tokens": 3632,
+      "actual_reply_tokens_response_usage": 2632,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 858,
+          "fresh_reply_tokens": 2633,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 999,
+          "fresh_reply_tokens": 2633,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 2,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 141,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 3177,
+      "teacher_same_unhinted_reply_total_tokens": 3318,
+      "actual_reply_tokens_response_usage": 2317,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 859,
+          "fresh_reply_tokens": 2318,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 1000,
+          "fresh_reply_tokens": 2318,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 3,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 141,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 3882,
+      "teacher_same_unhinted_reply_total_tokens": 4023,
+      "actual_reply_tokens_response_usage": 3014,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 867,
+          "fresh_reply_tokens": 3015,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 1008,
+          "fresh_reply_tokens": 3015,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 4,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 144,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": false,
+      "student_total_tokens": 5872,
+      "teacher_same_unhinted_reply_total_tokens": 6016,
+      "actual_reply_tokens_response_usage": 5000,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": false,
+          "prefix_tokens": 867,
+          "fresh_reply_tokens": 5005,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": false,
+          "prefix_tokens": 1011,
+          "fresh_reply_tokens": 5005,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 5,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 144,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 3698,
+      "teacher_same_unhinted_reply_total_tokens": 3842,
+      "actual_reply_tokens_response_usage": 2814,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": false,
+          "prefix_tokens": 883,
+          "fresh_reply_tokens": 2815,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": false,
+          "prefix_tokens": 1027,
+          "fresh_reply_tokens": 2815,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 6,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 143,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 3873,
+      "teacher_same_unhinted_reply_total_tokens": 4016,
+      "actual_reply_tokens_response_usage": 2994,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 879,
+          "fresh_reply_tokens": 2994,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 1022,
+          "fresh_reply_tokens": 2994,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 7,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 141,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 3123,
+      "teacher_same_unhinted_reply_total_tokens": 3264,
+      "actual_reply_tokens_response_usage": 2252,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 870,
+          "fresh_reply_tokens": 2253,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 1011,
+          "fresh_reply_tokens": 2253,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 8,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 136,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 3066,
+      "teacher_same_unhinted_reply_total_tokens": 3202,
+      "actual_reply_tokens_response_usage": 2193,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 872,
+          "fresh_reply_tokens": 2194,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 1008,
+          "fresh_reply_tokens": 2194,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 9,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 136,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": false,
+      "student_total_tokens": 5859,
+      "teacher_same_unhinted_reply_total_tokens": 5995,
+      "actual_reply_tokens_response_usage": 5000,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": false,
+          "prefix_tokens": 855,
+          "fresh_reply_tokens": 5004,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": false,
+          "prefix_tokens": 991,
+          "fresh_reply_tokens": 5004,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 10,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 136,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 4113,
+      "teacher_same_unhinted_reply_total_tokens": 4249,
+      "actual_reply_tokens_response_usage": 3266,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 848,
+          "fresh_reply_tokens": 3265,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 984,
+          "fresh_reply_tokens": 3265,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 11,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 136,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 3977,
+      "teacher_same_unhinted_reply_total_tokens": 4113,
+      "actual_reply_tokens_response_usage": 3125,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 851,
+          "fresh_reply_tokens": 3126,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 987,
+          "fresh_reply_tokens": 3126,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 12,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 136,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 5328,
+      "teacher_same_unhinted_reply_total_tokens": 5464,
+      "actual_reply_tokens_response_usage": 4456,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 874,
+          "fresh_reply_tokens": 4454,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 1010,
+          "fresh_reply_tokens": 4454,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 13,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 137,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": false,
+      "student_total_tokens": 5877,
+      "teacher_same_unhinted_reply_total_tokens": 6014,
+      "actual_reply_tokens_response_usage": 5000,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": false,
+          "prefix_tokens": 872,
+          "fresh_reply_tokens": 5005,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": false,
+          "prefix_tokens": 1009,
+          "fresh_reply_tokens": 5005,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 14,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 137,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 3227,
+      "teacher_same_unhinted_reply_total_tokens": 3364,
+      "actual_reply_tokens_response_usage": 2371,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 855,
+          "fresh_reply_tokens": 2372,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": true,
+          "prefix_tokens": 992,
+          "fresh_reply_tokens": 2372,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    },
+    {
+      "case": 15,
+      "wire_student_original_unchanged": true,
+      "wire_teacher_only_system_hint": true,
+      "same_nonmessage_wire_fields": true,
+      "server_prompt_token_delta": 135,
+      "actual_unhinted_reasoning_nonempty": true,
+      "actual_reply_complete": true,
+      "student_total_tokens": 3003,
+      "teacher_same_unhinted_reply_total_tokens": 3138,
+      "actual_reply_tokens_response_usage": 2138,
+      "render": [
+        {
+          "arm": "student",
+          "closing_think_once_before_tool": false,
+          "prefix_tokens": 864,
+          "fresh_reply_tokens": 2139,
+          "render_starts_with_generation_prefix": true
+        },
+        {
+          "arm": "teacher",
+          "closing_think_once_before_tool": false,
+          "prefix_tokens": 999,
+          "fresh_reply_tokens": 2139,
+          "render_starts_with_generation_prefix": true
+        }
+      ],
+      "render_errors": []
+    }
+  ],
+  "count": 16,
+  "all_wire_hint_placement_pass": true,
+  "all_server_prompt_tokens_increased": true,
+  "all_retained_replies_complete": false,
+  "all_replies_nonempty_genuine_reasoning": true,
+  "all_closing_think_before_tool": false,
+  "max_student_P_plus_actual_R": 5877,
+  "max_teacher_P_plus_same_actual_R": 6016,
+  "max_actual_R_usage": 5000,
+  "max_actual_R_rendered_tokens": 5005,
+  "context_catalog_limit": 32768,
+  "prefix_len_runtime_items": 2,
+  "CPU_boundary_only_managed_mask_not_proven": true,
+  "no_reply_fabrication": true,
+  "raw_results_sha256": "b14633d4e4fa2b635b1f109b394c58bb44174f050dd718283e4bc25fb10d22a7"
+}

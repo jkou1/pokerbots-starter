@@ -1,0 +1,24 @@
+{
+  "checkpoint": "ckpt_84112d4189e7",
+  "inference_id": "infer_8e8197ae8a17",
+  "version": 1,
+  "logical_calls": 500,
+  "all_requests_drained": true,
+  "static_select_legal": "136/136",
+  "pre_action_matches": 308,
+  "decision_enum_failures": [],
+  "wrong_tool_or_multiple_calls": [],
+  "unknown_argument_keys": [],
+  "request_or_parse_errors": [],
+  "cleanup_protocol_length_diagnostic": {
+    "examples": 10,
+    "valid": 0,
+    "overlong": 10,
+    "wrong_tool_calls": 0
+  },
+  "eligible_for_one_prospective_final20_native64_EV_screen": true,
+  "knowledge_gates_pass": false,
+  "knowledge_failure": "exact82<90,aggression1<11,fold18<28; noSFT extension or teacher-qualityclaim",
+  "explicit4case_enum_regression_not_rerun": true,
+  "certificate_scope": "Observed490decisions+10cleanup, not guarantee of unseen enum reliability or memory factuality"
+}

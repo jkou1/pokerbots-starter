@@ -1,0 +1,22 @@
+{
+  "cases_intention_to_treat": 16,
+  "logical_calls": 32,
+  "model": "infer_aea1a2390d3d",
+  "catalog_model": "Qwen/Qwen3.6-35B-A3B",
+  "version": 1,
+  "counts_exact_normalized_action_amount": {
+    "unhinted": 5,
+    "hinted": 6
+  },
+  "counts_genuine_legal_complete": {
+    "unhinted": 11,
+    "hinted": 11
+  },
+  "gain": 1,
+  "all16_hinted_genuine_legal_complete": false,
+  "gate_pass": false,
+  "all_requests_drained": true,
+  "raw_envelope_reparse_reason": "Original inline equality check treated absent tool_calls key and normalized empty list as unequal. Saved exact envelopes replayed via existing parser; no calls repeated or outputs changed.",
+  "agreement_rule": "betting_action(action_args(reply)); amount only bet/raise, others ignored",
+  "native_training_GO": false
+}

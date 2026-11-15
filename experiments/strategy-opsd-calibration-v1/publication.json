@@ -1,0 +1,47 @@
+{
+  "collection_id": "coll_be129cc2b4e1",
+  "slug": "strategy-opsd-calibration-v1",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "artifacts": {
+    "FRAMEWORK.md": {
+      "id": "art_f8c2aac34108",
+      "sha256": "468577025324fe0e7bd4ed6f57820fa975f26a4ae9339efcd16d88f4916edeeb",
+      "state": "ready"
+    },
+    "manifest.json": {
+      "id": "art_af69736e0e0a",
+      "sha256": "f7100475fb7c8e42ae41287f7055c8a80838f94c945fba3ecbbfb359db92f5e6",
+      "state": "ready"
+    },
+    "tokenfit.json": {
+      "id": "art_89811db064b3",
+      "sha256": "f52ded49581dd7e466ca5f4c4899170030a6738066bb92ce407a2a69afe0c444",
+      "state": "ready"
+    },
+    "probe-policy.json": {
+      "id": "art_d62e8f8d361b",
+      "sha256": "54e8e26ab8ecf814075e72067474ebf573985ed2991a7b89861d68f17575a348",
+      "state": "ready"
+    },
+    "summary.json": {
+      "id": "art_e666d9993820",
+      "sha256": "c7b972c1f3d1ff25626ad8c66a4fe40762b36f7b0041b2e4eb5a5a189ff1e16c",
+      "state": "ready"
+    },
+    "actual-reply-render-audit.json": {
+      "id": "art_4495a181872b",
+      "sha256": "ed8f29cd0bc24be33fb1e8435af3c49ba3cf16d7e891ce60cfd0896a28b42db5",
+      "state": "ready"
+    },
+    "CONCLUSION.md": {
+      "id": "art_3e03d9b13ca6",
+      "sha256": "9ce177088b47c1af2b51f5d9db0a06d875eca477b2f3546a2cb44a6d5861e9f9",
+      "state": "ready"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "started_epoch": 1794755955.754446,
+  "model": "infer_aea1a2390d3d",
+  "catalog_model": "Qwen/Qwen3.6-35B-A3B",
+  "checkpoint": null,
+  "version": 1,
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "root_32call_GO": true,
+  "cases_sha256": "c7951240c183d0920c45ba964ee6fd724e75015c9a6b1ccfef1e3e1dd5d9934b",
+  "pairs": 16,
+  "logical_call_cap": 32,
+  "temperature_both": 1,
+  "reply_cap_both": 5000,
+  "concurrency": 4,
+  "retries": 0,
+  "wall_cap_seconds": 900,
+  "gate": {
+    "hinted_exact_action_amount_min": 14,
+    "paired_case_gain_min": 4,
+    "all16_hinted_genuine_single_correct_tool_legal_not_truncated": true,
+    "fail_closes_without_native_training": true
+  },
+  "case_or_hint_changes_after_outputs": false,
+  "no_native_training_authorized": true
+}
