@@ -1,0 +1,212 @@
+{
+  "scope": "Aggregate source / pre-outcome selection / FINAL provenance handoff only. This builder never reads FINAL score summaries/raw traces, generates cards, or calls any API/model.",
+  "identity_for_new_mutations": {
+    "owner": "lmathias@berkeley.edu",
+    "unix_uid": 10464,
+    "org_id": "org_cd68943dd947",
+    "secret_values_omitted": true,
+    "credential_cleanup_owned_by_root_ops": true
+  },
+  "sole_primary_release_candidate": {
+    "checkpoint": "ckpt_a7a227300baf",
+    "checkpoint_native_iteration": 5,
+    "train_id": "train_f7436eff428b",
+    "training_model": "catalog Qwen/Qwen3.6-35B-A3B",
+    "inference_id": "infer_af5fa217b570",
+    "version": 1,
+    "first5_consumed_samples": 320,
+    "first5_distinct_tasks": 20,
+    "first5_context_proof_hash": "3cd600be5e37b0c93cc01b0930455e0b49837807f99e4d4e52126312b33cfa69"
+  },
+  "training_data": {
+    "dataset": "pokerbots-history-opponent-mixture-v2-train",
+    "authoritative_current_tasks": 7500,
+    "task_file": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-opponent-mixture-v2/pilot-train.jsonl",
+    "task_sha256": "ff1f17e4c6bc84be4c168ddebaa4624c5e769485dfe691aae91b97a74e8ab837",
+    "remote_membership_receipt": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-opponent-mixture-v2/pilot-upload-verified.json",
+    "remote_membership_receipt_sha256": "a5c700df5e77af7bc9dd7feefae6002a47fe14d65f7bd45112aa57feff35a691",
+    "retained20k_pool_not_current7500": true
+  },
+  "selection_before_FINAL": {
+    "native64_eval_id": "eval_8aaa0a4be082",
+    "native64_tasks": 64,
+    "native64_status": "succeeded",
+    "development_eval_id": "eval_c86991deffcc",
+    "development_games": 4,
+    "development_pass_was_root_certified_before_FINAL": true,
+    "data_selection_freeze_epoch": 1794758131.71536,
+    "data_selection_freeze_sha256": "a3a8fd974b1ca214144f51e55b17da1f346ad7a04e3f14240475fb5601f662e6",
+    "eval_owner_selection_freeze_epoch": 1794758175.5044758,
+    "eval_owner_selection_freeze_sha256": "bed38ce848abc774608f91292acb1df2f7e0cbcf6c72bceb368005f627548dab",
+    "child_not_eligible_to_replace_parent_using_FINAL": true
+  },
+  "primary_FINAL6": {
+    "dataset": "pokerbots-fresh-final6-reserve-v2",
+    "dataset_id": "ds_1ff5fed94c06",
+    "task_ids_ordered": [
+      "tsk_9a23923ae289",
+      "tsk_345e13d858fa",
+      "tsk_e0f5139e45dc",
+      "tsk_9f14210a7a80",
+      "tsk_5e010f1689b5",
+      "tsk_e50bbcc338e6"
+    ],
+    "tasks_sha256": "d3bf239d555adba594481780bc57501aa2ce1f12d0834dac726bf63a4713bfdf",
+    "policy_seats": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seeds": [
+      15841067135482,
+      83913755747480,
+      154948385799550,
+      49037400235700,
+      86522303526796,
+      207472757887168
+    ],
+    "reference": {
+      "inference_id": "infer_b0f5e9429b7e",
+      "checkpoint": "ckpt_51eee61470f7",
+      "version": 1,
+      "state": "ready"
+    },
+    "candidate": {
+      "inference_id": "infer_af5fa217b570",
+      "checkpoint": "ckpt_a7a227300baf",
+      "version": 1,
+      "state": "ready"
+    },
+    "fixed_five_opponents": {
+      "inference_id": "infer_21f395f49bff",
+      "checkpoint": "ckpt_23b6b6239f26",
+      "version": 1,
+      "state": "ready"
+    },
+    "rules": {
+      "seats": 6,
+      "initial_stacks": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "small_blind": 1,
+      "big_blind": 2,
+      "hands": 30,
+      "carried_stacks": true,
+      "rebuys": false,
+      "hints": false
+    },
+    "all6_payload_membership_verified": true,
+    "incumbent_eval_id": "eval_371509c3cc43",
+    "candidate_eval_id": "eval_66dd6344d8ef",
+    "incumbent_submitted_UTC": "2026-11-15T15:56:17Z",
+    "candidate_submitted_UTC": "2026-11-15T15:56:19Z",
+    "eval_owner_owns_live_collection_outcomes_guard": true,
+    "absolute_hard_deadline_UTC": "2026-11-15T16:55:00Z",
+    "fresh_seeds_vs44701_known": 0,
+    "fresh_seeds_vs_current7500": 0,
+    "original_exclusion_proof_sha256": "f19e9d195a524a053bf6caf2122467d780003113a63c7ce9dcf675a3b02b5048",
+    "data_agent_has_not_read_FINAL_outcomes": true
+  },
+  "memory_factuality_limitations": {
+    "completed_milestones": 20,
+    "exact_host_accepted_updates": 20,
+    "format_does_not_imply_factuality": true,
+    "partial_supported_stack_values": 66,
+    "stack_values_wrong": 0,
+    "notes_with_checked_stack_values": 12,
+    "supported_current_position_claims_checked": 5,
+    "definite_position_errors": 5,
+    "supported_own_card_claims_checked": 6,
+    "definite_own_card_suit_errors": 1,
+    "strict_free_prose_notes_UNKNOWN": 20,
+    "one_prior_public_showdown_fact_manually_verified": true,
+    "no_broad_memory_improvement_or_factual_PASS_claim": true,
+    "aggregate_receipt": "/Users/lance/Documents/pokerbots-pokerbench/experiments/grpo5-development-memory-audit/COMPLETED_SUMMARY.json"
+  },
+  "child_contingency_closed": {
+    "source_train_id": "train_ed0649fc4923",
+    "checkpoint": "ckpt_572dbeaf4a3e",
+    "native64_eval_id": "eval_6b8368497b12",
+    "completed_UTC": "2026-11-15T16:16:46Z",
+    "frozen_selection_GATE_PASS": false,
+    "negative_certificate_sha256": "9011e66251ce4148ab6eb63341d0709d7c955543b9d5396f74c4dabebc3614c8",
+    "independent4_reserve_tasks_sha256": "7732cb1f09b466e7d86465f7de108afeee3957b8eb1762b9e59a2cd27fa2e033",
+    "reserve_uploaded": false,
+    "clone_created": false,
+    "child_FINAL_calls": 0,
+    "primary_parent_FINAL6_never_used_to_select_child": true
+  },
+  "interpretation_limits": [
+    "Small n6 and paired uncertainty; weak fixed base20 opponents limit Arena transfer.",
+    "Same seeds do not force identical trajectories after actions and eliminations.",
+    "Native policy sampling defaults not fully exposed; no false deterministic-match claim.",
+    "FINAL validates one frozen candidate; no checkpoint ranking, tuning or new variants from its outcomes.",
+    "No automatic promotion, Arena entry change or factual-memory pass is authorized by this handoff."
+  ],
+  "sources": [
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/catalog-base-standard-grpo-v1/run-config.json",
+      "sha256": "0abedc45bf6a0e6093f62d2b83800cc1223ec47ddb22fc44427589486ed8df69"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/catalog-base-standard-grpo-v1/effective-config.json",
+      "sha256": "9fb0527febace3bdac96d2eb493367987924e7dd4baf637fda6edaefee5a7e5a"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/catalog-base-standard-grpo-v1/checkpoint5-conversion.json",
+      "sha256": "577fb97259146efc2100c9e56e42a45530aace527743bd655af91282164d2f32"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/base-grpo5-stability-v1/parent5-consumed-contexts.json",
+      "sha256": "3cd600be5e37b0c93cc01b0930455e0b49837807f99e4d4e52126312b33cfa69"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-opponent-mixture-v2/pilot-upload-verified.json",
+      "sha256": "a5c700df5e77af7bc9dd7feefae6002a47fe14d65f7bd45112aa57feff35a691"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/fresh-final6-reserve-v2/plan.json",
+      "sha256": "d02fb9f00b2aefb193c4ad7786dd8870a5393fce537c0f7e04afb9f547169a66"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/fresh-final6-reserve-v2/seed-intersection-audit.json",
+      "sha256": "f19e9d195a524a053bf6caf2122467d780003113a63c7ce9dcf675a3b02b5048"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/fresh-final6-reserve-v2/selection-freeze.json",
+      "sha256": "a3a8fd974b1ca214144f51e55b17da1f346ad7a04e3f14240475fb5601f662e6"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/fresh-final6-reserve-v2/upload-receipt.json",
+      "sha256": "2769483e2e363ba64ca2e0096140d0bc629e869618ef8ea943631a9c5c96f6c2"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/grpo5-fresh-final6-v2/selection-freeze.json",
+      "sha256": "bed38ce848abc774608f91292acb1df2f7e0cbcf6c72bceb368005f627548dab"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/grpo5-development-memory-audit/COMPLETED_SUMMARY.json",
+      "sha256": "8aed707139b13d4c751c1ac1882c0e7de753ac8b9558ec25dd8e62cf8ac08c6a"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/child-independent-final4-reserve-v1/plan.json",
+      "sha256": "a569a4be68a5e84731a05641feaf35fcacca9dcb8fdf20a9b4299633cff80bb1"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/child-independent-final4-reserve-v1/exclusion-proof.json",
+      "sha256": "d9e156efef80bbe707baf25c1fb1137099b035162a6c4959a6454e17ee97dd8d"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/child-independent-final4-reserve-v1/negative-certificate.json",
+      "sha256": "9011e66251ce4148ab6eb63341d0709d7c955543b9d5396f74c4dabebc3614c8"
+    }
+  ]
+}

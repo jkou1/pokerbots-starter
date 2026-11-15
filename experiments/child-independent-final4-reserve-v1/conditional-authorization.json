@@ -1,0 +1,29 @@
+{
+  "root_conditional_data_GO": true,
+  "not_currently_triggered": false,
+  "child_native64_full_fixed_gates_PASS_and_completed_by_UTC": "2026-11-15T16:20:00Z",
+  "unique_parent5_benchmark_clone_REAL_TOOL_READY_by_UTC": "2026-11-15T16:25:00Z",
+  "certificate_owner": "/root/eval_promote",
+  "dataset_exact_sha256": "7732cb1f09b466e7d86465f7de108afeee3957b8eb1762b9e59a2cd27fa2e033",
+  "seats": [
+    0,
+    2,
+    3,
+    5
+  ],
+  "arms": [
+    "frozen_selected_child",
+    "unique_parent5_benchmark_clone"
+  ],
+  "arm_count": 2,
+  "C_arm_authorized": false,
+  "child_selection_must_precede_any_childFINAL_call": true,
+  "primary_parent_FINAL6_outcomes_may_not_select_child": true,
+  "child_release_additionally_requires_primary_parent_FINAL6_PASS_vs_C": true,
+  "all_childFINAL4_games_hard_finish_by_UTC": "2026-11-15T16:55:00Z",
+  "if_trigger_fails_or_late": "NO_UPLOAD_NO_CALLS_preserve_reserve",
+  "promotion_or_factual_memory_PASS_automatic": false,
+  "closed_without_trigger": true,
+  "status": "CLOSED_NO_UPLOAD_NO_CALLS",
+  "trigger_failure": "Full native64 completed16:16:46UTC, but failed frozen pairedEV/both-strata gate."
+}

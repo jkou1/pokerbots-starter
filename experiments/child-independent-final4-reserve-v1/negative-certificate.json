@@ -1,0 +1,43 @@
+{
+  "certificate_source": "Eval owner /root/eval_promote completed-results message, independently matched existing native aggregate files; not FINAL outcomes.",
+  "completed_at": "2026-11-15T16:16:46Z",
+  "native_eval_id": "eval_6b8368497b12",
+  "checkpoint": "ckpt_572dbeaf4a3e",
+  "inference_id": "infer_d6c573e95eb9",
+  "version": 1,
+  "native_status": "succeeded",
+  "native_tasks": 64,
+  "paired_vs_parent5": {
+    "pairs": 64,
+    "mean_gain_bb": -0.931,
+    "ci95": [
+      -5.0234375,
+      3.1965624999999998
+    ],
+    "strata": {
+      "ad74": {
+        "pairs": 32,
+        "mean_gain_bb": -3.25,
+        "ci95": [
+          -7.359375,
+          -0.140625
+        ]
+      },
+      "base20": {
+        "pairs": 32,
+        "mean_gain_bb": 1.388,
+        "ci95": [
+          -5.815125,
+          8.265625
+        ]
+      }
+    }
+  },
+  "fixed_EV_gate_PASS": false,
+  "reserve_uploaded": false,
+  "clone_created_for_childFINAL": false,
+  "childFINAL_calls": 0,
+  "closed_reason": "EV/bothstrata gates failed. Legal tools and cleanup do not rescue frozen failure.",
+  "primary_parent_FINAL6_unchanged": true,
+  "no_primary_FINAL_outcomes_used_for_child_choice": true
+}
