@@ -1,0 +1,624 @@
+{
+  "completed_miner_cycle": "20261115T162721Z",
+  "completed_at": "2026-11-15T16:27:51.190374Z",
+  "miner_snapshot_sha256": "e69e006ea75f8637468873cc0d6557d91d1b26197c3551cc520272d2e86ba271",
+  "miner_code_sha256": "6b74432bb2a1f68f0e4e77fd77cfe6c8452ce338c163d6ffab3906f553e2bf61",
+  "source_miner_path": "/Users/lance/Documents/pokerbots-public-miner/experiments/public-failure-miner-v1",
+  "current_entry": {
+    "aggregation_scope": "exact_published_entry_metadata",
+    "appropriateness_flag_counts": {},
+    "appropriateness_flag_rates": {},
+    "category_rates_nonadditive": {
+      "explicit_engine_error": 0.0039603960396039604,
+      "invalid_check": 0.0008486562942008486,
+      "invalid_enum": 0.0014144271570014145,
+      "invalid_raise": 0.0014144271570014145
+    },
+    "entry": {
+      "checkpoint_id": "ckpt_51eee61470f7",
+      "deployment_id": "infer_b0f5e9429b7e",
+      "deployment_version": 1,
+      "limitation": null,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "observed_in_match": "m_20261115t161745_d1a29a",
+      "observed_started_at": "2026-11-15T16:17:45Z",
+      "selection": "exact_published_entry_metadata",
+      "submission_name": "return of rain man"
+    },
+    "execution_outcome_counts": {
+      "forced_fold_fallback": 7,
+      "legal_executed_coercion": 6,
+      "other_fallback": 1
+    },
+    "failure_counts_nonadditive": {
+      "explicit_engine_error": 14,
+      "invalid_check": 3,
+      "invalid_enum": 5,
+      "invalid_raise": 5
+    },
+    "matches": 82,
+    "published_say_messages": 0,
+    "tag_counts_warning": "Failure categories are non-additive tags; use unique_affected_actions for incident counts.",
+    "target_actions": 3535,
+    "time_window": {
+      "finished_at": "2026-11-15T16:26:34Z",
+      "started_at": "2026-11-15T08:22:29Z"
+    },
+    "unique_affected_action_rate": 0.0039603960396039604,
+    "unique_affected_actions": 14,
+    "warning": "This is the only own aggregate representing the current published entry/version."
+  },
+  "source_coverage": {
+    "first_page_only": {
+      "discovered_on_first_page": 25,
+      "file": "cycles/20261115T162721Z/own-listing.html",
+      "not_selected": 17,
+      "pagination": "first page only by design; listing URL followed from team page",
+      "selected": 8,
+      "sha256": "e207d0a86008abd6440dc3f882fcbabd50213ca14e9c934ae3c0956403522ea0",
+      "team_file": "cycles/20261115T162721Z/own-team.html",
+      "team_sha256": "4d2766ee79cf091bbabbb0e8433c4f6cfad315d394b662404a56884dca6dac75",
+      "team_url": "https://www.pokerbots.ac/teams/org_cd68943dd947",
+      "url": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947"
+    },
+    "all_current_matches": 82,
+    "current_window": {
+      "finished_at": "2026-11-15T16:26:34Z",
+      "started_at": "2026-11-15T08:22:29Z"
+    },
+    "entire_team_history_not_fully_crawled": true,
+    "bounded_nonrepresentative_sample_not_Arena_optimality_proof": true
+  },
+  "recovery_cycle": {
+    "all_scope_new_raw_downloads": 10,
+    "new_current_own_matches": 6,
+    "new_current_own_actions": 229,
+    "new_current_own_affected": 2,
+    "new_affected_rate": 0.008733624454148471,
+    "new_current_per_match": [
+      {
+        "actions": 50,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:20:00Z",
+        "match_id": "m_20261115t155745_930153",
+        "started_at": "2026-11-15T15:57:45Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 33,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:17:57Z",
+        "match_id": "m_20261115t155931_4b9dd9",
+        "started_at": "2026-11-15T15:59:31Z",
+        "target_seats": [
+          2
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 53,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_enum": 1
+        },
+        "finished_at": "2026-11-15T16:21:31Z",
+        "match_id": "m_20261115t160016_00038d",
+        "started_at": "2026-11-15T16:00:16Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.018867924528301886,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 48,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:20:07Z",
+        "match_id": "m_20261115t160606_1bfb5e",
+        "started_at": "2026-11-15T16:06:06Z",
+        "target_seats": [
+          0
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      },
+      {
+        "actions": 43,
+        "failure_counts_nonadditive": {
+          "explicit_engine_error": 1,
+          "invalid_raise": 1
+        },
+        "finished_at": "2026-11-15T16:26:34Z",
+        "match_id": "m_20261115t160940_c0c3fb",
+        "started_at": "2026-11-15T16:09:40Z",
+        "target_seats": [
+          3
+        ],
+        "unique_affected_action_rate": 0.023255813953488372,
+        "unique_affected_actions": 1
+      },
+      {
+        "actions": 2,
+        "failure_counts_nonadditive": {},
+        "finished_at": "2026-11-15T16:20:21Z",
+        "match_id": "m_20261115t161745_d1a29a",
+        "started_at": "2026-11-15T16:17:45Z",
+        "target_seats": [
+          4
+        ],
+        "unique_affected_action_rate": 0.0,
+        "unique_affected_actions": 0
+      }
+    ],
+    "new_current_sources": [
+      {
+        "match_id": "m_20261115t160940_c0c3fb",
+        "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t160940_c0c3fb-3qK6WdPypfnkBsgmW9ys1nmAdpeCTe.json",
+        "source_sha256": "b6649534ae28dceb25e86b7e0e92385603a75f0a1a1d1baf99fdd3310539ce73",
+        "replay_url": "https://www.pokerbots.ac/matches/m_20261115t160940_c0c3fb",
+        "fetched_at": "2026-11-15T16:27:26.631737Z"
+      },
+      {
+        "match_id": "m_20261115t160016_00038d",
+        "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t160016_00038d-7qUpuOSTRK93TgUHeI3DTVfydvcBhM.json",
+        "source_sha256": "8fb227318c93687ea6a7b5f87c2c3f3029979b41cee7e90eaec31b62c110b549",
+        "replay_url": "https://www.pokerbots.ac/matches/m_20261115t160016_00038d",
+        "fetched_at": "2026-11-15T16:27:30.708093Z"
+      },
+      {
+        "match_id": "m_20261115t161745_d1a29a",
+        "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t161745_d1a29a-mlUcOHGtc3saN9v0BJLa1Bx7xKcWJy.json",
+        "source_sha256": "5df29d78ef8f76df4113afcc1c81a2b7d02e65d0a46581d26ac7a2d91a3dddc1",
+        "replay_url": "https://www.pokerbots.ac/matches/m_20261115t161745_d1a29a",
+        "fetched_at": "2026-11-15T16:27:32.571896Z"
+      },
+      {
+        "match_id": "m_20261115t160606_1bfb5e",
+        "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t160606_1bfb5e-NJpIh2yBQCRssagwgaAZIvoZwrWHbl.json",
+        "source_sha256": "5faa89b9d129d9b6561b30a6029c8148d81a0e1dc839675b7f677bd7cecf1c97",
+        "replay_url": "https://www.pokerbots.ac/matches/m_20261115t160606_1bfb5e",
+        "fetched_at": "2026-11-15T16:27:34.586185Z"
+      },
+      {
+        "match_id": "m_20261115t155745_930153",
+        "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t155745_930153-vdOejQdIXWDtjVr7tj8O2Y3lCZ4yeI.json",
+        "source_sha256": "cc1239826c3ff2f9ed52800cfb1ec55285422af57f1a7e29c230006acae84775",
+        "replay_url": "https://www.pokerbots.ac/matches/m_20261115t155745_930153",
+        "fetched_at": "2026-11-15T16:27:36.604052Z"
+      },
+      {
+        "match_id": "m_20261115t155931_4b9dd9",
+        "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t155931_4b9dd9-DCHTN9bHTA4pIUFSO86cLD66lsMuLt.json",
+        "source_sha256": "e51d5a7e0e596f64557b7b1fa7b75504d44b863d36cc55f8ead55ea681be20b0",
+        "replay_url": "https://www.pokerbots.ac/matches/m_20261115t155931_4b9dd9",
+        "fetched_at": "2026-11-15T16:27:38.619457Z"
+      }
+    ]
+  },
+  "old_submissions_separate": {
+    "all_history_own_matches": 160,
+    "all_history_own_actions": 7139,
+    "all_history_own_affected": 87,
+    "all_history_rate": 0.012186580753606948,
+    "noncurrent_or_unattributed_remaining_matches": 78,
+    "noncurrent_or_unattributed_remaining_actions": 3604,
+    "noncurrent_or_unattributed_remaining_affected": 73,
+    "do_not_use_all_history_rate_for_current_version": true,
+    "historical_cap_and_missing_tool_counts_not_current": {
+      "token_cap": 20,
+      "missing_tool": 40
+    }
+  },
+  "readiness_relevance": [
+    "Recurring nonlegal action enum values are real execution failures: preview_only/calculate/equity/rainbow/play; retain actual enum/real-tool/fullgame readiness gates.",
+    "Raise on unopened street was coerced to a legal bet; do not count those as forced-fold failures or infer chip harm.",
+    "No current cap/missing-tool tags observed in sampled current decisions; public data does not expose private cleanup, so no cleanup or memory-quality conclusion.",
+    "Sources are diagnostics only, no new training/reward labels, no hindsight action-quality inference.",
+    "Public site fallback/rank all-history denominators differ from this bounded exact-version subset."
+  ],
+  "current_unique_affected_examples": [
+    {
+      "match_id": "m_20261115t084659_2dfe6e",
+      "hand_number": 16,
+      "action_index": 4,
+      "street": "preflop",
+      "failure_categories": [
+        "invalid_check",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: check is not legal facing a bet",
+        "invalid_check": "proposed check with to_call=1 executed='fold'"
+      },
+      "tool_args": {
+        "action": "check"
+      },
+      "executed_action": "fold",
+      "executed_amount": null,
+      "execution_outcome": "forced_fold_fallback",
+      "published_error": "check is not legal facing a bet",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t084659_2dfe6e-5oMaimYTSfm534fgpyvmvBFiOick3G.json",
+      "source_sha256": "e314c5c8d22da7e8979ae44b434275c2694c95dab962d9ad8f9cf7e225535e38",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t084659_2dfe6e",
+      "time_window": {
+        "finished_at": "2026-11-15T09:21:09Z",
+        "started_at": "2026-11-15T08:46:59Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t091045_437780",
+      "hand_number": 18,
+      "action_index": 6,
+      "street": "flop",
+      "failure_categories": [
+        "invalid_raise",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: raise not legal; applied bet",
+        "invalid_raise": "raise was illegal on an unopened street; engine applied bet amount=14"
+      },
+      "tool_args": {
+        "action": "raise",
+        "amount": 14
+      },
+      "executed_action": "bet",
+      "executed_amount": 14,
+      "execution_outcome": "legal_executed_coercion",
+      "published_error": "raise not legal; applied bet",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t091045_437780-BQF8YO1f1qXCdZtWwVcOblwFHCKIBT.json",
+      "source_sha256": "9f2c6445ec61fa2c269636bda44810c1fa7345fa813efe85609aa6f500e69c6e",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t091045_437780",
+      "time_window": {
+        "finished_at": "2026-11-15T09:23:27Z",
+        "started_at": "2026-11-15T09:10:45Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t091045_437780",
+      "hand_number": 18,
+      "action_index": 8,
+      "street": "turn",
+      "failure_categories": [
+        "invalid_raise",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: raise not legal; applied bet",
+        "invalid_raise": "raise was illegal on an unopened street; engine applied bet amount=31"
+      },
+      "tool_args": {
+        "action": "raise",
+        "amount": 31
+      },
+      "executed_action": "bet",
+      "executed_amount": 31,
+      "execution_outcome": "legal_executed_coercion",
+      "published_error": "raise not legal; applied bet",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t091045_437780-BQF8YO1f1qXCdZtWwVcOblwFHCKIBT.json",
+      "source_sha256": "9f2c6445ec61fa2c269636bda44810c1fa7345fa813efe85609aa6f500e69c6e",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t091045_437780",
+      "time_window": {
+        "finished_at": "2026-11-15T09:23:27Z",
+        "started_at": "2026-11-15T09:10:45Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t093012_543780",
+      "hand_number": 3,
+      "action_index": 0,
+      "street": "preflop",
+      "failure_categories": [
+        "invalid_enum",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: no valid action JSON in reply",
+        "invalid_enum": "published tool action 'preview_only' is outside the official enum"
+      },
+      "tool_args": {
+        "action": "preview_only"
+      },
+      "executed_action": "fold",
+      "executed_amount": null,
+      "execution_outcome": "forced_fold_fallback",
+      "published_error": "no valid action JSON in reply",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t093012_543780-NsUikQ1AkaMIG5RzBiuOqyy5h6Hd1l.json",
+      "source_sha256": "9e2e6d59877a193937ef9200ccce4eaad00d862f972ef54a959b511910453e68",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t093012_543780",
+      "time_window": {
+        "finished_at": "2026-11-15T09:42:01Z",
+        "started_at": "2026-11-15T09:30:12Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t095817_4c6889",
+      "hand_number": 3,
+      "action_index": 4,
+      "street": "preflop",
+      "failure_categories": [
+        "invalid_check",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: check is not legal facing a bet",
+        "invalid_check": "proposed check with to_call=1 executed='fold'"
+      },
+      "tool_args": {
+        "action": "check"
+      },
+      "executed_action": "fold",
+      "executed_amount": null,
+      "execution_outcome": "forced_fold_fallback",
+      "published_error": "check is not legal facing a bet",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t095817_4c6889-gh8dr25xb9EQSwIjuChC2x6clTc1JN.json",
+      "source_sha256": "81612db490efd630415596a029e75cea6be63702ed0e210033062b4230612d51",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t095817_4c6889",
+      "time_window": {
+        "finished_at": "2026-11-15T10:11:08Z",
+        "started_at": "2026-11-15T09:58:17Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t095933_ce0f90",
+      "hand_number": 13,
+      "action_index": 10,
+      "street": "turn",
+      "failure_categories": [
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: fold not needed; applied check"
+      },
+      "tool_args": {
+        "action": "fold"
+      },
+      "executed_action": "check",
+      "executed_amount": null,
+      "execution_outcome": "legal_executed_coercion",
+      "published_error": "fold not needed; applied check",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t095933_ce0f90-hnePckXJ5idE7ie2rzPoTG8X0qC4Ys.json",
+      "source_sha256": "952d0378f49f1d4f654a56abaff585a335883becf1994dffd80ac8ffebd32490",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t095933_ce0f90",
+      "time_window": {
+        "finished_at": "2026-11-15T10:17:13Z",
+        "started_at": "2026-11-15T09:59:33Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t101546_a9a1c7",
+      "hand_number": 6,
+      "action_index": 10,
+      "street": "turn",
+      "failure_categories": [
+        "invalid_enum",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: no valid action JSON in reply",
+        "invalid_enum": "published tool action 'calculate' is outside the official enum"
+      },
+      "tool_args": {
+        "action": "calculate"
+      },
+      "executed_action": "check",
+      "executed_amount": null,
+      "execution_outcome": "other_fallback",
+      "published_error": "no valid action JSON in reply",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t101546_a9a1c7-yz9aqCLOdbzYZ0AVR8vd67VDazMdld.json",
+      "source_sha256": "a31bb90450593405396830ddde94c69b1c9769b99fe9cdc805bb23a4d8ca3b5a",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t101546_a9a1c7",
+      "time_window": {
+        "finished_at": "2026-11-15T10:32:56Z",
+        "started_at": "2026-11-15T10:15:46Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t101546_a9a1c7",
+      "hand_number": 9,
+      "action_index": 14,
+      "street": "turn",
+      "failure_categories": [
+        "invalid_raise",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: raise not legal; applied bet",
+        "invalid_raise": "raise was illegal on an unopened street; engine applied bet amount=60"
+      },
+      "tool_args": {
+        "action": "raise",
+        "amount": 60
+      },
+      "executed_action": "bet",
+      "executed_amount": 60,
+      "execution_outcome": "legal_executed_coercion",
+      "published_error": "raise not legal; applied bet",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t101546_a9a1c7-yz9aqCLOdbzYZ0AVR8vd67VDazMdld.json",
+      "source_sha256": "a31bb90450593405396830ddde94c69b1c9769b99fe9cdc805bb23a4d8ca3b5a",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t101546_a9a1c7",
+      "time_window": {
+        "finished_at": "2026-11-15T10:32:56Z",
+        "started_at": "2026-11-15T10:15:46Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t102306_104ff6",
+      "hand_number": 13,
+      "action_index": 10,
+      "street": "turn",
+      "failure_categories": [
+        "invalid_check",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: check is not legal facing a bet",
+        "invalid_check": "proposed check with to_call=10 executed='fold'"
+      },
+      "tool_args": {
+        "action": "check"
+      },
+      "executed_action": "fold",
+      "executed_amount": null,
+      "execution_outcome": "forced_fold_fallback",
+      "published_error": "check is not legal facing a bet",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t102306_104ff6-TLxxF8lKdYUw909RxmypbnqD79MnPY.json",
+      "source_sha256": "72ea317c988ef8014cc82c73383932684b1d59ee0b620744d436077b28e73671",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t102306_104ff6",
+      "time_window": {
+        "finished_at": "2026-11-15T10:39:40Z",
+        "started_at": "2026-11-15T10:23:06Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t102942_7f3e01",
+      "hand_number": 12,
+      "action_index": 10,
+      "street": "river",
+      "failure_categories": [
+        "invalid_enum",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: no valid action JSON in reply",
+        "invalid_enum": "published tool action 'equity' is outside the official enum"
+      },
+      "tool_args": {
+        "action": "equity"
+      },
+      "executed_action": "fold",
+      "executed_amount": null,
+      "execution_outcome": "forced_fold_fallback",
+      "published_error": "no valid action JSON in reply",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t102942_7f3e01-9CxJGlEmROjNYVCTOyikSwDndZf2d0.json",
+      "source_sha256": "3460822cf0aa01c24249a43d5e4ee68a629ff90ef1cf0aa47c1a3cfe3cf13d39",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t102942_7f3e01",
+      "time_window": {
+        "finished_at": "2026-11-15T10:45:18Z",
+        "started_at": "2026-11-15T10:29:42Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t103715_240508",
+      "hand_number": 9,
+      "action_index": 12,
+      "street": "river",
+      "failure_categories": [
+        "invalid_raise",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: raise not legal; applied bet",
+        "invalid_raise": "raise was illegal on an unopened street; engine applied bet amount=23"
+      },
+      "tool_args": {
+        "action": "raise",
+        "amount": 23
+      },
+      "executed_action": "bet",
+      "executed_amount": 23,
+      "execution_outcome": "legal_executed_coercion",
+      "published_error": "raise not legal; applied bet",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t103715_240508-3GHNX1wCTzxkMOQMFP9LnY0XudJRQ5.json",
+      "source_sha256": "56d60d689fc0cb9b161f7ccc5b6aee9f7635611b64d4d10085a5b79a43201247",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t103715_240508",
+      "time_window": {
+        "finished_at": "2026-11-15T10:53:10Z",
+        "started_at": "2026-11-15T10:37:15Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t105040_81e3b1",
+      "hand_number": 19,
+      "action_index": 2,
+      "street": "preflop",
+      "failure_categories": [
+        "invalid_enum",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: no valid action JSON in reply",
+        "invalid_enum": "published tool action 'rainbow' is outside the official enum"
+      },
+      "tool_args": {
+        "action": "rainbow"
+      },
+      "executed_action": "fold",
+      "executed_amount": null,
+      "execution_outcome": "forced_fold_fallback",
+      "published_error": "no valid action JSON in reply",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t105040_81e3b1-yIvClfgeGZ5dPUI1GyzyJQknQPSMAE.json",
+      "source_sha256": "5f52efaa3d2b1fe0766e73d0019627872d1252199e1060b72e45af07a2748997",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t105040_81e3b1",
+      "time_window": {
+        "finished_at": "2026-11-15T11:07:09Z",
+        "started_at": "2026-11-15T10:50:40Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t160016_00038d",
+      "hand_number": 6,
+      "action_index": 5,
+      "street": "preflop",
+      "failure_categories": [
+        "invalid_enum",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: no valid action JSON in reply",
+        "invalid_enum": "published tool action 'play' is outside the official enum"
+      },
+      "tool_args": {
+        "action": "play"
+      },
+      "executed_action": "fold",
+      "executed_amount": null,
+      "execution_outcome": "forced_fold_fallback",
+      "published_error": "no valid action JSON in reply",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t160016_00038d-7qUpuOSTRK93TgUHeI3DTVfydvcBhM.json",
+      "source_sha256": "8fb227318c93687ea6a7b5f87c2c3f3029979b41cee7e90eaec31b62c110b549",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t160016_00038d",
+      "time_window": {
+        "finished_at": "2026-11-15T16:21:31Z",
+        "started_at": "2026-11-15T16:00:16Z"
+      }
+    },
+    {
+      "match_id": "m_20261115t160940_c0c3fb",
+      "hand_number": 6,
+      "action_index": 7,
+      "street": "flop",
+      "failure_categories": [
+        "invalid_raise",
+        "explicit_engine_error"
+      ],
+      "failure_reasons": {
+        "explicit_engine_error": "published error: raise not legal; applied bet",
+        "invalid_raise": "raise was illegal on an unopened street; engine applied bet amount=9"
+      },
+      "tool_args": {
+        "action": "raise",
+        "amount": 9
+      },
+      "executed_action": "bet",
+      "executed_amount": 9,
+      "execution_outcome": "legal_executed_coercion",
+      "published_error": "raise not legal; applied bet",
+      "source_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t160940_c0c3fb-3qK6WdPypfnkBsgmW9ys1nmAdpeCTe.json",
+      "source_sha256": "b6649534ae28dceb25e86b7e0e92385603a75f0a1a1d1baf99fdd3310539ce73",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t160940_c0c3fb",
+      "time_window": {
+        "finished_at": "2026-11-15T16:26:34Z",
+        "started_at": "2026-11-15T16:09:40Z"
+      }
+    }
+  ],
+  "row_denominator_warning": "Original miner regression rows carry7139 all-history denominator. Current summary correctly uses3535 current actions; category tags are nonadditive.",
+  "no_network_model_calls_or_miner_restart": true,
+  "no_new_hindsight_or_private_reasoning_labels": true
+}
