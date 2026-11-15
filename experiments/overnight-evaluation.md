@@ -29,3 +29,13 @@ Test: report leader identity, EV-adjusted returns, fallback rates, preflop parti
 Success/stop: produce a concrete training hypothesis quickly; stop expanding descriptive analysis once a viable high-impact experiment is identified.
 
 Initial evidence: overall leader Professor Pete rating1329 EV+64.2bb/100; leading team Accord rating1163 EV+30.1. Accord's recent ten games show27% VPIP,18.3% PFR,58postflop bets+4raises versus20calls. Descriptive sample only. Existing ignored Pete postflop corpus is absent locally; committed historical archive and fresh public match retrieval are available.
+
+## Fast paired single-hand screening
+
+Problem: external opponent inference takes roughly156–177seconds per single hand, slowing broad checkpoint selection.
+
+Hypothesis: a frozen locally served checkpoint provides a faster, reproducible opponent pool that can reject poor candidates and compare poker decisions while longer official games finish.
+
+Targeted approach: create32fresh single-hand selection tasks, balanced seats, fixed explicit frozen-ad74 opponents, official action schema and thinking, all-in EV grading. Run both existing deployments on exactly the same task IDs via platform evaluation; no additional GPU allocation. Bound concurrency according to RL endpoint load and preserve the active harness.
+
+Test: compare paired task rewards, hand EV, and format error counts. Success is a completed clean platform screen with an informative paired estimate; expand only promising comparisons. This screen does not substitute for full-game placement or a final holdout. Stop or reduce concurrency on sustained endpoint errors or degraded RL throughput.
