@@ -24,9 +24,9 @@ for row in response.rows:
    except (ValueError,AttributeError):reasons.append('unreadable_arguments');action=None
    if action not in['fold','check','call','bet','raise']:reasons.append('invalid_enum')
    elif action in['bet','raise']:
-    bounds=re.search(rf'\b{action} to (\d+)-(\d+)',legal);amount=args.get('amount')
+    bounds=re.search(r'\b(?:bet|raise) to (\d+)-(\d+)',legal);amount=args.get('amount')
     if bounds is None or type(amount)is not int or not int(bounds[1])<=amount<=int(bounds[2]):reasons.append('illegal_amount_or_action')
-   elif not re.search(rf'\b{action}\b',legal):reasons.append('illegal_action')
+   elif action=='check'and not re.search(r'\bcheck\b',legal):reasons.append('illegal_action')
   sampling=attrs.get('sampling_params',{});sampling=json.loads(sampling)if isinstance(sampling,str)else sampling;truncated=attrs.get('finish_reason')in['length','max_tokens']
   if truncated:reasons.append('truncated')
   if row.get('error_message')or str(row.get('status')).lower()in['error','failed']:reasons.append('request_error')
