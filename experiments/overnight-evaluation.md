@@ -108,3 +108,25 @@ Hypothesis: a fixed source-match-held-out preflop diagnostic detects large actio
 Targeted approach: evaluate all354preflop selection records from the same frozen Pete release on incumbent once, then proposed candidates only. Temperature zero, official schema/thinking, concurrency4, no final holdout usage.
 
 Test/success: compare legal rate, macro/per-action recall and source-match-clustered agreement change. Block gross legality decline and investigate substantial preflop accuracy loss; teacher agreement remains a guardrail, not a poker-win estimate. No new GPU allocation.
+
+## Dashboard-visible native official game evaluations
+
+Problem: local decision diagnostics and ongoing local games do not appear in AC2's Evals dashboard.
+
+Hypothesis: registered native BYOH evaluations on existing deployments provide visible, reproducible game evidence without allocating extra inference GPUs.
+
+Targeted approach: all future game comparisons use a versioned six-task official30hand dataset, fixed seeds/seats and frozen-ad74 opponent, maximum parallelism2, retries0, per-decision300-second safety bounds and active monitoring. Existing completed/in-flight local games are preserved as accurately labeled local evidence rather than replayed solely for display. Uploads verify all membership and first/middle/last content. Use the user's required lmathias account, organization and UnixUID preflight before every submission.
+
+Test/success: visible named eval ID/dashboard link, real tools and completed harness grading; retrieve full game logs by compute-job attribution for placement/cleanup analysis. No extra GPU engine is requested. Do not present raw clipped reward as placement. Final holdout is separately named and cannot launch before one candidate is chosen.
+
+New-account setup repair: initial native smoke submission was rejected before job creation because the new account lacked its user-scoped project runtime `AC2_API_KEY` secret. Installed the existing new-account key in that account's user-scoped runtime secret only, verified presence, and retried successfully as `eval_a1cc729a3948`. No organization secret or credential file was changed; no secret value was logged.
+
+## Mixed-teacher fixed diagnostic reference
+
+Problem: a proposed Pete/Carlos action mixture needs an incumbent reference before its results can be interpreted.
+
+Hypothesis: a fixed balanced256decision source-held-out diagnostic distinguishes action/legality weaknesses without consuming extra training or serving GPUs.
+
+Targeted approach: run the existing incumbent only on `mixed-teacher-actions-v1/fast-select.jsonl` at concurrency4 while the separate rotating slot finishes its promised RL preparation. Do not delay RL checkpoint selection to add more candidate diagnostics. Preserve source order/provenance and keep all final records untouched.
+
+Test/success: report legal rate, action/sizing agreement and per-action recall, explicitly teacher imitation rather than winnings. Stop on source schema or split mismatch; no new deployment or GPU allocation.
