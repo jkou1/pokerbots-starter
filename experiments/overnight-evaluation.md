@@ -66,3 +66,9 @@ Targeted approach and tests:
 6. Preserve incumbent deployment/checkpoint for rollback. Register candidate separately; verify active Arena inferenceID. Roll back immediately on endpoint failure, inappropriate talk, repeated enum/cleanup failures, or at least5% invalid decisions among first40observed decisions. Review after12completed canary games and revert on mean placement at least one place worse than incumbent reference without compensating evidence. Card losses alone are not tooling failures. Keep uncertainty explicit.
 
 Success: verified healthy entry with defensible directional gains and monitored canary. Stop on failed gates; repair or retain incumbent. These are operational decisions, not a statistical guarantee of first place.
+
+### Baseline postflop diagnostic result
+
+Completed147selection decisions from12source matches for both existing checkpoints. Both were100%legal, but checked all39teacher-bet decisions and all77teacher-check decisions. Incumbent action distribution:116check,17fold,11call,3raise; no bets. Iteration19:116check,13fold,17call,1raise; no bets. Incumbent teacher agreement64.63%, iteration19 69.39%; iteration19-minus-incumbent match-bootstrap interval[+1.85,+7.69]percentage-points. This is teacher imitation, not poker quality. The complete absence of bets supports targeted postflop training; general legality is already strong.
+
+Platform4hand smoke completed with one invalid actionenum `submit` from incumbent; all three other decisions were legal. The known failure is preserved as a regression holdout and not added to training.
