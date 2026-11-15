@@ -11,3 +11,5 @@ Treatment plumbing was checked read-only from actual captured request bodies: th
 Correction to previous CPU token-length audits: canonical flat tool definitions were used there, whereas the actual HTTP body uses OpenAI function-wrapped definitions. The wire audit renders the actual definitions and explicitly parses historical argument JSON strings as required by the HF template. No prompt treatment or actual request was changed during this read-only audit.
 
 Exact private original contexts, replies, HTTP bodies and rendered prompts remain ignored local evidence. Aggregate result, completion and wire-treatment audits contain no raw scratchpads.
+
+Actual captured response usage also reports289–322additional hinted prompt tokens in every pair, providing server-side token-count evidence that the treatment was tokenized (`server-token-treatment-audit.json`), without proving attention.

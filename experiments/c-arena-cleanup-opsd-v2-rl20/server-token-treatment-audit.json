@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "case": 1,
+      "prompt_tokens_unhinted": 3755,
+      "prompt_tokens_hinted": 4077,
+      "prompt_token_delta": 322
+    },
+    {
+      "case": 2,
+      "prompt_tokens_unhinted": 3672,
+      "prompt_tokens_hinted": 3961,
+      "prompt_token_delta": 289
+    },
+    {
+      "case": 3,
+      "prompt_tokens_unhinted": 2483,
+      "prompt_tokens_hinted": 2786,
+      "prompt_token_delta": 303
+    },
+    {
+      "case": 4,
+      "prompt_tokens_unhinted": 4327,
+      "prompt_tokens_hinted": 4645,
+      "prompt_token_delta": 318
+    },
+    {
+      "case": 5,
+      "prompt_tokens_unhinted": 2180,
+      "prompt_tokens_hinted": 2496,
+      "prompt_token_delta": 316
+    },
+    {
+      "case": 6,
+      "prompt_tokens_unhinted": 2111,
+      "prompt_tokens_hinted": 2416,
+      "prompt_token_delta": 305
+    },
+    {
+      "case": 7,
+      "prompt_tokens_unhinted": 3406,
+      "prompt_tokens_hinted": 3720,
+      "prompt_token_delta": 314
+    },
+    {
+      "case": 8,
+      "prompt_tokens_unhinted": 2899,
+      "prompt_tokens_hinted": 3198,
+      "prompt_token_delta": 299
+    },
+    {
+      "case": 9,
+      "prompt_tokens_unhinted": 4253,
+      "prompt_tokens_hinted": 4567,
+      "prompt_token_delta": 314
+    },
+    {
+      "case": 10,
+      "prompt_tokens_unhinted": 6012,
+      "prompt_tokens_hinted": 6320,
+      "prompt_token_delta": 308
+    }
+  ],
+  "all_server_reported_prompt_token_deltas_positive": true,
+  "model_attention_not_proven": true,
+  "source": "Actual captured complete HTTP response usage, no new calls"
+}
