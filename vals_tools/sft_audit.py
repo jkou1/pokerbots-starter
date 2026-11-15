@@ -15,14 +15,24 @@ def audit_target(payload):
     tokens = payload["sampled_tokens"]
     mask = payload["loss_mask"]
     text = "".join(tokens)
-    if not tokens or tokens[0] != "\n":
+    # Current managed SFT includes the one newline in student_prompt; older
+    # token samples included it in the supervised target instead. Audit their
+    # combined boundary so both match official inference's <think>\n prefill.
+    prompt = payload.get("student_prompt", "<think>")
+    if prompt.endswith("<think>\n"):
+        expected_prefix = PROTOCOL_MARKER
+        newline_location = "prompt"
+    elif prompt.endswith("<think>"):
+        expected_prefix = "\n" + PROTOCOL_MARKER
+        newline_location = "target"
+    else:
+        raise ValueError("unsupported reasoning prefill in training prompt")
+    if not tokens or not text.startswith(expected_prefix):
         raise ValueError(
-            "target must begin with one newline to match the official thinking prefill"
+            "combined boundary must contain one newline after <think>, then the protocol marker"
         )
-    if not text.startswith("\n" + PROTOCOL_MARKER):
-        raise ValueError(
-            "missing synthetic protocol marker; empty reasoning targets are refused"
-        )
+    if len(mask) != len(tokens):
+        raise ValueError("loss mask and sampled tokens must have equal lengths")
     if "</think>" not in tokens or mask[tokens.index("</think>")] != 1:
         raise ValueError("reasoning close must be an explicitly supervised token")
     if text.index("</think>") > text.index("<tool_call>"):
@@ -30,6 +40,8 @@ def audit_target(payload):
     return {
         "response_tokens": len(tokens),
         "first_target_token": tokens[0],
+        "prefill_newline_location": newline_location,
+        "combined_boundary_verified": True,
         "reasoning_close_supervised": True,
     }
 
