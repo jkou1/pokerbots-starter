@@ -1,0 +1,15 @@
+{
+  "model": "infer_d9d92f687429",
+  "checkpoint": "ckpt_11e7c430069c",
+  "model_only_change": true,
+  "source_jsonl_sha256": "f6f878e76c900d1488dc526b5abe1e92c3fb02df896cdd3cad63ccfb135e654b",
+  "source_and_hints_byte_identical_to_v2": true,
+  "canonical_tools_identical": true,
+  "temperature": 0,
+  "reply_budget_each_arm": 10000,
+  "new_calls_cap": 20,
+  "cumulative_calls_cap": 60,
+  "hinted_useful_min": 8,
+  "gain_min": 3,
+  "no_training_or_promotion": true
+}

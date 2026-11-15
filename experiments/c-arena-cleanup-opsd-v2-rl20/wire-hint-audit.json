@@ -1,0 +1,331 @@
+{
+  "count": 10,
+  "all_http_hints_in_messages_0_content": true,
+  "all_cpu_official_hf_renders_include_hint_once_in_system": true,
+  "original_history_preserved": true,
+  "server_actual_tokenization_or_attention_not_exposed": true,
+  "tool_payload_note": "Wire uses OpenAI function-wrapped tools; previous runtime CPU token audit used flat canonical definitions. This audit renders actual wire definitions. Historical tool argument strings parsed for official HF template, pending independent server-parser equivalence.",
+  "template_sha256": "1b8361565cc35d47551d342214cff341c0f1a9685ce529c7ce31de0ed3616248",
+  "cases": [
+    {
+      "case": 1,
+      "arms": {
+        "unhinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "af44e25b1a495c668498d66abdd6744aa8a60e983e9b2e1f3d4765c92e727899",
+          "rendered_system_sha256": "349b0a6585fbae2e155362571cab6adef43f41fbdd266705962404e5f9ce4277",
+          "rendered_prompt_tokens": 3758,
+          "hint_present_exactly_once": false,
+          "hint_character_start": null,
+          "hint_token_prefix_range": null,
+          "no_competing_input_field": true
+        },
+        "hinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "95cb3bd37cb1490faec4a0250e0d71df257134a95a2fc0f3638bdded0f516f61",
+          "rendered_system_sha256": "0110731e07cc16729e3da86d5d1af061f41492bcf2db380200d899b17dc369b5",
+          "rendered_prompt_tokens": 4080,
+          "hint_present_exactly_once": true,
+          "hint_character_start": 4417,
+          "hint_token_prefix_range": [
+            1056,
+            1377
+          ],
+          "no_competing_input_field": true
+        }
+      }
+    },
+    {
+      "case": 2,
+      "arms": {
+        "unhinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "af44e25b1a495c668498d66abdd6744aa8a60e983e9b2e1f3d4765c92e727899",
+          "rendered_system_sha256": "349b0a6585fbae2e155362571cab6adef43f41fbdd266705962404e5f9ce4277",
+          "rendered_prompt_tokens": 3675,
+          "hint_present_exactly_once": false,
+          "hint_character_start": null,
+          "hint_token_prefix_range": null,
+          "no_competing_input_field": true
+        },
+        "hinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "24d8c1675b06aca7ef80fe6a8492e3b2e4278e7c6d5e78c5b854e3d2cd1df575",
+          "rendered_system_sha256": "034d53216f53bfc5a25c46d5c4b628189edf27e87ad80279ad23cc0a03abf61b",
+          "rendered_prompt_tokens": 3964,
+          "hint_present_exactly_once": true,
+          "hint_character_start": 4417,
+          "hint_token_prefix_range": [
+            1056,
+            1344
+          ],
+          "no_competing_input_field": true
+        }
+      }
+    },
+    {
+      "case": 3,
+      "arms": {
+        "unhinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "af44e25b1a495c668498d66abdd6744aa8a60e983e9b2e1f3d4765c92e727899",
+          "rendered_system_sha256": "349b0a6585fbae2e155362571cab6adef43f41fbdd266705962404e5f9ce4277",
+          "rendered_prompt_tokens": 2486,
+          "hint_present_exactly_once": false,
+          "hint_character_start": null,
+          "hint_token_prefix_range": null,
+          "no_competing_input_field": true
+        },
+        "hinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "e5661eb9d16cc8f6569950f74b32a9649df98006de019d533b8dd3e2646f8fb4",
+          "rendered_system_sha256": "ea88d6568bfebe88fcd4b3e299b8d873c3c659ff74211ccb897467d01ac21016",
+          "rendered_prompt_tokens": 2789,
+          "hint_present_exactly_once": true,
+          "hint_character_start": 4417,
+          "hint_token_prefix_range": [
+            1056,
+            1358
+          ],
+          "no_competing_input_field": true
+        }
+      }
+    },
+    {
+      "case": 4,
+      "arms": {
+        "unhinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "af44e25b1a495c668498d66abdd6744aa8a60e983e9b2e1f3d4765c92e727899",
+          "rendered_system_sha256": "349b0a6585fbae2e155362571cab6adef43f41fbdd266705962404e5f9ce4277",
+          "rendered_prompt_tokens": 4330,
+          "hint_present_exactly_once": false,
+          "hint_character_start": null,
+          "hint_token_prefix_range": null,
+          "no_competing_input_field": true
+        },
+        "hinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "9e388468f1b53ff7eb89dffd669d357a4baef6d767d03476c70e546d033092c6",
+          "rendered_system_sha256": "0364b4ae647403fc1090cc4967de1923a0c3d695a9d36506da1bc23b61a32eaf",
+          "rendered_prompt_tokens": 4648,
+          "hint_present_exactly_once": true,
+          "hint_character_start": 4417,
+          "hint_token_prefix_range": [
+            1056,
+            1373
+          ],
+          "no_competing_input_field": true
+        }
+      }
+    },
+    {
+      "case": 5,
+      "arms": {
+        "unhinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "af44e25b1a495c668498d66abdd6744aa8a60e983e9b2e1f3d4765c92e727899",
+          "rendered_system_sha256": "349b0a6585fbae2e155362571cab6adef43f41fbdd266705962404e5f9ce4277",
+          "rendered_prompt_tokens": 2183,
+          "hint_present_exactly_once": false,
+          "hint_character_start": null,
+          "hint_token_prefix_range": null,
+          "no_competing_input_field": true
+        },
+        "hinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "383a17ad435e7dfcd053af2045bed3e51afbea50af53b6c04a3732574ba1a243",
+          "rendered_system_sha256": "5ab9c2c74cb2da11a6c30d97215e403c6dc7fb460772e8e762f814fff621121e",
+          "rendered_prompt_tokens": 2499,
+          "hint_present_exactly_once": true,
+          "hint_character_start": 4417,
+          "hint_token_prefix_range": [
+            1056,
+            1371
+          ],
+          "no_competing_input_field": true
+        }
+      }
+    },
+    {
+      "case": 6,
+      "arms": {
+        "unhinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "af44e25b1a495c668498d66abdd6744aa8a60e983e9b2e1f3d4765c92e727899",
+          "rendered_system_sha256": "349b0a6585fbae2e155362571cab6adef43f41fbdd266705962404e5f9ce4277",
+          "rendered_prompt_tokens": 2114,
+          "hint_present_exactly_once": false,
+          "hint_character_start": null,
+          "hint_token_prefix_range": null,
+          "no_competing_input_field": true
+        },
+        "hinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "737698a0965319ecbaa0e42ac2a16e2d1c0b30ee439b31c214ee8dee30226e84",
+          "rendered_system_sha256": "b51e18da4962f82e6eae3e6762fa5d4362b20ad48bc5f1991e3a92d5e732b344",
+          "rendered_prompt_tokens": 2419,
+          "hint_present_exactly_once": true,
+          "hint_character_start": 4417,
+          "hint_token_prefix_range": [
+            1056,
+            1360
+          ],
+          "no_competing_input_field": true
+        }
+      }
+    },
+    {
+      "case": 7,
+      "arms": {
+        "unhinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "af44e25b1a495c668498d66abdd6744aa8a60e983e9b2e1f3d4765c92e727899",
+          "rendered_system_sha256": "349b0a6585fbae2e155362571cab6adef43f41fbdd266705962404e5f9ce4277",
+          "rendered_prompt_tokens": 3409,
+          "hint_present_exactly_once": false,
+          "hint_character_start": null,
+          "hint_token_prefix_range": null,
+          "no_competing_input_field": true
+        },
+        "hinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "d9423f0d09e10d34168254a51082672244c56d3f3057bd2e9acf3c1d90d03642",
+          "rendered_system_sha256": "a0840d63fe20070194aa82895e7d067600aa96eb455b8a2e3772a7374216d991",
+          "rendered_prompt_tokens": 3723,
+          "hint_present_exactly_once": true,
+          "hint_character_start": 4417,
+          "hint_token_prefix_range": [
+            1056,
+            1369
+          ],
+          "no_competing_input_field": true
+        }
+      }
+    },
+    {
+      "case": 8,
+      "arms": {
+        "unhinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "af44e25b1a495c668498d66abdd6744aa8a60e983e9b2e1f3d4765c92e727899",
+          "rendered_system_sha256": "349b0a6585fbae2e155362571cab6adef43f41fbdd266705962404e5f9ce4277",
+          "rendered_prompt_tokens": 2902,
+          "hint_present_exactly_once": false,
+          "hint_character_start": null,
+          "hint_token_prefix_range": null,
+          "no_competing_input_field": true
+        },
+        "hinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "137f3cea6bd64beafdc625f8450af57b247b6eaa085df49277f519f2b3d9bb38",
+          "rendered_system_sha256": "f711009f8f710be4430fcfb8d91a62b4e1f808f98ba2618114666a36f00a6db4",
+          "rendered_prompt_tokens": 3201,
+          "hint_present_exactly_once": true,
+          "hint_character_start": 4417,
+          "hint_token_prefix_range": [
+            1056,
+            1354
+          ],
+          "no_competing_input_field": true
+        }
+      }
+    },
+    {
+      "case": 9,
+      "arms": {
+        "unhinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "af44e25b1a495c668498d66abdd6744aa8a60e983e9b2e1f3d4765c92e727899",
+          "rendered_system_sha256": "349b0a6585fbae2e155362571cab6adef43f41fbdd266705962404e5f9ce4277",
+          "rendered_prompt_tokens": 4256,
+          "hint_present_exactly_once": false,
+          "hint_character_start": null,
+          "hint_token_prefix_range": null,
+          "no_competing_input_field": true
+        },
+        "hinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "5870cec0c858024212769c4fdbc5a67e4b3c3a91e1bfc20b3ff9fdcac73e4193",
+          "rendered_system_sha256": "c809c01d0bab42d0d35fd49990d6d9c0f2294099d214152608d50d0793234619",
+          "rendered_prompt_tokens": 4570,
+          "hint_present_exactly_once": true,
+          "hint_character_start": 4417,
+          "hint_token_prefix_range": [
+            1056,
+            1369
+          ],
+          "no_competing_input_field": true
+        }
+      }
+    },
+    {
+      "case": 10,
+      "arms": {
+        "unhinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "af44e25b1a495c668498d66abdd6744aa8a60e983e9b2e1f3d4765c92e727899",
+          "rendered_system_sha256": "349b0a6585fbae2e155362571cab6adef43f41fbdd266705962404e5f9ce4277",
+          "rendered_prompt_tokens": 6015,
+          "hint_present_exactly_once": false,
+          "hint_character_start": null,
+          "hint_token_prefix_range": null,
+          "no_competing_input_field": true
+        },
+        "hinted": {
+          "http_method": "POST",
+          "http_path": "https://inference.appliedcompute.com/v1/chat/completions",
+          "treatment_field": "messages[0].content",
+          "http_system_sha256": "5da7d8303f1bac97a751b2968e5cab9ab34d737dff52dd7fff1eecaf1e320baa",
+          "rendered_system_sha256": "3290d2462e7b3da8b84a722281d1f9642a51e19e8c69d12db1959befc37464fe",
+          "rendered_prompt_tokens": 6323,
+          "hint_present_exactly_once": true,
+          "hint_character_start": 4417,
+          "hint_token_prefix_range": [
+            1056,
+            1363
+          ],
+          "no_competing_input_field": true
+        }
+      }
+    }
+  ]
+}

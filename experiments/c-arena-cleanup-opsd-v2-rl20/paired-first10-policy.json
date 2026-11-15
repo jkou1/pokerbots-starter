@@ -1,0 +1,31 @@
+{
+  "locked_at": 1794746931.804439,
+  "model": "infer_d9d92f687429",
+  "checkpoint": "ckpt_11e7c430069c",
+  "cases": 10,
+  "logical_model_call_cap": 20,
+  "concurrency": 2,
+  "temperature": 0.0,
+  "cleanup_reply_budget_each_arm": 10000,
+  "hinted_min_useful_valid": 8,
+  "hinted_min_gain_over_unhinted": 3,
+  "maximum_note_characters": 1500,
+  "all_cases_intention_to_treat": true,
+  "no_hint_rewrites_or_replacement_cases": true,
+  "version": "v2 exact model-only RL20 ablation",
+  "target_note_characters": 700,
+  "reject_any_action_showdown_winner_position_chat_delimiter_narrative": true,
+  "original_source_sha256": "f6f878e76c900d1488dc526b5abe1e92c3fb02df896cdd3cad63ccfb135e654b",
+  "hint_sha256": [
+    "a8ee430f2e87d7ca1a03ee08c2f8f66546209ec4f6bd1f278627824a969eff56",
+    "a8ab40b049fb71a3a0c5b7b924151217d19690d3a90d7566622859be7aea1d96",
+    "89b9e8a57964d77ff7b6e0b20b387f9852519c3bde4a8e8d974fb71e84397ea8",
+    "6b974cc571fda3450fb92251cbbe92d8d82dd89705afa1614d914728c5292779",
+    "f2d478a3a7a659b91f1b7f3bd2dfeffe0cea254d9dbf92d968ec02d54741fa93",
+    "df1d543fb5b4b68fc0752d59c0544f80386102420f8b2e894b21b29ab7be2a67",
+    "3c3c1a4041bd27a0408e4c866fd0673750024d1e3001f20a85ab68800d4900ad",
+    "4ac298f5a186fc1910c5fd0c86dec7ef79624400992d078c130d73eeddb2be6e",
+    "893fd3c16311761b1c453ebc07876cb246bf06b85598774772791730b3589797",
+    "d253218eab2c66da66bdfd42fc8bf655dc6e1ea7a1dfac8b4c64cbc2efe9251e"
+  ]
+}
