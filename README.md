@@ -44,6 +44,15 @@ no-limit hold'em, deploy it, and enter it in the arena. This repo has:
 
 The examples are a starting point. What to train on, and how, is up to you.
 
+The [Pete supervised-run review](PETE_SFT.md) documents the first model's tool-format failure and its diagnosis.
+The [data strategy](DATA_STRATEGY.md) audits the starter's seeded tasks and refreshed Arena archive, and defines the corrected combined-data experiment from base Qwen weights. Evaluation is pending.
+
+Our [training strategy](STRATEGY.md) separates pre-flop learning from post-flop betting and table talk. The
+[training runbook](TRAINING_RUNBOOK.md) defines the staged experiments, Professor Pete teacher-data requirements,
+and evaluation criteria. The [GRPO run audit](TRAINING_RUN_AUDIT.md) records the observed rollout failures and
+changes to the step2 continuation. The [pilot review](MODEL_PILOT_REVIEW.md) explains its deployment requirements
+and loss measurements.
+
 Every command below is meant to be copied as is. They all use **`vals-hackathon`**, the AC2 project your team org
 already has (see [Your team org](#your-team-org)); every tool here defaults to it. Dataset names start with
 `pokerbots-`.

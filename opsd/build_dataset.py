@@ -22,14 +22,23 @@ from __future__ import annotations
 import argparse
 import json
 import random
+import re
 import sys
 from pathlib import Path
 
-from ac2.runtime import FunctionCall, HintedTask, HintMutation, HintSelection, Item, Tool
+from ac2.runtime import (
+    FunctionCall,
+    HintedTask,
+    HintMutation,
+    HintSelection,
+    Item,
+    Tool,
+)
 from ac2.sdk import Client
 from pydantic import TypeAdapter
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from hint import HINT, SEPARATOR  # noqa: E402
+from hint import HINT, POST_FLOP_HINT, PRE_FLOP_HINT, SEPARATOR
 
 ITEMS = TypeAdapter(list[Item])
 SUBMIT = "submit_action"
@@ -37,22 +46,41 @@ SCRATCHPAD = "update_scratchpad"
 # The tools every seat sees at an event table: submit_action (with `say`, since talk is on) and update_scratchpad.
 # They must match what the model saw, field for field; tools.json is generated from the harness and a harness test
 # checks it.
-TOOLS = [Tool.model_validate(tool).model_dump() for tool in json.loads((Path(__file__).parent / "tools.json").read_text())]
+TOOLS = [
+    Tool.model_validate(tool).model_dump()
+    for tool in json.loads((Path(__file__).parent / "tools.json").read_text())
+]
 
 
-def decision_tasks(trace: dict, hint: str, max_tokens: int) -> tuple[list[HintedTask], dict[str, int]]:
+def decision_tasks(
+    trace: dict, hint: str, max_tokens: int, street: str = "all"
+) -> tuple[list[HintedTask], dict[str, int]]:
     """One task per clean policy decision in a trace, with counts of what was kept and why the rest was skipped."""
+    if trace.get("split", "train") != "train":
+        raise ValueError("OPSD data must come from the train split")
     spans = sorted(
-        (s for s in trace["spans"] if s["name"] == "get_completion" and s["status"] == "OK"),
+        (
+            s
+            for s in trace["spans"]
+            if s["name"] == "get_completion" and s["status"] == "OK"
+        ),
         key=lambda s: s["start_time"],
     )
-    stats = {"decisions": len(spans), "kept": 0, "cleanup": 0, "format": 0, "truncated": 0}
+    stats = {
+        "decisions": len(spans),
+        "kept": 0,
+        "cleanup": 0,
+        "format": 0,
+        "truncated": 0,
+    }
     tasks = []
     for span in spans:
         prompt = ITEMS.validate_json(span["input"])
         reply = ITEMS.validate_json(span["output"])
         calls = [item for item in reply if isinstance(item, FunctionCall)]
-        if calls and calls[0].name == SCRATCHPAD:  # the after-hand cleanup turn, not a poker decision
+        if (
+            calls and calls[0].name == SCRATCHPAD
+        ):  # the after-hand cleanup turn, not a poker decision
             stats["cleanup"] += 1
             continue
         if len(calls) != 1 or calls[0].name != SUBMIT:
@@ -60,6 +88,44 @@ def decision_tasks(trace: dict, hint: str, max_tokens: int) -> tuple[list[Hinted
             continue
         if int(span.get("tokens_out") or 0) >= max_tokens:
             stats["truncated"] += 1
+            continue
+        latest = next(
+            (
+                item.content
+                for item in reversed(prompt)
+                if getattr(item, "role", None) == "user"
+            ),
+            "",
+        )
+        try:
+            target = json.loads(calls[0].arguments)
+            action = target["action"]
+            if action not in ("fold", "check", "call", "bet", "raise"):
+                raise ValueError("unknown action")
+            if "Legal actions:" in latest:
+                legal = latest.rsplit("Legal actions:", 1)[1].splitlines()[0]
+                if action in ("bet", "raise"):
+                    bounds = re.search(rf"{action} to (\d+)-(\d+)", legal)
+                    amount = target.get("amount")
+                    if (
+                        not bounds
+                        or type(amount) is not int
+                        or not int(bounds[1]) <= amount <= int(bounds[2])
+                    ):
+                        raise ValueError("illegal amount")
+                elif not re.search(rf"\b{action}\b", legal):
+                    raise ValueError("illegal action")
+        except (ValueError, KeyError, TypeError):
+            stats["format"] += 1
+            continue
+        current = re.findall(
+            r"^Street: (preflop|flop|turn|river)$", latest, re.MULTILINE
+        )
+        if street != "all" and (
+            not current or (current[-1] == "preflop") != (street == "preflop")
+        ):
+            stats.setdefault("other_street", 0)
+            stats["other_street"] += 1
             continue
         tasks.append(
             HintedTask(
@@ -69,7 +135,11 @@ def decision_tasks(trace: dict, hint: str, max_tokens: int) -> tuple[list[Hinted
                     HintSelection(
                         hint=hint,
                         rollout_prefix_len=len(prompt),
-                        mutation=HintMutation(item_boundary=1, action="append_to_previous_item", separator=SEPARATOR),
+                        mutation=HintMutation(
+                            item_boundary=1,
+                            action="append_to_previous_item",
+                            separator=SEPARATOR,
+                        ),
                     )
                 ],
             )
@@ -79,11 +149,30 @@ def decision_tasks(trace: dict, hint: str, max_tokens: int) -> tuple[list[Hinted
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    parser.add_argument(
+        "--street", choices=["all", "preflop", "postflop"], default="all"
+    )
+    parser.add_argument(
+        "--hint-file", type=Path, help="dictated strategy text for the teacher only"
+    )
+    parser.add_argument(
+        "--expected-model",
+        help="require local traces from this selected parent deployment",
+    )
     parser.add_argument("--project", default="vals-hackathon")
-    parser.add_argument("--eval", required=True, help="base model's eval on the train deals")
+    parser.add_argument(
+        "--eval", required=True, help="base model's eval on the train deals"
+    )
     parser.add_argument("--dataset", required=True)
-    parser.add_argument("--max-tokens", type=int, default=5_000, help="replies this long count as truncated (the event's cap)")
+    parser.add_argument(
+        "--max-tokens",
+        type=int,
+        default=5_000,
+        help="replies this long count as truncated (the event's cap)",
+    )
     parser.add_argument("--traces", type=Path, help="reuse a downloaded trace export")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -92,12 +181,30 @@ def main() -> None:
     if not path.exists():
         path.parent.mkdir(parents=True, exist_ok=True)
         Client(project=args.project).traces.download(args.eval, path)
-    tasks, totals = [], {"decisions": 0, "kept": 0, "cleanup": 0, "format": 0, "truncated": 0}
+    hint = (
+        args.hint_file.read_text()
+        if args.hint_file
+        else {"all": HINT, "preflop": PRE_FLOP_HINT, "postflop": POST_FLOP_HINT}[
+            args.street
+        ]
+    )
+    tasks, totals = (
+        [],
+        {"decisions": 0, "kept": 0, "cleanup": 0, "format": 0, "truncated": 0},
+    )
     with path.open() as lines:
         for line in lines:
-            built, stats = decision_tasks(json.loads(line), HINT, args.max_tokens)
+            trace = json.loads(line)
+            if args.expected_model and trace.get("model") != args.expected_model:
+                raise ValueError(
+                    f"expected traces from {args.expected_model}, got {trace.get('model')}"
+                )
+            built, stats = decision_tasks(trace, hint, args.max_tokens, args.street)
             tasks.extend(built)
-            totals = {k: totals[k] + stats[k] for k in totals}
+            totals = {
+                k: totals.get(k, 0) + stats.get(k, 0)
+                for k in totals.keys() | stats.keys()
+            }
     random.Random(0).shuffle(tasks)
     print(json.dumps(totals | {"tasks": len(tasks)}))
     if args.dry_run or not tasks:

@@ -236,7 +236,9 @@ def create_app(
             seats = int(params.get("seats", 10))
             policy = {int(i) for i in params.get("policy_seats", range(seats))}
             if params.get("opponent_model") and not opponent_key and len(policy) < seats:
-                raise RuntimeError("opponent seats need POKER_OPPONENT_API_KEY or AC2_API_KEY in the harness environment")
+                raise RuntimeError(
+                    "opponent seats need POKER_OPPONENT_API_KEY or AC2_API_KEY in the harness environment"
+                )
             decision_timeout = float(params.get("decision_timeout_seconds", DEFAULT_DECISION_TIMEOUT_SECONDS))
             opponent_timeout = float(params.get("opponent_timeout_seconds", decision_timeout))
             async with (
@@ -261,6 +263,23 @@ def create_app(
                     if params.get("opponent_model")
                     else policy_cleanup
                 )
+                if stage := params.get("training_stage"):
+                    from .training import message_completion, stage_completion
+
+                    frozen_model = params.get("frozen_model")
+                    if not frozen_model or not opponent_key:
+                        raise ValueError("street-specific training requires frozen_model and opponent credentials")
+                    frozen_params = params | {"model_label": frozen_model}
+                    frozen_complete = relay_completion(opponent_client, opponent_url, opponent_key, frozen_params)
+                    if stage == "talk":
+                        if len(policy) != 1:
+                            raise ValueError("message-only training requires exactly one policy seat")
+                        policy_complete = message_completion(policy_complete, frozen_complete)
+                    else:
+                        policy_complete = stage_completion(policy_complete, frozen_complete, stage)
+                    policy_cleanup = relay_completion(
+                        opponent_client, opponent_url, opponent_key, cleanup_params(frozen_params)
+                    )
                 players = [
                     ModelSeat(
                         f"seat{i}",
@@ -274,6 +293,10 @@ def create_app(
                 ]
                 rollout.policy_seats = [f"seat{i}" for i in sorted(policy)]
                 rollout.log = await play_session(rollout.id, int(params["seed"]), players, rollout.rules)
+                if params.get("record_training_metadata") or params.get("training_stage"):
+                    rollout.log["policy_seats"] = rollout.policy_seats
+                    rollout.log["opponent_model"] = params.get("opponent_model")
+                    rollout.log["training_stage"] = params.get("training_stage")
                 label_folds(rollout.log, set(rollout.policy_seats))
                 if params.get("ev_labels"):  # all-in EV for the policy seats, scored by grading.py
                     rollout.log = await asyncio.get_running_loop().run_in_executor(

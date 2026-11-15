@@ -50,7 +50,7 @@ MAX_SCORE_BYTES = 1 << 20  # AC2 rejects collect_score replies over 1 MiB
 
 # EXTENSION POINT 2: the `grader_params` keys your reward accepts. Unknown keys fail the grading, so a typo in a
 # dataset can't silently change the reward.
-GRADER_PARAMS: frozenset[str] = frozenset()
+GRADER_PARAMS: frozenset[str] = frozenset({"silence"})
 
 
 class GradingError(ValueError):
@@ -76,6 +76,8 @@ def check_grader_params(grader_params: dict[str, Any] | None) -> dict[str, Any]:
     unknown = set(params) - GRADER_PARAMS
     if unknown:
         raise GradingError(f"unknown grader_params: {sorted(unknown)}")
+    if params.get("silence") not in (None, "all", "preflop"):
+        raise GradingError("silence must be all or preflop")
     return params
 
 
@@ -123,12 +125,21 @@ def failure_score(reason: str) -> dict[str, Any]:
     return {"score": FAILURE_SCORE, "reasoning": reason, "artifacts": {"failure": True}}
 
 
-def grade_log(
-    log: dict[str, Any], policy_seats: list[str], params: dict[str, Any] | None = None
-) -> dict[str, Any]:
+def grade_log(log: dict[str, Any], policy_seats: list[str], params: dict[str, Any] | None = None) -> dict[str, Any]:
     """Score one finished game for its policy seats, as a `collect_score` reply."""
     result = seat_result(log, policy_seats)
-    if result.format_errors:  # model-caused failure: exactly 0, below every real hand
+    silence = (params or {}).get("silence")
+    talk_violations = (
+        sum(
+            bool(a.get("say"))
+            for hand in log["hands"]
+            for a in hand["actions"]
+            if a["player"] in policy_seats and (silence == "all" or (silence == "preflop" and a["street"] == "preflop"))
+        )
+        if silence
+        else 0
+    )
+    if result.format_errors or talk_violations:  # model-caused failure: exactly 0, below every real hand
         score = FAILURE_SCORE
     else:
         score = REWARD_OFFSET + max(REWARD_FLOOR, min(REWARD_CEILING, hand_reward(result, params or {})))
@@ -145,6 +156,7 @@ def grade_log(
             "policy_format_errors": result.format_errors,
             "folded": result.folded,
             "hands": result.hands,
+            "talk_violations": talk_violations,
         },
     }
 

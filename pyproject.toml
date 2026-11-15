@@ -12,7 +12,7 @@ requires-python = ">=3.12"
 dependencies = []
 
 [dependency-groups]
-dev = ["ac2>=0.3.97", "pytest>=8.0.0"]
+dev = ["ac2>=0.3.97", "pytest>=8.0.0", "poker-harness"]
 
 [tool.uv]
 package = true
@@ -32,9 +32,10 @@ default = true
 
 [tool.uv.sources]
 ac2 = { index = "ac2" }
+poker-harness = { path = "harness", editable = true }
 
 [tool.pytest.ini_options]
-pythonpath = ["src", "."]
+pythonpath = ["src", ".", "harness/src"]
 testpaths = ["tests"]
 
 [tool.ac2]

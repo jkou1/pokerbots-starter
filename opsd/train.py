@@ -19,7 +19,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from datetime import UTC, datetime
+from pathlib import Path
 from typing import Any
 
 from ac2.sdk import Client
@@ -37,6 +39,8 @@ from ac2.sdk.run_config import (
     TrainerConfig,
 )
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from vals_tools.training import model_source
 
 
 def _set(**values: Any) -> dict[str, Any]:
@@ -45,9 +49,11 @@ def _set(**values: Any) -> dict[str, Any]:
 
 
 def run_config(args: argparse.Namespace, name: str) -> RunConfig:
-    launch = _set(tensorboard_enabled=args.tensorboard or None)  # AC2 places the run; teams can't pick a cluster
+    launch = _set(
+        tensorboard_enabled=args.tensorboard or None
+    )  # AC2 places the run; teams can't pick a cluster
     return RunConfig(
-        model=args.model,
+        model=model_source(args),
         name=name,
         description=f"Offline OPSD of a prompted strategy hint into {args.model} (student without the hint), "
         f"{args.dataset}.",
@@ -65,32 +71,76 @@ def run_config(args: argparse.Namespace, name: str) -> RunConfig:
             ),
             tasks=TasksConfig(
                 datasets=(TrainDatasetConfig(ac2_dataset_name=args.dataset),),
-                **_set(apply_chat_template_kwargs={"enable_thinking": True} if args.thinking else None),
+                **_set(
+                    apply_chat_template_kwargs={"enable_thinking": True}
+                    if args.thinking
+                    else None
+                ),
             ),
             trainer=TrainerConfig(**_set(learning_rate=args.lr)),
             rollout=RolloutConfig(
                 n_inference_replicas=0,  # required by offline mode: nothing is sampled
-                **_set(max_response_len=args.max_response_len, max_total_len=args.max_total_len),
+                **_set(
+                    max_response_len=args.max_response_len,
+                    max_total_len=args.max_total_len,
+                ),
             ),
-            eval=EvalConfig(mode="off"),  # required here: the poker eval runs through the harness afterwards
+            eval=EvalConfig(
+                mode="off"
+            ),  # required here: the poker eval runs through the harness afterwards
         ),
-        **_set(internal_cfg=InternalConfig(launch=InternalLaunchConfig(**launch)) if launch else None),
+        **_set(
+            internal_cfg=InternalConfig(launch=InternalLaunchConfig(**launch))
+            if launch
+            else None
+        ),
     )
 
 
 def parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     p.add_argument("--project", default="vals-hackathon")
-    p.add_argument("--dataset", required=True, help="hinted dataset from build_dataset.py")
-    p.add_argument("--model", default="Qwen/Qwen3.6-35B-A3B", help="base model (arena entries are this model or fine-tunes of it)")
-    p.add_argument("--dry-run", action="store_true", help="print the settings and configuration, submit nothing")
-    g = p.add_argument_group("set by default (the OPSD recipe); change them with these flags")
+    p.add_argument(
+        "--dataset", required=True, help="hinted dataset from build_dataset.py"
+    )
+    p.add_argument(
+        "--model",
+        default="Qwen/Qwen3.6-35B-A3B",
+        help="base model (arena entries are this model or fine-tunes of it)",
+    )
+    p.add_argument("--checkpoint", help="continue the selected parent checkpoint")
+    p.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="print the settings and configuration, submit nothing",
+    )
+    g = p.add_argument_group(
+        "set by default (the OPSD recipe); change them with these flags"
+    )
     g.add_argument("--steps", type=int, default=20, help="training steps (default 20)")
-    g.add_argument("--batch", type=int, default=64, help="decisions per step (default 64)")
-    g.add_argument("--checkpoint-every", type=int, default=10, help="steps between checkpoints (default 10)")
-    g.add_argument("--no-thinking", dest="thinking", action="store_false",
-                   help="don't render with Qwen thinking on (the event has it on)")
-    g.add_argument("--no-tensorboard", dest="tensorboard", action="store_false", help="don't record TensorBoard logs")
+    g.add_argument(
+        "--batch", type=int, default=64, help="decisions per step (default 64)"
+    )
+    g.add_argument(
+        "--checkpoint-every",
+        type=int,
+        default=10,
+        help="steps between checkpoints (default 10)",
+    )
+    g.add_argument(
+        "--no-thinking",
+        dest="thinking",
+        action="store_false",
+        help="don't render with Qwen thinking on (the event has it on)",
+    )
+    g.add_argument(
+        "--no-tensorboard",
+        dest="tensorboard",
+        action="store_false",
+        help="don't record TensorBoard logs",
+    )
     a = p.add_argument_group("left to AC2's defaults unless you set them")
     a.add_argument("--lr", type=float, help="learning rate")
     a.add_argument("--max-response-len", type=int, help="per-reply token limit")
@@ -107,12 +157,16 @@ def main() -> None:
     if args.dry_run:
         print("This launch sets (everything else is AC2's default):")
         skip = {"project", "dry_run", "help"}
-        for action in p._actions:  # noqa: SLF001
+        for action in p._actions:
             value = getattr(args, action.dest, None)
             if action.dest not in skip and value not in (None, False):
                 print(f"  {action.dest} = {value}")
-        print("  samples_per_problem = 1, n_inference_replicas = 0, eval = off (required by offline mode)")
-        print("GPUs while running: about 4 for Qwen3.6-35B-A3B (training only; offline OPSD samples nothing)")
+        print(
+            "  samples_per_problem = 1, n_inference_replicas = 0, eval = off (required by offline mode)"
+        )
+        print(
+            "GPUs while running: about 4 for Qwen3.6-35B-A3B (training only; offline OPSD samples nothing)"
+        )
         print(json.dumps(config.to_json(), indent=1, default=str))
         return
     run = Client(project=args.project).train.run(config)
