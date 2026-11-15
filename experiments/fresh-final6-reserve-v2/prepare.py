@@ -4,6 +4,7 @@ from pathlib import Path
 from datetime import datetime,timezone
 from ac2.runtime import Task,Message,compute_content_hash
 R=Path(__file__).resolve().parent;H=Path('/Users/lance/Documents/pokerbots-starter-grpo-history/history/training');E=Path('/Users/lance/Documents/pokerbots-overnight-eval/data/experiments');M=R.parent/'cleanup-multihand-rl20-v1';sha=lambda b:hashlib.sha256(b).hexdigest()
+if (R/'plan.json').exists():raise SystemExit('Frozen reserve exists; never regenerate after observing outcomes. Create a new version only with root authorization.')
 def envseeds(file):
  seeds=[]
  if file.suffix=='.jsonl':
@@ -18,6 +19,17 @@ current=H/'pokerbots-history-opponent-mixture-v2/pilot-train.jsonl';receipt=H/'p
 late=E/'late-grpo-fresh64-v1/tasks.jsonl';ls=envseeds(late);lm=json.loads((E/'late-grpo-fresh64-v1/manifest.json').read_text());assert len(ls)==64 and set(ls)=={x['seed']for x in lm['task_metadata']};strata={}
 for x in lm['task_metadata']:strata.setdefault(x['opponent_stratum'],set()).add(x['seed'])
 original=H/'pokerbots-history-20k-v1/train.jsonl';priorfinal=E/'sealed-final-base20-v1/tasks.jsonl';oldself=H/'pokerbots-history-selfplay-ad74-v1/train.jsonl';pool=H/'pokerbots-history-opponent-mixture-v2/train.jsonl';joins={'current7500_vs_fixed_native64':len(cs&set(ls)),'by_native64_opponent_stratum':{k:{'seeds':len(v),'intersection':len(cs&v)}for k,v in strata.items()},'current7500_vs_original_historical20k':len(cs&set(envseeds(original))),'current7500_vs_old_selfplay20k':len(cs&set(envseeds(oldself))),'current7500_vs_prior_fullgame_final6':len(cs&set(envseeds(priorfinal))),'current7500_vs_retained_mixture_local20k_pool':len(cs&set(envseeds(pool))),'retained_pool_overlap_is_expected_subset_not_holdout_leak':True}
+cells={}
+for x in lm['task_metadata']:cells.setdefault(f"{x['opponent_stratum']}|seat{x['policy_seat']}",set()).add(x['seed'])
+joins['by_native64_opponent_and_seat']={k:{'seeds':len(v),'intersection':len(cs&v)}for k,v in cells.items()}
+prior={}
+for directory in ['pokerbots-history-20k-v1','pokerbots-history-selfplay-ad74-v1']:
+ for name in ['select','eval','smoke']:
+  f=H/directory/f'{name}.jsonl'
+  if f.exists():
+   seeds=set(envseeds(f));prior[f'{directory}/{name}']={'seeds':len(seeds),'intersection':len(cs&seeds),'sha256':sha(f.read_bytes())}
+joins['historical_select_eval_smoke_sets']=prior
+assert all(x['intersection']==0 for x in prior.values())and all(x['intersection']==0 for x in joins['by_native64_opponent_and_seat'].values())
 assert joins['current7500_vs_retained_mixture_local20k_pool']==7500
 assert all(joins[k]==0 for k in ['current7500_vs_fixed_native64','current7500_vs_original_historical20k','current7500_vs_old_selfplay20k','current7500_vs_prior_fullgame_final6']);assert all(v['intersection']==0 for v in joins['by_native64_opponent_stratum'].values())
 known=set();sources=[];files=set(E.glob('**/tasks.jsonl'))|set(E.glob('**/task.json'))
