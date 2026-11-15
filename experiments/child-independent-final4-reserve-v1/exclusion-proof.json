@@ -1,0 +1,135 @@
+{
+  "old_known44701_reconstructed": 44701,
+  "total_distinct_excluded": 44707,
+  "primary_FINAL6": {
+    "seeds": 6,
+    "intersection": 0,
+    "tasks_sha256": "d3bf239d555adba594481780bc57501aa2ce1f12d0834dac726bf63a4713bfdf"
+  },
+  "current7500": {
+    "seeds": 7500,
+    "intersection": 0,
+    "sha256": "ff1f17e4c6bc84be4c168ddebaa4624c5e769485dfe691aae91b97a74e8ab837"
+  },
+  "actual_child_contexts": {
+    "seeds": 40,
+    "intersection": 0,
+    "subset_of_current7500": true,
+    "source_sha256": "4f6ce5f33e64e14f01e2a8a0417f153d3ccda655dae45464adf694df5bb5b0ba"
+  },
+  "dev4": {
+    "seeds": 4,
+    "intersection": 0,
+    "source_sha256": "f5f94174966331d2ad9fbeed245f316f20ad87c979c71538703c72bfd97597be"
+  },
+  "any_excluded_intersection": 0,
+  "old_exclusion_plan_sha256": "d02fb9f00b2aefb193c4ad7786dd8870a5393fce537c0f7e04afb9f547169a66",
+  "source_hashes": [
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/base20-development-v1/tasks.jsonl",
+      "sha256": "f5f94174966331d2ad9fbeed245f316f20ad87c979c71538703c72bfd97597be",
+      "unique_seeds": 4
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/fast-screen-v1/tasks.jsonl",
+      "sha256": "9a0ae8a8c4fa4d4dcbbcfcebe4365436a23b6695cc78588eb6ed0b6c830c3066",
+      "unique_seeds": 32
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/fullschema-functional30/rl20/task.json",
+      "sha256": "61a2bf096ec44d445f0bd258ccef092a227b79f61d1803c5721d0d3992244054",
+      "unique_seeds": 1
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/late-grpo-fresh64-v1/tasks.jsonl",
+      "sha256": "473f8b4bbd9568c9472a32ec48e7232664d2b8e333021420879ce51f83cb8989",
+      "unique_seeds": 64
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/platform-official30-v1/select/tasks.jsonl",
+      "sha256": "2cf858e900dc2aa58a91a5800270fa9b92b5af5ad0c6855bc2b1943732f17c89",
+      "unique_seeds": 6
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/sealed-final-base20-v1/tasks.jsonl",
+      "sha256": "8997dfd41ca609025d771179835b52ae59977d83f9878a0e5f7527f0532ef7ab",
+      "unique_seeds": 6
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/cleanup-multihand-rl20-v1/eval-tasks.jsonl",
+      "sha256": "368ec53327fefa073e5fcacf2bac582e7ecb08acd2594de790795be513551e2e",
+      "unique_seeds": 2
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/cleanup-multihand-rl20-v1/reserve_train-tasks.jsonl",
+      "sha256": "070bc07019ab50bb73462d2e3870702956559a9a8a8bb618bc07c48c48966748",
+      "unique_seeds": 2
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/cleanup-multihand-rl20-v1/select-tasks.jsonl",
+      "sha256": "4a539d92fde3adf73032e8a925d17163f548093db1a3938617e3a11f016dcc40",
+      "unique_seeds": 2
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/cleanup-multihand-rl20-v1/train-tasks.jsonl",
+      "sha256": "14fd00659219013eac61568e6d2ce94bacdfba39b0f957661658263adc47695a",
+      "unique_seeds": 8
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-20k-v1/eval.jsonl",
+      "sha256": "54612f2252a118b73373949a46e0d016a6ddfab0c766022eaddd34c8a763aec4",
+      "unique_seeds": 1000
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-20k-v1/select.jsonl",
+      "sha256": "1d1239f343305ead8a3eefc43f28fb4ba248ab53110e53089ce7e698608349eb",
+      "unique_seeds": 500
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-20k-v1/smoke.jsonl",
+      "sha256": "937117e537cee08d8c674ee2546c3117598c8b7009dc4e1bcfb7bfca9a3c4d93",
+      "unique_seeds": 8
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-20k-v1/train.jsonl",
+      "sha256": "8398701df081e7d5bdcf6d33e1fd9985a144c72a07b7fa94675494a7a356ffa1",
+      "unique_seeds": 20000
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-opponent-mixture-v2/pilot-train.jsonl",
+      "sha256": "ff1f17e4c6bc84be4c168ddebaa4624c5e769485dfe691aae91b97a74e8ab837",
+      "unique_seeds": 7500
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-opponent-mixture-v2/train.jsonl",
+      "sha256": "b06a06c3c7919278628dbb8b35a6cd6d7d8df17b62acc5dc1d04cf7c2b75ea50",
+      "unique_seeds": 20000
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-selfplay-ad74-v1/eval.jsonl",
+      "sha256": "1e1cb155b88f37009c2b82eec4ef65570fd62599eb8904fcd5319c874c05c031",
+      "unique_seeds": 1000
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-selfplay-ad74-v1/select.jsonl",
+      "sha256": "5928256738fa0d1b46e787c5c4567f76003c5ad4c20a126f1a7448e4d7505491",
+      "unique_seeds": 500
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-selfplay-ad74-v1/smoke.jsonl",
+      "sha256": "9c590344486dcbf86ad01d63ccb143e8904ccff51cae3716ec8e2e0649e13586",
+      "unique_seeds": 8
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-selfplay-ad74-v1/train.jsonl",
+      "sha256": "9337cc8ca21cef2e4bcfbe3a03a264672e3320e7b93062532b8e3f018c24a3e4",
+      "unique_seeds": 20000
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/selection-seed-exclusions.json",
+      "sha256": "e76e2682689d104f6ef2503bd9f6e88da7194e9b2fd71af1c9e0fc56b9304679",
+      "unique_seeds": 119
+    }
+  ],
+  "no_cards_or_boards_generated_or_read": true
+}

@@ -1,0 +1,72 @@
+{
+  "frozen_at": "2026-11-15T16:01:06.408724+00:00",
+  "stage": "CPU reserve only: no upload, modelcalls or automatic launch",
+  "games": 4,
+  "seats": [
+    0,
+    2,
+    3,
+    5
+  ],
+  "seeds": [
+    49849062264275,
+    221454495795417,
+    26495396973611,
+    171215759595205
+  ],
+  "tasks_sha256": "7732cb1f09b466e7d86465f7de108afeee3957b8eb1762b9e59a2cd27fa2e033",
+  "content_hashes": [
+    "7a5adca4e72db4806572caf128a78f22cfcff20ea004506b42eea6838e60d27f",
+    "ef4c08255cc9ad59588911cfa99cb9f2a942bc9e4832337311cd3727f889cc24",
+    "4bc64c1449f759c76b9d3ca53cd5d7987c4dcc9e8380883cd125518d4980fab2",
+    "e4dc1c02cac82eb3c141cf7ae3f6f3ebdc61d5e2f4c881c929d28d79414295d1"
+  ],
+  "child_candidate": null,
+  "child_source_run": "train_ed0649fc4923",
+  "candidate_checkpoint_version_selection_must_be_frozen_before_launch": true,
+  "baseline_parent5": {
+    "checkpoint": "ckpt_a7a227300baf",
+    "inference_id": "infer_af5fa217b570",
+    "version": 1
+  },
+  "optional_C_arm_only_if_root_GO": {
+    "checkpoint": "ckpt_51eee61470f7",
+    "inference_id": "infer_b0f5e9429b7e",
+    "version": 1
+  },
+  "same_fixed_base20_opponents": {
+    "inference_id": "infer_21f395f49bff",
+    "checkpoint": "ckpt_23b6b6239f26",
+    "expected_version": 1,
+    "all_five_opponent_seats": true
+  },
+  "rules": {
+    "seats": 6,
+    "initial_stacks": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "small_blind": 1,
+    "big_blind": 2,
+    "hands": 30,
+    "carried_stacks": true,
+    "rebuys": false,
+    "hints": false
+  },
+  "root_GO_for_upload_and_launch_still_required": true,
+  "launch_condition": "Child first passes frozen native64 versus parent5: pairedgain>=0.5BB,bothstrata>=0,legal>=99%,64exactcleanup; sufficienttime and separate rootGO.",
+  "primary_parent_FINAL6_never_used_to_choose_child": true,
+  "no_alternative_child_on_same_final_after_outcomes": true,
+  "exclusion_proof_sha256": "d9e156efef80bbe707baf25c1fb1137099b035162a6c4959a6454e17ee97dd8d",
+  "limitations": [
+    "Smalln4,wideuncertainty.",
+    "Fixedweakbase20opponentpool and non-Arena policy samplinglimittransfer.",
+    "Pairedseeds do not force identical trajectories after decisions."
+  ],
+  "no_child_generated_selection_outputs_or_primary_FINAL_outcomes_read": true,
+  "no_cards_or_boards_generated_or_inspected": true
+}
