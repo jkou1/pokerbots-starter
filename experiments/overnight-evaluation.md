@@ -39,3 +39,13 @@ Hypothesis: a frozen locally served checkpoint provides a faster, reproducible o
 Targeted approach: create32fresh single-hand selection tasks, balanced seats, fixed explicit frozen-ad74 opponents, official action schema and thinking, all-in EV grading. Run both existing deployments on exactly the same task IDs via platform evaluation; no additional GPU allocation. Bound concurrency according to RL endpoint load and preserve the active harness.
 
 Test: compare paired task rewards, hand EV, and format error counts. Success is a completed clean platform screen with an informative paired estimate; expand only promising comparisons. This screen does not substitute for full-game placement or a final holdout. Stop or reduce concurrency on sustained endpoint errors or degraded RL throughput.
+
+## Pete postflop held-out diagnostic
+
+Problem: the incumbent's postflop coverage is sparse; game returns are noisy and slow.
+
+Hypothesis: valid tool-call agreement with the leading house bot on source-match-held-out postflop decisions exposes a specific weakness and can detect whether targeted postflop SFT changes that behavior.
+
+Targeted approach: evaluate147 fixed selection records from `pokerbots-pokerbench/experiments/pete-postflop-v1/select.jsonl` on incumbent and iteration19, with official tool schema, thinking, token cap, temperature zero, concurrency4 each. Keep103final records untouched.
+
+Test: legal rate, per-action recall, exact action/amount agreement, match-clustered paired interval. This is imitation, not a poker-win metric. Success is reliable tool outputs and improved postflop imitation without losing minority actions; actual game screening remains necessary. Stop on schema/provenance mismatch or repeated endpoint failure, and never train on the observed invalid-enum regression case.
