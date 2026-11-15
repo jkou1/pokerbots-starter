@@ -174,7 +174,29 @@ async def collect(args):
                     )
                     for s in range(6)
                 ]
-                log = await play_session(str(seed), seed, players, rules)
+                def progress(partial):
+                    policy_actions = [
+                        action
+                        for played_hand in partial["hands"]
+                        for action in played_hand["actions"]
+                        if action["player"] == f"seat{policy_seat}"
+                    ]
+                    write_json(
+                        args.out / "progress" / f"{seed}.json",
+                        {
+                            "updated_at": time.time(),
+                            "seed": seed,
+                            "policy_seat": policy_seat,
+                            "hands_completed": len(partial["hands"]),
+                            "policy_decisions": len(policy_actions),
+                            "format_errors": sum(
+                                bool(action["model_response"].get("format_error"))
+                                for action in policy_actions
+                            ),
+                        },
+                    )
+
+                log = await play_session(str(seed), seed, players, rules, on_hand=progress)
                 log["policy_seats"] = [f"seat{policy_seat}"]
                 log["opponent_model"] = args.opponent
                 log["split"] = args.split
