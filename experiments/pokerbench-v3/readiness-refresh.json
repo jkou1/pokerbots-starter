@@ -1,0 +1,96 @@
+{
+  "remote_datasets_from_prior_full_verified_membership_receipt": {
+    "train": {
+      "name": "pokerbots-pokerbench-postflop-v3-train",
+      "dataset_id": "ds_7fd0b0629b6e",
+      "count": 4096,
+      "status": "verified",
+      "source_sha256": "26854f5dc9d094c138924d67a3e8a9ec91a8948a6f72caad922f8fe41b0c17a2",
+      "sampled_ids": [
+        "tsk_ba4342282912",
+        "tsk_190269287d6a",
+        "tsk_a8c66effe39e"
+      ]
+    },
+    "select": {
+      "name": "pokerbots-pokerbench-postflop-v3-select",
+      "dataset_id": "ds_8b468af6fd45",
+      "count": 147,
+      "status": "verified",
+      "source_sha256": "252eb582506034e79942fde9adf2725ef98868dc3a673d95fbdd718d0adf769b",
+      "sampled_ids": [
+        "tsk_c57b13c41f51",
+        "tsk_9214f248b56b",
+        "tsk_9bae68f59be6"
+      ]
+    },
+    "eval": {
+      "name": "pokerbots-pokerbench-postflop-v3-eval",
+      "dataset_id": "ds_f8012c3ce119",
+      "count": 1582,
+      "status": "verified",
+      "source_sha256": "b424d42f8ccc120a20b9c1bdb04c54d711a82da48eceb55fe697fc67d699c6db",
+      "sampled_ids": [
+        "tsk_ca98d3d9f240",
+        "tsk_1eb425be2ed9",
+        "tsk_a53a2299f4f2"
+      ]
+    }
+  },
+  "source_sha256": "711e1f865e6368f712cbd01caa3dd7ad0d14048ef4498027527264c165733190",
+  "source_bytes_hash_rechecked": true,
+  "all_export_hashes_rechecked": true,
+  "conversion_regression_tests": "4passed",
+  "boundary_structure": "4096/4096 Message,Message,nonemptyprotocolReasoning,one realFunctionCall; no PokerBenchmanagedtraining launched therefore no live managedmask proof",
+  "legality": "4096train+147fastselect pass focused stack/minraise/call/check bounds; no full engine legality proof",
+  "final_label_limitations": {
+    "passed_focused_audit": 1514,
+    "call_without_bet": 47,
+    "raise_without_bet": 18,
+    "target_below_minimum": 3
+  },
+  "representation": {
+    "all4096_six_initial_stacks": 200,
+    "chips_total": 1200,
+    "BB_total": 600,
+    "blinds": [
+      1,
+      2
+    ],
+    "source": "cash-game solver demonstrations, not tournamentoptimality",
+    "current_all_six_stacks": "not explicitly printed; inferable only from source history assumptions"
+  },
+  "new_pot_consistency_audit": {
+    "matches_printed_pot": 1060,
+    "mismatches": 3036,
+    "printed_minus_replayed_distribution": {
+      "-1": 2439,
+      "0": 1060,
+      "-3": 148,
+      "-5": 123,
+      "-7": 76,
+      "-4": 76,
+      "-9": 68,
+      "-10": 55,
+      "-11": 46,
+      "-27": 5
+    },
+    "interpretation": "Sourcepot omits some foldedplayer/deadmoney contributions under canonical6seat replay; no labels/inputs altered",
+    "risk": "do not claim fully engine-consistent; source monetary mismatch conflicts original stoprule"
+  },
+  "preflop_anchors": {
+    "available": 417,
+    "source": "pete-postflop-v1/mixed-train.jsonl preflop subset",
+    "source_matches": 86,
+    "wholematch_overlap_old_pete_select_final": 0,
+    "deal_overlap_old_pete_select_final": 0,
+    "wholematch_overlap_new_mixed_select": 3,
+    "wholematch_overlap_new_mixed_final": 3,
+    "not_ready_for_new_mixed_heldout_retention_without_exclusion": true,
+    "remaining_after_new_mixed_wholematch_exclusion": 387,
+    "remaining_source_matches": 80,
+    "no_new_anchor_dataset_constructed": true
+  },
+  "training_authorized": false,
+  "old_config_warning": "pilot-config.json still stale40steps; do not submit unchanged"
+}
