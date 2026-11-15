@@ -72,3 +72,13 @@ Success: verified healthy entry with defensible directional gains and monitored 
 Completed147selection decisions from12source matches for both existing checkpoints. Both were100%legal, but checked all39teacher-bet decisions and all77teacher-check decisions. Incumbent action distribution:116check,17fold,11call,3raise; no bets. Iteration19:116check,13fold,17call,1raise; no bets. Incumbent teacher agreement64.63%, iteration19 69.39%; iteration19-minus-incumbent match-bootstrap interval[+1.85,+7.69]percentage-points. This is teacher imitation, not poker quality. The complete absence of bets supports targeted postflop training; general legality is already strong.
 
 Platform4hand smoke completed with one invalid actionenum `submit` from incumbent; all three other decisions were legal. The known failure is preserved as a regression holdout and not added to training.
+
+## Faster full-game incumbent reference
+
+Problem: official games against the external opponent are slow, while single-hand EV cannot measure carried-stack placement.
+
+Hypothesis: six official30hand games against the already-running frozen-ad74 opponent provide a faster paired placement reference for the forthcoming postflop candidate.
+
+Targeted approach: same original selection seed generator and seat cycling as other direct games; frozen opponent only; six games, concurrency2; preserve official rules and fixed baseline configuration. Compare future candidate on exactly these seeds/seats/opponent.
+
+Test/success: completed whole-game placement, errors and cleanup logs with no inferenceGPU allocation. Stop or reduce load on sustained endpoint errors or RL throughput degradation. This is selection evidence only; final holdout uses unused seeds.
