@@ -85,5 +85,12 @@
     "owner": "lmathias@berkeley.edu",
     "unix_uid": 10464,
     "org_id": "org_cd68943dd947"
+  },
+  "exact_observed_arena_console_read": {
+    "url": "https://platform.appliedcompute.com/org_cd68943dd947/vals-arena",
+    "status": 302,
+    "redirect_domain": "auth.appliedcompute.com",
+    "authenticated_new_account": true,
+    "mutation": false
   }
 }

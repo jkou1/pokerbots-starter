@@ -1,0 +1,15 @@
+{
+  "train_id": "train_41ab837f39e5",
+  "checkpoint_iterations": [4, 9],
+  "conversion_owner": "existing mixed monitor 87020",
+  "inference_gpu_request": 1,
+  "inference_gpu_authorized": false,
+  "evaluation_status": "await checkpoint and coordinator-assigned serving slot",
+  "fixed_selection_records": 256,
+  "legacy_postflop_records": 147,
+  "legacy_preflop_records": 354,
+  "cleanup_stress_records": 10,
+  "no_automatic_extension": true,
+  "final_data_for_checkpoint_choice": false,
+  "new_gpu_allocations_performed": 0
+}
