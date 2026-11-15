@@ -1,0 +1,37 @@
+{
+  "scope": "ONEpreviouslyusedTRAINfunctionalcase;no rank/EV/qualityranking/newFINAL",
+  "eval_id": "eval_da8aa5d577d9",
+  "inference_id": "infer_c4c38820538f",
+  "checkpoint": "ckpt_11e7c430069c",
+  "status": "succeeded",
+  "complete_games": 1,
+  "record_type": "ONE reused TRAIN functional check; no quality ranking, new FINAL or superiority claim",
+  "source_summary_sha256": "97158ce5112ad3541e30de9adcb3dd4e29831a0eb85f8cff0398b71717a21c4d",
+  "policy_actions": 41,
+  "legal_real_tool": 40,
+  "invalid_decisions": 1,
+  "cleanup_protocol": {
+    "turns": 30,
+    "attempts": 30,
+    "accepted_updated": 30,
+    "kept_unchanged": 0,
+    "cut": 0,
+    "retried_turns": 0,
+    "exact_valid_update_attempts": 30,
+    "exact_valid_final_updates": 30,
+    "wrong_tool_calls": 0,
+    "attempts_with_wrong_tools": 0,
+    "missing_update_attempts": 0,
+    "multiple_update_attempts": 0,
+    "attempt_outcomes": {
+      "ok": 30
+    },
+    "result_counts": {
+      "updated": 30
+    },
+    "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok."
+  },
+  "source_raw_sha256": "0f892f38ccbc3d28a499399c223e9bdfed3c4e2b4fa4d8d1fc0e6a4edb65fe19",
+  "assessment": "NOT a clean functional pass: one malformed decision out of41 despite30acceptedcleanupupdates. No defect is erased by jobSUCCEEDED.",
+  "no_new_policy_calls_or_retries_by_publication": true
+}

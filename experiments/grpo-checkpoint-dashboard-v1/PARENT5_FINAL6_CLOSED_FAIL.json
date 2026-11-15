@@ -1,0 +1,272 @@
+{
+  "record_type": "FINAL VALIDATION of ONE frozen candidate, not checkpoint ranking or promotion",
+  "selection_frozen_before_any_final_calls": 1794758175.5044758,
+  "source_summary_sha256": "cda6c03993a3d3f62c88564d47f7524debad9ea7f5afb585fb37537bde52b8b2",
+  "selected_checkpoint": "ckpt_a7a227300baf",
+  "selected_inference_id": "infer_af5fa217b570",
+  "version": 1,
+  "arms": {
+    "baseline": {
+      "eval_id": "eval_371509c3cc43",
+      "candidate": "infer_b0f5e9429b7e",
+      "checkpoint": "ckpt_51eee61470f7",
+      "version": 1,
+      "status": "succeeded",
+      "completed_games": 6,
+      "planned_games": 6,
+      "cleanup_protocol": {
+        "turns": 180,
+        "attempts": 248,
+        "accepted_updated": 118,
+        "kept_unchanged": 0,
+        "cut": 62,
+        "retried_turns": 68,
+        "exact_valid_update_attempts": 118,
+        "exact_valid_final_updates": 118,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 118,
+          "too_long": 130
+        },
+        "result_counts": {
+          "updated": 118,
+          "cut": 62
+        },
+        "scope": "Recorded cleanup protocol/acceptance only, not factual-memory quality."
+      },
+      "summary": {
+        "place": 3.6666666666666665,
+        "ev_bb": -24.458333333333332,
+        "realized_bb": -24.416666666666668,
+        "busted": 0.0,
+        "decisions": 281,
+        "invalid_decisions": 0,
+        "cleanup_turns": 180,
+        "cleanup_attempts": 248,
+        "cleanup_overlong_attempts": 130,
+        "cleanup_final_cut": 62
+      },
+      "source_manifest": [
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_f4adeb4e5b884025bf6bb3cca1312989.json",
+          "raw_sha256": "fa6142ecd99f85fefd6907e17a248041ef32b20d29910dce38f9688891f006b8",
+          "seed": 49037400235700,
+          "relay_job_id": "job_c57fc9ae8778"
+        },
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_6625f62f6ff747518015d908eaeb6529.json",
+          "raw_sha256": "e7a485facfbc61a6913119fa52763b58fa91949307c98650ebafd22ba3e77d62",
+          "seed": 83913755747480,
+          "relay_job_id": "job_c57fc9ae8778"
+        },
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_1fbdb2fcdb494fb3b7b2d9fd8e5be6a7.json",
+          "raw_sha256": "6f4b0e510b8bfde53eeeb8829d12683afb40107820b405def4c3140eaa818221",
+          "seed": 154948385799550,
+          "relay_job_id": "job_c57fc9ae8778"
+        },
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_09a19c56617d4fd0a0a431b59728a0a3.json",
+          "raw_sha256": "c2ba2c4346d83a4063523978e9fcc8f68f5a4230f8d05a6f1835fe7d7712029e",
+          "seed": 15841067135482,
+          "relay_job_id": "job_c57fc9ae8778"
+        },
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_de2d48cba7fd4ea98369ddc8fdade404.json",
+          "raw_sha256": "b5c82677ef0c9321b1576edfc65852e97d20befc39d0534bc07793ecbb9a2b4d",
+          "seed": 86522303526796,
+          "relay_job_id": "job_c57fc9ae8778"
+        },
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_8457347588274d289ce6e10140f1c627.json",
+          "raw_sha256": "bf46bd00845936c82e2b959da5cdc2c71e2b2bb500a166a808ff16159975f5f8",
+          "seed": 207472757887168,
+          "relay_job_id": "job_c57fc9ae8778"
+        }
+      ]
+    },
+    "candidate": {
+      "eval_id": "eval_66dd6344d8ef",
+      "candidate": "infer_af5fa217b570",
+      "checkpoint": "ckpt_a7a227300baf",
+      "version": 1,
+      "status": "succeeded",
+      "completed_games": 6,
+      "planned_games": 6,
+      "cleanup_protocol": {
+        "turns": 133,
+        "attempts": 133,
+        "accepted_updated": 131,
+        "kept_unchanged": 2,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 131,
+        "exact_valid_final_updates": 131,
+        "wrong_tool_calls": 2,
+        "attempts_with_wrong_tools": 2,
+        "missing_update_attempts": 2,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 131,
+          "none": 2
+        },
+        "result_counts": {
+          "updated": 131,
+          "unchanged": 2
+        },
+        "scope": "Recorded cleanup protocol/acceptance only, not factual-memory quality."
+      },
+      "summary": {
+        "place": 3.5,
+        "ev_bb": 48.4535,
+        "realized_bb": 47.416666666666664,
+        "busted": 0.5,
+        "decisions": 252,
+        "invalid_decisions": 4,
+        "cleanup_turns": 133,
+        "cleanup_attempts": 133,
+        "cleanup_overlong_attempts": 0,
+        "cleanup_final_cut": 0
+      },
+      "source_manifest": [
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_7f991216c78d42fc8abe163ae9bcb03b.json",
+          "raw_sha256": "633a6e46c40356fdb0d7f27feb03c8483e0e6fa5a96f665aa62d74f31884fdfc",
+          "seed": 49037400235700,
+          "relay_job_id": "job_4bcaafa3a335"
+        },
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_17831f6e813b4dc2858964c00daf567c.json",
+          "raw_sha256": "29c7be4e102385efcea90052d45597516b99a336c22a272dd7ab229f4401b710",
+          "seed": 15841067135482,
+          "relay_job_id": "job_4bcaafa3a335"
+        },
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_b14715aba0514928bedbefef52a7cb3b.json",
+          "raw_sha256": "1f58d64a4a7cd1d367260d864dca60f48d72bb4a111e0acedfdf8a275f007071",
+          "seed": 154948385799550,
+          "relay_job_id": "job_4bcaafa3a335"
+        },
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_dfbf9afd5c4844629d800fb38347cd35.json",
+          "raw_sha256": "97a2ad5185936aa5b5f79c50fc26280160211537a0131a73823b43eced1f9379",
+          "seed": 83913755747480,
+          "relay_job_id": "job_4bcaafa3a335"
+        },
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_00380e571d1443f98f49254a7c761875.json",
+          "raw_sha256": "c5b1d4073632cad0ac7bbb761173b8c7341154d442c53c44635ceafc0293f168",
+          "seed": 207472757887168,
+          "relay_job_id": "job_4bcaafa3a335"
+        },
+        {
+          "source": "/Users/lance/Documents/pokerbots-starter-grpo-history/harness/runs/rollout_ebb92eb9c038466384aac9ad032fe490.json",
+          "raw_sha256": "f20845c6beaf507df187df8df275d67e28ba3ae0f10e992aecf8054df94b2b2a",
+          "seed": 86522303526796,
+          "relay_job_id": "job_4bcaafa3a335"
+        }
+      ]
+    }
+  },
+  "all6_pairs_primary": 6,
+  "paired_all6": {
+    "ev_gain_bb": {
+      "mean": 72.91183333333333,
+      "ci95": [
+        -45.916666666666664,
+        215.03683333333333
+      ],
+      "individual_differences": [
+        -47.0,
+        -34.75,
+        -53.0,
+        385.5,
+        -44.778999999999996,
+        231.5
+      ]
+    },
+    "placement_improvement": {
+      "mean": 0.16666666666666666,
+      "ci95": [
+        -1.3333333333333333,
+        1.6666666666666667
+      ],
+      "individual_differences": [
+        -1,
+        -1,
+        -1,
+        3,
+        -2,
+        3
+      ]
+    },
+    "realized_gain_bb": {
+      "mean": 71.83333333333333,
+      "ci95": [
+        -48.333333333333336,
+        214.33333333333334
+      ],
+      "individual_differences": [
+        -47.0,
+        -35.0,
+        -53.0,
+        385.5,
+        -51.0,
+        231.5
+      ]
+    }
+  },
+  "fixed_gate_failures": {
+    "placement_gain": {
+      "observed": 0.16666666666666666,
+      "required_min": 0.5,
+      "PASS": false
+    },
+    "legal_decisions": {
+      "legal": 248,
+      "total": 252,
+      "rate": 0.9841269841269841,
+      "required_min": 0.99,
+      "PASS": false
+    },
+    "wrong_cleanup_tools": {
+      "observed": 2,
+      "required_max": 0,
+      "PASS": false
+    }
+  },
+  "busts": {
+    "candidate": 3,
+    "baseline": 0,
+    "games_per_arm": 6
+  },
+  "sensitivity_diagnostic_only": {
+    "diagnostic_only": true,
+    "excluded_seed": 83913755747480,
+    "pairs": 5,
+    "full6_remains_primary": true,
+    "placement_gain": {
+      "mean": 0.4,
+      "ci95": [
+        -1.4,
+        2.2
+      ]
+    },
+    "ev_gain_bb": {
+      "mean": 98.0942,
+      "ci95": [
+        -43.6616,
+        268.6442
+      ]
+    }
+  },
+  "sensitivity_cannot_override_full6_or_release_gates": true,
+  "workplace": "Root/eval owner reviewed all own SAY and passed; no raw message text uploaded here.",
+  "memory": "Known current-position/card defects remain; protocol is not factual-memory proof.",
+  "decision": "FAIL; root reports parent retired. No promotion, superiority claim, retraining or alternative checkpoint from this FINAL.",
+  "uncertainty": "Paired EV CI is wide and spans harm; smalln6 and weak fixed opponents limit transfer.",
+  "data_agent_read_only_aggregate_after_result_certified": "This publication follows completed root/eval-owner review, not candidate choice."
+}
