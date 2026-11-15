@@ -1,0 +1,17 @@
+{
+  "source_matches_by_teacher": {
+    "house-professor-pete": 115,
+    "house-chatty-carlos": 116
+  },
+  "legacy_protected_matches": {
+    "select": 13,
+    "eval": 9
+  },
+  "train_sources_by_teacher": {
+    "house-professor-pete": 87,
+    "house-chatty-carlos": 90
+  },
+  "whole_match_split_disjoint": true,
+  "duplicate_deal_split_disjoint": true,
+  "old_heldout_matches_excluded_from_training": true
+}

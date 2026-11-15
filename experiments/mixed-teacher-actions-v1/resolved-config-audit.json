@@ -1,0 +1,37 @@
+{
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "step": {
+    "num_train_steps": 10,
+    "problem_batch_size": 128,
+    "samples_per_problem": 1,
+    "checkpoint_interval": 5,
+    "keep_last_checkpoints": 20,
+    "seed": 42
+  },
+  "trainer": {
+    "learning_rate": 5e-06,
+    "learning_rate_schedule": "cosine",
+    "min_learning_rate": 1e-06,
+    "weight_decay": 0.1,
+    "samples_per_optimizer_step": 128
+  },
+  "rollout": {
+    "n_inference_replicas": 0
+  },
+  "eval": {
+    "mode": "off"
+  },
+  "internal_launch": {},
+  "state": {
+    "status": "pending",
+    "completed": false,
+    "dispatch_job_id": "job_fb59a46dc0ee",
+    "visibility": "public",
+    "parent": null,
+    "owner_email": "lmathias@berkeley.edu",
+    "created_at": "2026-11-15T09:33:32.553284Z",
+    "updated_at": "2026-11-15T09:33:32.694299Z",
+    "archived_at": null,
+    "wandb_url": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collection_id": "coll_40d2b84e2fb5",
+  "native_eval_id": "eval_a1cc729a3948",
+  "artifacts": {
+    "LOCAL_CANDIDATE20_DIAGNOSTICS.md": {
+      "id": "art_3425aa3a0ad6",
+      "state": "ready",
+      "sha256": "4e5748c7f35d23289464f7d0ff41aa0bc01516ad1bcbe404ff61dd02db2e62c9",
+      "identity": {
+        "owner": "lmathias@berkeley.edu",
+        "org_id": "org_cd68943dd947",
+        "unix_uid": 10464,
+        "runtime_user_secret_exists": true
+      }
+    },
+    "LOCAL_CANDIDATE20_DIAGNOSTICS.json": {
+      "id": "art_33321e2136ef",
+      "state": "ready",
+      "sha256": "ba16b8ac9e12f1fd052fd4cf37791f699de55f1e052b44e5108a9f448dbbc720",
+      "identity": {
+        "owner": "lmathias@berkeley.edu",
+        "org_id": "org_cd68943dd947",
+        "unix_uid": 10464,
+        "runtime_user_secret_exists": true
+      }
+    }
+  },
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "verified_collection_membership": true,
+  "collection_artifact_count": 9,
+  "verified_native_eval_membership": true
+}

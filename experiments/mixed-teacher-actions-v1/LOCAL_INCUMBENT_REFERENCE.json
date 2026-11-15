@@ -1,0 +1,71 @@
+{
+  "record_type": "LOCAL_reference_inference_diagnostic_not_native_eval",
+  "is_ac2_eval_run": false,
+  "model": "vals-hackathon/combined-sft-v3",
+  "split": "select",
+  "status": "complete",
+  "summary": {
+    "action_accuracy": 0.7578125,
+    "check_or_fold_baseline_accuracy": 0.62890625,
+    "exact_action_amount_accuracy": 0.68359375,
+    "examples": 256,
+    "legal_rate": 1.0,
+    "macro_action_recall": 0.603929050059125,
+    "per_action": {
+      "bet": {
+        "examples": 27,
+        "recall": 0.0
+      },
+      "call": {
+        "examples": 25,
+        "recall": 0.32
+      },
+      "check": {
+        "examples": 43,
+        "recall": 1.0
+      },
+      "fold": {
+        "examples": 118,
+        "recall": 0.9322033898305084
+      },
+      "raise": {
+        "examples": 43,
+        "recall": 0.7674418604651163
+      }
+    },
+    "per_position": {
+      "0": {
+        "accuracy": 0.7540983606557377,
+        "examples": 61
+      },
+      "1": {
+        "accuracy": 0.6779661016949152,
+        "examples": 59
+      },
+      "2": {
+        "accuracy": 0.8787878787878788,
+        "examples": 33
+      },
+      "3": {
+        "accuracy": 0.725,
+        "examples": 40
+      },
+      "4": {
+        "accuracy": 0.8536585365853658,
+        "examples": 41
+      },
+      "5": {
+        "accuracy": 0.6818181818181818,
+        "examples": 22
+      }
+    },
+    "raise_amount_comparisons": 33,
+    "raise_amount_mae_chips": 0.6666666666666666
+  },
+  "source_path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/mixed-teacher-select/incumbent.json",
+  "source_sha256": "8b390473651e8fe55539ebbe5d7a5575427f84114c94f5a2c11f4a14555a3d0b",
+  "limitations": [
+    "Teacher imitation,not tournament placement.",
+    "No native Eval record is fabricated for this local diagnostic."
+  ]
+}

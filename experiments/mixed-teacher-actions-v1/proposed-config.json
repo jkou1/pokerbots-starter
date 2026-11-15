@@ -1,0 +1,48 @@
+{
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "name": "mixed-pete-carlos-actions-v1-base-sft-10steps-b128",
+  "description": "One mixed-teacher action-only base pilot.7640balancedunique labels;whole-match/deal holdouts;10updates;checkpoint5/10;noautomaticextension.",
+  "tags": {
+    "stage": "mixed-teacher-actions",
+    "initialization": "base",
+    "dataset": "pokerbots-mixed-pete-carlos-actions-v1-train",
+    "teacher_mix": "50percentPete50percentCarlos",
+    "initial_max_updates": 10,
+    "requires_milestone_validation": true
+  },
+  "experiment_cfg": {
+    "method": {
+      "type": "sft"
+    },
+    "step": {
+      "num_train_steps": 10,
+      "problem_batch_size": 128,
+      "samples_per_problem": 1,
+      "checkpoint_interval": 5,
+      "seed": 42
+    },
+    "tasks": {
+      "datasets": [
+        {
+          "ac2_dataset_name": "pokerbots-mixed-pete-carlos-actions-v1-train"
+        }
+      ]
+    },
+    "trainer": {
+      "learning_rate": 5e-06
+    },
+    "rollout": {
+      "n_inference_replicas": 0,
+      "max_total_len": 8192
+    },
+    "eval": {
+      "mode": "off"
+    }
+  },
+  "internal_cfg": {
+    "launch": {
+      "n_training_replicas": 1,
+      "tensorboard_enabled": true
+    }
+  }
+}

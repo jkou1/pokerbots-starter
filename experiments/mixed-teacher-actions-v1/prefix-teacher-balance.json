@@ -1,0 +1,19 @@
+{
+  "source_order": "random.Random(42).shuffle over exactly balanced unique labels",
+  "prefix_counts": {
+    "128": {
+      "house-chatty-carlos": 63,
+      "house-professor-pete": 65
+    },
+    "640": {
+      "house-chatty-carlos": 317,
+      "house-professor-pete": 323
+    },
+    "1280": {
+      "house-chatty-carlos": 640,
+      "house-professor-pete": 640
+    }
+  },
+  "managed_batch_check_required": true,
+  "identity_not_in_student_prompt": true
+}

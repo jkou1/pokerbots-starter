@@ -1,0 +1,87 @@
+{
+  "cutoff": "2026-11-15T09:19:38.745549+00:00",
+  "teachers": {
+    "house-professor-pete": "Professor Pete",
+    "house-chatty-carlos": "Chatty Carlos"
+  },
+  "discovered_unique_matches": 170,
+  "listings": [
+    {
+      "teacher": "house-professor-pete",
+      "url": "https://www.pokerbots.ac/matches?entry=house-professor-pete",
+      "file": "listings/house-professor-pete-page-1.html",
+      "sha256": "48876be52cd146987145ac8c5920d2ac1ae0037198873716411b908e3f12fc62",
+      "match_links": 25
+    },
+    {
+      "teacher": "house-professor-pete",
+      "url": "https://www.pokerbots.ac/matches?entry=house-professor-pete&page=2",
+      "file": "listings/house-professor-pete-page-2.html",
+      "sha256": "66e918eac784bf4b3f4354fb4c6e96df2ad1b09b7c5d8db2e942f171cbb628b4",
+      "match_links": 25
+    },
+    {
+      "teacher": "house-professor-pete",
+      "url": "https://www.pokerbots.ac/matches?entry=house-professor-pete&page=3",
+      "file": "listings/house-professor-pete-page-3.html",
+      "sha256": "07c0c65258cf1490718bdfed008c4132d87e04e09baa945d00d1573d75bb83e8",
+      "match_links": 25
+    },
+    {
+      "teacher": "house-professor-pete",
+      "url": "https://www.pokerbots.ac/matches?entry=house-professor-pete&page=4",
+      "file": "listings/house-professor-pete-page-4.html",
+      "sha256": "b752544f22369dbc3bee9db524c539213892c82cb706a6647f59166c983f0fcc",
+      "match_links": 25
+    },
+    {
+      "teacher": "house-professor-pete",
+      "url": "https://www.pokerbots.ac/matches?entry=house-professor-pete&page=5",
+      "file": "listings/house-professor-pete-page-5.html",
+      "sha256": "19c149dbe33f400b1445eb9d0e3764a97f55d7cfcf075a83f4e456812181a8ec",
+      "match_links": 15
+    },
+    {
+      "teacher": "house-chatty-carlos",
+      "url": "https://www.pokerbots.ac/matches?entry=house-chatty-carlos",
+      "file": "listings/house-chatty-carlos-page-1.html",
+      "sha256": "341bd1cd913ac80bd26f0f1f74b0d02385f0718be4dbf3fd8363f891ad0d711b",
+      "match_links": 25
+    },
+    {
+      "teacher": "house-chatty-carlos",
+      "url": "https://www.pokerbots.ac/matches?entry=house-chatty-carlos&page=2",
+      "file": "listings/house-chatty-carlos-page-2.html",
+      "sha256": "aea3377db076d3cb211248baa2983633fcdffe56b05ff0f9362225086009d030",
+      "match_links": 25
+    },
+    {
+      "teacher": "house-chatty-carlos",
+      "url": "https://www.pokerbots.ac/matches?entry=house-chatty-carlos&page=3",
+      "file": "listings/house-chatty-carlos-page-3.html",
+      "sha256": "d85ef6ede091cbabe326ec427a0125f334dab4767d2d7856aaf8e93e885d810b",
+      "match_links": 25
+    },
+    {
+      "teacher": "house-chatty-carlos",
+      "url": "https://www.pokerbots.ac/matches?entry=house-chatty-carlos&page=4",
+      "file": "listings/house-chatty-carlos-page-4.html",
+      "sha256": "f3c62ed5c035f3663c5bf616592b4b2cb49ab523c0044ed3348e4fade9452770",
+      "match_links": 25
+    },
+    {
+      "teacher": "house-chatty-carlos",
+      "url": "https://www.pokerbots.ac/matches?entry=house-chatty-carlos&page=5",
+      "file": "listings/house-chatty-carlos-page-5.html",
+      "sha256": "5fe84561e10e3049752c4b6e962dd9a87eb480b63df1a236150809c4b16e9772",
+      "match_links": 16
+    }
+  ],
+  "results": {
+    "complete": 170,
+    "failed": 0,
+    "incomplete": 0,
+    "after_cutoff": 0
+  },
+  "cache_reused": 109
+}

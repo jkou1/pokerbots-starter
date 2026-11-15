@@ -1,0 +1,105 @@
+{
+  "collection": {
+    "id": "coll_40d2b84e2fb5",
+    "project_id": "prj_ba36d29befaf",
+    "project_name": "vals-hackathon",
+    "slug": "poker-sft-action-audits-20261115",
+    "name": "Poker SFT action audits and LOCAL diagnostics \u2014 Nov15",
+    "description": "Action-only CE audits for two existing SFT runs. LOCAL147postflop/354preflopdiagnostics are artifacts, not native Eval runs. Also links two genuine32task native platform evals. Training CE is not poker performance. No new GPU work.",
+    "created_by": "usr_30e99771e5e4",
+    "archived_at": null,
+    "created_at": "2026-11-15T09:05:25.060325Z",
+    "updated_at": "2026-11-15T09:05:25.060328Z"
+  },
+  "artifacts": {
+    "READ_ME_FIRST.md": {
+      "id": "art_2b9974e836f0",
+      "state": "ready",
+      "source_name": "READ_ME_FIRST.md",
+      "size_bytes": 2508,
+      "sha256": "da730dac4a4440ed8786f17856e37439164b4d17958216bf062e2347a31332a4",
+      "collection_ids": [
+        "coll_40d2b84e2fb5"
+      ]
+    },
+    "ACTION_TOKEN_CE.png": {
+      "id": "art_8ebfae2bad22",
+      "state": "ready",
+      "source_name": "ACTION_TOKEN_CE.png",
+      "size_bytes": 147984,
+      "sha256": "ce1192ec557006272a99d57a388e9b63620eed0113e372c62e9c5ba149865882",
+      "collection_ids": [
+        "coll_40d2b84e2fb5"
+      ]
+    },
+    "continuation-action-ce.json": {
+      "id": "art_be27564c60ec",
+      "state": "ready",
+      "source_name": "continuation-action-ce.json",
+      "size_bytes": 31051,
+      "sha256": "57ebb2459dc042c9671a975d2da94dad44db95a33c4b02975e34a880240ef0f7",
+      "collection_ids": [
+        "coll_40d2b84e2fb5"
+      ]
+    },
+    "base-action-ce.json": {
+      "id": "art_2f5be2d084b6",
+      "state": "ready",
+      "source_name": "base-action-ce.json",
+      "size_bytes": 30939,
+      "sha256": "97c8df64feea12e33e9f6a4d6cf198764bd8eb8b0e6ad3ebb8531d78f2f4518a",
+      "collection_ids": [
+        "coll_40d2b84e2fb5"
+      ]
+    },
+    "LOCAL_EVALUATION_SUMMARIES.json": {
+      "id": "art_70cb139a773b",
+      "state": "ready",
+      "source_name": "LOCAL_EVALUATION_SUMMARIES.json",
+      "size_bytes": 6101,
+      "sha256": "9c42aa30389af5da3724585211d42faee008602394d2c348e5768be2d6e560c9",
+      "collection_ids": [
+        "coll_40d2b84e2fb5"
+      ]
+    },
+    "NATIVE_EVAL_REFERENCES.json": {
+      "id": "art_4fd573ded9cf",
+      "state": "ready",
+      "source_name": "NATIVE_EVAL_REFERENCES.json",
+      "size_bytes": 806,
+      "sha256": "a53287444612cae11f9afeef61ec38cc58728a460d6de945c04ae27e83d1008b",
+      "collection_ids": [
+        "coll_40d2b84e2fb5"
+      ]
+    },
+    "AUDIT_BUNDLE.zip": {
+      "id": "art_79612e763315",
+      "state": "ready",
+      "source_name": "AUDIT_BUNDLE.zip",
+      "size_bytes": 170391,
+      "sha256": "7c85795c2b65dddceac9761c43a0e4f2a7959bff5c723d6f61110ccb9b627276",
+      "collection_ids": [
+        "coll_40d2b84e2fb5"
+      ]
+    }
+  },
+  "verified_at": "2026-11-15T09:05:37.628882+00:00",
+  "verified_artifact_membership": true,
+  "verified_train_membership": true,
+  "verified_eval_membership": true,
+  "verified_download_sha256": "7c85795c2b65dddceac9761c43a0e4f2a7959bff5c723d6f61110ccb9b627276",
+  "train_dashboard_urls": {
+    "train_e3fba0323bd2": "https://platform.appliedcompute.com/org_cd68943dd947/p/prj_ba36d29befaf/observability/training/train_e3fba0323bd2",
+    "train_4cc69b58d8e9": "https://platform.appliedcompute.com/org_cd68943dd947/p/prj_ba36d29befaf/observability/training/train_4cc69b58d8e9"
+  },
+  "new_account_read_verified": true,
+  "new_account_email": "lmathias@berkeley.edu",
+  "new_account_subject": "usr_fe87402bc9fc",
+  "new_account_artifact_count": 7,
+  "collection_list_dashboard_url": "https://platform.appliedcompute.com/org_cd68943dd947/p/prj_ba36d29befaf/collections",
+  "dashboard_sidebar_link_verified": true,
+  "dashboard_collection_rows_verified": false,
+  "dashboard_navigation_blocker": "Native UI navigation timed out after observing the authenticated Collections link; no account switching attempted.",
+  "new_account_download_verified": true,
+  "new_account_readme_sha256": "da730dac4a4440ed8786f17856e37439164b4d17958216bf062e2347a31332a4"
+}

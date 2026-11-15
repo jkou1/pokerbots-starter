@@ -1,0 +1,32 @@
+{
+  "ckpt_dc82af619ad4": {
+    "train_id": "train_e3fba0323bd2",
+    "iter_num": 39,
+    "identity": {
+      "owner": "lmathias@berkeley.edu",
+      "org_id": "org_cd68943dd947",
+      "unix_uid": 10464,
+      "runtime_user_secret_exists": true
+    },
+    "state_before": "missing",
+    "state_after": "converting",
+    "conversion_requested": true,
+    "method": "promote",
+    "recorded_at": "2026-11-15T09:12:04.400642+00:00"
+  },
+  "ckpt_30d9913c74b6": {
+    "train_id": "train_4cc69b58d8e9",
+    "iter_num": 39,
+    "identity": {
+      "owner": "lmathias@berkeley.edu",
+      "org_id": "org_cd68943dd947",
+      "unix_uid": 10464,
+      "runtime_user_secret_exists": true
+    },
+    "state_before": "missing",
+    "state_after": "converting",
+    "conversion_requested": true,
+    "method": "promote",
+    "recorded_at": "2026-11-15T09:12:05.286510+00:00"
+  }
+}

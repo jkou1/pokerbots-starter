@@ -1,0 +1,24 @@
+{
+  "SOURCE_RECEIPTS.json": {
+    "id": "art_d13e670331a9",
+    "state": "ready",
+    "sha256": "7440d8bc5f570394574e74822e896e6e52b2636bb5c7083168eaad5d872ec7dd",
+    "identity": {
+      "owner": "lmathias@berkeley.edu",
+      "org_id": "org_cd68943dd947",
+      "unix_uid": 10464,
+      "runtime_user_secret_exists": true
+    }
+  },
+  "COVERAGE.json": {
+    "id": "art_606a80649a6b",
+    "state": "ready",
+    "sha256": "c48354e4e72c94ba8bcdb4509306cd1e690b63d185efff49ee0f8c26b78ba82b",
+    "identity": {
+      "owner": "lmathias@berkeley.edu",
+      "org_id": "org_cd68943dd947",
+      "unix_uid": 10464,
+      "runtime_user_secret_exists": true
+    }
+  }
+}

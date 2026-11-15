@@ -1,0 +1,32 @@
+{
+  "house-chatty-carlos": {
+    "entry": {
+      "id": "house-chatty-carlos",
+      "kind": "house",
+      "name": "Chatty Carlos",
+      "submission_name": null,
+      "org_id": "house_chatty_carlos",
+      "deployment_id": null,
+      "model": "House bot",
+      "deployment": null
+    },
+    "match_id": "m_20261114t223416_3cc9c0",
+    "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t223416_3cc9c0-DjNKah4U6rNTpidQGYPlrZUhZ7Fkbo.json",
+    "sha256": "4417b213308bacad2ccd15dd802030485e80c3c807043913f9b8a12b50920927"
+  },
+  "house-professor-pete": {
+    "entry": {
+      "id": "house-professor-pete",
+      "kind": "house",
+      "name": "Professor Pete",
+      "submission_name": null,
+      "org_id": "house_professor_pete",
+      "deployment_id": null,
+      "model": "House bot",
+      "deployment": null
+    },
+    "match_id": "m_20261114t223416_3cc9c0",
+    "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t223416_3cc9c0-DjNKah4U6rNTpidQGYPlrZUhZ7Fkbo.json",
+    "sha256": "4417b213308bacad2ccd15dd802030485e80c3c807043913f9b8a12b50920927"
+  }
+}

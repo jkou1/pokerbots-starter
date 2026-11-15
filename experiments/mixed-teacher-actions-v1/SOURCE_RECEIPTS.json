@@ -1,0 +1,2774 @@
+{
+  "source_manifest_sha256": "93a00c87019e018445e77e5a6ffe0c504dda3de170599409297ddafaeb23e5e7",
+  "cutoff": "2026-11-15T09:19:38.745549+00:00",
+  "matches": [
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t223416_3cc9c0.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.536400+00:00",
+      "finished_at": "2026-11-14T22:48:54Z",
+      "id": "m_20261114t223416_3cc9c0",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:38.868509+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t223416_3cc9c0-DjNKah4U6rNTpidQGYPlrZUhZ7Fkbo.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t223416_3cc9c0",
+      "result": "complete",
+      "sha256": "4417b213308bacad2ccd15dd802030485e80c3c807043913f9b8a12b50920927",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t223417_ef375c.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.539623+00:00",
+      "finished_at": "2026-11-14T22:51:51Z",
+      "id": "m_20261114t223417_ef375c",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:38.901186+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t223417_ef375c-cda23GltYoAiWGFJtYV6aFD6YqyCsp.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t223417_ef375c",
+      "result": "complete",
+      "sha256": "88c8bfedf5cf181d1e5f16a25c41ec3868df42cf60038c300b4044f7ed5a31ff",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:41.892055+00:00",
+      "finished_at": "2026-11-14T22:57:33Z",
+      "id": "m_20261114t223836_e795f2",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t223836_e795f2-yWj5inmTkxzISfCC3YKUHUfWCh2k1n.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t223836_e795f2",
+      "result": "complete",
+      "sha256": "590235c30d0ba74c70955e36ecf9d3e7dd2cca6e504ef35661aac0686abd9679",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t223936_610f23.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.539673+00:00",
+      "finished_at": "2026-11-14T22:59:18Z",
+      "id": "m_20261114t223936_610f23",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:38.875838+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t223936_610f23-kVH5wn84vHFg1bk1nH7V7zBEQmt8Pj.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t223936_610f23",
+      "result": "complete",
+      "sha256": "4ef755770ae8635ad9a31d8aeb71762f5549af6055523e30dd223fc7b7441090",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t224036_efd9e3.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.540880+00:00",
+      "finished_at": "2026-11-14T22:52:07Z",
+      "id": "m_20261114t224036_efd9e3",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:38.845833+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t224036_efd9e3-eUtoM3HBI3QTI2MUrwqxL2rO2KXHtw.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t224036_efd9e3",
+      "result": "complete",
+      "sha256": "54e886323e6934dfa8718b47fd35674cca48aa8d111fca0c0fdcb6d456fba06e",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t224136_f8f285.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.542045+00:00",
+      "finished_at": "2026-11-14T22:46:46Z",
+      "id": "m_20261114t224136_f8f285",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:38.867233+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t224136_f8f285-qYWcc6AypNqBkU9XOZqTwTvx3vbCS1.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t224136_f8f285",
+      "result": "complete",
+      "sha256": "6984852840446a64a14dace4554a456ab357fd3ea70ae90eea22ea5f30604b1e",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t224237_0805fd.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.542003+00:00",
+      "finished_at": "2026-11-14T22:49:28Z",
+      "id": "m_20261114t224237_0805fd",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:38.889554+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t224237_0805fd-MU1t86Ts9ySKxJH9meNDamwkguVSts.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t224237_0805fd",
+      "result": "complete",
+      "sha256": "f88cf92801013679b3274b5cb23bb5bcc537bcdb42177bad062db0cc794bef78",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t224708_d6b1b4.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.543529+00:00",
+      "finished_at": "2026-11-14T23:07:05Z",
+      "id": "m_20261114t224708_d6b1b4",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:38.886118+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t224708_d6b1b4-JMtiT11XDsmdRI3J0pTaXvUn0DLxdF.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t224708_d6b1b4",
+      "result": "complete",
+      "sha256": "bff231d0e17d31fb259ec95baed4aa8a511fa88198a13a9525012ecab7fb0fa4",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:41.885826+00:00",
+      "finished_at": "2026-11-14T22:59:34Z",
+      "id": "m_20261114t224938_46f683",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t224938_46f683-3FFL4n7CxywilDcmC7PsgPODLoEVj3.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t224938_46f683",
+      "result": "complete",
+      "sha256": "74b6c02b19674b1027efd9f2ced025cc55642f44acdafd7e02e7399739587941",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t225109_8874b6.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.544605+00:00",
+      "finished_at": "2026-11-14T23:05:07Z",
+      "id": "m_20261114t225109_8874b6",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:38.868455+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t225109_8874b6-N8ykGZN0fHTVlMAbQJ9D3KpTFcIOdT.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t225109_8874b6",
+      "result": "complete",
+      "sha256": "d8ba2c7963e45546b1089d34f4949bd5ee802b871e3a68c2931f118f3696e44f",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t225211_06dd79.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.545598+00:00",
+      "finished_at": "2026-11-14T23:09:15Z",
+      "id": "m_20261114t225211_06dd79",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.148716+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t225211_06dd79-szMxK6MfHOWVOEIZhQzd7SnToIMTfW.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t225211_06dd79",
+      "result": "complete",
+      "sha256": "94c087de4c4cb6051ebd22cbbbf3d6df828a7e790ba76d60269eb3095a2b371a",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t225311_7f14f0.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.546396+00:00",
+      "finished_at": "2026-11-14T23:10:55Z",
+      "id": "m_20261114t225311_7f14f0",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.272414+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t225311_7f14f0-BDdzkJWSCibB8lfL5i2jcVsSKPUKGt.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t225311_7f14f0",
+      "result": "complete",
+      "sha256": "1ee5fcb41b9c4a6ca032bfba0a39b0f22238668573da68f65141127cb3c718e1",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:41.871385+00:00",
+      "finished_at": "2026-11-14T23:14:57Z",
+      "id": "m_20261114t225735_4f5030",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t225735_4f5030-4XvToXlau0uXkjfehGEgJxUfIVXdrD.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t225735_4f5030",
+      "result": "complete",
+      "sha256": "afc8427a81520979544d066866d5d70b1b05633687a115483566ba921bf2e33b",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t225919_3cd6ac.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.547642+00:00",
+      "finished_at": "2026-11-14T23:19:02Z",
+      "id": "m_20261114t225919_3cd6ac",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.302061+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t225919_3cd6ac-qxW0h6TtLwpesUpPxtZXWIXATxMDMV.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t225919_3cd6ac",
+      "result": "complete",
+      "sha256": "57436ab85da81412992814fa2e9791540d1405d73ba304353ad03b79ba75bb47",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:41.925077+00:00",
+      "finished_at": "2026-11-14T23:18:46Z",
+      "id": "m_20261114t230019_d61bb2",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t230019_d61bb2-yZ5FdXUGJjNYY0jGHbDueZ28L4aMvw.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t230019_d61bb2",
+      "result": "complete",
+      "sha256": "8dbedc6cd25eca54a50f6a60e09c22e279a6c8910f41322eddb1813f98d43c4e",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:42.203284+00:00",
+      "finished_at": "2026-11-14T23:10:13Z",
+      "id": "m_20261114t230120_5dbf6c",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t230120_5dbf6c-bru5acEDtwxBunnsk4cMC2QImBTGzL.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t230120_5dbf6c",
+      "result": "complete",
+      "sha256": "56ad05e9c85af428987558d87fc524ead5b3e86007a6e68d356ff20158a5d6f3",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t230508_56d578.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.886966+00:00",
+      "finished_at": "2026-11-14T23:21:02Z",
+      "id": "m_20261114t230508_56d578",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.244662+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t230508_56d578-fl4X8LCQbxFod6pd5jtXcFg1FvQ9A8.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t230508_56d578",
+      "result": "complete",
+      "sha256": "5fd9337e64a6666b57b08003fc0a5c0c9aa5da8c949e4bb0d86a728cdffb0494",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t230806_3b4eee.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.888195+00:00",
+      "finished_at": "2026-11-14T23:28:42Z",
+      "id": "m_20261114t230806_3b4eee",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.303200+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t230806_3b4eee-6oy67DtYPI3pQ4DWljtg8wzWTsJomk.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t230806_3b4eee",
+      "result": "complete",
+      "sha256": "c7eb9eb2071e1bb15a2ad69fc98c14dc45a378dc9b7a9f8bca8bc69ea5eb8908",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t230916_3a1534.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.889208+00:00",
+      "finished_at": "2026-11-14T23:27:15Z",
+      "id": "m_20261114t230916_3a1534",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.272341+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t230916_3a1534-BTzj2ObxfJmHIL1k55vbEHgnJ44iUu.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t230916_3a1534",
+      "result": "complete",
+      "sha256": "ff8272516248fdef04f432b1f062f0fafc28062dafa1e9e480a15d12d0125529",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:42.171355+00:00",
+      "finished_at": "2026-11-14T23:32:35Z",
+      "id": "m_20261114t231016_d69e78",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t231016_d69e78-JvoI7rDpjsWCWK4STN3arTckn8WJab.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t231016_d69e78",
+      "result": "complete",
+      "sha256": "a4d7ff1b3aa445364cccebf9cc3e6e20f85f2ea3c80ca3c0eaeee67d0498fd11",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t231117_fd8e48.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.893346+00:00",
+      "finished_at": "2026-11-14T23:33:00Z",
+      "id": "m_20261114t231117_fd8e48",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.303118+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t231117_fd8e48-rYWgHNQ4KWf7cIeeknzWE88ZfdERE3.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t231117_fd8e48",
+      "result": "complete",
+      "sha256": "f6199d4487d3d405908aff32c4ed77b49491d219e45d955a1142a6829c8ef980",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t233322_b851e4.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.894789+00:00",
+      "finished_at": "2026-11-14T23:56:53Z",
+      "id": "m_20261114t233322_b851e4",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.301979+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t233322_b851e4-ihCaWh9A71AIVlT0tBfxCpiYMO1K4e.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t233322_b851e4",
+      "result": "complete",
+      "sha256": "1c7b8367a00e7b0e7f026bc73ea83b052101e1649fa949e5ea7ae2cdd81db232",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:42.182651+00:00",
+      "finished_at": "2026-11-14T23:56:06Z",
+      "id": "m_20261114t233422_d6fa17",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t233422_d6fa17-u2SzFKAmOCRjrdUfcDrjTAf2iXC789.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t233422_d6fa17",
+      "result": "complete",
+      "sha256": "d4efd3c910e7f1eb325c28096ec3bc20f38d5b3bbfc128ebf40a701efba27dca",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t233727_651fea.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.926372+00:00",
+      "finished_at": "2026-11-14T23:59:40Z",
+      "id": "m_20261114t233727_651fea",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.597655+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t233727_651fea-prC0aYAR0jvGRLKl5pjdbyv6vWiQLd.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t233727_651fea",
+      "result": "complete",
+      "sha256": "6320e938b88a5ad6fd5ea14186216494c189b12fe62e8a22f558880aa0c3b642",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t233825_ad709d.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.927497+00:00",
+      "finished_at": "2026-11-14T23:54:45Z",
+      "id": "m_20261114t233825_ad709d",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.587038+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t233825_ad709d-fagBjSNpWcPNLMVjtMSWpresj2kxF2.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t233825_ad709d",
+      "result": "complete",
+      "sha256": "594fcf718a8f55ca0a4dce973cc1dff5c00ce37ff201059c24d5867e0c8ae969",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t233925_d3f780.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.928613+00:00",
+      "finished_at": "2026-11-14T23:57:14Z",
+      "id": "m_20261114t233925_d3f780",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.598708+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t233925_d3f780-GIauCiCte8v3EHFnsoEKUK3JyHjhKH.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t233925_d3f780",
+      "result": "complete",
+      "sha256": "c911f6b35c3a47c05635a7d23736f3bc0ff7a2251492176655e3d86425e4a5a9",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t234027_bcc24b.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:41.929548+00:00",
+      "finished_at": "2026-11-14T23:51:11Z",
+      "id": "m_20261114t234027_bcc24b",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.562193+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t234027_bcc24b-eSebM7euG48uwOU4odGjyE4kvmNiTC.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t234027_bcc24b",
+      "result": "complete",
+      "sha256": "a3a6f6a500ee023ad66ddcfddcd6d404fde00b0157ace50459bc4a549ea42cc6",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:42.316698+00:00",
+      "finished_at": "2026-11-14T23:48:40Z",
+      "id": "m_20261114t234126_780a91",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t234126_780a91-raQjsR2Xa1wtQd4ms8wWQIh9i3g0Ma.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t234126_780a91",
+      "result": "complete",
+      "sha256": "e5a19d52b7563ae1f07bdf38bdf450e9255f33cb496f05aaaf0b9f672f51fb2c",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:42.577436+00:00",
+      "finished_at": "2026-11-15T00:03:45Z",
+      "id": "m_20261114t234858_08e295",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t234858_08e295-Mw3Zanqf68OkNoVyDD2Tp2hvliKPsE.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t234858_08e295",
+      "result": "complete",
+      "sha256": "68a4b125b26df9a00e289d6f9e36fe9b7d3e5f6dc3462db80909752a46479d22",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t235129_9ceb63.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.183703+00:00",
+      "finished_at": "2026-11-15T00:01:29Z",
+      "id": "m_20261114t235129_9ceb63",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.615976+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t235129_9ceb63-Af5L9JN1v5J8VKuYNvdktNDayrRKhV.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t235129_9ceb63",
+      "result": "complete",
+      "sha256": "e0a41a83b6bea0d142d4ee0adcc222c93ce1fa5aedae23ea5b6ec45fdc7df6f8",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:42.587507+00:00",
+      "finished_at": "2026-11-15T00:02:49Z",
+      "id": "m_20261114t235230_5ff9ab",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t235230_5ff9ab-x66rbn8bFaWYb4WzppYmKBh9GQfRXX.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t235230_5ff9ab",
+      "result": "complete",
+      "sha256": "056ac3c8ceef4f72230830aa71cbbf94cda33f9cb5e4abc749ca62ac11a311f0",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261114t235527_eb1de4.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.204468+00:00",
+      "finished_at": "2026-11-15T00:09:05Z",
+      "id": "m_20261114t235527_eb1de4",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.680731+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t235527_eb1de4-880zks0IGXag0lL0oHcQmhZXxSXAqf.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t235527_eb1de4",
+      "result": "complete",
+      "sha256": "dede51fb795dbf21cf8c8f8770a24f0d6cc0f7d9c0c3a37d25c3c54e726d769d",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t000057_592b01.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.205682+00:00",
+      "finished_at": "2026-11-15T00:20:26Z",
+      "id": "m_20261115t000057_592b01",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.615231+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t000057_592b01-Raq3RmDosVjwfNnBv4zyHGY5h4ltnA.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t000057_592b01",
+      "result": "complete",
+      "sha256": "697002f64490bb43d00bbdb5161b605f04ec4f31047f4dd35c713a65acf28bc6",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t000157_9a5b33.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.206785+00:00",
+      "finished_at": "2026-11-15T00:17:59Z",
+      "id": "m_20261115t000157_9a5b33",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.626103+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t000157_9a5b33-6phIi7MwEi9rs0FK5SAL30zPjEDZLo.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t000157_9a5b33",
+      "result": "complete",
+      "sha256": "0364d3ec8cac44e8b70ed211f8edaa254930aa9dc9e5db5d85685db41728dcfa",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t000257_51a318.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.207740+00:00",
+      "finished_at": "2026-11-15T00:13:54Z",
+      "id": "m_20261115t000257_51a318",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.899384+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t000257_51a318-QrrvMMfmVM53Nal7pRWAsIUyV3Imui.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t000257_51a318",
+      "result": "complete",
+      "sha256": "507d2c4391470a7b577233f125bab3d649ee234cd13367901b36368bc54c9707",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t000357_cbc37b.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.208984+00:00",
+      "finished_at": "2026-11-15T00:17:54Z",
+      "id": "m_20261115t000357_cbc37b",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.067521+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t000357_cbc37b-G1jAmTHH1RIQ542KdKuxQU59E7ifMG.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t000357_cbc37b",
+      "result": "complete",
+      "sha256": "0b46a9853b53f6f8da891d9f58b91f22d4877bb1f5b0df4b3e091bc443bd8ace",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:42.614067+00:00",
+      "finished_at": "2026-11-15T00:35:49Z",
+      "id": "m_20261115t001330_01660e",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t001330_01660e-sfGwBu8zF8A2Innm3QzOvaDgDgYmLG.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t001330_01660e",
+      "result": "complete",
+      "sha256": "0b1f6b0a99b6a6893efaeddf902bb8e60b4d4bb8ceb10f34d4dbfb4be743558a",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t001431_a2bcbe.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.318102+00:00",
+      "finished_at": "2026-11-15T00:20:23Z",
+      "id": "m_20261115t001431_a2bcbe",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.922984+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t001431_a2bcbe-rj9WCClKr1AfxP3AhnRD3P3X7A6sbB.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t001431_a2bcbe",
+      "result": "complete",
+      "sha256": "4a5c53a129be4fd8a4007b8bea1c14b4e562671a13aae51d8a8ea7e178057b58",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t001801_0166f3.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.319113+00:00",
+      "finished_at": "2026-11-15T00:29:55Z",
+      "id": "m_20261115t001801_0166f3",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.922905+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t001801_0166f3-tL2SPRN97Rh2InHX6rW22ALABwAvmu.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t001801_0166f3",
+      "result": "complete",
+      "sha256": "e7da5bbda777633af1f2ae7e00a600e15e1d158629119cc45428a35f067101a6",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t001901_32b9cf.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.320259+00:00",
+      "finished_at": "2026-11-15T00:34:35Z",
+      "id": "m_20261115t001901_32b9cf",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.947179+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t001901_32b9cf-ou2znGxjaIxqyOUGGOy9WUkDmmy7Df.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t001901_32b9cf",
+      "result": "complete",
+      "sha256": "c0d8b28d4cf59325238614239fd19e48a03cb2e2a277fb2b8c09640a978e401e",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t002634_78ab7f.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.321613+00:00",
+      "finished_at": "2026-11-15T00:44:48Z",
+      "id": "m_20261115t002634_78ab7f",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.948339+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t002634_78ab7f-ub5jPCSrWnCiLAfr3lS6qUfxt8mTRt.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t002634_78ab7f",
+      "result": "complete",
+      "sha256": "9fd550fe9e40c5dbd7575999f265a543018df261362b06dd489db63630fc2f20",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:42.700700+00:00",
+      "finished_at": "2026-11-15T00:40:30Z",
+      "id": "m_20261115t003005_926d7b",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t003005_926d7b-o9HWjiY6aTP8JbFENolF947PwiX7Rw.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003005_926d7b",
+      "result": "complete",
+      "sha256": "3ef109f84d65bb255c14c945377df756fdd7c3e8f03f036dcdd4c59449d3c2a7",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t003106_8bc0e3.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.579576+00:00",
+      "finished_at": "2026-11-15T00:43:57Z",
+      "id": "m_20261115t003106_8bc0e3",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:39.973202+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t003106_8bc0e3-6IePSsc9tnlaa8T7RdFQRuAoRyBGnA.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003106_8bc0e3",
+      "result": "complete",
+      "sha256": "5dc89a2b01d01a8c294e2f31508976c3b606a6c03daca5b5ed5dfaa952b0df33",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t003206_5ab71e.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.581090+00:00",
+      "finished_at": "2026-11-15T00:40:03Z",
+      "id": "m_20261115t003206_5ab71e",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.065343+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t003206_5ab71e-cHaQCo0lIXokGarVw5YcAhIlW6rsCf.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003206_5ab71e",
+      "result": "complete",
+      "sha256": "b82c9660f4883da0c9ab74316833aa6f1671d2a7beabbeca9e62b74a8384cc3d",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:42.884101+00:00",
+      "finished_at": "2026-11-15T00:43:18Z",
+      "id": "m_20261115t003436_6fc8b5",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t003436_6fc8b5-V52snBtWhs7ME7OOVpr1IeFDTl5hMT.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003436_6fc8b5",
+      "result": "complete",
+      "sha256": "53e2f58be51db94cd9a7d503e394aef1047b74447dc333a1b8863acd488300ba",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:42.916465+00:00",
+      "finished_at": "2026-11-15T00:56:15Z",
+      "id": "m_20261115t003636_c03b04",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t003636_c03b04-F9hnlV0VTxZY7XRAkOhBqPyjcKM075.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003636_c03b04",
+      "result": "complete",
+      "sha256": "68c8a9dab25304b95cfcc557ccc83ac0383b2713b95dcec0e3ddd7df467be4da",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t003737_1aeb6b.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.616113+00:00",
+      "finished_at": "2026-11-15T00:57:24Z",
+      "id": "m_20261115t003737_1aeb6b",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.209440+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t003737_1aeb6b-ge51Q8PiEcixjRwAhdqFMerzodpByZ.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003737_1aeb6b",
+      "result": "complete",
+      "sha256": "b235a51dbfe6942fcd7c2038b7c6deff9256d16c78fa18272d90cdc5af2168a1",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t003944_108a47.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.617999+00:00",
+      "finished_at": "2026-11-15T01:04:03Z",
+      "id": "m_20261115t003944_108a47",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.297788+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t003944_108a47-H4paOIDR8brgrLG751QyLGtuY65gOd.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003944_108a47",
+      "result": "complete",
+      "sha256": "a626adc34c3655984fba17fe5ce2b9463990076f00b5cacd37039c837184143a",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t004047_a5252e.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.619851+00:00",
+      "finished_at": "2026-11-15T00:55:24Z",
+      "id": "m_20261115t004047_a5252e",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.215615+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t004047_a5252e-JdzGqTTwDj9duUk432hyyBk4d2Hjeu.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t004047_a5252e",
+      "result": "complete",
+      "sha256": "bc7b3db394df98268290c8bf8a35a32a90de9d8ae7eecfcebf7826c9437ebdba",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t004446_6ed4ab.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.620485+00:00",
+      "finished_at": "2026-11-15T00:51:11Z",
+      "id": "m_20261115t004446_6ed4ab",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.331385+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t004446_6ed4ab-xzrATgxdCagblv4cPFcDMvfs65MtuY.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t004446_6ed4ab",
+      "result": "complete",
+      "sha256": "23dc278a2f9f0050150293f593a7c9962a7d8c594da9bbe0d7c85128de022a53",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t004546_325992.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.621729+00:00",
+      "finished_at": "2026-11-15T01:05:32Z",
+      "id": "m_20261115t004546_325992",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.354178+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t004546_325992-ro12y3BSko43XorgFZAxOA38PBTp8p.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t004546_325992",
+      "result": "complete",
+      "sha256": "305b6b5f758fd08d0f9ef684ec088e2477ef87e3407f4d4ab0a56a2fd1a12708",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t005117_b1e3be.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.622774+00:00",
+      "finished_at": "2026-11-15T01:03:14Z",
+      "id": "m_20261115t005117_b1e3be",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.331442+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t005117_b1e3be-Qxap8a8uzcTHKRA5YzOn5J9mmNgEnL.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t005117_b1e3be",
+      "result": "complete",
+      "sha256": "fad1f2698252db8304d9eba073f2c91819296cf95ba5a81c5e88d657fa3ac4ea",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:42.962421+00:00",
+      "finished_at": "2026-11-15T01:16:15Z",
+      "id": "m_20261115t005250_eba295",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t005250_eba295-UszxRwl0Yyr7BBw70dfunDGyJ2ZAet.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t005250_eba295",
+      "result": "complete",
+      "sha256": "5baacbb70ada682d708cde8fc006f4a157a32d296c875bcf193fc3f2b1708a74",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:43.082900+00:00",
+      "finished_at": "2026-11-15T01:18:34Z",
+      "id": "m_20261115t005451_138350",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t005451_138350-J4l3ebWR2d2yi7B42K3MEyYzm1hzxh.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t005451_138350",
+      "result": "complete",
+      "sha256": "7614a849b6e8aa850bebd2b75972897c70b7fa324348e933d96282f8aac4ce97",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t010322_61b26d.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.886204+00:00",
+      "finished_at": "2026-11-15T01:17:33Z",
+      "id": "m_20261115t010322_61b26d",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.444995+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t010322_61b26d-LCaFTzIX7mxq8a47Kmwzqomr73fgab.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t010322_61b26d",
+      "result": "complete",
+      "sha256": "4b0ae61ec152d85f8fbb30b7e274e8949c8f9f3cc67e2acb8aa4412b9295359a",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t010422_1ccae2.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.887434+00:00",
+      "finished_at": "2026-11-15T01:22:43Z",
+      "id": "m_20261115t010422_1ccae2",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.441737+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t010422_1ccae2-lh6VDGjND5V1KrZfGoFMt3P6irNTMk.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t010422_1ccae2",
+      "result": "complete",
+      "sha256": "3be1bd408a099365f8fcc245bbb99702c2de65cb289f932b11adf806949b506b",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t010552_3d4cab.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.888634+00:00",
+      "finished_at": "2026-11-15T01:21:57Z",
+      "id": "m_20261115t010552_3d4cab",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.637216+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t010552_3d4cab-zdHkvYxCtRYTLVV0AqnWsEe9gYzrZq.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t010552_3d4cab",
+      "result": "complete",
+      "sha256": "6910924e927dc1fe3f78474caf8c36c92592d5a35c144216549a29e44dfb3bf9",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t011757_aac5d1.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.889775+00:00",
+      "finished_at": "2026-11-15T01:29:12Z",
+      "id": "m_20261115t011757_aac5d1",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.650627+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t011757_aac5d1-ppRFeayE39XalPgfCOGZ8CtU9EMEGy.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t011757_aac5d1",
+      "result": "complete",
+      "sha256": "3b8fc6d01a6504139b6b2b6c55440638ea4d708995a7a4e919c0fe3f78fd0a7e",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t011856_6014fb.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.890626+00:00",
+      "finished_at": "2026-11-15T01:33:23Z",
+      "id": "m_20261115t011856_6014fb",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.609095+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t011856_6014fb-x2tzXxj6Kr3OiWkzm3lckANL4res1S.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t011856_6014fb",
+      "result": "complete",
+      "sha256": "6d79d5dcd970cc045a6ab3fe6ea5aacc20717a3e6702cd29f6847f3cdad95053",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:43.249221+00:00",
+      "finished_at": "2026-11-15T01:38:36Z",
+      "id": "m_20261115t012227_1f66b5",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t012227_1f66b5-4v5yU7EdWhI8YbtUC1CjlhSDGNQmvo.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t012227_1f66b5",
+      "result": "complete",
+      "sha256": "ed337a53e3fabd5a6f2182142dcfcd66ece2c509bf40f13712344559e1540792",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t012859_d930e3.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.918344+00:00",
+      "finished_at": "2026-11-15T01:47:14Z",
+      "id": "m_20261115t012859_d930e3",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.635098+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t012859_d930e3-R42egiU7Wx10RtBazViCE3uiaMOFSL.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t012859_d930e3",
+      "result": "complete",
+      "sha256": "2cdffca1f579a7aaa69263706d37f328b5cf23e03966d1796afba96a365ad813",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t013330_a78de5.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.920493+00:00",
+      "finished_at": "2026-11-15T01:48:08Z",
+      "id": "m_20261115t013330_a78de5",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.689572+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t013330_a78de5-14qXzdrktbYI4wFe2Q5aGoAD0vSxH8.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t013330_a78de5",
+      "result": "complete",
+      "sha256": "b9e81ed809035bd30088d300b52a0f8e4e8bb295944d7b9f66163650b7c921c8",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t013430_e3daa0.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.922277+00:00",
+      "finished_at": "2026-11-15T01:45:54Z",
+      "id": "m_20261115t013430_e3daa0",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.642363+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t013430_e3daa0-qPNY0okApwMp6dkJuwZEOakl7VJuq8.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t013430_e3daa0",
+      "result": "complete",
+      "sha256": "2d2178809326bcecd5eccfb46d6942b9a137831f4a71c4d1f4502a689a61859a",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t013531_08959b.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.923321+00:00",
+      "finished_at": "2026-11-15T01:41:25Z",
+      "id": "m_20261115t013531_08959b",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.743497+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t013531_08959b-7ou9e4K4bA7kR2CUtxj9dl6vyB4Acs.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t013531_08959b",
+      "result": "complete",
+      "sha256": "f153dad769fec476912304270bb61d045f8705d33b3428a4d7d1ca8ae8c4fe0e",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t013837_abfdcb.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.924486+00:00",
+      "finished_at": "2026-11-15T01:55:56Z",
+      "id": "m_20261115t013837_abfdcb",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.858864+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t013837_abfdcb-idA04dc4dL4WgWR4VaHeFtJBFjrW8S.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t013837_abfdcb",
+      "result": "complete",
+      "sha256": "0e0940af1e443367c522a7820bb83e00de0f98a30fcc5a4f700a4ccc5d02693f",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t014126_d86339.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.925493+00:00",
+      "finished_at": "2026-11-15T01:52:14Z",
+      "id": "m_20261115t014126_d86339",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.982232+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t014126_d86339-hNzFsgIJrOZWKqyBETDKoJGgYp86W7.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t014126_d86339",
+      "result": "complete",
+      "sha256": "f7d3049fe7f283e18d3d3a27ba861d33fb2ab7a47e790f6c593f9df6d536396a",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:43.259998+00:00",
+      "finished_at": "2026-11-15T02:05:15Z",
+      "id": "m_20261115t014226_aeb4cf",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t014226_aeb4cf-adzyyctaUA15bA0tiZIs6wGVGpIS4Z.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t014226_aeb4cf",
+      "result": "complete",
+      "sha256": "df5a8f5ca7d534fdcc4bcfc4c5e317f9780ec598154d404116655d10f3f4dfda",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t014556_d88573.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:42.964510+00:00",
+      "finished_at": "2026-11-15T01:55:09Z",
+      "id": "m_20261115t014556_d88573",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.966449+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t014556_d88573-vBbj2U44isdsFXCwvvQKE0R9eod4DL.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t014556_d88573",
+      "result": "complete",
+      "sha256": "6d9f86f6b7e58578d69c5d2f3310a98652b60e4d14eefc647d582ad6693d6187",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:43.358321+00:00",
+      "finished_at": "2026-11-15T02:06:02Z",
+      "id": "m_20261115t015342_6c0f26",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t015342_6c0f26-ffTDSe3wI5x9xm6kIELel25f8YDwoi.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t015342_6c0f26",
+      "result": "complete",
+      "sha256": "b06746e4b6bfe1d943a3f01753c5e4010bcce6f20893adc8641395e398512159",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t015510_3d673a.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.086643+00:00",
+      "finished_at": "2026-11-15T02:13:44Z",
+      "id": "m_20261115t015510_3d673a",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.992112+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t015510_3d673a-v8bQz4WwDQFNqHIudJcbNjtdEZRGiU.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t015510_3d673a",
+      "result": "complete",
+      "sha256": "a24f090deb729d3a371349e1fdf37d8506ab95c4a176afb7fe158773a9c3bdba",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t020616_aaaaa9.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.089944+00:00",
+      "finished_at": "2026-11-15T02:21:35Z",
+      "id": "m_20261115t020616_aaaaa9",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.013664+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t020616_aaaaa9-jEcVwV5Z5qXKfe2DrkkuD7xeCa7xWH.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t020616_aaaaa9",
+      "result": "complete",
+      "sha256": "fd79b75f4ad74a1ced4b83e2965b114c596c4b56245d60e208346c9c86ce462e",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t021023_267ac0.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.091598+00:00",
+      "finished_at": "2026-11-15T02:18:24Z",
+      "id": "m_20261115t021023_267ac0",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:40.975854+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t021023_267ac0-hNCAzyQ7JSa02M5laicImEXRmuFr5L.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t021023_267ac0",
+      "result": "complete",
+      "sha256": "19ff2ce62c3a1eb22aa8df471708eb1766490a92001c1b241c99e9a7389015d7",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:43.395687+00:00",
+      "finished_at": "2026-11-15T02:35:19Z",
+      "id": "m_20261115t021123_c69b5f",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t021123_c69b5f-EsDhSVwOM20D7uf2GBdKBFNBp8ZHfR.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t021123_c69b5f",
+      "result": "complete",
+      "sha256": "0b6eabd9b78b01e0405117bcf8017536581005d126eec911fc538314ccf12c7c",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t021223_37e93f.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.254335+00:00",
+      "finished_at": "2026-11-15T02:30:39Z",
+      "id": "m_20261115t021223_37e93f",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.094775+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t021223_37e93f-JPdFNu2jd2ETHF6pBegglROXE6UdZH.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t021223_37e93f",
+      "result": "complete",
+      "sha256": "e6da658bea053e1ccc131ddedc9cea64e97574945ce1ef31982cf2415e355860",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t021725_0d2cb9.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.256378+00:00",
+      "finished_at": "2026-11-15T02:37:51Z",
+      "id": "m_20261115t021725_0d2cb9",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.148822+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t021725_0d2cb9-UI7WgVYxNUjKXjAnH1tacf2V6X566o.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t021725_0d2cb9",
+      "result": "complete",
+      "sha256": "a4340e2f1ea0694815c6701423b2f4489c64c3ec64de8f527b1cec804a13f1f8",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:43.618081+00:00",
+      "finished_at": "2026-11-15T02:34:56Z",
+      "id": "m_20261115t021825_b4b5d2",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t021825_b4b5d2-tvXbrRrLHuwx7aNPvBub0G0GAugnVE.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t021825_b4b5d2",
+      "result": "complete",
+      "sha256": "04b7d5577b9c94890fcb1dbe04688b6f7fc619893bf412c086ae56b41f724498",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t022136_ae9f6b.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.261259+00:00",
+      "finished_at": "2026-11-15T02:31:00Z",
+      "id": "m_20261115t022136_ae9f6b",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.160157+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t022136_ae9f6b-W5HfwvUO67S70gGxAIdfvbAwUnJdO6.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t022136_ae9f6b",
+      "result": "complete",
+      "sha256": "8f28cb296d125e2197e1c3326e11679f4dcec978a2bc2c49fbaf567124b29d6d",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t022436_94a456.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.263097+00:00",
+      "finished_at": "2026-11-15T02:43:45Z",
+      "id": "m_20261115t022436_94a456",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.359848+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t022436_94a456-EPnBWuSVzSRLviHAkJyDru08RMJ1LG.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t022436_94a456",
+      "result": "complete",
+      "sha256": "4c83db09849720cf3a4a704d16aeb9671ad03735687ff493e1ce3688a571924f",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:43.618219+00:00",
+      "finished_at": "2026-11-15T02:47:20Z",
+      "id": "m_20261115t023142_8f5abb",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t023142_8f5abb-rKfbgcDcik8VFvp5G739SDk9EPodKM.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t023142_8f5abb",
+      "result": "complete",
+      "sha256": "8b5ce000152962fce83d974b5a25fb155bdaf698b06fc1c711bd4eaa3e3ed4d0",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:43.739954+00:00",
+      "finished_at": "2026-11-15T02:52:11Z",
+      "id": "m_20261115t023758_9f67b8",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t023758_9f67b8-CeU9Q0LAa4D5Lnpa3XKuoC6VSsj8l6.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t023758_9f67b8",
+      "result": "complete",
+      "sha256": "9015d8d592f06377369c0281bad1225206bced71f12f8f1748f24e705434838b",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t024346_941971.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.397715+00:00",
+      "finished_at": "2026-11-15T02:54:51Z",
+      "id": "m_20261115t024346_941971",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.365848+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t024346_941971-n4AumvDedBPjgrCocNoormXIMc0484.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t024346_941971",
+      "result": "complete",
+      "sha256": "3884925e66374968e690309fc3c2421110bff9f941b53b456b0698b836e667b3",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t045126_ed5e0e.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.399820+00:00",
+      "finished_at": "2026-11-15T05:09:00Z",
+      "id": "m_20261115t045126_ed5e0e",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.367887+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t045126_ed5e0e-XPKHNFU2QHPiJRFTBYmZkv6OIvwnV9.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t045126_ed5e0e",
+      "result": "complete",
+      "sha256": "d8adc6b269a79fbb610aa6c15405ff29869bee5c66d6b34566d7860885014df3",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t045146_6eb4a5.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.400817+00:00",
+      "finished_at": "2026-11-15T05:02:30Z",
+      "id": "m_20261115t045146_6eb4a5",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.366631+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t045146_6eb4a5-90Iyev26XKYCBvQW7oAiYVal9MzL6S.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t045146_6eb4a5",
+      "result": "complete",
+      "sha256": "bcae644a1a54060f727f529c6dff0b89d4bca5c87b4355b48947acb32456a845",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t045206_7aae66.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.401885+00:00",
+      "finished_at": "2026-11-15T05:04:55Z",
+      "id": "m_20261115t045206_7aae66",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.424501+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t045206_7aae66-zxd4kTKLbs5XbjJJsC1ascrihmz0QA.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t045206_7aae66",
+      "result": "complete",
+      "sha256": "96e291a570c19e0cad3f31a42ff893fbfd60517ac707d8261c95ee21de7796a9",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t045226_b41ce1.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.403143+00:00",
+      "finished_at": "2026-11-15T05:09:25Z",
+      "id": "m_20261115t045226_b41ce1",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.499902+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t045226_b41ce1-U5gqtQjX8ptiUcPPCKLPU5bH7HeYYv.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t045226_b41ce1",
+      "result": "complete",
+      "sha256": "71888936c07209735bf5bd397b6e130bc6a61c1d64e138c85dab242e0af1607d",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t045347_51fcdd.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.404677+00:00",
+      "finished_at": "2026-11-15T05:10:58Z",
+      "id": "m_20261115t045347_51fcdd",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.504073+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t045347_51fcdd-VK8wR20qItmkZ4EXLKqus9da37fEwo.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t045347_51fcdd",
+      "result": "complete",
+      "sha256": "d1567fc8548516d539dc51ad79b8b8127c6ff1fddd75fca06cba9bd0188bdd85",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:43.747689+00:00",
+      "finished_at": "2026-11-15T05:15:38Z",
+      "id": "m_20261115t045528_d9e460",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t045528_d9e460-1nwwKUYlanCvMzWphwQjeWG6ViU85H.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t045528_d9e460",
+      "result": "complete",
+      "sha256": "8d1c006a4781646b9c0098f3879445d35a22b734e731d859fcabd4157b87be09",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:43.956373+00:00",
+      "finished_at": "2026-11-15T05:11:57Z",
+      "id": "m_20261115t050010_a6cd49",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t050010_a6cd49-lllmVJWiuKqb8pGh3bSrVlrfoGAnme.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050010_a6cd49",
+      "result": "complete",
+      "sha256": "7dd63a848374b4799be1086515f8834d08799e0d869584978b0699c604d37672",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t050131_9f9a0e.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.621681+00:00",
+      "finished_at": "2026-11-15T05:18:23Z",
+      "id": "m_20261115t050131_9f9a0e",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.481908+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t050131_9f9a0e-RuJPGVqT9Mlukw0VRs5QbEukTtsdWt.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050131_9f9a0e",
+      "result": "complete",
+      "sha256": "e041de0e7691dd68d99196df61090b52791265c86c9a72c92293e88b4fd2be07",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t050231_ab3547.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.623773+00:00",
+      "finished_at": "2026-11-15T05:15:28Z",
+      "id": "m_20261115t050231_ab3547",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.684768+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t050231_ab3547-AYnZ15kkQ82gKZfnD1LCOtq9ZgGhG6.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050231_ab3547",
+      "result": "complete",
+      "sha256": "2ed27b5bbb266695904e9cf9d3890d743259c05e7cc26ddd3b735e78f2975f51",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t050513_56c445.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.627837+00:00",
+      "finished_at": "2026-11-15T05:17:00Z",
+      "id": "m_20261115t050513_56c445",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.716962+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t050513_56c445-97z2Uq8sHBg0b7mhy7i2EttV6UK5hY.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050513_56c445",
+      "result": "complete",
+      "sha256": "ee582ae9dd0513ee7c41940557c822d681a1b7422767cc3463fac9dbef6359db",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:43.976371+00:00",
+      "finished_at": "2026-11-15T05:20:06Z",
+      "id": "m_20261115t050533_92d55e",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t050533_92d55e-S4vz1FDzgPsy2QgMGtOzpIVufQzcUf.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050533_92d55e",
+      "result": "complete",
+      "sha256": "e3cf55684f26fa03fbb061bf27b638334b55da6d047685d6e15814d529c14cfa",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t050916_d86cc3.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.741808+00:00",
+      "finished_at": "2026-11-15T05:26:01Z",
+      "id": "m_20261115t050916_d86cc3",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.707290+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t050916_d86cc3-JpERKp1gGzOtgwRcGtWYpbfqV1Sy1w.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050916_d86cc3",
+      "result": "complete",
+      "sha256": "e05a2cbf23baa647ee78515c7447a3ff4eae8bbadbe0e3c7a9aba65590874a55",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t050937_22f43a.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.743766+00:00",
+      "finished_at": "2026-11-15T05:27:41Z",
+      "id": "m_20261115t050937_22f43a",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.739413+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t050937_22f43a-BUUHTgCR2DtrBph6zGPYFJy0JlHxl3.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050937_22f43a",
+      "result": "complete",
+      "sha256": "2be1fdc9817c5197477f205dbcbfc5abee6f59cae14762812d1d18a9adc7c6d1",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t051217_bd984f.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.745501+00:00",
+      "finished_at": "2026-11-15T05:24:51Z",
+      "id": "m_20261115t051217_bd984f",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.886696+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t051217_bd984f-1TbpPaK6WH6WxSzE4Fh6BRU8uTRUnY.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t051217_bd984f",
+      "result": "complete",
+      "sha256": "ac488f95a48bec28b2d073ed8d6e965050589fcd7335b21f53df5fb3a82f3f80",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t051539_42b978.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.749855+00:00",
+      "finished_at": "2026-11-15T05:27:42Z",
+      "id": "m_20261115t051539_42b978",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.881881+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t051539_42b978-B9gS9STIpXcxq9mvZa8PgrzcO7LY75.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t051539_42b978",
+      "result": "complete",
+      "sha256": "f0cc4b816d5aabc296062b12c3724a4d350d8c4894085105199feeb7ddf66b65",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:44.133510+00:00",
+      "finished_at": "2026-11-15T05:33:18Z",
+      "id": "m_20261115t051559_4f36fa",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t051559_4f36fa-0e6Bw0kHDnFBqRBwd9O9LG2KUOcQCW.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t051559_4f36fa",
+      "result": "complete",
+      "sha256": "32c74f675d52738b92761c3cd6990db55bf303a3263d546d21fc26ca6e3fc4a1",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:44.057671+00:00",
+      "finished_at": "2026-11-15T05:43:59Z",
+      "id": "m_20261115t052343_8812a3",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t052343_8812a3-mgkCuuwxgmRu1BzNwHItENVw69uiT5.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052343_8812a3",
+      "result": "complete",
+      "sha256": "4f50005b549648eb3c71c901169329a13110f2a286f43a2999b7abfced50cf18",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t052404_d6063b.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.958220+00:00",
+      "finished_at": "2026-11-15T05:43:49Z",
+      "id": "m_20261115t052404_d6063b",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.890229+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t052404_d6063b-2Rczmok4e7UToSYDo7Q57JPtBxmkw9.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052404_d6063b",
+      "result": "complete",
+      "sha256": "8d11cca4c107b85184a82fbaeca4b3e8e03c94df162ba17e4cf1d3c09cb63e59",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:44.293933+00:00",
+      "finished_at": "2026-11-15T05:37:49Z",
+      "id": "m_20261115t052504_5817a2",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t052504_5817a2-6EnnDBhMyxgbgqPQdRYrXActMUQuaL.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052504_5817a2",
+      "result": "complete",
+      "sha256": "d9902f713d2b16e9c588343fda312416f05b28981b2647451cae901295967c2d",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t052805_a262c0.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.978441+00:00",
+      "finished_at": "2026-11-15T05:44:38Z",
+      "id": "m_20261115t052805_a262c0",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.900177+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t052805_a262c0-a6P8gPxqevgrojKmaebp4vbVyXjNPh.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052805_a262c0",
+      "result": "complete",
+      "sha256": "051b7ed8688b152bb9d7cc0a737580a3f19ba7522c076671523fa19a833510dc",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t055455_7c7799.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:43.980532+00:00",
+      "finished_at": "2026-11-15T06:12:15Z",
+      "id": "m_20261115t055455_7c7799",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:41.983905+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t055455_7c7799-K2nkqLwI7HVNLr3BbY2Vf5nQq7nEZ7.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t055455_7c7799",
+      "result": "complete",
+      "sha256": "eb1a9d30c0001491a16476a3ae9bf69040bade9ba7c4cced69185352d82a28af",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:44.283941+00:00",
+      "finished_at": "2026-11-15T06:18:58Z",
+      "id": "m_20261115t055839_d398f9",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t055839_d398f9-2O1am9piGI1rLdCeswjQSG51gAYmMk.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t055839_d398f9",
+      "result": "complete",
+      "sha256": "8099c3a139bea9ca0a1bfdfdadfe76ffd8315179f20c72f31db77aead2ce1998",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t055858_d6ea4d.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.059207+00:00",
+      "finished_at": "2026-11-15T06:17:55Z",
+      "id": "m_20261115t055858_d6ea4d",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.168830+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t055858_d6ea4d-GEIp4UIbcOIE8Wwrk0kVS3Drd57C9j.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t055858_d6ea4d",
+      "result": "complete",
+      "sha256": "4922488d3655619fb132f94682c11015eec66ba5ca1c3ac986fa51ff25d2265a",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t055919_e2f7f3.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.060352+00:00",
+      "finished_at": "2026-11-15T06:16:08Z",
+      "id": "m_20261115t055919_e2f7f3",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.029405+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t055919_e2f7f3-kpQHLWxqnCV0emkhw3VU24d6TgalQr.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t055919_e2f7f3",
+      "result": "complete",
+      "sha256": "e6a65fc5c6b03474afbcba7aaa9d02499f6657cfd52a33d14d058cdfeaabe864",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:44.463800+00:00",
+      "finished_at": "2026-11-15T06:17:56Z",
+      "id": "m_20261115t055940_7ec82f",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t055940_7ec82f-S67PxhF6VXVsRUx769CA8lKJWMYdrJ.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t055940_7ec82f",
+      "result": "complete",
+      "sha256": "76651d14f56926c2d97415abe8a995c440ccc95deb9426ec16feeeaa7400bdb4",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:44.448537+00:00",
+      "finished_at": "2026-11-15T06:28:33Z",
+      "id": "m_20261115t061305_c6ac13",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t061305_c6ac13-IKw5pQnmwTrFlS0mlaYZEZuaus1akp.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t061305_c6ac13",
+      "result": "complete",
+      "sha256": "c07e3bd6d8ade5683e05f429090c59442b9ef368f431338e8cf256265f57f2f3",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t061857_930ebc.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.285458+00:00",
+      "finished_at": "2026-11-15T06:30:51Z",
+      "id": "m_20261115t061857_930ebc",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.112789+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t061857_930ebc-RusiViXTFeMZZzHbeWjWsCm2kOe2fl.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t061857_930ebc",
+      "result": "complete",
+      "sha256": "e79b234d45547aa3ba3c908da693238ebf5189875a28377191326899faf30064",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t061912_88d62e.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.286379+00:00",
+      "finished_at": "2026-11-15T06:31:46Z",
+      "id": "m_20261115t061912_88d62e",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.215978+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t061912_88d62e-eGTVLa817hkHp9GKbQEK2J3ZH1EFcV.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t061912_88d62e",
+      "result": "complete",
+      "sha256": "b2df1567c7b38aa98eb1163243748418dac8be855e5b82f1b65b55ea38edd5ab",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:44.680601+00:00",
+      "finished_at": "2026-11-15T06:33:49Z",
+      "id": "m_20261115t061926_f89c07",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t061926_f89c07-icF0nxiCqgCyp769EgPp3lsPeB03AH.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t061926_f89c07",
+      "result": "complete",
+      "sha256": "2392f05bf0b12122597c88df7a23cc12d097987c3932a3e98e3556c599c99e11",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t061941_fa36be.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.295727+00:00",
+      "finished_at": "2026-11-15T06:32:16Z",
+      "id": "m_20261115t061941_fa36be",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.210739+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t061941_fa36be-LCErouCfEgKRgFCLdnwjWNvKPdFcDx.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t061941_fa36be",
+      "result": "complete",
+      "sha256": "487dc9ad1c689cd818baa52761e71a4988677a0e874236eae9f0d1de1d4e2c2d",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t061957_9d06cb.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.297529+00:00",
+      "finished_at": "2026-11-15T06:32:04Z",
+      "id": "m_20261115t061957_9d06cb",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.188691+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t061957_9d06cb-t48Bu6yZZ3axSjn9cX1obXtMHWHuLk.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t061957_9d06cb",
+      "result": "complete",
+      "sha256": "cab86caca537230ae098650e6722533736f308cedd1be56b4ec6ad02a1b574ca",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t062012_f4465c.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.299094+00:00",
+      "finished_at": "2026-11-15T06:30:09Z",
+      "id": "m_20261115t062012_f4465c",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.204925+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t062012_f4465c-ABk2DZguAEpw1GftrogHbYfGht5qAr.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t062012_f4465c",
+      "result": "complete",
+      "sha256": "c77e6ce0424f500e8b3e2d8726ed799cc5c0c0389d9bec7316ecd5991855e1b4",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:44.681663+00:00",
+      "finished_at": "2026-11-15T06:34:15Z",
+      "id": "m_20261115t062027_8e121b",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t062027_8e121b-8aNdYpgHjHuL74VyM6GOvn1EZOZpml.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t062027_8e121b",
+      "result": "complete",
+      "sha256": "00d27978229eff6657a1b348988acdb01a1ff2a90a2af95807d14eafe1b19f0e",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t062042_64452a.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.450239+00:00",
+      "finished_at": "2026-11-15T06:32:33Z",
+      "id": "m_20261115t062042_64452a",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.306467+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t062042_64452a-FsdFN8dW2fPiDV3fQxgQSttRRy6yf1.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t062042_64452a",
+      "result": "complete",
+      "sha256": "e4ea96af94f029314389b328d2c9be2fdb4933e48ceff510282dc7b566895e12",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t062702_c7dc68.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.451486+00:00",
+      "finished_at": "2026-11-15T06:56:33Z",
+      "id": "m_20261115t062702_c7dc68",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.555214+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t062702_c7dc68-jXXJOjglKXAJoceKJMO0cU4Mbo7Ufs.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t062702_c7dc68",
+      "result": "complete",
+      "sha256": "a90282f0834c0ec2d168bc61be086cf4a13c8fea7dc2cf11e0f5abbe8076d9ac",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:44.886587+00:00",
+      "finished_at": "2026-11-15T06:50:01Z",
+      "id": "m_20261115t062717_0848fa",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t062717_0848fa-nFls3XxNd51TGrnas4Pq3uWsYV2Nye.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t062717_0848fa",
+      "result": "complete",
+      "sha256": "7c12a97c190b97b9b7213b55cc42d80df9dc2edbde467a1d4f99d5e9576652e5",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t062732_54cbf9.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.466016+00:00",
+      "finished_at": "2026-11-15T06:45:38Z",
+      "id": "m_20261115t062732_54cbf9",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.507588+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t062732_54cbf9-ojG25TMBsOlW3OGN2lXW7e1YiSQ6E6.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t062732_54cbf9",
+      "result": "complete",
+      "sha256": "6a679e23d6f6492f9ca2626bcf073ddac5d2ae724ec0ac5f185ffb3be1fa62de",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:44.925114+00:00",
+      "finished_at": "2026-11-15T06:48:34Z",
+      "id": "m_20261115t062850_59fd3d",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t062850_59fd3d-yFIZrmkcUfgo9KSmQaArc4AYQnjqUL.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t062850_59fd3d",
+      "result": "complete",
+      "sha256": "90ef9957cbdf65e9e3489ffeda8745b9d349cc5b2421688c0f6ded718dcb8666",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t063221_58b26f.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.683778+00:00",
+      "finished_at": "2026-11-15T06:52:43Z",
+      "id": "m_20261115t063221_58b26f",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.557434+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t063221_58b26f-2oGm8RQgGB1H0GqUykNRc89Nc1RciI.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t063221_58b26f",
+      "result": "complete",
+      "sha256": "8028b359d74953e1ec592ceeb2bcf4e1ba6753edb27c57f6e85fa79848556b65",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:45.016751+00:00",
+      "finished_at": "2026-11-15T06:47:59Z",
+      "id": "m_20261115t063236_568b88",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t063236_568b88-x1OWCZ6lfyqBWBepEVG9ttbZsnWDzO.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t063236_568b88",
+      "result": "complete",
+      "sha256": "5a34876ae8a41bf3c4eee0c5a6966994f8164bad04df700735c80f9ec8381384",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t063337_75e423.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.686071+00:00",
+      "finished_at": "2026-11-15T06:49:26Z",
+      "id": "m_20261115t063337_75e423",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.567557+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t063337_75e423-B9p8Nn1CJuU5ILz9bugmp8v2qHxypd.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t063337_75e423",
+      "result": "complete",
+      "sha256": "d813a823d12cfbc92443507835a2f298dc2b029912103c2d80ee411ca6f739f0",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t063352_b29d6c.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.687607+00:00",
+      "finished_at": "2026-11-15T06:45:23Z",
+      "id": "m_20261115t063352_b29d6c",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.569860+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t063352_b29d6c-ZSxNzNjWsbsRsm6R1QSgVMEMckGTmT.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t063352_b29d6c",
+      "result": "complete",
+      "sha256": "434a35d05cd76d733ceda55a6f11b322b4914d75736c04e66b4c6db7da44210b",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t063422_0a1675.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.689403+00:00",
+      "finished_at": "2026-11-15T06:46:20Z",
+      "id": "m_20261115t063422_0a1675",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.549409+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t063422_0a1675-BW4OYD07OEOlb6NJFgEIPcVDt6vQx3.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t063422_0a1675",
+      "result": "complete",
+      "sha256": "c7563d4263208888fcee4b787fdad8d1e9d34d42905bc9e5967837e55408f0da",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:45.078275+00:00",
+      "finished_at": "2026-11-15T06:48:30Z",
+      "id": "m_20261115t063740_76e755",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t063740_76e755-rBCuVl4InoijmTz7SUnlSfryl5g1bf.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t063740_76e755",
+      "result": "complete",
+      "sha256": "65265d7e9b452e2063760b671a758bbe91fead82b908d88be08afc5d40347319",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t064229_616a04.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.890445+00:00",
+      "finished_at": "2026-11-15T07:04:13Z",
+      "id": "m_20261115t064229_616a04",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.514195+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t064229_616a04-2Kur86dNPSXq9lrM4yZHkTrZfsAEV9.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t064229_616a04",
+      "result": "complete",
+      "sha256": "45ffc898e1e7985be503fab830394eb42c6a49458ac5fefd03fab7b71108f94c",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:45.301077+00:00",
+      "finished_at": "2026-11-15T07:13:19Z",
+      "id": "m_20261115t064244_5dbe06",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t064244_5dbe06-I6tj4D50yb9SWh8Lnwr2jq7VojgPRx.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t064244_5dbe06",
+      "result": "complete",
+      "sha256": "935fd75cdc0c7ab1000550197864560df0b760e48121f9d1f2ad6c8d05794824",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t064703_6b4b41.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:44.927535+00:00",
+      "finished_at": "2026-11-15T07:04:32Z",
+      "id": "m_20261115t064703_6b4b41",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.751834+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t064703_6b4b41-hdQtDvGTK3D0N3uoCovOgHfSZYG1V1.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t064703_6b4b41",
+      "result": "complete",
+      "sha256": "60041f835545066cd1a2655bf0ab4e51418e4abfc6518056c46f358edb22671e",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:45.304016+00:00",
+      "finished_at": "2026-11-15T07:02:10Z",
+      "id": "m_20261115t064803_87737c",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t064803_87737c-dqWFMmnr6wo7QfodANEwTnZpXZ8CSc.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t064803_87737c",
+      "result": "complete",
+      "sha256": "885357c8244789ef02d79a13bf35a46975a4c766ae65371489a5d603c5eb112f",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t064904_53cedf.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.019207+00:00",
+      "finished_at": "2026-11-15T07:06:15Z",
+      "id": "m_20261115t064904_53cedf",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.834732+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t064904_53cedf-Wt3ghBxDEFXyN3BuZvHAeVSFnU552R.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t064904_53cedf",
+      "result": "complete",
+      "sha256": "c7a2788a4eee6d2440506bb7625dadc75f119bda6f1508711a2bee2a10492071",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t064923_079f41.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.021551+00:00",
+      "finished_at": "2026-11-15T07:08:21Z",
+      "id": "m_20261115t064923_079f41",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.915436+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t064923_079f41-RgXtShe7sOq8VLWmKeb07AHMiG2TTH.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t064923_079f41",
+      "result": "complete",
+      "sha256": "0a38462d1d41804ff0acc7494401591aedff561b343ee9047c1e65a2850c50ea",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t065811_564617.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.023191+00:00",
+      "finished_at": "2026-11-15T07:19:38Z",
+      "id": "m_20261115t065811_564617",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.946871+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t065811_564617-gWkiGB9dOGKZ1Lt8zXoU8kxyoot0bS.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t065811_564617",
+      "result": "complete",
+      "sha256": "017fe38883bdf025364a9db323f2fbe194729ceda2967814763ade9c94072112",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t070446_cbb7bb.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.026940+00:00",
+      "finished_at": "2026-11-15T07:21:22Z",
+      "id": "m_20261115t070446_cbb7bb",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.933968+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t070446_cbb7bb-Tf9SDVhP6Rl6orA4arK6Xw2wG8jJ5Y.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t070446_cbb7bb",
+      "result": "complete",
+      "sha256": "9360dc5cbe5270aaa43254ad5cbfc20c1b9919671745f885daba52fa342df230",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t070617_05c92e.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.028095+00:00",
+      "finished_at": "2026-11-15T07:17:21Z",
+      "id": "m_20261115t070617_05c92e",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.949504+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t070617_05c92e-zML49XGvnb80C1rzoTdjxn7zfKcpgH.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t070617_05c92e",
+      "result": "complete",
+      "sha256": "0cfaa76495175c0b79f2b4ac3400055a46b3cc8563fbe43b361aa592c1131cd8",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:45.310789+00:00",
+      "finished_at": "2026-11-15T07:30:19Z",
+      "id": "m_20261115t071724_238229",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t071724_238229-5i9nFLXnoLGHqI2B7wRJVZ7iIsY2Vf.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t071724_238229",
+      "result": "complete",
+      "sha256": "97411cb3c4ddf685e65cd6dc0e5f9a0e761f1507db27dab086b8a94ac0728f39",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t071925_a32e7d.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.081295+00:00",
+      "finished_at": "2026-11-15T07:34:14Z",
+      "id": "m_20261115t071925_a32e7d",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.948513+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t071925_a32e7d-yLPNctiQt8Ydo42AnFaGewgCoUGlr8.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t071925_a32e7d",
+      "result": "complete",
+      "sha256": "78c8a6645a11f92e24729b80f901e2bec7955bb29d13f1c64b425a968fab6526",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t071942_ad7a61.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.083471+00:00",
+      "finished_at": "2026-11-15T07:35:08Z",
+      "id": "m_20261115t071942_ad7a61",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:42.949588+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t071942_ad7a61-Wb4zTV193J2dtOYospot5BfXu55Th1.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t071942_ad7a61",
+      "result": "complete",
+      "sha256": "61639cbafad019a80803315a7d4362e12e328097aafeb5069430b72d754a6e80",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:45.516493+00:00",
+      "finished_at": "2026-11-15T07:38:08Z",
+      "id": "m_20261115t072126_a5e46e",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t072126_a5e46e-3SSraKJ0MDfpH9MdrSLy7icpifskvG.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t072126_a5e46e",
+      "result": "complete",
+      "sha256": "7c02addebb05c9e3af1592e65dda85fd385762bd60baf1b39dddc92911beb50a",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:45.733673+00:00",
+      "finished_at": "2026-11-15T07:59:06Z",
+      "id": "m_20261115t072700_e2be55",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t072700_e2be55-OCgebLvYlfKstfK8V8n2llY4bDDApX.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t072700_e2be55",
+      "result": "complete",
+      "sha256": "60482be34f764d61bdaf50e3664d63c8556219741d012494f8c12d244efdfc77",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t072832_497626.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.306194+00:00",
+      "finished_at": "2026-11-15T07:56:59Z",
+      "id": "m_20261115t072832_497626",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:43.047289+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t072832_497626-KicJumxbQ6P3sEBiEXA6CRatTJc8aN.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t072832_497626",
+      "result": "complete",
+      "sha256": "1ad7ac7fd6b7f36e883ac2e7400b876c32f808e06e3c6f5ac290e6294d2adb51",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t073032_3c7bac.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.308034+00:00",
+      "finished_at": "2026-11-15T07:44:48Z",
+      "id": "m_20261115t073032_3c7bac",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:43.187116+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t073032_3c7bac-XtpnQ9ImX6z64fr7LNNTbACE0KyxLo.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t073032_3c7bac",
+      "result": "complete",
+      "sha256": "f2b2fcb3ad621112b690a1361eeb6365340db70c56d198c6f1a6d10950818665",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t073435_6c10e5.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.309583+00:00",
+      "finished_at": "2026-11-15T07:44:42Z",
+      "id": "m_20261115t073435_6c10e5",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:43.233359+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t073435_6c10e5-ZZKouxY7sIzV0GGCpTCaYgsGxTnCSA.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t073435_6c10e5",
+      "result": "complete",
+      "sha256": "c1ffc870b29ad6fb95600b23ca7dfa9da8d540f1511e753351609b24c702f001",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t073520_535fbd.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.313113+00:00",
+      "finished_at": "2026-11-15T07:50:25Z",
+      "id": "m_20261115t073520_535fbd",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:43.248918+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t073520_535fbd-UCkDSFb5UBvX6IxP1nNbbikiDgyBa3.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t073520_535fbd",
+      "result": "complete",
+      "sha256": "5dc6973aa42e0b01428f57927f53e00a5915ee9b05b7909ca5e8da0324061eb5",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:45.619213+00:00",
+      "finished_at": "2026-11-15T07:50:52Z",
+      "id": "m_20261115t073818_a243e0",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t073818_a243e0-KaxUm76f9geKztNjqM6WZpHLaW8Gyr.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t073818_a243e0",
+      "result": "complete",
+      "sha256": "dedf0bfa56d0a20e35a5d57b6b9b73e4ccf01ce7a55d6241689c2a6a234b7e8f",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t074017_6a6657.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.315736+00:00",
+      "finished_at": "2026-11-15T08:15:16Z",
+      "id": "m_20261115t074017_6a6657",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:43.309325+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t074017_6a6657-CCV2SOgMe361FUmSldNcy78Q877E7l.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t074017_6a6657",
+      "result": "complete",
+      "sha256": "8c9f682d8ac089b0086e82c66c8793c1447d820db0f64d213846e7a189765dc9",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:45.726338+00:00",
+      "finished_at": "2026-11-15T08:14:36Z",
+      "id": "m_20261115t074349_5ef952",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t074349_5ef952-wzo2dPGoDaufFU0ElJCFWoDeDxUtc0.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t074349_5ef952",
+      "result": "complete",
+      "sha256": "eeb1882a3e672266bfb354e8ac0c9ccf2e145485b3b442fdad1d517958545a1a",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/arena-incumbent-audit/m_20261115t074822_772bc4.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.518544+00:00",
+      "finished_at": "2026-11-15T08:16:44Z",
+      "id": "m_20261115t074822_772bc4",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": null,
+      "original_url_verified_at": "2026-11-15T09:15:37.092721+00:00",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t074822_772bc4-jC3NT0V4xkZS5QCOu1vj8bVrcTZlV3.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t074822_772bc4",
+      "result": "complete",
+      "sha256": "aa0798f0798a29eebd79baacb80f2e1c5cebfff2694cfde1d630818716b895f3",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t075038_bc6052.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.519844+00:00",
+      "finished_at": "2026-11-15T08:14:07Z",
+      "id": "m_20261115t075038_bc6052",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:43.302241+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t075038_bc6052-vTALoiJauIFe4r91nxWe5WMrjudMrg.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t075038_bc6052",
+      "result": "complete",
+      "sha256": "e9bea16324d7471583d6b1351579528d333b6ff80faad7a772c1d3d4d14e9416",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t075209_cbdd17.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.521349+00:00",
+      "finished_at": "2026-11-15T08:08:29Z",
+      "id": "m_20261115t075209_cbdd17",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:43.242787+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t075209_cbdd17-SZCPd335H7GoFH3hp0ZyambkJ9aMMB.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t075209_cbdd17",
+      "result": "complete",
+      "sha256": "b886dedad6af3c59cb24d004082c0f29b67bfd614fd762d614156f654e1e1d2c",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:45.868320+00:00",
+      "finished_at": "2026-11-15T08:12:29Z",
+      "id": "m_20261115t075730_2b642f",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t075730_2b642f-n8gB6JatjzpYWQI9D4QiXX8ltDoXgH.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t075730_2b642f",
+      "result": "complete",
+      "sha256": "5e6b6b09d0218147af5f978d55b84ff3aeb0d7518785ed24b35d4af21f966fb6",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/arena-incumbent-audit/m_20261115t075743_cfa66b.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.620391+00:00",
+      "finished_at": "2026-11-15T08:18:37Z",
+      "id": "m_20261115t075743_cfa66b",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": null,
+      "original_url_verified_at": "2026-11-15T09:15:36.894573+00:00",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t075743_cfa66b-Zy4zgIFA848sl9E3SWDHl77QmJFtie.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t075743_cfa66b",
+      "result": "complete",
+      "sha256": "7775f9c0277db124d6d8422a07363ce36c32b75df1a68b4a2e5a2a8c9768a97f",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t075758_69c118.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.621328+00:00",
+      "finished_at": "2026-11-15T08:15:47Z",
+      "id": "m_20261115t075758_69c118",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:43.560081+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t075758_69c118-k5kCk6fJmVLtoGToz3ubVXmnMjm531.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t075758_69c118",
+      "result": "complete",
+      "sha256": "e6575929250dfc7742e5580b4409eec186d75c3849113582c25b05400a0e5fae",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.016988+00:00",
+      "finished_at": "2026-11-15T08:11:52Z",
+      "id": "m_20261115t075813_52c410",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t075813_52c410-jdsnC5GjM8XjH7gNC4QcYN183peBtL.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t075813_52c410",
+      "result": "complete",
+      "sha256": "be1fd1b112a45f63b255aa5082bc277212ba278e5ba3c64402301b8ed8b99100",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/arena-incumbent-audit/m_20261115t081208_2434d0.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.729846+00:00",
+      "finished_at": "2026-11-15T08:28:26Z",
+      "id": "m_20261115t081208_2434d0",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": null,
+      "original_url_verified_at": "2026-11-15T09:15:37.357595+00:00",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t081208_2434d0-vSAfn066AoAYqW8SH8Rgc6pAdtZ9lF.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t081208_2434d0",
+      "result": "complete",
+      "sha256": "4e445498bb00257d31dfa52f6e80c87bc964affc99f9b7ac822bfb9c6de67fb6",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/arena-incumbent-audit/m_20261115t081237_ea4bc1.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.731234+00:00",
+      "finished_at": "2026-11-15T08:28:05Z",
+      "id": "m_20261115t081237_ea4bc1",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": null,
+      "original_url_verified_at": "2026-11-15T09:15:37.104976+00:00",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t081237_ea4bc1-kjVyTqXYDQZ6VmLyRsOAQzaX7OZQFU.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t081237_ea4bc1",
+      "result": "complete",
+      "sha256": "0c7fa68466633c00c763d5d5f4203caf399b25b6e6088405d1df81be795d4494",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.067935+00:00",
+      "finished_at": "2026-11-15T08:31:15Z",
+      "id": "m_20261115t081554_5795bd",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t081554_5795bd-zE8e5X0iiGOkJ1PIxnLDuaPfNjCHEg.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t081554_5795bd",
+      "result": "complete",
+      "sha256": "3ec316c24803dec01c6a6272e3fe819289672b2df54a04fd908e21a7a2478474",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.045657+00:00",
+      "finished_at": "2026-11-15T08:31:20Z",
+      "id": "m_20261115t081610_6857ce",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t081610_6857ce-h5r3LH2DNk79vVog2lUNuuPy2zGEBD.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t081610_6857ce",
+      "result": "complete",
+      "sha256": "5447b1467e59b7878bece49a8470be1d6bdd26ae2f04aa7898a86b0c6585c87e",
+      "status": "complete"
+    },
+    {
+      "cache_reused": true,
+      "cache_source": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/raw/m_20261115t081639_7f376a.json",
+      "fetched_or_reused_at": "2026-11-15T09:19:45.870469+00:00",
+      "finished_at": "2026-11-15T08:31:30Z",
+      "id": "m_20261115t081639_7f376a",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "original_fetched_at": "2026-11-15T08:32:43.567702+00:00",
+      "original_url_verified_at": null,
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t081639_7f376a-xlIUUDrVux6U25XVZO3nD23e4thdZN.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t081639_7f376a",
+      "result": "complete",
+      "sha256": "7aa08faf36b5e2e3fc190adc6e0c9eec13b477fca7742f1113adf4eb00b3d39c",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.243304+00:00",
+      "finished_at": "2026-11-15T08:37:33Z",
+      "id": "m_20261115t081841_979e64",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t081841_979e64-oXbLUhmK8v1nXHnf3xWrq0cVF407Mg.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t081841_979e64",
+      "result": "complete",
+      "sha256": "4643d7227f02accee001fbe7f6b84ffd8dab0962ad5bc8d37b0efaf6c815fb54",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.356089+00:00",
+      "finished_at": "2026-11-15T08:36:40Z",
+      "id": "m_20261115t082012_d291ca",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t082012_d291ca-vBEycjifU7nltspF7i9l8bWxoIGdrL.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t082012_d291ca",
+      "result": "complete",
+      "sha256": "da45befa14c69f1fe7218d1ce767b04c5973ac27fe73a2b494ab19c9ee0c50c6",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.389543+00:00",
+      "finished_at": "2026-11-15T08:46:51Z",
+      "id": "m_20261115t082817_1064a7",
+      "listed_for_teachers": [
+        "house-chatty-carlos",
+        "house-professor-pete"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t082817_1064a7-GAH6pzX4G5L6no4YhjM0ZquclqhcqR.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t082817_1064a7",
+      "result": "complete",
+      "sha256": "cdfb6f441c52397ab44c1be60700c2a4d1e41a529d3f9a51355410eb2a88a562",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.340767+00:00",
+      "finished_at": "2026-11-15T08:36:17Z",
+      "id": "m_20261115t083120_bf9dfd",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t083120_bf9dfd-0cgOQcw4yfJHrCAaFrwaxxcuhouonv.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t083120_bf9dfd",
+      "result": "complete",
+      "sha256": "c0f329cdce334b186dd6560ccd0d1fd161ee32e2592b6851047a9865c7eed970",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.565538+00:00",
+      "finished_at": "2026-11-15T08:47:33Z",
+      "id": "m_20261115t083134_292892",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t083134_292892-7jy6CeKn4zCX0oJs91aDU4Xk90RhKR.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t083134_292892",
+      "result": "complete",
+      "sha256": "e0570318405af236d480546981f5e11fd91f3d9d884a0b49ee56f6e88627bed7",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.649393+00:00",
+      "finished_at": "2026-11-15T08:53:40Z",
+      "id": "m_20261115t083622_d50ea5",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t083622_d50ea5-s7bpbWoyQ5RM8VxLMF444dVeeUitKK.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t083622_d50ea5",
+      "result": "complete",
+      "sha256": "4fef3a164327944c741bc3ae3386afb18077ee06b9b1c570f4dc5fc73b3cd985",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.649288+00:00",
+      "finished_at": "2026-11-15T09:08:22Z",
+      "id": "m_20261115t083653_0b2fec",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t083653_0b2fec-lxWrOHUlU5LxjzIlDuasEmGowesoKr.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t083653_0b2fec",
+      "result": "complete",
+      "sha256": "41c68e0942d9c5321f7214562b91d206ba13dbb45981eee7fc544ea73b162103",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.773297+00:00",
+      "finished_at": "2026-11-15T09:10:03Z",
+      "id": "m_20261115t083738_6b3806",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t083738_6b3806-5p0A2TLkQhaQUVztnCFyPQoC2CNzcE.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t083738_6b3806",
+      "result": "complete",
+      "sha256": "be8f088aaaa5a0ad37d1703612c060132927219a3f7ab387d008ed62dcb35afa",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:46.883324+00:00",
+      "finished_at": "2026-11-15T09:13:59Z",
+      "id": "m_20261115t084110_5c47a9",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t084110_5c47a9-v99stITWTjPogyYO7fquefJnIb4T3Z.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t084110_5c47a9",
+      "result": "complete",
+      "sha256": "57ceff3f9e0e401291191a0b7efe6cb9944783f89835ef0624a2f6d897e945bc",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:47.014823+00:00",
+      "finished_at": "2026-11-15T09:09:08Z",
+      "id": "m_20261115t084125_921782",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t084125_921782-0kGVZORaNBR6GbY6ZjA5p1yUBmlzCa.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t084125_921782",
+      "result": "complete",
+      "sha256": "ba5e09791ce43ed0ebc708d49e542d4acb0292384781b97be9b1a559e5e65379",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:47.016801+00:00",
+      "finished_at": "2026-11-15T09:17:23Z",
+      "id": "m_20261115t084745_5f9cee",
+      "listed_for_teachers": [
+        "house-professor-pete"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t084745_5f9cee-e3nG4Fn9daT9Z1RqpTAJFDgpYvPSYk.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t084745_5f9cee",
+      "result": "complete",
+      "sha256": "0a6fc5262d59e42380a5832a80bdf69a3402a71bf9d7bc760a97bd5774756136",
+      "status": "complete"
+    },
+    {
+      "cache_reused": false,
+      "fetched_or_reused_at": "2026-11-15T09:19:47.077102+00:00",
+      "finished_at": "2026-11-15T09:15:59Z",
+      "id": "m_20261115t090728_de564f",
+      "listed_for_teachers": [
+        "house-chatty-carlos"
+      ],
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t090728_de564f-Kr66EmVISurFWGWshxlGZP8XAW7mE6.json",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t090728_de564f",
+      "result": "complete",
+      "sha256": "0dee263533ef131383b18985e8bcb8d0b1fb58d47e85a7a015d5f1133f74f564",
+      "status": "complete"
+    }
+  ]
+}

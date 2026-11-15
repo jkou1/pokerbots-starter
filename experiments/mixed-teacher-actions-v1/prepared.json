@@ -1,0 +1,133 @@
+{
+  "stats": {
+    "train": {
+      "records": 7640,
+      "unique_source_decisions": 7640,
+      "teachers": {
+        "house-chatty-carlos": 3820,
+        "house-professor-pete": 3820
+      },
+      "streets": {
+        "flop": 1248,
+        "preflop": 4930,
+        "turn": 851,
+        "river": 611
+      },
+      "actions": {
+        "bet": 780,
+        "raise": 1297,
+        "fold": 3290,
+        "call": 829,
+        "check": 1444
+      },
+      "canonical_teacher_ids_in_prompt": 0,
+      "target_characters_by_teacher": {
+        "house-professor-pete": 80760,
+        "house-chatty-carlos": 86360
+      },
+      "task_file_sha256": "7140f8e9bab7bf513d582da1d606f9c72a99f028c84ad396b81cb732eed8d6b5"
+    },
+    "select": {
+      "records": 1249,
+      "unique_source_decisions": 1249,
+      "teachers": {
+        "house-chatty-carlos": 622,
+        "house-professor-pete": 627
+      },
+      "streets": {
+        "preflop": 848,
+        "flop": 189,
+        "turn": 130,
+        "river": 82
+      },
+      "actions": {
+        "fold": 578,
+        "call": 124,
+        "bet": 133,
+        "check": 201,
+        "raise": 213
+      },
+      "canonical_teacher_ids_in_prompt": 0,
+      "target_characters_by_teacher": {
+        "house-professor-pete": 13352,
+        "house-chatty-carlos": 14023
+      },
+      "task_file_sha256": "690097c45d2c2cc9380de0f2584ccb825d92f9ad1e829a66c7872fea51d5226d"
+    },
+    "eval": {
+      "records": 921,
+      "unique_source_decisions": 921,
+      "teachers": {
+        "house-chatty-carlos": 455,
+        "house-professor-pete": 466
+      },
+      "streets": {
+        "preflop": 610,
+        "flop": 145,
+        "turn": 96,
+        "river": 70
+      },
+      "actions": {
+        "fold": 410,
+        "call": 84,
+        "raise": 176,
+        "check": 158,
+        "bet": 93
+      },
+      "canonical_teacher_ids_in_prompt": 0,
+      "target_characters_by_teacher": {
+        "house-professor-pete": 10072,
+        "house-chatty-carlos": 10329
+      },
+      "task_file_sha256": "f07780f759b2d01ddf54dd862cb638b8744ff3f8d6671550b12ca20f64b5c6fc"
+    },
+    "fast-select": {
+      "records": 256,
+      "unique_source_decisions": 256,
+      "teachers": {
+        "house-chatty-carlos": 128,
+        "house-professor-pete": 128
+      },
+      "streets": {
+        "river": 17,
+        "flop": 38,
+        "preflop": 174,
+        "turn": 27
+      },
+      "actions": {
+        "bet": 27,
+        "check": 43,
+        "raise": 43,
+        "fold": 118,
+        "call": 25
+      },
+      "canonical_teacher_ids_in_prompt": 0,
+      "target_characters_by_teacher": {
+        "house-professor-pete": 2721,
+        "house-chatty-carlos": 2876
+      },
+      "task_file_sha256": "1b56b5fd19a6599171bcfbb8574c6d41ac2a75958fd906b8b65f5b728ec3d00d"
+    }
+  },
+  "base_initialization": true,
+  "proposed_budget": {
+    "gpus": 4,
+    "replicas": 1,
+    "updates": 10,
+    "batch": 128,
+    "sample_budget": 1280,
+    "checkpoint_updates": [
+      5,
+      10
+    ],
+    "learning_rate": 5e-06,
+    "rollout_replicas": 0,
+    "eval": "off"
+  },
+  "no_gpu_launch": true,
+  "limitations": [
+    "Public private memory is unavailable; inputs are reconstructed decision-time states, not exact private conversations.",
+    "Both teachers influence observed action frequencies; imitation is not proof of optimal poker.",
+    "Teacher-balanced examples do not guarantee equal target-token weighting."
+  ]
+}

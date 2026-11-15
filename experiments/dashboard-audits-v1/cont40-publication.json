@@ -1,0 +1,11 @@
+{
+  "id": "art_4808c4bdb6ea",
+  "state": "ready",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "sha256": "60b664d4ff154d7321b852f60608aa6668d80897aacb5d2f863cda6084149b7d"
+}

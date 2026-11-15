@@ -1,0 +1,270 @@
+{
+  "created_at": "2026-11-15T09:14:57.866395+00:00",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "record_type": "LOCAL_diagnostic_artifact_not_native_eval",
+  "reports": [
+    {
+      "label": "LOCAL pete-postflop-select/cont-s20.json",
+      "is_ac2_eval_run": false,
+      "execution": "local real inference diagnostic",
+      "report": {
+        "model": "vals-hackathon/pete-postflop-cont-s20-jkou",
+        "split": "select",
+        "status": "complete",
+        "summary": {
+          "action_accuracy": 0.7074829931972789,
+          "check_or_fold_baseline_accuracy": 0.6054421768707483,
+          "exact_action_amount_accuracy": 0.7006802721088435,
+          "examples": 147,
+          "legal_rate": 1.0,
+          "macro_action_recall": 0.661774628879892,
+          "per_action": {
+            "bet": {
+              "examples": 39,
+              "recall": 0.07692307692307693
+            },
+            "call": {
+              "examples": 19,
+              "recall": 0.7368421052631579
+            },
+            "check": {
+              "examples": 77,
+              "recall": 1.0
+            },
+            "fold": {
+              "examples": 12,
+              "recall": 0.8333333333333334
+            }
+          },
+          "per_position": {
+            "0": {
+              "accuracy": 0.6578947368421053,
+              "examples": 38
+            },
+            "1": {
+              "accuracy": 0.7230769230769231,
+              "examples": 65
+            },
+            "2": {
+              "accuracy": 1.0,
+              "examples": 1
+            },
+            "3": {
+              "accuracy": 0.6875,
+              "examples": 16
+            },
+            "4": {
+              "accuracy": 0.7083333333333334,
+              "examples": 24
+            },
+            "5": {
+              "accuracy": 1.0,
+              "examples": 3
+            }
+          },
+          "raise_amount_comparisons": 3,
+          "raise_amount_mae_chips": 0.3333333333333333
+        }
+      },
+      "source_path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/pete-postflop-select/cont-s20.json",
+      "source_sha256": "083e6806af6cd5bd5a6066af31be8d56d4e4fd1f7f85a5cfd3f46d965618a99f"
+    },
+    {
+      "label": "LOCAL pete-postflop-select/base-s20.json",
+      "is_ac2_eval_run": false,
+      "execution": "local real inference diagnostic",
+      "report": {
+        "model": "vals-hackathon/pete-postflop-base-s20-jkou",
+        "split": "select",
+        "status": "complete",
+        "summary": {
+          "action_accuracy": 0.7346938775510204,
+          "check_or_fold_baseline_accuracy": 0.6054421768707483,
+          "exact_action_amount_accuracy": 0.6802721088435374,
+          "examples": 147,
+          "legal_rate": 1.0,
+          "macro_action_recall": 0.6923942285784391,
+          "per_action": {
+            "bet": {
+              "examples": 39,
+              "recall": 0.28205128205128205
+            },
+            "call": {
+              "examples": 19,
+              "recall": 0.7894736842105263
+            },
+            "check": {
+              "examples": 77,
+              "recall": 0.948051948051948
+            },
+            "fold": {
+              "examples": 12,
+              "recall": 0.75
+            }
+          },
+          "per_position": {
+            "0": {
+              "accuracy": 0.6842105263157895,
+              "examples": 38
+            },
+            "1": {
+              "accuracy": 0.7846153846153846,
+              "examples": 65
+            },
+            "2": {
+              "accuracy": 1.0,
+              "examples": 1
+            },
+            "3": {
+              "accuracy": 0.6875,
+              "examples": 16
+            },
+            "4": {
+              "accuracy": 0.6666666666666666,
+              "examples": 24
+            },
+            "5": {
+              "accuracy": 1.0,
+              "examples": 3
+            }
+          },
+          "raise_amount_comparisons": 11,
+          "raise_amount_mae_chips": 2.8181818181818183
+        }
+      },
+      "source_path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/pete-postflop-select/base-s20.json",
+      "source_sha256": "d9c9419ab6304218826fabcecfadc680a98d0a9c975b7b77f80367a72af369b6"
+    },
+    {
+      "label": "LOCAL pete-preflop-select/base-s20.json",
+      "is_ac2_eval_run": false,
+      "execution": "local real inference diagnostic",
+      "report": {
+        "model": "vals-hackathon/pete-postflop-base-s20-jkou",
+        "split": "select",
+        "status": "complete",
+        "summary": {
+          "action_accuracy": 0.7909604519774012,
+          "check_or_fold_baseline_accuracy": 0.711864406779661,
+          "exact_action_amount_accuracy": 0.7655367231638418,
+          "examples": 354,
+          "legal_rate": 1.0,
+          "macro_action_recall": 0.6600337673989126,
+          "per_action": {
+            "call": {
+              "examples": 28,
+              "recall": 0.14285714285714285
+            },
+            "check": {
+              "examples": 11,
+              "recall": 0.8181818181818182
+            },
+            "fold": {
+              "examples": 241,
+              "recall": 0.8547717842323651
+            },
+            "raise": {
+              "examples": 74,
+              "recall": 0.8243243243243243
+            }
+          },
+          "per_position": {
+            "0": {
+              "accuracy": 0.7464788732394366,
+              "examples": 71
+            },
+            "1": {
+              "accuracy": 0.7222222222222222,
+              "examples": 54
+            },
+            "2": {
+              "accuracy": 0.8153846153846154,
+              "examples": 65
+            },
+            "3": {
+              "accuracy": 0.7567567567567568,
+              "examples": 74
+            },
+            "4": {
+              "accuracy": 0.8709677419354839,
+              "examples": 62
+            },
+            "5": {
+              "accuracy": 0.8928571428571429,
+              "examples": 28
+            }
+          },
+          "raise_amount_comparisons": 61,
+          "raise_amount_mae_chips": 1.2295081967213115
+        }
+      },
+      "source_path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/pete-preflop-select/base-s20.json",
+      "source_sha256": "74cad3495c2d9cef74538d73b1395e94657ccd67a83a10997c78350eac1e5443"
+    },
+    {
+      "label": "LOCAL cleanup-stress-results/cont-s20.json",
+      "is_ac2_eval_run": false,
+      "execution": "local real inference diagnostic",
+      "report": {
+        "status": "complete",
+        "model": "vals-hackathon/pete-postflop-cont-s20-jkou",
+        "valid": 3,
+        "completed": 10
+      },
+      "source_path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/cleanup-stress-results/cont-s20.json",
+      "source_sha256": "9ca902d80eb846f6e4902fc2a5edf00ef283aa1b785d028f835d04405670d890"
+    },
+    {
+      "label": "LOCAL cleanup-stress-results/base-s20.json",
+      "is_ac2_eval_run": false,
+      "execution": "local real inference diagnostic",
+      "report": {
+        "status": "complete",
+        "model": "vals-hackathon/pete-postflop-base-s20-jkou",
+        "valid": 6,
+        "completed": 10
+      },
+      "source_path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/cleanup-stress-results/base-s20.json",
+      "source_sha256": "763fe2fa2189fedcd957909e7d63baf520838032503d977e832471ceb4dde4b7"
+    },
+    {
+      "label": "LOCAL enum-probes/cont-s20.json",
+      "is_ac2_eval_run": false,
+      "execution": "local real inference diagnostic",
+      "report": {
+        "model": "vals-hackathon/pete-postflop-cont-s20-jkou",
+        "repeats": 4,
+        "legal": 4
+      },
+      "source_path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/enum-probes/cont-s20.json",
+      "source_sha256": "e6b976f329c909c89789f1743e58912705f22c51fa99d2adcc090aef143908b5"
+    },
+    {
+      "label": "LOCAL enum-probes/base-s20.json",
+      "is_ac2_eval_run": false,
+      "execution": "local real inference diagnostic",
+      "report": {
+        "model": "vals-hackathon/pete-postflop-base-s20-jkou",
+        "repeats": 4,
+        "legal": 4
+      },
+      "source_path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/enum-probes/base-s20.json",
+      "source_sha256": "e478d2a6016b97a625368a6643c19990d28114c3361648120c6ff48fb8c2489c"
+    }
+  ],
+  "existing_native_eval_reference": {
+    "id": "eval_a1cc729a3948",
+    "status": "running",
+    "note": "Actual new-account platform smoke run; distinct from local diagnostics."
+  },
+  "limitations": [
+    "Teacher agreement is not poker win rate.",
+    "Cleanup stress selection has10 deliberately difficult cases, not a representative failure rate.",
+    "4-repeat enum probes are diagnostic only."
+  ]
+}

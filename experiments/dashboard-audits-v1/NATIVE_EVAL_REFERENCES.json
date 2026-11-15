@@ -1,0 +1,29 @@
+{
+  "record_type": "summary_of_existing_native_ac2_eval_runs",
+  "source_sha256": "3e62ea5abd97d90ead4c5200d69fc9044bb944d56eb966eea819cabc9445664d",
+  "runs": {
+    "vals-hackathon/combined-sft-v3": {
+      "eval_id": "eval_521f73148d31",
+      "status": "succeeded",
+      "mean_reward": 6.34375,
+      "mean_ev_bb": 0.34375,
+      "format_errors": 0
+    },
+    "vals-hackathon/selfplay-ad74c826c9ad": {
+      "eval_id": "eval_7353b52d4873",
+      "status": "succeeded",
+      "mean_reward": 5.921875,
+      "mean_ev_bb": -0.578125,
+      "format_errors": 0
+    }
+  },
+  "scope": "single-hand selection against frozen checkpoint; not full-game placement",
+  "paired": {
+    "tasks": 32,
+    "incumbent_minus_ad74_mean_ev_bb": 0.921875,
+    "bootstrap_ci95": [
+      -0.140625,
+      2.171875
+    ]
+  }
+}

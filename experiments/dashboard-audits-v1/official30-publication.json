@@ -1,0 +1,15 @@
+{
+  "artifact_id": "art_7da18ac5ab42",
+  "state": "ready",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "sha256": "7765f2e15a30fa1a5a7cda26779f0f48a23a434fb13d7bbcce96acf808f0eec7",
+  "source_sha256": "b9e07bbae89a17be4a3c8d011dc3fccd11837f72f508e215cb430dc9083cbe13",
+  "collection_ids": [
+    "coll_40d2b84e2fb5"
+  ]
+}

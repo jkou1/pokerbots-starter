@@ -1,0 +1,147 @@
+{
+  "record_type": "LOCAL_official_format_game_baseline_not_native_eval",
+  "is_ac2_eval_run": false,
+  "created_at": "2026-11-15T09:23:01.122461+00:00",
+  "source_path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/overnight-incumbent-frozen-select/summary.json",
+  "source_sha256": "b9e07bbae89a17be4a3c8d011dc3fccd11837f72f508e215cb430dc9083cbe13",
+  "summary": {
+    "scope": "LOCAL official30hand baseline, not an AC2 native evaluation job. Exact raw logs preserved; EV labels computed afterward with unmodified official helper8variants64runouts/redrawFalse. Side-pot labels explicitly fall back to realized returns, not solverEV.",
+    "outcomes": {
+      "games": 6,
+      "mean_placement": 3.8333333333333335,
+      "first_place_rate": 0.3333333333333333,
+      "bust_rate": 0.0,
+      "mean_realized_bb": -5.416666666666667,
+      "invalid_decisions": 0
+    },
+    "mean_unclipped_ev_bb": -5.458333333333333,
+    "games": [
+      {
+        "seed": 167682508893636,
+        "policy_seat": "seat5",
+        "place": 5,
+        "ev_bb": -4.5,
+        "realized_bb": -4.5,
+        "decisions": 55,
+        "invalid_decisions": 0,
+        "cleanup_turns": 30,
+        "cleanup_attempts": 30,
+        "cleanup_overlong_attempts": 0,
+        "cleanup_final_cut": 0,
+        "ev_methods": {
+          "no-showdown": 21,
+          "showdown": 9
+        },
+        "raw_source": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/overnight-incumbent-frozen-select/logs/167682508893636.json",
+        "raw_sha256": "4a26ec4a80f7ea3d609d1bced766f8bbf416437a2cda446c974066c6f1d2f23e"
+      },
+      {
+        "seed": 169935285067393,
+        "policy_seat": "seat1",
+        "place": 1,
+        "ev_bb": 98.75,
+        "realized_bb": 99.0,
+        "decisions": 73,
+        "invalid_decisions": 0,
+        "cleanup_turns": 30,
+        "cleanup_attempts": 43,
+        "cleanup_overlong_attempts": 25,
+        "cleanup_final_cut": 12,
+        "ev_methods": {
+          "showdown": 12,
+          "no-showdown": 18
+        },
+        "raw_source": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/overnight-incumbent-frozen-select/logs/169935285067393.json",
+        "raw_sha256": "70ae6773bcd02b6d17eca26e9b9c96bdf89fb81d24b3c6f4c6ef7a7ef064f964"
+      },
+      {
+        "seed": 32129134682652,
+        "policy_seat": "seat3",
+        "place": 5,
+        "ev_bb": -27.5,
+        "realized_bb": -27.5,
+        "decisions": 63,
+        "invalid_decisions": 0,
+        "cleanup_turns": 30,
+        "cleanup_attempts": 37,
+        "cleanup_overlong_attempts": 13,
+        "cleanup_final_cut": 6,
+        "ev_methods": {
+          "no-showdown": 20,
+          "showdown": 10
+        },
+        "raw_source": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/overnight-incumbent-frozen-select/logs/32129134682652.json",
+        "raw_sha256": "e364f05dba717b617dde28d9e7bb0bda1d830b253471d04d3a5015137d7a2a11"
+      },
+      {
+        "seed": 45780757290026,
+        "policy_seat": "seat0",
+        "place": 1,
+        "ev_bb": 15.5,
+        "realized_bb": 15.5,
+        "decisions": 55,
+        "invalid_decisions": 0,
+        "cleanup_turns": 30,
+        "cleanup_attempts": 40,
+        "cleanup_overlong_attempts": 19,
+        "cleanup_final_cut": 9,
+        "ev_methods": {
+          "no-showdown": 22,
+          "showdown": 8
+        },
+        "raw_source": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/overnight-incumbent-frozen-select/logs/45780757290026.json",
+        "raw_sha256": "a178ba9fd96f693235e361f3a649e0eaac682db1dc1a3031cf6b3ec1d4d02652"
+      },
+      {
+        "seed": 61637709364564,
+        "policy_seat": "seat2",
+        "place": 5,
+        "ev_bb": -81.5,
+        "realized_bb": -81.5,
+        "decisions": 45,
+        "invalid_decisions": 0,
+        "cleanup_turns": 30,
+        "cleanup_attempts": 34,
+        "cleanup_overlong_attempts": 7,
+        "cleanup_final_cut": 3,
+        "ev_methods": {
+          "no-showdown": 24,
+          "showdown": 4,
+          "side-pot": 2
+        },
+        "raw_source": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/overnight-incumbent-frozen-select/logs/61637709364564.json",
+        "raw_sha256": "0343a378482d70695e125883b812f8e83bd0ff057edd43b7b5e28d1fc49d0674"
+      },
+      {
+        "seed": 65147353836095,
+        "policy_seat": "seat4",
+        "place": 6,
+        "ev_bb": -33.5,
+        "realized_bb": -33.5,
+        "decisions": 48,
+        "invalid_decisions": 0,
+        "cleanup_turns": 30,
+        "cleanup_attempts": 43,
+        "cleanup_overlong_attempts": 26,
+        "cleanup_final_cut": 13,
+        "ev_methods": {
+          "no-showdown": 24,
+          "showdown": 6
+        },
+        "raw_source": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/overnight-incumbent-frozen-select/logs/65147353836095.json",
+        "raw_sha256": "55511a2831337f3bd362c919eafcec61791ac09cae69a61a9ab22021d80b818e"
+      }
+    ],
+    "cleanup_totals": {
+      "cleanup_turns": 180,
+      "cleanup_attempts": 227,
+      "cleanup_overlong_attempts": 90,
+      "cleanup_final_cut": 43
+    }
+  },
+  "limitations": [
+    "Six local real-inference official-format games, not a native AC2 Eval run.",
+    "Posthoc official-helper EV is unclipped and side pots fall back to realized returns.",
+    "No raw private scratchpad text is included."
+  ]
+}

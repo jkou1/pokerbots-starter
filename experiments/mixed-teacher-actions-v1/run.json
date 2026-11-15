@@ -1,0 +1,76 @@
+{
+  "status": "pending",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "config": {
+    "model": "Qwen/Qwen3.6-35B-A3B",
+    "name": "mixed-pete-carlos-actions-v1-base-sft-10steps-b128",
+    "description": "One mixed-teacher action-only base pilot.7640balancedunique labels;whole-match/deal holdouts;10updates;checkpoint5/10;noautomaticextension.",
+    "tags": {
+      "stage": "mixed-teacher-actions",
+      "initialization": "base",
+      "dataset": "pokerbots-mixed-pete-carlos-actions-v1-train",
+      "teacher_mix": "50percentPete50percentCarlos",
+      "initial_max_updates": 10,
+      "requires_milestone_validation": true
+    },
+    "experiment_cfg": {
+      "method": {
+        "type": "sft"
+      },
+      "step": {
+        "num_train_steps": 10,
+        "problem_batch_size": 128,
+        "samples_per_problem": 1,
+        "checkpoint_interval": 5,
+        "seed": 42
+      },
+      "tasks": {
+        "datasets": [
+          {
+            "ac2_dataset_name": "pokerbots-mixed-pete-carlos-actions-v1-train"
+          }
+        ]
+      },
+      "trainer": {
+        "learning_rate": 5e-06
+      },
+      "rollout": {
+        "n_inference_replicas": 0,
+        "max_total_len": 8192
+      },
+      "eval": {
+        "mode": "off"
+      }
+    },
+    "internal_cfg": {
+      "launch": {
+        "n_training_replicas": 1,
+        "tensorboard_enabled": true
+      }
+    }
+  },
+  "requested_training_gpus": 4,
+  "requested_rollout_gpus": 0,
+  "requested_eval_gpus": 0,
+  "initial_max_updates": 10,
+  "no_automatic_extension": true,
+  "coordinator_authorization": "One queued BASE mixedPeteCarlos pilot; do not interrupt currentGRPO.",
+  "created_at": "2026-11-15T09:33:30.013339+00:00",
+  "sha256": {
+    "quality.json": "aa2cf4b8c053a84439b12df4220ee4d940c9eee80a08026c4bb6943ef0a2c19d",
+    "upload.json": "41a98b5b85caacb1ee567d4c619f1fc68b7506ea81973a1e0aa0a15fd965a347",
+    "remote-scaffold-audit.json": "315db449882c652f7af86f6fe3029486f39d3a00817766780842eb046155fa60",
+    "prefix-teacher-balance.json": "a54151a5b3d5625fabdf0b1a1b5366462cb8e6cb50ef888aed3439f9b4c7b706",
+    "STOP_AND_EXTENSION_POLICY.json": "a68c9cd22a43d63709870cd332b7d361e747ae722ba58a6af267c6e7b7039d73",
+    "EXPERIMENT.md": "81094574a2c89349190ca757b31b8ac9a9271a163a6d8ac7ee35dbc7682bd1be"
+  },
+  "train_id": "train_93e592d258f9",
+  "job_id": "job_fb59a46dc0ee",
+  "actual_owner": "lmathias@berkeley.edu",
+  "actual_unix_uid": 10464
+}

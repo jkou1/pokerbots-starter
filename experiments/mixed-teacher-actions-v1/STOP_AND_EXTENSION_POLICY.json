@@ -1,0 +1,62 @@
+{
+  "initial_max_updates": 10,
+  "optimizer_checkpoints": [
+    4,
+    9
+  ],
+  "milestones": [
+    5,
+    10
+  ],
+  "next_max_updates": 20,
+  "automatic_extension": false,
+  "requires_coordinator_extension_evidence": true,
+  "min_legal_rate": 0.99,
+  "mixed_fast_selection": {
+    "records": 256,
+    "per_teacher": 128,
+    "min_bet_hits": 7,
+    "bet_examples": 27,
+    "min_check_hits": 39,
+    "check_examples": 43,
+    "incumbent_action_agreement": 0.7578125,
+    "incumbent_bet_hits": 0,
+    "incumbent_check_hits": 43
+  },
+  "legacy_postflop_retention": {
+    "records": 147,
+    "min_bet_hits": 10,
+    "bet_examples": 39,
+    "min_check_hits": 69,
+    "check_examples": 77
+  },
+  "legacy_preflop_retention": {
+    "records": 354,
+    "incumbent_action_agreement": 0.844632768361582,
+    "max_allowed_agreement_drop": 0.05
+  },
+  "action_ce": {
+    "window_updates": 5,
+    "min_relative_improvement_for_clear_signal": 0.02,
+    "class_balance": true,
+    "focus_actions": [
+      "bet",
+      "call",
+      "raise"
+    ],
+    "warning": "Different training minibatches, not fixed validation or poker quality"
+  },
+  "early_repair_stop": [
+    "Nonfinite optimizer loss or gradient",
+    "Managed target-boundary failure sustained over two polls",
+    "Wrong dataset membership or both first two full managed batches contain only one teacher"
+  ],
+  "promotion_gate": "Paired official poker performance plus reliability/cleanup and workplace-safe table talk; imitation gate alone is insufficient",
+  "gpu_allocation": "One4GPU training replica;default scheduler queue;no currentGRPO stop or migration;reserve validation slot after naturalcapacityrelease",
+  "identity_required": {
+    "owner": "lmathias@berkeley.edu",
+    "unix_uid": 10464,
+    "org": "org_cd68943dd947",
+    "own_user_runtime_key_required": true
+  }
+}

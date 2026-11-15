@@ -1,0 +1,54 @@
+{
+  "collection_id": "coll_6c119f846b5e",
+  "collection_slug": "mixed-pete-carlos-actions-v1",
+  "train_id": "train_93e592d258f9",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "artifacts": {
+    "QUEUED_PILOT_README.md": {
+      "id": "art_0182c4273218",
+      "state": "ready",
+      "sha256": "493203eea515c444a4366654e25694ba5bf0c8fdc2deb0ecf8efd2b29a543014"
+    },
+    "EXPERIMENT.md": {
+      "id": "art_84776aaf2e2d",
+      "state": "ready",
+      "sha256": "81094574a2c89349190ca757b31b8ac9a9271a163a6d8ac7ee35dbc7682bd1be"
+    },
+    "STOP_AND_EXTENSION_POLICY.json": {
+      "id": "art_ac969c0b8904",
+      "state": "ready",
+      "sha256": "a68c9cd22a43d63709870cd332b7d361e747ae722ba58a6af267c6e7b7039d73"
+    },
+    "prepared.json": {
+      "id": "art_348d019e9cde",
+      "state": "ready",
+      "sha256": "88a77918f714cc34c7c5549062ead1ec0d06d1194524bb952d40efd07b8253e4"
+    },
+    "quality.json": {
+      "id": "art_4b310037b382",
+      "state": "ready",
+      "sha256": "aa2cf4b8c053a84439b12df4220ee4d940c9eee80a08026c4bb6943ef0a2c19d"
+    },
+    "prefix-teacher-balance.json": {
+      "id": "art_9017300986d0",
+      "state": "ready",
+      "sha256": "a54151a5b3d5625fabdf0b1a1b5366462cb8e6cb50ef888aed3439f9b4c7b706"
+    },
+    "remote-scaffold-audit.json": {
+      "id": "art_821e3d462ef1",
+      "state": "ready",
+      "sha256": "315db449882c652f7af86f6fe3029486f39d3a00817766780842eb046155fa60"
+    },
+    "LOCAL_INCUMBENT_REFERENCE.json": {
+      "id": "art_7ea80c389ee4",
+      "state": "ready",
+      "sha256": "0b8079372ea3dece12e9919c8fb1fd2cf3993498d3255fb5faf2341bfcb60290"
+    }
+  },
+  "verified_collection_membership": true
+}

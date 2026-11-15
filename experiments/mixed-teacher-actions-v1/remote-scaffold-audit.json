@@ -1,0 +1,150 @@
+{
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "samples": [
+    {
+      "split": "train",
+      "task_id": "tsk_2206f93bce3e",
+      "content_hash": "7b70e653d7171eba3e595bce6c2e9c7ad88a924f82c2aec91d30f149b1bf66d0",
+      "teacher": "house-chatty-carlos",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    },
+    {
+      "split": "train",
+      "task_id": "tsk_51d5ff054127",
+      "content_hash": "0c6cfe5ea1fe01e1aefe618365ef4123aa9a30df6243c5cf36101a32ab619b3b",
+      "teacher": "house-professor-pete",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    },
+    {
+      "split": "train",
+      "task_id": "tsk_436c14e2797f",
+      "content_hash": "c821430d094c3aaed345a81a77bb6093638a2a2cde43235374d0bc05fbc14176",
+      "teacher": "house-chatty-carlos",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    },
+    {
+      "split": "select",
+      "task_id": "tsk_bca21c148afa",
+      "content_hash": "09eb58be09f9c78fbac5c6f1c91c4357f58a397422138ba3bb3a0c1eaaa52880",
+      "teacher": "house-chatty-carlos",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    },
+    {
+      "split": "select",
+      "task_id": "tsk_b1b2843b38ba",
+      "content_hash": "b179e699b039987886aa1cd3d34c7c1b4a5e0b3926e80751790a13b5b56d2646",
+      "teacher": "house-chatty-carlos",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    },
+    {
+      "split": "select",
+      "task_id": "tsk_9c05e7825eb6",
+      "content_hash": "8a662045d75efd850d0918350fa133753a7b18a48e124df25e758a24ff3449e7",
+      "teacher": "house-professor-pete",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    },
+    {
+      "split": "eval",
+      "task_id": "tsk_2d47a995230a",
+      "content_hash": "f6f35ed92be5f0b3f46b386d847fa4cc2a3992654629fbdffe5d372655cda5fc",
+      "teacher": "house-chatty-carlos",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    },
+    {
+      "split": "eval",
+      "task_id": "tsk_5166bde659d7",
+      "content_hash": "508f00b66440a36c02de03004da2c368d0109e13f9c9b82e101455ee839fc768",
+      "teacher": "house-professor-pete",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    },
+    {
+      "split": "eval",
+      "task_id": "tsk_c111ab3a889c",
+      "content_hash": "c014ac8002384a29aa770a45e7bc734ce191c020a51d9011cddc561f8a349e03",
+      "teacher": "house-chatty-carlos",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    },
+    {
+      "split": "fast-select",
+      "task_id": "tsk_ead9e177b88c",
+      "content_hash": "c3efb1eebc1dd8ee6fbce031b2fe88c8309d260c823fac8fa693562bbb6b9093",
+      "teacher": "house-chatty-carlos",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    },
+    {
+      "split": "fast-select",
+      "task_id": "tsk_378a6a8b0449",
+      "content_hash": "9608b70bdc9df340d65e37faf453f223d8cf37b779f8484dff000295f4001c4b",
+      "teacher": "house-professor-pete",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    },
+    {
+      "split": "fast-select",
+      "task_id": "tsk_23cd83e798e3",
+      "content_hash": "16346c37fc0e3d6a812c62dbf199c9a8bc75c8cb138584f1d54097dd2e80fc58",
+      "teacher": "house-professor-pete",
+      "target_scaffold_verified": true,
+      "tools": [
+        "submit_action",
+        "update_scratchpad"
+      ]
+    }
+  ],
+  "full_membership_verified": true,
+  "counts": {
+    "train": 7640,
+    "select": 1249,
+    "eval": 921,
+    "fast-select": 256
+  },
+  "task_id_to_teacher_map_sha256": "d5e72cdf31f84fcbdc76aca595425eb651801e584f15c99d198bb3d014f7c6a6"
+}
