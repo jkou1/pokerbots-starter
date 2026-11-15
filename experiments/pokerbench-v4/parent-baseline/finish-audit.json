@@ -1,0 +1,10 @@
+{
+  "captured_http_responses": 405,
+  "unique_response_ids": 405,
+  "finish_counts": {
+    "tool_calls": 405
+  },
+  "complete_response_envelopes_preserved": true,
+  "authentication_headers_not_saved": true,
+  "no_model_calls_for_this_audit": true
+}

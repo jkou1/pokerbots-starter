@@ -1,0 +1,21 @@
+{
+  "batch_size": 64,
+  "hard_updates": 10,
+  "maximum_training_presentations": 640,
+  "weighted_dataset_size": 2221,
+  "nominal_weighted_epoch_fraction": 0.28815848716794235,
+  "checkpoint5_presentations": 320,
+  "checkpoint5_nominal_epoch_fraction": 0.14407924358397117,
+  "real_unique_source_observations": 1447,
+  "preflop_unique": 387,
+  "postflop_unique": 1060,
+  "weighted_preflop": 1161,
+  "weighted_postflop": 1060,
+  "expected_presentations_if_uniform_over_weighted_tasks": {
+    "preflop": 334.5520036019811,
+    "postflop": 305.4479963980189
+  },
+  "not_convergence_claim": "10updates is a small low-LR knowledge-transfer/retention intervention; samples cover under0.3weightedepoch and repeated anchors reduceunique exposure. Behavioral effect and action-token CE must be assessed, not broadlossalone.",
+  "managed_batch_source_participation_required": true,
+  "no_training_submitted": true
+}

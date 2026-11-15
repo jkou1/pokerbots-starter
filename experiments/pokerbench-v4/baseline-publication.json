@@ -1,0 +1,50 @@
+{
+  "collection_id": "coll_8a982a224f19",
+  "collection_slug": "pokerbench-v4-consistent-knowledge-pilot",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "artifacts": {
+    "LOCAL_PARENT_SUMMARY.json": {
+      "id": "art_15f4255f84b2",
+      "sha256": "3b502ca59e04a8aa03263bdd58019f811b3b8ff7c3cd6923b43fe8cd8a048ae3",
+      "state": "ready"
+    },
+    "EXPERIMENT.md": {
+      "id": "art_f4b604ca28e4",
+      "sha256": "f0ba2b34b52bd4e4a3223339893b669c4071710a3bd4072885dc2f0b47f1d09f",
+      "state": "ready"
+    },
+    "manifest.json": {
+      "id": "art_6cecfc1db55b",
+      "sha256": "17f3df952c3deada19f509a4841560cb62a6e082b70a3c07d6990441579e33f6",
+      "state": "ready"
+    },
+    "boundary-audit.json": {
+      "id": "art_daf3af3ecdff",
+      "sha256": "7f2a3262fc120e42a220f1102cebaccaf666f2e1ac7c395dd31c29b72e6db849",
+      "state": "ready"
+    },
+    "upload-receipt.json": {
+      "id": "art_c3d686be6171",
+      "sha256": "1d89a6446ed9b63b13ed336a8ea9d6dccfad78a9c19e825bd58bef7b3335cd59",
+      "state": "ready"
+    },
+    "coverage-plan.json": {
+      "id": "art_65cf610c5e8f",
+      "sha256": "94450c3b87958be4e6b4c18853184b9710b6720b85b4a4acf53affb5df133b96",
+      "state": "ready"
+    },
+    "finish-audit.json": {
+      "id": "art_ea9efbb466f0",
+      "sha256": "03445a8351796e8b4cf1de04780da14624823e787200e71c823043a0c5bc5501",
+      "state": "ready"
+    }
+  },
+  "no_native_eval_fabricated": true,
+  "no_training_submitted": true,
+  "verified_collection_membership": true
+}
