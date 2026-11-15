@@ -1,0 +1,70 @@
+{
+  "started_epoch": 1794760036.3630111,
+  "completed_epoch": 1794760036.966711,
+  "source_urls_exactly_from_existing_miner": true,
+  "miner_source_sha256": "6b74432bb2a1f68f0e4e77fd77cfe6c8452ce338c163d6ffab3906f553e2bf61",
+  "arena_source_sha256": "1e5aea7c68377a64d8865823b33adc1daf64ed06612d71c08fccec35ad62fa11",
+  "requests": {
+    "global_source_BASE": {
+      "requested_url": "https://www.pokerbots.ac",
+      "final_url": "https://www.pokerbots.ac",
+      "status": 200,
+      "entity_bytes": 53395,
+      "body_sha256": "b0407fb4145ead6b0561ec31fc6483f13c30ad788c35ea4ef25a2fbee967300b",
+      "title": "Vals Poker Arena",
+      "upstream_quota_or_limit_text_present": false,
+      "explicit_time_elements": [],
+      "visible_update_text_candidates": [],
+      "headers_not_evidence_of_leaderboard_freshness": {
+        "date": "Sun, 15 Nov 2026 16:27:16 GMT",
+        "age": "0",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "leaderboard_current_rank": "UNKNOWN",
+      "source_freshness": "Explicit global Last update16:26:34.712UTC in captured source. Rank disagrees with team page, so uniquecurrentrank unknown.",
+      "anonymous_no_AC2auth": true
+    },
+    "current_team": {
+      "requested_url": "https://www.pokerbots.ac/teams/org_cd68943dd947",
+      "final_url": "https://www.pokerbots.ac/teams/org_cd68943dd947",
+      "status": 200,
+      "entity_bytes": 99177,
+      "body_sha256": "e0faa29648947dd16cc20a95cecbf30f7517635f299758362b97e9e910cee22e",
+      "title": "org_cd68943dd947 \u00b7 Vals Poker Arena",
+      "upstream_quota_or_limit_text_present": false,
+      "explicit_time_elements": [],
+      "visible_update_text_candidates": [],
+      "headers_not_evidence_of_leaderboard_freshness": {
+        "date": "Sun, 15 Nov 2026 16:27:16 GMT",
+        "age": "0",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "leaderboard_current_rank": "UNKNOWN",
+      "source_freshness": "Page renderedAt16:27:16.756UTC, but teamrank16 disagrees with globalrank14. RenderedAt alone does not resolve data freshness/rank correctness.",
+      "anonymous_no_AC2auth": true
+    }
+  },
+  "no_API_route_discovery_or_auth": true,
+  "no_models_or_miner_restart_or_billing_changes": true,
+  "conclusion": "Public pages now respond without quota block and expose global data Last update16:26:34.712Z. Current entry still publiclyshown infer_b0f5e9429b7e/returnofrainman. Global rowrank14 versus teampage16 disagree, so uniquecurrentrank remainsUNKNOWN; neitherdisplayis#1.",
+  "observed_public_display": {
+    "global_page_explicit_Last_update": "2026-11-15T16:26:34.712Z",
+    "global_page_renderedAt": "2026-11-15T16:27:16.759Z",
+    "team_page_renderedAt": "2026-11-15T16:27:16.756Z",
+    "global_current_team_row_rank": 14,
+    "team_page_rank_display": 16,
+    "rank_disagreement": true,
+    "global_current_team_rating": 923,
+    "global_current_team_submission": "return of rain man",
+    "team_active_inference_id": "infer_b0f5e9429b7e",
+    "team_active_submission_time_UTC": "2026-11-15T07:01:00Z",
+    "quota_block_no_longer_present_in_these_two_responses": true,
+    "freshness_basis": "Explicit global Last update data timestamp plus recent records/renderedAt in source, NOT HTTPDate. RenderedAt alone is not data-freshness proof.",
+    "current_unique_rank": "UNKNOWN because global row14 and teamdisplay16 disagree; do not silently choose one.",
+    "not_number_one_in_either_display": true,
+    "global_first_displayed_house": "Tilted Tim",
+    "global_top_displayed_nonhouse": "Vals"
+  }
+}
