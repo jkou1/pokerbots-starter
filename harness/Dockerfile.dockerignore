@@ -1,0 +1,9 @@
+**
+!harness/
+!harness/pyproject.toml
+!harness/src/
+!harness/src/**
+!harness/shard_router.py
+!harness/run_sharded.sh
+!opsd/
+!opsd/hint.py

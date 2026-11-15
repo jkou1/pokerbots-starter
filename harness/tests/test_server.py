@@ -1,5 +1,6 @@
 import asyncio
 import json
+import runpy
 from pathlib import Path
 
 import httpx
@@ -138,6 +139,12 @@ async def test_policy_seat_uses_relay_and_opponents_use_the_gateway(
     assert all(r["body"]["model"] == "my-project/vanilla" for r in opponent_requests)
     assert all(r["body"]["chat_template_kwargs"] == {"enable_thinking": False} for r in opponent_requests)
     assert all(a["model_response"]["provider"] == "ac2" for a in policy_actions)
+    hint = runpy.run_path(str(Path(__file__).resolve().parents[2] / "opsd" / "hint.py"))["HINT"]
+    for request in relay_requests:
+        messages = request["body"]["messages"]
+        assert messages[-1]["content"].endswith("\n\n" + hint)
+        assert sum(hint in str(m.get("content", "")) for m in messages) == 1
+    assert all(hint not in json.dumps(r["body"]) for r in opponent_requests)
 
 
 async def test_opponents_without_a_gateway_key_fail_the_rollout(

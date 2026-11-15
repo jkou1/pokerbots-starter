@@ -22,6 +22,7 @@ import logging
 import multiprocessing
 import os
 import re
+import runpy
 import uuid
 from concurrent.futures import ProcessPoolExecutor
 from dataclasses import dataclass, field
@@ -48,11 +49,28 @@ from .game import play_session
 from .grading import GradingError, bounded, check_grader_params, failure_score, grade_log
 from .labels import label_folds
 from .prompts import TableRules, talk_fields
-from .seat import ModelSeat
+from .seat import Complete, Completion, Message, ModelSeat
 
 logger = logging.getLogger("poker_harness.server")
 
 MAX_OUTPUT_BYTES = 900_000  # the connector rejects upstream responses over 1 MiB
+
+
+def hinted_policy(complete: Complete) -> Complete:
+    """Append the repository's OPSD hint to the current prompt on every policy call."""
+    hint_path = next(
+        parent / "opsd" / "hint.py"
+        for parent in Path(__file__).resolve().parents
+        if (parent / "opsd" / "hint.py").is_file()
+    )
+    hint = runpy.run_path(str(hint_path))["HINT"]
+
+    async def hinted(messages: list[Message]) -> str | Completion:
+        # Copy the last message so hints do not accumulate in conversation history.
+        prompt = messages[-1]
+        return await complete([*messages[:-1], prompt | {"content": prompt["content"] + "\n\n" + hint}])
+
+    return hinted
 
 
 class HarnessTask(BaseModel):
@@ -243,7 +261,9 @@ def create_app(
                 httpx.AsyncClient(timeout=timeout, transport=relay_transport) as relay_client,
                 httpx.AsyncClient(timeout=timeout, transport=opponent_transport) as opponent_client,
             ):
-                policy_complete = relay_completion(relay_client, request.ac_api_url, request.ac_api_key, params)
+                policy_complete = hinted_policy(
+                    relay_completion(relay_client, request.ac_api_url, request.ac_api_key, params)
+                )
                 opponent_api = responses_completion if params.get("opponent_api") == "responses" else relay_completion
                 opponent_complete = (
                     opponent_api(opponent_client, opponent_url, opponent_key or "", opponent_params(params))
@@ -251,8 +271,8 @@ def create_app(
                     else policy_complete
                 )
                 # The after-hand cleanup turn has its own output cap (`cleanup_max_completion_tokens`).
-                policy_cleanup = relay_completion(
-                    relay_client, request.ac_api_url, request.ac_api_key, cleanup_params(params)
+                policy_cleanup = hinted_policy(
+                    relay_completion(relay_client, request.ac_api_url, request.ac_api_key, cleanup_params(params))
                 )
                 opponent_cleanup = (
                     opponent_api(

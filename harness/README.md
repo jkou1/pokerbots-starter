@@ -35,7 +35,14 @@ AC2_API_KEY=<key> SHARDS=4 uv run ./run_sharded.sh                              
 `rollout_id` (or `Idempotency-Key` on `submit`). One shard handles a few dozen concurrent tables; size shards and
 CPUs to your training and eval concurrency.
 
-**Container.** `docker build -t poker-harness .` builds an image that runs the
+**Context experiments on this branch.** Every policy call automatically appends `HINT` from
+`opsd/hint.py` to the end of the current prompt, including after-hand cleanup calls.
+Opponent endpoint calls keep their normal context. Edit `HINT`, restart the harness, and run
+`python -m vals_tools.eval` as usual; there is no enable flag. The hint is appended to a copy
+of the outgoing prompt, so it does not accumulate across decisions. Keep separate eval IDs
+for each hint version and compare against a baseline from `main` on the same dataset.
+
+**Container.** From the repository root, `docker build -f harness/Dockerfile -t poker-harness .` builds an image that runs the
 sharded server on port 8765. Run `ac2 harness connect --upstream http://<host>:8765` beside it.
 
 **Check a deployment locally.** `uv run python play_local.py --model <project>/<deployment>` plays one event game
