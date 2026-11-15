@@ -4,9 +4,12 @@ from pathlib import Path
 from ac2.sdk import Client
 from ac2.runtime import Task
 from vals_tools.eval import eval_config
+from vals_tools.arena import write_json
 from pokerbots_working_client import preflight_identity
-p=argparse.ArgumentParser();p.add_argument('--label',choices=['step20','step100','step95','step40'],required=True);p.add_argument('--inference',required=True);p.add_argument('--checkpoint',required=True);p.add_argument('--capacity-receipt',type=Path,required=True);a=p.parse_args();ROOT=Path(__file__).resolve().parent.parent/'data/experiments/late-grpo-fresh64-v1';manifest=json.loads((ROOT/'manifest.json').read_text());clearance=json.loads(a.capacity_receipt.read_text());assert all(clearance.get(k)is True for k in ['grpo_gpus_released','mixed_four_gpus_running','final_requests_drained','protected_serving_verified']);
+p=argparse.ArgumentParser();p.add_argument('--label',choices=['step20','step100','step95','step90','step40','historical2','own-b5'],required=True);p.add_argument('--inference',required=True);p.add_argument('--checkpoint',required=True);p.add_argument('--capacity-receipt',type=Path,required=True);a=p.parse_args();ROOT=Path(__file__).resolve().parent.parent/'data/experiments/late-grpo-fresh64-v1';manifest=json.loads((ROOT/'manifest.json').read_text());clearance=json.loads(a.capacity_receipt.read_text());required=['grpo_gpus_released','final_requests_drained','protected_serving_verified']+([]if a.label=='step20'else['mixed_four_gpus_running']);required=['diagnostic_six_gpus_released','root_own_b5_baseline_approved','protected_serving_verified']if a.label=='own-b5'else required;assert all(clearance.get(k)is True for k in required);
 if a.label=='step95':assert clearance.get('root_fallback95_approved')is True,'No implicit95 fallback'
+if a.label=='step90':assert clearance.get('root_fallback90_approved')is True,'No implicit90 fallback'
+if a.label=='historical2':assert clearance.get('root_historical2_after_teacher_approved')is True and clearance.get('historical_teacher_requests_drained')is True and not clearance.get('new_grpo5_waiting'),'Conditionalhistorical2gatesunmet'
 raw=(ROOT/'tasks.jsonl').read_bytes();assert hashlib.sha256(raw).hexdigest()==manifest['sha256'];tasks=[Task.model_validate(json.loads(x))for x in raw.splitlines()];path=ROOT/'receipt.json';r=json.loads(path.read_text())if path.exists()else {'dataset':manifest['dataset'],'sha256':manifest['sha256'],'evaluations':{},'capacity_receipt':str(a.capacity_receipt.resolve()),'capacity_receipt_sha256':hashlib.sha256(a.capacity_receipt.read_bytes()).hexdigest()};assert r['sha256']==manifest['sha256']
 if a.label in r['evaluations']:
  old=r['evaluations'][a.label];assert old['inference_id']==a.inference and old['checkpoint']==a.checkpoint;print(json.dumps(old));raise SystemExit
@@ -14,7 +17,7 @@ c=Client(project='vals-hackathon',api_key=os.environ['AC2_API_KEY']);identity=pr
 for opp in manifest['opponents'].values():
  actual=c.inference.get(opp['inference_id']);assert actual.checkpoint_id==opp['checkpoint'] and actual.version==opp['version']
 final=json.loads((ROOT.parent/'sealed-final-base20-v1/receipt.json').read_text());assert c.eval.get(final['candidate']['eval_id']).status in ['succeeded','failed','stopped','cancelled']
-save=lambda:path.write_text(json.dumps(r,indent=2)+'\n');name=manifest['dataset']
+save=lambda:write_json(path,r);name=manifest['dataset']
 if 'task_ids'not in r:
  existing={d.name:d for d in c.datasets.list()}
  if name in existing and not r.get('dataset_id'):raise RuntimeError('Existing dataset has no local receipt; no blind append')

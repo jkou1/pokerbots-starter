@@ -17,6 +17,9 @@ while time.time()<1794762000:
  for p in (ROOT/'fullschema-functional30').glob('*/receipt.json'):
   r=json.loads(p.read_text())
   if r.get('eval_id'):tracked[r['eval_id']]={'label':p.parent.name+'-fullschema-functional30','expected':1,'kind':'functional30'}
+ late=ROOT/'late-grpo-fresh64-v1/receipt.json'
+ if late.exists():
+  for label,r in json.loads(late.read_text()).get('evaluations',{}).items():tracked[r['eval_id']]={'label':'late64-'+label,'expected':64,'kind':'late64'}
  dev=ROOT/'base20-development-v1/receipt.json'
  if dev.exists():
   for label,r in json.loads(dev.read_text()).get('runs',{}).items():tracked[r['eval_id']]={'label':'dev4-'+label,'expected':4,'kind':'development30'}
