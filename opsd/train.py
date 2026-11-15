@@ -37,6 +37,7 @@ from ac2.sdk.run_config import (
     TasksConfig,
     TrainDatasetConfig,
     TrainerConfig,
+    TokenJudgeConfig,
 )
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -59,7 +60,7 @@ def run_config(args: argparse.Namespace, name: str) -> RunConfig:
         f"{args.dataset}.",
         tags={"benchmark": "pokerbots", "method": "opsd", "dataset": args.dataset},
         experiment_cfg=ExperimentConfig(
-            method=OPSDConfig(rollout_mode="offline"),
+            method=OPSDConfig(rollout_mode="offline", judge=TokenJudgeConfig(enabled=False)),
             step=StepConfig(
                 samples_per_problem=1,  # required by offline mode: it replays one stored reply per task
                 **_set(
