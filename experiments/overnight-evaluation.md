@@ -174,3 +174,15 @@ Problem: a candidate should also preserve real-tool behavior when the local defa
 Hypothesis/targeted approach: one fresh native 30-hand functional game, with no submit_fields override, against the pinned base20 opponent, retains legal action and cleanup behavior. Preserve normal event sanitizer, strict legality, carried stacks and token caps. This is functional evidence, not another performance ranking sample. Test actual native logs for valid tools/sizing, accepted cleanup, wrong tools and emitted raw/sanitized table talk; investigate any real protocol failures, without changing the running harness.
 
 Before opening final outcomes, the coordinator explicitly selected RL20 checkpoint11e7/inference9efa/version1 from all four completed development pairs, fixed32 evidence and protocol guards. The selection artifact hashes the full development summary and records uncertainty. Final release accepts only that selected candidate on the exact pre-existing six deals/seats/opponent/version/schema; no other checkpoint can be selected from its results. The local-default functional smoke runs concurrently and remains mandatory before promotion. The final collector refuses outcome access before the explicit selected-candidate submission/unseal condition.
+
+## Late GRPO fresh64 selection, prepared before outcomes
+
+Problem: late checkpoint100 may improve or overfit after20; training reward and the consumed final release cannot choose later weights.
+
+Hypothesis:100 (priority), or one intermediate40, improves paired EV against both frozen training-opponent ad74 and distinct betting base20 without protocol regression.
+
+Targeted approach: a new64 single-hand selection cohort,32per opponent, all12opponent/seat cells represented5–6times. Exclude all21556known training/selection/final seeds. Compare fixed20 plus100 and40 on exactly the same tasks; preserve event sanitizer/caps and documented action/amount/say interface. This screens one-hand EV, not carried-stack placement.
+
+Success/stop criteria are frozen in `late-grpo-fresh64-v1/framework.json` before any outcomes: require complete matched coverage, material paired gain, nonnegative base20 stratum, bounded legality and no systematic tool regression. Do not sweep every checkpoint or expand tiny noisy gains. One winner only may advance to carried-stack selection; any later promotion needs a fresh final release.
+
+Capacity gates: final requests drained; rl_ops confirms GRPO six-GPU teardown; mixed SFT actually starts on four GPUs; preserve incumbent/ad74/base20/RL20 serving. Then deploy100oneGPU first and40oneGPU (total10). All mutations preflight lmathias UID10464. Installed SDK explicitly rejects checkpoint-model evals with custom harnesses, so use known-working standalone serving plus native BYOH, not the unsupported native checkpoint engine route.

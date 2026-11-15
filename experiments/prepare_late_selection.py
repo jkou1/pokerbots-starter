@@ -1,0 +1,28 @@
+"""Prepare only: fresh balanced checkpoint20/40/100 selection, no AC2 mutations."""
+import hashlib,json,random,time
+from collections import Counter
+from pathlib import Path
+from ac2.runtime import Task,Message
+ROOT=Path(__file__).resolve().parent.parent/'data/experiments';out=ROOT/'late-grpo-fresh64-v1';out.mkdir(parents=True,exist_ok=True)
+if (out/'manifest.json').exists():
+ r=json.loads((out/'manifest.json').read_text());assert hashlib.sha256((out/'tasks.jsonl').read_bytes()).hexdigest()==r['sha256'];print(json.dumps(r));raise SystemExit
+framework={'problem':'Checkpoint100 may improve or overfit after selected20; saved-training reward and current final6 cannot choose a later checkpoint.','hypothesis':'Late100 (priority) or one intermediate40 improves paired unclipped single-hand EV versus fixed20 across both frozen ad74 and betting base20, without execution regression.','targeted_change':'Checkpoint only; one fresh64-task cohort reused identically across20/100/40. Thirty-two tasks per opponent, balanced seat crosscells. Event single-hand screen, documented action/amount/say interface via unchanged event server; official sanitizer/caps/cleanup unchanged. This is a fast selection diagnostic, not carried-stack quality proof.','test':'One native BYOH screen per model, maxparallel4,retries0, existing20 plus1GPU100 and1GPU40. Real-tool probe first, inspect early actual grades. Use exact raw grade artifact ev_bb, paired bootstrap and opponent strata, invalid decisions and cleanup protocol. Never use clipped primary reward as quality.','success':'Advance only after complete64/64matched coverage, pairedmean unclippedEVgain>=1BB/hand versus20, base20stratum mean>=0, legal>=98% and no morethan2percentagepoint decline versus20, and no systematic tool/cleanup regression. Report uncertainty/tail sensitivity; tiny noisy gains do not justify slow expansion. If100and40bothqualify,100haspriority unless40has>=1BB/hand stronger mean gain with no worse protocol; ifonly40qualifies it may advance. One selected winner gets carried-stack selection followup, never current final6.','stop':'No new models beyond40/100. Diagnose startup/technical stall promptly (>10min without completed tasks), invalid rate>=2% or repeated tool failure, endpoint errors or load regression; reduce parallelism before retrying. Keep checkpoints/opponent versions fixed during runs. If neither offers meaningful improvement, retain20 and stop this checkpoint sweep.','fullgame_followup':'One selected winner only on selection games, potentially cached existing dev4 versus20 to save GPUtime; these are selection data and must not be confused with final validation.','final_isolation':'Current final6 never reused for selecting40/100. Any later proposed promotion needs a new final release.','capacity_preconditions':['Current final6 and all candidate requests drained','rl_ops proves GRPO6GPUrelease','sft_data proves mixedSFT4 actually running','Four protected incumbent/ad74/base20/RL20 serving remain','Then100priority1GPU+401GPU =10total; all new mutations lmathiasUID10464']}
+(out/'framework.json').write_text(json.dumps(framework,indent=2)+'\n')
+known=set();sources=[];training=Path('/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-selfplay-ad74-v1');files=sorted(set(ROOT.rglob('tasks.jsonl'))|{training/f for f in ['train.jsonl','select.jsonl','eval.jsonl','smoke.jsonl']})
+for path in files:
+ if not path.exists() or out in path.parents:continue
+ count=0
+ for line in path.open():
+  seed=json.loads(line).get('env_params',{}).get('seed')
+  if seed is not None:known.add(int(seed));count+=1
+ sources.append({'path':str(path),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'seed_rows':count})
+rng=random.Random(11_150_012);seeds=[]
+while len(seeds)<64:
+ seed=rng.getrandbits(48)
+ if seed not in known and seed not in seeds:seeds.append(seed)
+opponents={'ad74':{'inference_id':'infer_af82066205bf','checkpoint':'ckpt_ad74c826c9ad','version':1},'base20':{'inference_id':'infer_21f395f49bff','checkpoint':'ckpt_23b6b6239f26','version':1}}
+cells=[(opp,seat)for _ in range(5)for opp in opponents for seat in range(6)]+[('ad74',0),('ad74',3),('base20',1),('base20',4)];rng.shuffle(cells);tasks=[];metadata=[]
+for i,(seed,(opp,seat))in enumerate(zip(seeds,cells,strict=True)):
+ tasks.append(Task(input=[Message(role='user',content=f'Play one six-seat poker hand from seat {seat}.')],env_params={'preset':'event','seed':seed,'seats':6,'total_hands':1,'policy_seats':[seat],'submit_fields':['action','amount'],'opponent_model':opponents[opp]['inference_id'],'opponent_timeout_seconds':120,'decision_timeout_seconds':300,'ev_labels':True,'ev_runouts':64},tags={'split':'select','release':'late-grpo-fresh64-v1','opponent_stratum':opp}))
+ metadata.append({'index':i,'seed':seed,'policy_seat':seat,'opponent_stratum':opp})
+raw='\n'.join(t.model_dump_json()for t in tasks)+'\n';(out/'tasks.jsonl').write_text(raw);r={'prepared_at':time.time(),'dataset':'pokerbots-overnight-late-grpo-fresh64-v1','tasks':64,'sha256':hashlib.sha256(raw.encode()).hexdigest(),'opponents':opponents,'opponent_counts':dict(Counter(o for o,s in cells)),'seat_counts':dict(Counter(s for o,s in cells)),'crosscell_counts':{f'{o}-seat{s}':sum(x==(o,s)for x in cells)for o in opponents for s in range(6)},'known_distinct_seeds_excluded':len(known),'excluded_sources':sources,'task_metadata':metadata,'identity_required':'lmathias@berkeley.edu/UID10464','gpu_mutations_performed':False};assert r['opponent_counts']=={'ad74':32,'base20':32};(out/'manifest.json').write_text(json.dumps(r,indent=2)+'\n');print(json.dumps({k:v for k,v in r.items()if k not in ['excluded_sources','task_metadata']},indent=2))
