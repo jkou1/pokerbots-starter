@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "dataset_name": "pokerbots-rl20-restored-functional-train-reuse-v1",
+  "source_eval_id": "eval_0eab37d83222",
+  "source_task_id": "tsk_0f7081400598",
+  "source_dataset": "pokerbots-cleanup-multihand-rl20-v1-train-smoke",
+  "source_task_content_hash": "d82eb9933b6d7d6a7b8f4fd0634f1797383f04caddad7959fe515b6655cb6518",
+  "source_raw_game_sha256": "0626064689f9a5e421603ab420b96027947a513dbe8e77869abfb025549751bd",
+  "local_exact_task_sha256": "cfe8bdbca4e268cd81631bf5a2ea16c344f3997429da8b80eb8ab8e219672aa0",
+  "source_original_file": "/Users/lance/Documents/pokerbots-pokerbench/experiments/cleanup-multihand-rl20-v1/train-tasks.jsonl",
+  "source_original_file_sha256": "14fd00659219013eac61568e6d2ce94bacdfba39b0f957661658263adc47695a",
+  "source_original_zero_based_row": 1,
+  "source_completed_policy_cleanup_hands": 30,
+  "source_policy_busted": false,
+  "scope": "Functional router check only, reuses TRAIN case; not quality ranking/FINAL/model choice.",
+  "no_new_seeds_cards_model_calls": true,
+  "env_params": {
+    "preset": "event",
+    "seed": 173873095175117,
+    "seats": 6,
+    "total_hands": 30,
+    "policy_seats": [
+      1
+    ],
+    "submit_fields": [
+      "action",
+      "amount"
+    ],
+    "opponent_model": "infer_21f395f49bff",
+    "opponent_timeout_seconds": 120,
+    "decision_timeout_seconds": 300,
+    "ev_labels": false
+  },
+  "status": "verified",
+  "dataset_id": "ds_0ac08cc9740e",
+  "returned_task_ids": [
+    "tsk_0f7081400598"
+  ],
+  "task_id": "tsk_0f7081400598",
+  "full_payload_membership_verified": true,
+  "verified_at_epoch": 1794759682.285766
+}

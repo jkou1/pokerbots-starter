@@ -1,0 +1,5 @@
+# Restored RL20 router functionality source
+
+This is one exact prior TRAIN-only task from eval_0eab37d83222, seed173873095175117, policyseat1. The original actor completed30 cleanup turns without busting; the other initial TRAIN case busted early and is not used. Exact original task metadata/input/env fields were loaded from task tsk_0f7081400598 and verified against the frozen local source. No new seed, board, card, target, or scratchpad was generated.
+
+New-account dataset pokerbots-rl20-restored-functional-train-reuse-v1 (ds_0ac08cc9740e) contains that one exact task; the server reused its original content-addressed task ID. Full payload and membership checks passed. receipt.json records hashes and original source attribution; task.jsonl stays ignored. This is only a router/official30hand functional check on previously used TRAIN input, not a new quality benchmark, FINAL set, or model-selection result. Evaluation owner controls endpoint readiness, one native call, maxparallel1 and fifteen-minute limit. The data agent makes no model calls.
