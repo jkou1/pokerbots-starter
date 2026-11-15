@@ -1,0 +1,39 @@
+{
+  "resamples": 5000,
+  "seed": 20261115,
+  "unit": "whole match",
+  "results": {
+    "rain man": {
+      "net_bb": {
+        "bb_per_100": -83.85876418663304,
+        "match_bootstrap_95_percentile_ci": [
+          -205.8904109589041,
+          22.88812785388128
+        ]
+      },
+      "ev_net_bb": {
+        "bb_per_100": -52.39281210592686,
+        "match_bootstrap_95_percentile_ci": [
+          -165.22450331125827,
+          56.51029055690073
+        ]
+      }
+    },
+    "step2": {
+      "net_bb": {
+        "bb_per_100": 132.18901453957997,
+        "match_bootstrap_95_percentile_ci": [
+          16.137566137566136,
+          251.46076794657762
+        ]
+      },
+      "ev_net_bb": {
+        "bb_per_100": 97.93416801292408,
+        "match_bootstrap_95_percentile_ci": [
+          16.001188589540412,
+          184.98106365834008
+        ]
+      }
+    }
+  }
+}

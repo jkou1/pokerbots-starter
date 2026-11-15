@@ -22,6 +22,9 @@ subscription to future matches.
 | `summary.json` | Overall performance, placement distribution, action errors, and breakdowns by submission and match kind |
 | `crawl.py` | Reproducible standard-library crawler and dataset builder |
 | `verify.py` | Offline coverage, hash, identity, count, chip-accounting, and derivation checks |
+| `analysis/REPORT.md` | Success/failure mining with 1,000-trial eval7 Monte Carlo equity, examples, and methodology |
+| `analysis/decision_equity.jsonl` | Oracle and uniform-opponent equity estimates for all 3,604 target decisions |
+| `analyze_equity.py`, `verify_equity.py` | Reproduce and validate the equity analysis; dependencies in `analysis-requirements.txt` |
 
 `action_index` is zero-based within the raw hand's full `actions` array, including
 opponent actions. Join on `match_id` and `hand_number` to recover the full hand.

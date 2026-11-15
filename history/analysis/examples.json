@@ -1,0 +1,3201 @@
+{
+  "largest_winning_hands": [
+    {
+      "match_id": "m_20261115t021344_102ff3",
+      "submission": "step2",
+      "hand_number": 7,
+      "position": "BTN",
+      "players_dealt": 4,
+      "hole_cards": [
+        "5d",
+        "Qh"
+      ],
+      "net_bb": 367.5,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": 39.7425,
+      "allin_final_pots_mc_se_bb": 7.337863052546561,
+      "allin_luck_bb": 327.7575,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": false,
+      "match_place": 2
+    },
+    {
+      "match_id": "m_20261115t022136_ae9f6b",
+      "submission": "step2",
+      "hand_number": 3,
+      "position": "HJ",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Td",
+        "Qc"
+      ],
+      "net_bb": 296.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": false,
+      "match_place": 1
+    },
+    {
+      "match_id": "m_20261115t020616_aaaaa9",
+      "submission": "step2",
+      "hand_number": 3,
+      "position": "BB",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Kh",
+        "2h"
+      ],
+      "net_bb": 199.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": 9.7275,
+      "allin_final_pots_mc_se_bb": 4.51460827185094,
+      "allin_luck_bb": 189.2725,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": false,
+      "match_place": 1
+    },
+    {
+      "match_id": "m_20261115t052001_dbc1c5",
+      "submission": "step2",
+      "hand_number": 11,
+      "position": "BB",
+      "players_dealt": 6,
+      "hole_cards": [
+        "9h",
+        "Kc"
+      ],
+      "net_bb": 195.5,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 6,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": false,
+      "match_place": 2
+    },
+    {
+      "match_id": "m_20261115t001601_1b8159",
+      "submission": "rain man",
+      "hand_number": 14,
+      "position": "BTN",
+      "players_dealt": 5,
+      "hole_cards": [
+        "Ks",
+        "As"
+      ],
+      "net_bb": 184.0,
+      "vpip": true,
+      "pfr": true,
+      "limp_only": false,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 4,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": false,
+      "match_place": 1
+    },
+    {
+      "match_id": "m_20261115t045809_83bc16",
+      "submission": "step2",
+      "hand_number": 2,
+      "position": "BB",
+      "players_dealt": 6,
+      "hole_cards": [
+        "7c",
+        "Ah"
+      ],
+      "net_bb": 184.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": false,
+      "match_place": 1
+    },
+    {
+      "match_id": "m_20261115t020516_99d87e",
+      "submission": "step2",
+      "hand_number": 1,
+      "position": "HJ",
+      "players_dealt": 6,
+      "hole_cards": [
+        "7h",
+        "8h"
+      ],
+      "net_bb": 183.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": true,
+      "open_action": "call",
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 5,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": false,
+      "match_place": 1
+    },
+    {
+      "match_id": "m_20261115t023457_170e96",
+      "submission": "step2",
+      "hand_number": 2,
+      "position": "CO",
+      "players_dealt": 6,
+      "hole_cards": [
+        "9s",
+        "Qh"
+      ],
+      "net_bb": 175.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": true,
+      "open_action": "call",
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 2,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": -25.604666666666667,
+      "allin_final_pots_mc_se_bb": 3.43814023821469,
+      "allin_luck_bb": 200.60466666666667,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": false,
+      "match_place": 3
+    },
+    {
+      "match_id": "m_20261115t021825_b4b5d2",
+      "submission": "step2",
+      "hand_number": 3,
+      "position": "BTN",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Ks",
+        "Qc"
+      ],
+      "net_bb": 147.0,
+      "vpip": true,
+      "pfr": true,
+      "limp_only": false,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 5,
+      "allin_lock_street": "river",
+      "allin_final_pots_ev_bb": 147.0,
+      "allin_final_pots_mc_se_bb": 0.0,
+      "allin_luck_bb": 0.0,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": false,
+      "match_place": 1
+    },
+    {
+      "match_id": "m_20261115t020516_99d87e",
+      "submission": "step2",
+      "hand_number": 21,
+      "position": "BB",
+      "players_dealt": 4,
+      "hole_cards": [
+        "As",
+        "Ks"
+      ],
+      "net_bb": 142.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 5,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": false,
+      "match_place": 1
+    },
+    {
+      "match_id": "m_20261115t045749_7c7c86",
+      "submission": "step2",
+      "hand_number": 15,
+      "position": "BB",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Ac",
+        "4s"
+      ],
+      "net_bb": 123.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": -22.426166666666667,
+      "allin_final_pots_mc_se_bb": 2.9125134486871005,
+      "allin_luck_bb": 145.42616666666666,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": false,
+      "match_place": 1
+    },
+    {
+      "match_id": "m_20261115t020516_99d87e",
+      "submission": "step2",
+      "hand_number": 15,
+      "position": "BTN",
+      "players_dealt": 5,
+      "hole_cards": [
+        "Ac",
+        "Kh"
+      ],
+      "net_bb": 102.5,
+      "vpip": true,
+      "pfr": true,
+      "limp_only": false,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 4,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": false,
+      "match_place": 1
+    },
+    {
+      "match_id": "m_20261115t044013_0524a1",
+      "submission": "step2",
+      "hand_number": 15,
+      "position": "SB",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Th",
+        "Jc"
+      ],
+      "net_bb": 101.5,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 5,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": false,
+      "match_place": 1
+    },
+    {
+      "match_id": "m_20261115t050311_3650ee",
+      "submission": "step2",
+      "hand_number": 1,
+      "position": "SB",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Ad",
+        "Js"
+      ],
+      "net_bb": 101.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": 19.4945,
+      "allin_final_pots_mc_se_bb": 3.1142665871961133,
+      "allin_luck_bb": 81.5055,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": false,
+      "match_place": 1
+    },
+    {
+      "match_id": "m_20261115t015610_191300",
+      "submission": "step2",
+      "hand_number": 3,
+      "position": "UTG",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Td",
+        "Th"
+      ],
+      "net_bb": 100.5,
+      "vpip": true,
+      "pfr": true,
+      "limp_only": false,
+      "open_opportunity": true,
+      "open_action": "raise",
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 2,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": 35.23725,
+      "allin_final_pots_mc_se_bb": 2.9638638656239684,
+      "allin_luck_bb": 65.26275,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": false,
+      "match_place": 2
+    }
+  ],
+  "largest_losing_hands": [
+    {
+      "match_id": "m_20261115t023457_170e96",
+      "submission": "step2",
+      "hand_number": 15,
+      "position": "BB",
+      "players_dealt": 3,
+      "hole_cards": [
+        "5c",
+        "Ad"
+      ],
+      "net_bb": -256.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": -70.9875,
+      "allin_final_pots_mc_se_bb": 6.7574801799289155,
+      "allin_luck_bb": -185.0125,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": true,
+      "match_place": 3
+    },
+    {
+      "match_id": "m_20261115t021344_102ff3",
+      "submission": "step2",
+      "hand_number": 26,
+      "position": "BB",
+      "players_dealt": 2,
+      "hole_cards": [
+        "Ah",
+        "Td"
+      ],
+      "net_bb": -212.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": 76.532,
+      "allin_final_pots_mc_se_bb": 6.2298520072335615,
+      "allin_luck_bb": -288.532,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": true,
+      "match_place": 2
+    },
+    {
+      "match_id": "m_20261115t021344_102ff3",
+      "submission": "step2",
+      "hand_number": 10,
+      "position": "BB",
+      "players_dealt": 2,
+      "hole_cards": [
+        "Qh",
+        "Ac"
+      ],
+      "net_bb": -194.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": false,
+      "match_place": 2
+    },
+    {
+      "match_id": "m_20261115t024721_18b974",
+      "submission": "step2",
+      "hand_number": 24,
+      "position": "BTN",
+      "players_dealt": 4,
+      "hole_cards": [
+        "5s",
+        "Ac"
+      ],
+      "net_bb": -150.0,
+      "vpip": true,
+      "pfr": true,
+      "limp_only": false,
+      "open_opportunity": true,
+      "open_action": "raise",
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 2,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": 30.7505,
+      "allin_final_pots_mc_se_bb": 4.657133817611981,
+      "allin_luck_bb": -180.7505,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": true,
+      "match_place": 4
+    },
+    {
+      "match_id": "m_20261115t000931_736efb",
+      "submission": "rain man",
+      "hand_number": 30,
+      "position": "BB",
+      "players_dealt": 5,
+      "hole_cards": [
+        "As",
+        "Tc"
+      ],
+      "net_bb": -142.0,
+      "vpip": true,
+      "pfr": true,
+      "limp_only": false,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 5,
+      "allin_lock_street": "river",
+      "allin_final_pots_ev_bb": -142.0,
+      "allin_final_pots_mc_se_bb": 0.0,
+      "allin_luck_bb": 0.0,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": true,
+      "match_place": 5
+    },
+    {
+      "match_id": "m_20261115t000257_51a318",
+      "submission": "rain man",
+      "hand_number": 6,
+      "position": "SB",
+      "players_dealt": 5,
+      "hole_cards": [
+        "Ac",
+        "6d"
+      ],
+      "net_bb": -103.5,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": -23.6235,
+      "allin_final_pots_mc_se_bb": 4.086547916227293,
+      "allin_luck_bb": -79.8765,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": true,
+      "match_place": 5
+    },
+    {
+      "match_id": "m_20261115t052001_dbc1c5",
+      "submission": "step2",
+      "hand_number": 28,
+      "position": "BTN",
+      "players_dealt": 5,
+      "hole_cards": [
+        "Th",
+        "Tc"
+      ],
+      "net_bb": -103.0,
+      "vpip": true,
+      "pfr": true,
+      "limp_only": false,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 3,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": false,
+      "match_place": 2
+    },
+    {
+      "match_id": "m_20261114t235527_eb1de4",
+      "submission": "rain man",
+      "hand_number": 1,
+      "position": "BTN",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Kh",
+        "Kc"
+      ],
+      "net_bb": -100.0,
+      "vpip": true,
+      "pfr": true,
+      "limp_only": false,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 3,
+      "allin_lock_street": "flop",
+      "allin_final_pots_ev_bb": -61.204,
+      "allin_final_pots_mc_se_bb": 3.2928469787138948,
+      "allin_luck_bb": -38.796,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": true,
+      "match_place": 5
+    },
+    {
+      "match_id": "m_20261115t040412_75a089",
+      "submission": "step2",
+      "hand_number": 1,
+      "position": "BB",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Kh",
+        "Kc"
+      ],
+      "net_bb": -100.0,
+      "vpip": true,
+      "pfr": true,
+      "limp_only": false,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 4,
+      "allin_lock_street": "turn",
+      "allin_final_pots_ev_bb": -93.985,
+      "allin_final_pots_mc_se_bb": 1.082126736234381,
+      "allin_luck_bb": -6.015000000000001,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": true,
+      "match_place": 6
+    },
+    {
+      "match_id": "m_20261115t051117_331702",
+      "submission": "step2",
+      "hand_number": 2,
+      "position": "HJ",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Kd",
+        "8d"
+      ],
+      "net_bb": -100.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": -22.32175,
+      "allin_final_pots_mc_se_bb": 3.0848203807059362,
+      "allin_luck_bb": -77.67824999999999,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": true,
+      "match_place": 6
+    },
+    {
+      "match_id": "m_20261115t001431_a2bcbe",
+      "submission": "rain man",
+      "hand_number": 2,
+      "position": "BTN",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Jd",
+        "Kh"
+      ],
+      "net_bb": -99.5,
+      "vpip": true,
+      "pfr": true,
+      "limp_only": false,
+      "open_opportunity": true,
+      "open_action": "raise",
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 2,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": 13.31725,
+      "allin_final_pots_mc_se_bb": 3.1143953463410536,
+      "allin_luck_bb": -112.81725,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": true,
+      "match_place": 6
+    },
+    {
+      "match_id": "m_20261115t021023_267ac0",
+      "submission": "step2",
+      "hand_number": 4,
+      "position": "BB",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Kd",
+        "9d"
+      ],
+      "net_bb": -99.0,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": "preflop",
+      "allin_final_pots_ev_bb": -19.1015,
+      "allin_final_pots_mc_se_bb": 3.0783121923716092,
+      "allin_luck_bb": -79.8985,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": true,
+      "match_place": 6
+    },
+    {
+      "match_id": "m_20261114t235626_1861d3",
+      "submission": "rain man",
+      "hand_number": 6,
+      "position": "BTN",
+      "players_dealt": 6,
+      "hole_cards": [
+        "Ah",
+        "9d"
+      ],
+      "net_bb": -98.5,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 2,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": false,
+      "match_place": 6
+    },
+    {
+      "match_id": "m_20261115t021344_102ff3",
+      "submission": "step2",
+      "hand_number": 8,
+      "position": "BB",
+      "players_dealt": 2,
+      "hole_cards": [
+        "Qc",
+        "5h"
+      ],
+      "net_bb": -97.5,
+      "vpip": true,
+      "pfr": false,
+      "limp_only": true,
+      "open_opportunity": false,
+      "open_action": null,
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 1,
+      "allin_lock_street": null,
+      "allin_final_pots_ev_bb": null,
+      "allin_final_pots_mc_se_bb": null,
+      "allin_luck_bb": null,
+      "format_error": false,
+      "postflop": false,
+      "eliminated": false,
+      "match_place": 2
+    },
+    {
+      "match_id": "m_20261115t015242_c17114",
+      "submission": "rain man",
+      "hand_number": 17,
+      "position": "BTN",
+      "players_dealt": 4,
+      "hole_cards": [
+        "Kc",
+        "As"
+      ],
+      "net_bb": -96.5,
+      "vpip": true,
+      "pfr": true,
+      "limp_only": false,
+      "open_opportunity": true,
+      "open_action": "raise",
+      "table_showdown": true,
+      "hero_showdown": true,
+      "decisions": 4,
+      "allin_lock_street": "turn",
+      "allin_final_pots_ev_bb": -62.2505,
+      "allin_final_pots_mc_se_bb": 2.3366021718425793,
+      "allin_luck_bb": -34.2495,
+      "format_error": false,
+      "postflop": true,
+      "eliminated": true,
+      "match_place": 4
+    }
+  ],
+  "high_equity_format_errors": [
+    {
+      "match_id": "m_20261115t005650_2de5bd",
+      "submission": "rain man",
+      "hand_number": 19,
+      "action_index": 11,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t005650_2de5bd?hand=19",
+      "seat": 5,
+      "position": "BTN",
+      "players_dealt": 5,
+      "street": "river",
+      "hole_cards": [
+        "Ah",
+        "7d"
+      ],
+      "board": [
+        "Td",
+        "6s",
+        "7s",
+        "3c",
+        "7c"
+      ],
+      "active_opponents": [
+        0
+      ],
+      "opponent_cards_oracle": {
+        "0": [
+          "As",
+          "Js"
+        ]
+      },
+      "action": "fold",
+      "tool_args": null,
+      "pot_bb": 25.0,
+      "call_cost_bb": 10.0,
+      "stack_before_bb": 122.5,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.2857142857142857,
+      "oracle_equity": 1.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.9505,
+      "uniform_mc_se": 0.006733876676558244,
+      "trials": 1000,
+      "oracle_call_edge": 0.7142857142857143,
+      "uniform_call_edge": 0.6647857142857143,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": 25.0,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -7.0,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": true,
+      "error": "reply hit the 5000-token cap",
+      "afk_reason": "reply hit the 5000-token cap",
+      "tokens": {
+        "in": 2725,
+        "out": 5000,
+        "reasoning": 5000
+      },
+      "latency_s": 23.974
+    },
+    {
+      "match_id": "m_20261115t050030_5022f0",
+      "submission": "step2",
+      "hand_number": 7,
+      "action_index": 11,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050030_5022f0?hand=7",
+      "seat": 3,
+      "position": "HJ",
+      "players_dealt": 6,
+      "street": "river",
+      "hole_cards": [
+        "3s",
+        "3c"
+      ],
+      "board": [
+        "Tc",
+        "7s",
+        "6d",
+        "8d",
+        "6h"
+      ],
+      "active_opponents": [
+        1
+      ],
+      "opponent_cards_oracle": {
+        "1": [
+          "Kd",
+          "4s"
+        ]
+      },
+      "action": "check",
+      "tool_args": null,
+      "pot_bb": 2.5,
+      "call_cost_bb": 0.0,
+      "stack_before_bb": 100.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": null,
+      "oracle_equity": 1.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.3935,
+      "uniform_mc_se": 0.015448184242699736,
+      "trials": 1000,
+      "oracle_call_edge": null,
+      "uniform_call_edge": null,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": 1.5,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": false,
+      "error": "no valid action JSON in reply",
+      "afk_reason": "no valid action JSON in reply",
+      "tokens": {
+        "in": 2473,
+        "out": 1257,
+        "reasoning": 1201
+      },
+      "latency_s": 5.844
+    },
+    {
+      "match_id": "m_20261115t003737_1aeb6b",
+      "submission": "rain man",
+      "hand_number": 2,
+      "action_index": 8,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003737_1aeb6b?hand=2",
+      "seat": 5,
+      "position": "CO",
+      "players_dealt": 6,
+      "street": "flop",
+      "hole_cards": [
+        "Ks",
+        "Kc"
+      ],
+      "board": [
+        "2d",
+        "4h",
+        "7c"
+      ],
+      "active_opponents": [
+        2
+      ],
+      "opponent_cards_oracle": {
+        "2": [
+          "Tc",
+          "Qs"
+        ]
+      },
+      "action": "check",
+      "tool_args": {
+        "action": "bet"
+      },
+      "pot_bb": 21.0,
+      "call_cost_bb": 0.0,
+      "stack_before_bb": 90.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": null,
+      "oracle_equity": 0.975,
+      "oracle_mc_se": 0.004939574819698493,
+      "uniform_equity": 0.8315,
+      "uniform_mc_se": 0.011832064390787761,
+      "trials": 1000,
+      "oracle_call_edge": null,
+      "uniform_call_edge": null,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -9.0,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": false,
+      "error": "bet without an amount",
+      "afk_reason": "bet without an amount",
+      "tokens": {
+        "in": 1901,
+        "out": 198,
+        "reasoning": 138
+      },
+      "latency_s": 1.105
+    },
+    {
+      "match_id": "m_20261115t003536_6444bc",
+      "submission": "rain man",
+      "hand_number": 9,
+      "action_index": 12,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003536_6444bc?hand=9",
+      "seat": 0,
+      "position": "HJ",
+      "players_dealt": 5,
+      "street": "turn",
+      "hole_cards": [
+        "Js",
+        "Jc"
+      ],
+      "board": [
+        "Kd",
+        "6h",
+        "5c",
+        "3d"
+      ],
+      "active_opponents": [
+        4
+      ],
+      "opponent_cards_oracle": {
+        "4": [
+          "8h",
+          "8s"
+        ]
+      },
+      "action": "fold",
+      "tool_args": null,
+      "pot_bb": 210.5,
+      "call_cost_bb": 23.0,
+      "stack_before_bb": 23.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.09850107066381156,
+      "oracle_equity": 0.949,
+      "oracle_mc_se": 0.006960420062571472,
+      "uniform_equity": 0.702,
+      "uniform_mc_se": 0.014470846741134585,
+      "trials": 1000,
+      "oracle_call_edge": 0.8504989293361884,
+      "uniform_call_edge": 0.6034989293361884,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -76.5,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": true,
+      "error": "reply hit the 5000-token cap",
+      "afk_reason": "reply hit the 5000-token cap",
+      "tokens": {
+        "in": 2674,
+        "out": 5000,
+        "reasoning": 5000
+      },
+      "latency_s": 22.529
+    },
+    {
+      "match_id": "m_20261115t052745_82e234",
+      "submission": "step2",
+      "hand_number": 29,
+      "action_index": 10,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052745_82e234?hand=29",
+      "seat": 5,
+      "position": "CO",
+      "players_dealt": 5,
+      "street": "turn",
+      "hole_cards": [
+        "7c",
+        "9c"
+      ],
+      "board": [
+        "Qs",
+        "7s",
+        "5d",
+        "Td"
+      ],
+      "active_opponents": [
+        2,
+        3
+      ],
+      "opponent_cards_oracle": {
+        "2": [
+          "6c",
+          "As"
+        ],
+        "3": [
+          "3c",
+          "2h"
+        ]
+      },
+      "action": "check",
+      "tool_args": null,
+      "pot_bb": 3.0,
+      "call_cost_bb": 0.0,
+      "stack_before_bb": 116.5,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": null,
+      "oracle_equity": 0.919,
+      "oracle_mc_se": 0.008632121032139986,
+      "uniform_equity": 0.4083333333333333,
+      "uniform_mc_se": 0.015235061769061099,
+      "trials": 1000,
+      "oracle_call_edge": null,
+      "uniform_call_edge": null,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": 3.5,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": false,
+      "error": "no valid action JSON in reply",
+      "afk_reason": "no valid action JSON in reply",
+      "tokens": {
+        "in": 2153,
+        "out": 453,
+        "reasoning": 378
+      },
+      "latency_s": 2.316
+    },
+    {
+      "match_id": "m_20261115t004546_325992",
+      "submission": "rain man",
+      "hand_number": 17,
+      "action_index": 8,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t004546_325992?hand=17",
+      "seat": 5,
+      "position": "SB",
+      "players_dealt": 5,
+      "street": "flop",
+      "hole_cards": [
+        "3d",
+        "Ks"
+      ],
+      "board": [
+        "6s",
+        "5s",
+        "3h"
+      ],
+      "active_opponents": [
+        0
+      ],
+      "opponent_cards_oracle": {
+        "0": [
+          "Qs",
+          "Ad"
+        ]
+      },
+      "action": "fold",
+      "tool_args": {
+        "action": "check"
+      },
+      "pot_bb": 15.0,
+      "call_cost_bb": 6.0,
+      "stack_before_bb": 144.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.2857142857142857,
+      "oracle_equity": 0.7745,
+      "oracle_mc_se": 0.012828262326375866,
+      "uniform_equity": 0.561,
+      "uniform_mc_se": 0.015427800135373062,
+      "trials": 1000,
+      "oracle_call_edge": 0.48878571428571427,
+      "uniform_call_edge": 0.27528571428571436,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -3.0,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": false,
+      "error": "check is not legal facing a bet",
+      "afk_reason": "check is not legal facing a bet",
+      "tokens": {
+        "in": 2150,
+        "out": 902,
+        "reasoning": 874
+      },
+      "latency_s": 3.717
+    },
+    {
+      "match_id": "m_20261115t015342_6c0f26",
+      "submission": "step2",
+      "hand_number": 11,
+      "action_index": 6,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t015342_6c0f26?hand=11",
+      "seat": 5,
+      "position": "BTN",
+      "players_dealt": 4,
+      "street": "flop",
+      "hole_cards": [
+        "7d",
+        "7h"
+      ],
+      "board": [
+        "Jd",
+        "4s",
+        "2h"
+      ],
+      "active_opponents": [
+        2
+      ],
+      "opponent_cards_oracle": {
+        "2": [
+          "Qc",
+          "Kd"
+        ]
+      },
+      "action": "fold",
+      "tool_args": {
+        "action": "bet",
+        "amount": 18
+      },
+      "pot_bb": 19.5,
+      "call_cost_bb": 5.0,
+      "stack_before_bb": 117.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.20408163265306123,
+      "oracle_equity": 0.714,
+      "oracle_mc_se": 0.014297146862518005,
+      "uniform_equity": 0.6745,
+      "uniform_mc_se": 0.01481618268209694,
+      "trials": 1000,
+      "oracle_call_edge": 0.5099183673469387,
+      "uniform_call_edge": 0.47041836734693876,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -7.0,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": false,
+      "error": "bet to 18 is outside 20-234",
+      "afk_reason": "bet to 18 is outside 20-234",
+      "tokens": {
+        "in": 2235,
+        "out": 728,
+        "reasoning": 669
+      },
+      "latency_s": 3.49
+    },
+    {
+      "match_id": "m_20261115t015610_191300",
+      "submission": "step2",
+      "hand_number": 8,
+      "action_index": 4,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t015610_191300?hand=8",
+      "seat": 4,
+      "position": "BB",
+      "players_dealt": 5,
+      "street": "preflop",
+      "hole_cards": [
+        "Ah",
+        "Tc"
+      ],
+      "board": [],
+      "active_opponents": [
+        0
+      ],
+      "opponent_cards_oracle": {
+        "0": [
+          "7h",
+          "3h"
+        ]
+      },
+      "action": "check",
+      "tool_args": {
+        "action": "check/match"
+      },
+      "pot_bb": 2.5,
+      "call_cost_bb": 0.0,
+      "stack_before_bb": 250.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": null,
+      "oracle_equity": 0.6185,
+      "oracle_mc_se": 0.015327840444520967,
+      "uniform_equity": 0.606,
+      "uniform_mc_se": 0.01529699310315586,
+      "trials": 1000,
+      "oracle_call_edge": null,
+      "uniform_call_edge": null,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -20.0,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": false,
+      "error": "no valid action JSON in reply",
+      "afk_reason": "no valid action JSON in reply",
+      "tokens": {
+        "in": 1612,
+        "out": 2307,
+        "reasoning": 2277
+      },
+      "latency_s": 9.899
+    },
+    {
+      "match_id": "m_20261115t020717_b22233",
+      "submission": "step2",
+      "hand_number": 7,
+      "action_index": 6,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t020717_b22233?hand=7",
+      "seat": 1,
+      "position": "BB",
+      "players_dealt": 6,
+      "street": "flop",
+      "hole_cards": [
+        "3d",
+        "Tc"
+      ],
+      "board": [
+        "Jh",
+        "Th",
+        "Ah"
+      ],
+      "active_opponents": [
+        5
+      ],
+      "opponent_cards_oracle": {
+        "5": [
+          "4s",
+          "8h"
+        ]
+      },
+      "action": "check",
+      "tool_args": null,
+      "pot_bb": 2.5,
+      "call_cost_bb": 0.0,
+      "stack_before_bb": 115.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": null,
+      "oracle_equity": 0.615,
+      "oracle_mc_se": 0.01519888173537797,
+      "uniform_equity": 0.538,
+      "uniform_mc_se": 0.015059308841470208,
+      "trials": 1000,
+      "oracle_call_edge": null,
+      "uniform_call_edge": null,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": 7.0,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": true,
+      "error": "reply hit the 5000-token cap",
+      "afk_reason": "reply hit the 5000-token cap",
+      "tokens": {
+        "in": 1843,
+        "out": 5000,
+        "reasoning": 5000
+      },
+      "latency_s": 24.072
+    },
+    {
+      "match_id": "m_20261115t021344_102ff3",
+      "submission": "step2",
+      "hand_number": 20,
+      "action_index": 1,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t021344_102ff3?hand=20",
+      "seat": 1,
+      "position": "BB",
+      "players_dealt": 2,
+      "street": "preflop",
+      "hole_cards": [
+        "Qh",
+        "Ac"
+      ],
+      "board": [],
+      "active_opponents": [
+        5
+      ],
+      "opponent_cards_oracle": {
+        "5": [
+          "Kc",
+          "Tc"
+        ]
+      },
+      "action": "fold",
+      "tool_args": null,
+      "pot_bb": 387.0,
+      "call_cost_bb": 213.0,
+      "stack_before_bb": 213.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.355,
+      "oracle_equity": 0.609,
+      "oracle_mc_se": 0.015390122022123667,
+      "uniform_equity": 0.657,
+      "uniform_mc_se": 0.014868492595823965,
+      "trials": 1000,
+      "oracle_call_edge": 0.254,
+      "uniform_call_edge": 0.30200000000000005,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": true,
+      "hand_net_bb": -1.0,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": true,
+      "error": "reply hit the 5000-token cap",
+      "afk_reason": "reply hit the 5000-token cap",
+      "tokens": {
+        "in": 1520,
+        "out": 5000,
+        "reasoning": 5000
+      },
+      "latency_s": 23.64
+    },
+    {
+      "match_id": "m_20261115t050030_5022f0",
+      "submission": "step2",
+      "hand_number": 3,
+      "action_index": 5,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050030_5022f0?hand=3",
+      "seat": 3,
+      "position": "BB",
+      "players_dealt": 6,
+      "street": "preflop",
+      "hole_cards": [
+        "5d",
+        "Ac"
+      ],
+      "board": [],
+      "active_opponents": [
+        5
+      ],
+      "opponent_cards_oracle": {
+        "5": [
+          "2h",
+          "Qh"
+        ]
+      },
+      "action": "check",
+      "tool_args": null,
+      "pot_bb": 2.5,
+      "call_cost_bb": 0.0,
+      "stack_before_bb": 99.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": null,
+      "oracle_equity": 0.5575,
+      "oracle_mc_se": 0.01569044103713914,
+      "uniform_equity": 0.5715,
+      "uniform_mc_se": 0.015309216901008428,
+      "trials": 1000,
+      "oracle_call_edge": null,
+      "uniform_call_edge": null,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": 1.5,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": false,
+      "error": "no valid action JSON in reply",
+      "afk_reason": "no valid action JSON in reply",
+      "tokens": {
+        "in": 1542,
+        "out": 3583,
+        "reasoning": 3540
+      },
+      "latency_s": 17.685
+    },
+    {
+      "match_id": "m_20261115t024721_18b974",
+      "submission": "step2",
+      "hand_number": 14,
+      "action_index": 3,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t024721_18b974?hand=14",
+      "seat": 3,
+      "position": "SB",
+      "players_dealt": 5,
+      "street": "preflop",
+      "hole_cards": [
+        "3d",
+        "6h"
+      ],
+      "board": [],
+      "active_opponents": [
+        4
+      ],
+      "opponent_cards_oracle": {
+        "4": [
+          "2d",
+          "5s"
+        ]
+      },
+      "action": "fold",
+      "tool_args": {
+        "action": "check"
+      },
+      "pot_bb": 1.5,
+      "call_cost_bb": 0.5,
+      "stack_before_bb": 182.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.25,
+      "oracle_equity": 0.5495,
+      "oracle_mc_se": 0.014612093048679347,
+      "uniform_equity": 0.3575,
+      "uniform_mc_se": 0.01458274344581315,
+      "trials": 1000,
+      "oracle_call_edge": 0.2995,
+      "uniform_call_edge": 0.10749999999999998,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": true,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -0.5,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": false,
+      "error": "check is not legal facing a bet",
+      "afk_reason": "check is not legal facing a bet",
+      "tokens": {
+        "in": 1616,
+        "out": 1179,
+        "reasoning": 1151
+      },
+      "latency_s": 5.383
+    },
+    {
+      "match_id": "m_20261115t020616_aaaaa9",
+      "submission": "step2",
+      "hand_number": 15,
+      "action_index": 3,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t020616_aaaaa9?hand=15",
+      "seat": 3,
+      "position": "BB",
+      "players_dealt": 4,
+      "street": "preflop",
+      "hole_cards": [
+        "Ts",
+        "3c"
+      ],
+      "board": [],
+      "active_opponents": [
+        0
+      ],
+      "opponent_cards_oracle": {
+        "0": [
+          "6s",
+          "4s"
+        ]
+      },
+      "action": "check",
+      "tool_args": null,
+      "pot_bb": 2.5,
+      "call_cost_bb": 0.0,
+      "stack_before_bb": 266.5,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": null,
+      "oracle_equity": 0.5485,
+      "oracle_mc_se": 0.015544754401063704,
+      "uniform_equity": 0.4345,
+      "uniform_mc_se": 0.015368667669838722,
+      "trials": 1000,
+      "oracle_call_edge": null,
+      "uniform_call_edge": null,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -2.0,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": true,
+      "error": "reply hit the 5000-token cap",
+      "afk_reason": "reply hit the 5000-token cap",
+      "tokens": {
+        "in": 1584,
+        "out": 5000,
+        "reasoning": 5000
+      },
+      "latency_s": 23.217
+    },
+    {
+      "match_id": "m_20261115t020717_b22233",
+      "submission": "step2",
+      "hand_number": 30,
+      "action_index": 0,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t020717_b22233?hand=30",
+      "seat": 1,
+      "position": "CO",
+      "players_dealt": 4,
+      "street": "preflop",
+      "hole_cards": [
+        "Qh",
+        "8h"
+      ],
+      "board": [],
+      "active_opponents": [
+        0,
+        4,
+        5
+      ],
+      "opponent_cards_oracle": {
+        "0": [
+          "7c",
+          "3s"
+        ],
+        "4": [
+          "6d",
+          "6c"
+        ],
+        "5": [
+          "4s",
+          "7h"
+        ]
+      },
+      "action": "fold",
+      "tool_args": {
+        "action": "check"
+      },
+      "pot_bb": 1.5,
+      "call_cost_bb": 1.0,
+      "stack_before_bb": 109.5,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.4,
+      "oracle_equity": 0.45425,
+      "oracle_mc_se": 0.015723124821553577,
+      "uniform_equity": 0.3078333333333333,
+      "uniform_mc_se": 0.014309536896053375,
+      "trials": 1000,
+      "oracle_call_edge": 0.054249999999999965,
+      "uniform_call_edge": -0.09216666666666673,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": true,
+      "facing_preflop_raise": false,
+      "hand_net_bb": 0.0,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": false,
+      "error": "check is not legal facing a bet",
+      "afk_reason": "check is not legal facing a bet",
+      "tokens": {
+        "in": 1575,
+        "out": 625,
+        "reasoning": 597
+      },
+      "latency_s": 2.934
+    },
+    {
+      "match_id": "m_20261115t001601_1b8159",
+      "submission": "rain man",
+      "hand_number": 17,
+      "action_index": 4,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t001601_1b8159?hand=17",
+      "seat": 0,
+      "position": "BB",
+      "players_dealt": 5,
+      "street": "preflop",
+      "hole_cards": [
+        "4h",
+        "Qh"
+      ],
+      "board": [],
+      "active_opponents": [
+        1
+      ],
+      "opponent_cards_oracle": {
+        "1": [
+          "3s",
+          "3d"
+        ]
+      },
+      "action": "check",
+      "tool_args": null,
+      "pot_bb": 2.5,
+      "call_cost_bb": 0.0,
+      "stack_before_bb": 313.5,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": null,
+      "oracle_equity": 0.4395,
+      "oracle_mc_se": 0.015599137254447218,
+      "uniform_equity": 0.5315,
+      "uniform_mc_se": 0.015378369362329813,
+      "trials": 1000,
+      "oracle_call_edge": null,
+      "uniform_call_edge": null,
+      "terminal_hu_call_opportunity": false,
+      "terminal_oracle_call_ev_bb": null,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -4.5,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": true,
+      "error": "reply hit the 5000-token cap",
+      "afk_reason": "reply hit the 5000-token cap",
+      "tokens": {
+        "in": 1651,
+        "out": 5000,
+        "reasoning": 5000
+      },
+      "latency_s": 21.833
+    }
+  ],
+  "terminal_bad_calls_hindsight": [
+    {
+      "match_id": "m_20261115t052605_6603d2",
+      "submission": "step2",
+      "hand_number": 25,
+      "action_index": 9,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052605_6603d2?hand=25",
+      "seat": 1,
+      "position": "CO",
+      "players_dealt": 4,
+      "street": "turn",
+      "hole_cards": [
+        "Ac",
+        "3c"
+      ],
+      "board": [
+        "9d",
+        "Ah",
+        "Jd",
+        "5h"
+      ],
+      "active_opponents": [
+        5
+      ],
+      "opponent_cards_oracle": {
+        "5": [
+          "As",
+          "Ad"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call",
+        "amount": 133
+      },
+      "pot_bb": 96.5,
+      "call_cost_bb": 66.5,
+      "stack_before_bb": 268.0,
+      "hero_allin": false,
+      "invested_bb": 66.5,
+      "call_pot_odds": 0.40797546012269936,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.829,
+      "uniform_mc_se": 0.011527874560902018,
+      "trials": 1000,
+      "oracle_call_edge": -0.40797546012269936,
+      "uniform_call_edge": 0.4210245398773006,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -66.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -81.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2376,
+        "out": 935,
+        "reasoning": 893
+      },
+      "latency_s": 4.201
+    },
+    {
+      "match_id": "m_20261115t000931_736efb",
+      "submission": "rain man",
+      "hand_number": 30,
+      "action_index": 13,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t000931_736efb?hand=30",
+      "seat": 4,
+      "position": "BB",
+      "players_dealt": 5,
+      "street": "river",
+      "hole_cards": [
+        "As",
+        "Tc"
+      ],
+      "board": [
+        "Kd",
+        "2d",
+        "6s",
+        "Kh",
+        "Td"
+      ],
+      "active_opponents": [
+        3
+      ],
+      "opponent_cards_oracle": {
+        "3": [
+          "6d",
+          "Ks"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call"
+      },
+      "pot_bb": 242.0,
+      "call_cost_bb": 42.0,
+      "stack_before_bb": 42.0,
+      "hero_allin": true,
+      "invested_bb": 42.0,
+      "call_pot_odds": 0.14788732394366197,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.8625,
+      "uniform_mc_se": 0.01083795235324511,
+      "trials": 1000,
+      "oracle_call_edge": -0.14788732394366197,
+      "uniform_call_edge": 0.714612676056338,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -42.0,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -142.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2692,
+        "out": 1818,
+        "reasoning": 1790
+      },
+      "latency_s": 9.095
+    },
+    {
+      "match_id": "m_20261115t010552_3d4cab",
+      "submission": "rain man",
+      "hand_number": 10,
+      "action_index": 11,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t010552_3d4cab?hand=10",
+      "seat": 0,
+      "position": "HJ",
+      "players_dealt": 6,
+      "street": "river",
+      "hole_cards": [
+        "Jh",
+        "Ah"
+      ],
+      "board": [
+        "Qh",
+        "2c",
+        "Jc",
+        "4h",
+        "4s"
+      ],
+      "active_opponents": [
+        5
+      ],
+      "opponent_cards_oracle": {
+        "5": [
+          "As",
+          "Qd"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call",
+        "amount": 61
+      },
+      "pot_bb": 77.0,
+      "call_cost_bb": 30.5,
+      "stack_before_bb": 131.0,
+      "hero_allin": false,
+      "invested_bb": 30.5,
+      "call_pot_odds": 0.2837209302325581,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.769,
+      "uniform_mc_se": 0.013297210828433752,
+      "trials": 1000,
+      "oracle_call_edge": -0.2837209302325581,
+      "uniform_call_edge": 0.4852790697674419,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -30.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -53.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2647,
+        "out": 607,
+        "reasoning": 566
+      },
+      "latency_s": 3.065
+    },
+    {
+      "match_id": "m_20261115t040312_0f42ec",
+      "submission": "step2",
+      "hand_number": 3,
+      "action_index": 18,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t040312_0f42ec?hand=3",
+      "seat": 3,
+      "position": "BB",
+      "players_dealt": 6,
+      "street": "river",
+      "hole_cards": [
+        "Kc",
+        "8h"
+      ],
+      "board": [
+        "Kh",
+        "6s",
+        "Qs",
+        "Jd",
+        "Tc"
+      ],
+      "active_opponents": [
+        4
+      ],
+      "opponent_cards_oracle": {
+        "4": [
+          "Qc",
+          "Kd"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call"
+      },
+      "pot_bb": 84.5,
+      "call_cost_bb": 22.5,
+      "stack_before_bb": 79.5,
+      "hero_allin": false,
+      "invested_bb": 22.5,
+      "call_pot_odds": 0.2102803738317757,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.582,
+      "uniform_mc_se": 0.01529738572469198,
+      "trials": 1000,
+      "oracle_call_edge": -0.2102803738317757,
+      "uniform_call_edge": 0.3717196261682243,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -22.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -43.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 3026,
+        "out": 1184,
+        "reasoning": 1156
+      },
+      "latency_s": 5.5
+    },
+    {
+      "match_id": "m_20261115t044013_0524a1",
+      "submission": "step2",
+      "hand_number": 26,
+      "action_index": 9,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t044013_0524a1?hand=26",
+      "seat": 2,
+      "position": "CO",
+      "players_dealt": 4,
+      "street": "turn",
+      "hole_cards": [
+        "Qc",
+        "Kd"
+      ],
+      "board": [
+        "9c",
+        "2s",
+        "Qh",
+        "3d"
+      ],
+      "active_opponents": [
+        1
+      ],
+      "opponent_cards_oracle": {
+        "1": [
+          "Ks",
+          "Kc"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call",
+        "amount": 48
+      },
+      "pot_bb": 70.0,
+      "call_cost_bb": 24.0,
+      "stack_before_bb": 271.0,
+      "hero_allin": false,
+      "invested_bb": 24.0,
+      "call_pot_odds": 0.2553191489361702,
+      "oracle_equity": 0.023,
+      "oracle_mc_se": 0.0047427305946567844,
+      "uniform_equity": 0.8885,
+      "uniform_mc_se": 0.009945685831890462,
+      "trials": 1000,
+      "oracle_call_edge": -0.2323191489361702,
+      "uniform_call_edge": 0.6331808510638297,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -21.838,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -45.5,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2302,
+        "out": 233,
+        "reasoning": 192
+      },
+      "latency_s": 1.304
+    },
+    {
+      "match_id": "m_20261115t023758_9f67b8",
+      "submission": "step2",
+      "hand_number": 11,
+      "action_index": 6,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t023758_9f67b8?hand=11",
+      "seat": 1,
+      "position": "SB",
+      "players_dealt": 4,
+      "street": "flop",
+      "hole_cards": [
+        "9c",
+        "Ah"
+      ],
+      "board": [
+        "4h",
+        "2s",
+        "Qc"
+      ],
+      "active_opponents": [
+        2
+      ],
+      "opponent_cards_oracle": {
+        "2": [
+          "Qs",
+          "9h"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call",
+        "amount": 53
+      },
+      "pot_bb": 28.5,
+      "call_cost_bb": 26.5,
+      "stack_before_bb": 129.0,
+      "hero_allin": false,
+      "invested_bb": 26.5,
+      "call_pot_odds": 0.4818181818181818,
+      "oracle_equity": 0.14,
+      "oracle_mc_se": 0.010978183844357888,
+      "uniform_equity": 0.4985,
+      "uniform_mc_se": 0.015652244016202365,
+      "trials": 1000,
+      "oracle_call_edge": -0.3418181818181818,
+      "uniform_call_edge": 0.016681818181818187,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -18.799999999999997,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -27.5,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2036,
+        "out": 1084,
+        "reasoning": 1043
+      },
+      "latency_s": 4.545
+    },
+    {
+      "match_id": "m_20261115t052001_dbc1c5",
+      "submission": "step2",
+      "hand_number": 7,
+      "action_index": 11,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052001_dbc1c5?hand=7",
+      "seat": 5,
+      "position": "BTN",
+      "players_dealt": 6,
+      "street": "river",
+      "hole_cards": [
+        "5s",
+        "6c"
+      ],
+      "board": [
+        "6s",
+        "7c",
+        "Kd",
+        "Ad",
+        "9d"
+      ],
+      "active_opponents": [
+        2
+      ],
+      "opponent_cards_oracle": {
+        "2": [
+          "9h",
+          "9s"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call",
+        "amount": 35
+      },
+      "pot_bb": 49.0,
+      "call_cost_bb": 17.5,
+      "stack_before_bb": 125.5,
+      "hero_allin": false,
+      "invested_bb": 17.5,
+      "call_pot_odds": 0.2631578947368421,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.3865,
+      "uniform_mc_se": 0.0151359455220626,
+      "trials": 1000,
+      "oracle_call_edge": -0.2631578947368421,
+      "uniform_call_edge": 0.12334210526315792,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -17.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -32.5,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2567,
+        "out": 1364,
+        "reasoning": 1323
+      },
+      "latency_s": 6.967
+    },
+    {
+      "match_id": "m_20261115t012329_b6f7d3",
+      "submission": "rain man",
+      "hand_number": 15,
+      "action_index": 10,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t012329_b6f7d3?hand=15",
+      "seat": 2,
+      "position": "BB",
+      "players_dealt": 4,
+      "street": "river",
+      "hole_cards": [
+        "Qc",
+        "9c"
+      ],
+      "board": [
+        "6s",
+        "Qd",
+        "Ah",
+        "3s",
+        "Ad"
+      ],
+      "active_opponents": [
+        0
+      ],
+      "opponent_cards_oracle": {
+        "0": [
+          "7d",
+          "Ac"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call"
+      },
+      "pot_bb": 57.5,
+      "call_cost_bb": 15.5,
+      "stack_before_bb": 15.5,
+      "hero_allin": true,
+      "invested_bb": 15.5,
+      "call_pot_odds": 0.21232876712328766,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.844,
+      "uniform_mc_se": 0.011370720878347744,
+      "trials": 1000,
+      "oracle_call_edge": -0.21232876712328766,
+      "uniform_call_edge": 0.6316712328767123,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -15.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -35.5,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2282,
+        "out": 752,
+        "reasoning": 724
+      },
+      "latency_s": 3.353
+    },
+    {
+      "match_id": "m_20261115t005650_2de5bd",
+      "submission": "rain man",
+      "hand_number": 18,
+      "action_index": 13,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t005650_2de5bd?hand=18",
+      "seat": 5,
+      "position": "SB",
+      "players_dealt": 5,
+      "street": "river",
+      "hole_cards": [
+        "5c",
+        "5d"
+      ],
+      "board": [
+        "Ah",
+        "3d",
+        "Js",
+        "As",
+        "4h"
+      ],
+      "active_opponents": [
+        4
+      ],
+      "opponent_cards_oracle": {
+        "4": [
+          "Ac",
+          "Td"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call"
+      },
+      "pot_bb": 58.0,
+      "call_cost_bb": 15.0,
+      "stack_before_bb": 144.5,
+      "hero_allin": false,
+      "invested_bb": 15.0,
+      "call_pot_odds": 0.2054794520547945,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.7095,
+      "uniform_mc_se": 0.014354992713889332,
+      "trials": 1000,
+      "oracle_call_edge": -0.2054794520547945,
+      "uniform_call_edge": 0.5040205479452056,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -15.0,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -36.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2884,
+        "out": 309,
+        "reasoning": 281
+      },
+      "latency_s": 1.628
+    },
+    {
+      "match_id": "m_20261115t015510_3d673a",
+      "submission": "step2",
+      "hand_number": 4,
+      "action_index": 13,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t015510_3d673a?hand=4",
+      "seat": 3,
+      "position": "SB",
+      "players_dealt": 6,
+      "street": "river",
+      "hole_cards": [
+        "As",
+        "Qh"
+      ],
+      "board": [
+        "5h",
+        "6d",
+        "2c",
+        "7h",
+        "5s"
+      ],
+      "active_opponents": [
+        5
+      ],
+      "opponent_cards_oracle": {
+        "5": [
+          "Jd",
+          "Jc"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call",
+        "amount": 30
+      },
+      "pot_bb": 54.0,
+      "call_cost_bb": 15.0,
+      "stack_before_bb": 80.0,
+      "hero_allin": false,
+      "invested_bb": 15.0,
+      "call_pot_odds": 0.21739130434782608,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.4805,
+      "uniform_mc_se": 0.015751757612021203,
+      "trials": 1000,
+      "oracle_call_edge": -0.21739130434782608,
+      "uniform_call_edge": 0.2631086956521739,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -15.0,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -34.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2665,
+        "out": 1772,
+        "reasoning": 1731
+      },
+      "latency_s": 7.919
+    },
+    {
+      "match_id": "m_20261115t040312_0f42ec",
+      "submission": "step2",
+      "hand_number": 29,
+      "action_index": 11,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t040312_0f42ec?hand=29",
+      "seat": 3,
+      "position": "BTN",
+      "players_dealt": 6,
+      "street": "river",
+      "hole_cards": [
+        "Kh",
+        "5c"
+      ],
+      "board": [
+        "Qc",
+        "Jc",
+        "Kd",
+        "6s",
+        "Ts"
+      ],
+      "active_opponents": [
+        5
+      ],
+      "opponent_cards_oracle": {
+        "5": [
+          "As",
+          "Ks"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call",
+        "amount": 25
+      },
+      "pot_bb": 35.0,
+      "call_cost_bb": 12.5,
+      "stack_before_bb": 55.0,
+      "hero_allin": false,
+      "invested_bb": 12.5,
+      "call_pot_odds": 0.2631578947368421,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.5525,
+      "uniform_mc_se": 0.015304508420004153,
+      "trials": 1000,
+      "oracle_call_edge": -0.2631578947368421,
+      "uniform_call_edge": 0.2893421052631579,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -12.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -23.5,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2336,
+        "out": 573,
+        "reasoning": 532
+      },
+      "latency_s": 2.842
+    },
+    {
+      "match_id": "m_20261115t052343_8812a3",
+      "submission": "step2",
+      "hand_number": 2,
+      "action_index": 12,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052343_8812a3?hand=2",
+      "seat": 0,
+      "position": "BTN",
+      "players_dealt": 6,
+      "street": "river",
+      "hole_cards": [
+        "9s",
+        "9c"
+      ],
+      "board": [
+        "Ad",
+        "Qs",
+        "5s",
+        "Js",
+        "Qd"
+      ],
+      "active_opponents": [
+        2
+      ],
+      "opponent_cards_oracle": {
+        "2": [
+          "Kc",
+          "Kd"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call",
+        "amount": 25
+      },
+      "pot_bb": 40.0,
+      "call_cost_bb": 12.5,
+      "stack_before_bb": 86.0,
+      "hero_allin": false,
+      "invested_bb": 12.5,
+      "call_pot_odds": 0.23809523809523808,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.6115,
+      "uniform_mc_se": 0.015412829244019583,
+      "trials": 1000,
+      "oracle_call_edge": -0.23809523809523808,
+      "uniform_call_edge": 0.37340476190476196,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -12.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -26.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2544,
+        "out": 525,
+        "reasoning": 484
+      },
+      "latency_s": 2.402
+    },
+    {
+      "match_id": "m_20261115t045749_7c7c86",
+      "submission": "step2",
+      "hand_number": 8,
+      "action_index": 6,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t045749_7c7c86?hand=8",
+      "seat": 3,
+      "position": "UTG",
+      "players_dealt": 6,
+      "street": "preflop",
+      "hole_cards": [
+        "4c",
+        "4s"
+      ],
+      "board": [],
+      "active_opponents": [
+        5
+      ],
+      "opponent_cards_oracle": {
+        "5": [
+          "Qd",
+          "Qc"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call",
+        "amount": 40
+      },
+      "pot_bb": 22.5,
+      "call_cost_bb": 19.0,
+      "stack_before_bb": 103.5,
+      "hero_allin": false,
+      "invested_bb": 19.0,
+      "call_pot_odds": 0.4578313253012048,
+      "oracle_equity": 0.199,
+      "oracle_mc_se": 0.012572074492980746,
+      "uniform_equity": 0.5665,
+      "uniform_mc_se": 0.015542500420438126,
+      "trials": 1000,
+      "oracle_call_edge": -0.2588313253012048,
+      "uniform_call_edge": 0.10866867469879521,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -10.7415,
+      "unopened_preflop": false,
+      "facing_preflop_raise": true,
+      "hand_net_bb": -20.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 1845,
+        "out": 414,
+        "reasoning": 373
+      },
+      "latency_s": 2.15
+    },
+    {
+      "match_id": "m_20261115t044013_0524a1",
+      "submission": "step2",
+      "hand_number": 24,
+      "action_index": 10,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t044013_0524a1?hand=24",
+      "seat": 2,
+      "position": "SB",
+      "players_dealt": 4,
+      "street": "river",
+      "hole_cards": [
+        "6c",
+        "3c"
+      ],
+      "board": [
+        "Ah",
+        "9d",
+        "9h",
+        "3s",
+        "7s"
+      ],
+      "active_opponents": [
+        3
+      ],
+      "opponent_cards_oracle": {
+        "3": [
+          "7d",
+          "5d"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call"
+      },
+      "pot_bb": 12.0,
+      "call_cost_bb": 10.0,
+      "stack_before_bb": 301.0,
+      "hero_allin": false,
+      "invested_bb": 10.0,
+      "call_pot_odds": 0.45454545454545453,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.5835,
+      "uniform_mc_se": 0.015033421225847221,
+      "trials": 1000,
+      "oracle_call_edge": -0.45454545454545453,
+      "uniform_call_edge": 0.1289545454545455,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -10.0,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -11.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2431,
+        "out": 926,
+        "reasoning": 898
+      },
+      "latency_s": 4.327
+    },
+    {
+      "match_id": "m_20261115t001701_188496",
+      "submission": "rain man",
+      "hand_number": 29,
+      "action_index": 17,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t001701_188496?hand=29",
+      "seat": 1,
+      "position": "HJ",
+      "players_dealt": 6,
+      "street": "river",
+      "hole_cards": [
+        "8h",
+        "9s"
+      ],
+      "board": [
+        "Qc",
+        "9c",
+        "3h",
+        "Tc",
+        "5h"
+      ],
+      "active_opponents": [
+        3
+      ],
+      "opponent_cards_oracle": {
+        "3": [
+          "Ts",
+          "Jd"
+        ]
+      },
+      "action": "call",
+      "tool_args": {
+        "action": "call",
+        "amount": 15
+      },
+      "pot_bb": 24.5,
+      "call_cost_bb": 7.5,
+      "stack_before_bb": 128.5,
+      "hero_allin": false,
+      "invested_bb": 7.5,
+      "call_pot_odds": 0.234375,
+      "oracle_equity": 0.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.626,
+      "uniform_mc_se": 0.01527603866705493,
+      "trials": 1000,
+      "oracle_call_edge": -0.234375,
+      "uniform_call_edge": 0.391625,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": -7.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -15.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2981,
+        "out": 674,
+        "reasoning": 633
+      },
+      "latency_s": 3.401
+    }
+  ],
+  "terminal_missed_calls_hindsight": [
+    {
+      "match_id": "m_20261115t024721_18b974",
+      "submission": "step2",
+      "hand_number": 18,
+      "action_index": 11,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t024721_18b974?hand=18",
+      "seat": 3,
+      "position": "BB",
+      "players_dealt": 5,
+      "street": "river",
+      "hole_cards": [
+        "Th",
+        "As"
+      ],
+      "board": [
+        "Ad",
+        "6d",
+        "Qd",
+        "9s",
+        "8s"
+      ],
+      "active_opponents": [
+        5
+      ],
+      "opponent_cards_oracle": {
+        "5": [
+          "Kd",
+          "Tc"
+        ]
+      },
+      "action": "fold",
+      "tool_args": {
+        "action": "fold"
+      },
+      "pot_bb": 88.5,
+      "call_cost_bb": 30.0,
+      "stack_before_bb": 150.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.25316455696202533,
+      "oracle_equity": 1.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.815,
+      "uniform_mc_se": 0.012244383403214919,
+      "trials": 1000,
+      "oracle_call_edge": 0.7468354430379747,
+      "uniform_call_edge": 0.5618354430379746,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": 88.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -29.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2589,
+        "out": 1191,
+        "reasoning": 1163
+      },
+      "latency_s": 5.017
+    },
+    {
+      "match_id": "m_20261115t022136_ae9f6b",
+      "submission": "step2",
+      "hand_number": 23,
+      "action_index": 9,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t022136_ae9f6b?hand=23",
+      "seat": 5,
+      "position": "BTN",
+      "players_dealt": 3,
+      "street": "river",
+      "hole_cards": [
+        "4s",
+        "As"
+      ],
+      "board": [
+        "8c",
+        "3c",
+        "Ah",
+        "Tc",
+        "9d"
+      ],
+      "active_opponents": [
+        0
+      ],
+      "opponent_cards_oracle": {
+        "0": [
+          "3s",
+          "Ks"
+        ]
+      },
+      "action": "fold",
+      "tool_args": {
+        "action": "fold"
+      },
+      "pot_bb": 28.5,
+      "call_cost_bb": 11.5,
+      "stack_before_bb": 399.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.2875,
+      "oracle_equity": 1.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.77,
+      "uniform_mc_se": 0.013010352388358636,
+      "trials": 1000,
+      "oracle_call_edge": 0.7125,
+      "uniform_call_edge": 0.48250000000000004,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": 28.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -8.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2374,
+        "out": 2865,
+        "reasoning": 2837
+      },
+      "latency_s": 13.309
+    },
+    {
+      "match_id": "m_20261115t001330_01660e",
+      "submission": "rain man",
+      "hand_number": 24,
+      "action_index": 14,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t001330_01660e?hand=24",
+      "seat": 1,
+      "position": "BTN",
+      "players_dealt": 5,
+      "street": "river",
+      "hole_cards": [
+        "8d",
+        "As"
+      ],
+      "board": [
+        "3h",
+        "Kd",
+        "9d",
+        "5s",
+        "Td"
+      ],
+      "active_opponents": [
+        2
+      ],
+      "opponent_cards_oracle": {
+        "2": [
+          "Ad",
+          "6s"
+        ]
+      },
+      "action": "fold",
+      "tool_args": {
+        "action": "fold"
+      },
+      "pot_bb": 27.5,
+      "call_cost_bb": 7.5,
+      "stack_before_bb": 100.5,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.21428571428571427,
+      "oracle_equity": 1.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.3285,
+      "uniform_mc_se": 0.014749756110027898,
+      "trials": 1000,
+      "oracle_call_edge": 0.7857142857142857,
+      "uniform_call_edge": 0.11421428571428574,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": 27.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -9.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2494,
+        "out": 722,
+        "reasoning": 694
+      },
+      "latency_s": 3.308
+    },
+    {
+      "match_id": "m_20261115t005650_2de5bd",
+      "submission": "rain man",
+      "hand_number": 19,
+      "action_index": 11,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t005650_2de5bd?hand=19",
+      "seat": 5,
+      "position": "BTN",
+      "players_dealt": 5,
+      "street": "river",
+      "hole_cards": [
+        "Ah",
+        "7d"
+      ],
+      "board": [
+        "Td",
+        "6s",
+        "7s",
+        "3c",
+        "7c"
+      ],
+      "active_opponents": [
+        0
+      ],
+      "opponent_cards_oracle": {
+        "0": [
+          "As",
+          "Js"
+        ]
+      },
+      "action": "fold",
+      "tool_args": null,
+      "pot_bb": 25.0,
+      "call_cost_bb": 10.0,
+      "stack_before_bb": 122.5,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.2857142857142857,
+      "oracle_equity": 1.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.9505,
+      "uniform_mc_se": 0.006733876676558244,
+      "trials": 1000,
+      "oracle_call_edge": 0.7142857142857143,
+      "uniform_call_edge": 0.6647857142857143,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": 25.0,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -7.0,
+      "format_error": true,
+      "fallback": true,
+      "coerced": false,
+      "token_cap": true,
+      "error": "reply hit the 5000-token cap",
+      "afk_reason": "reply hit the 5000-token cap",
+      "tokens": {
+        "in": 2725,
+        "out": 5000,
+        "reasoning": 5000
+      },
+      "latency_s": 23.974
+    },
+    {
+      "match_id": "m_20261115t005550_50c669",
+      "submission": "rain man",
+      "hand_number": 28,
+      "action_index": 13,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t005550_50c669?hand=28",
+      "seat": 5,
+      "position": "SB",
+      "players_dealt": 5,
+      "street": "river",
+      "hole_cards": [
+        "5d",
+        "4d"
+      ],
+      "board": [
+        "2d",
+        "8h",
+        "5h",
+        "Qs",
+        "Ac"
+      ],
+      "active_opponents": [
+        0
+      ],
+      "opponent_cards_oracle": {
+        "0": [
+          "2h",
+          "9d"
+        ]
+      },
+      "action": "fold",
+      "tool_args": {
+        "action": "fold"
+      },
+      "pot_bb": 24.5,
+      "call_cost_bb": 7.5,
+      "stack_before_bb": 123.5,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.234375,
+      "oracle_equity": 1.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.5245,
+      "uniform_mc_se": 0.015568948010130361,
+      "trials": 1000,
+      "oracle_call_edge": 0.765625,
+      "uniform_call_edge": 0.29012499999999997,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": 24.5,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -8.0,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2874,
+        "out": 402,
+        "reasoning": 374
+      },
+      "latency_s": 2.108
+    },
+    {
+      "match_id": "m_20261115t014923_39be93",
+      "submission": "rain man",
+      "hand_number": 14,
+      "action_index": 15,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t014923_39be93?hand=14",
+      "seat": 0,
+      "position": "BTN",
+      "players_dealt": 6,
+      "street": "river",
+      "hole_cards": [
+        "Ah",
+        "Jh"
+      ],
+      "board": [
+        "Js",
+        "9c",
+        "6s",
+        "Tc",
+        "5d"
+      ],
+      "active_opponents": [
+        5
+      ],
+      "opponent_cards_oracle": {
+        "5": [
+          "9d",
+          "Qs"
+        ]
+      },
+      "action": "fold",
+      "tool_args": {
+        "action": "fold"
+      },
+      "pot_bb": 15.0,
+      "call_cost_bb": 3.0,
+      "stack_before_bb": 49.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.16666666666666666,
+      "oracle_equity": 1.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.822,
+      "uniform_mc_se": 0.012039973461804679,
+      "trials": 1000,
+      "oracle_call_edge": 0.8333333333333334,
+      "uniform_call_edge": 0.6553333333333333,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": 15.0,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -4.5,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2694,
+        "out": 243,
+        "reasoning": 215
+      },
+      "latency_s": 1.216
+    },
+    {
+      "match_id": "m_20261115t003636_c03b04",
+      "submission": "rain man",
+      "hand_number": 15,
+      "action_index": 11,
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003636_c03b04?hand=15",
+      "seat": 0,
+      "position": "CO",
+      "players_dealt": 6,
+      "street": "river",
+      "hole_cards": [
+        "Ac",
+        "4c"
+      ],
+      "board": [
+        "3d",
+        "5s",
+        "9s",
+        "2h",
+        "Td"
+      ],
+      "active_opponents": [
+        5
+      ],
+      "opponent_cards_oracle": {
+        "5": [
+          "Ts",
+          "Ah"
+        ]
+      },
+      "action": "fold",
+      "tool_args": {
+        "action": "fold"
+      },
+      "pot_bb": 13.0,
+      "call_cost_bb": 2.5,
+      "stack_before_bb": 137.0,
+      "hero_allin": false,
+      "invested_bb": 0.0,
+      "call_pot_odds": 0.16129032258064516,
+      "oracle_equity": 1.0,
+      "oracle_mc_se": 0.0,
+      "uniform_equity": 0.984,
+      "uniform_mc_se": 0.003841712997968323,
+      "trials": 1000,
+      "oracle_call_edge": 0.8387096774193549,
+      "uniform_call_edge": 0.8227096774193549,
+      "terminal_hu_call_opportunity": true,
+      "terminal_oracle_call_ev_bb": 13.0,
+      "unopened_preflop": false,
+      "facing_preflop_raise": false,
+      "hand_net_bb": -4.5,
+      "format_error": false,
+      "fallback": false,
+      "coerced": false,
+      "token_cap": false,
+      "error": null,
+      "afk_reason": null,
+      "tokens": {
+        "in": 2352,
+        "out": 694,
+        "reasoning": 666
+      },
+      "latency_s": 3.178
+    }
+  ]
+}

@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 import hashlib
 from html.parser import HTMLParser
 import json
+import math
 from pathlib import Path
 import re
 import time
@@ -145,8 +146,8 @@ def derive(manifest):
     def aggregate(rows):
         completed = [r["result"] for r in rows if r["status"] == "complete"]
         n_hands = sum(r["hands"] for r in completed)
-        net = sum(r["net_bb"] for r in completed)
-        ev = sum(r.get("ev_net_bb", r["net_bb"]) for r in completed)
+        net = math.fsum(r["net_bb"] for r in completed)
+        ev = math.fsum(r.get("ev_net_bb", r["net_bb"]) for r in completed)
         return {"completed_matches": len(completed), "hands": n_hands,
                 "decisions": sum(r["decisions"] for r in completed),
                 "wins": sum(r["place"] == 1 for r in completed),
