@@ -27,8 +27,8 @@ async def run(a):
    async with sem:
     started=time.monotonic()
     try:
-     reply=await asyncio.wait_for(complete(chat_history(row['messages'])),timeout=180);calls=[x for x in reply.tool_calls if x['function']['name']=='update_scratchpad'];payload=json.loads(calls[0]['function']['arguments']) if len(calls)==1 else {};contents=payload.get('contents');valid=isinstance(contents,str) and len(contents)<=5000 and not reply.truncated
-     result={'valid':valid,'characters':len(contents) if isinstance(contents,str) else None,'tokens':reply.out_tokens,'truncated':reply.truncated,'tool_calls':reply.tool_calls,'contents':contents,'reasoning':reply.reasoning,'text':reply.text}
+     reply=await asyncio.wait_for(complete(chat_history(row['messages'])),timeout=180);calls=[x for x in reply.tool_calls if x['function']['name']=='update_scratchpad'];payload=json.loads(calls[0]['function']['arguments']) if len(calls)==1 else {};contents=payload.get('contents');valid=len(reply.tool_calls)==1 and isinstance(contents,str) and len(contents)<=5000 and not reply.truncated
+     result={'valid':valid,'update_call_count':len(calls),'wrong_tool_calls':sum(x['function']['name']!='update_scratchpad' for x in reply.tool_calls),'characters':len(contents) if isinstance(contents,str) else None,'tokens':reply.out_tokens,'truncated':reply.truncated,'tool_calls':reply.tool_calls,'contents':contents,'reasoning':reply.reasoning,'text':reply.text}
     except Exception as e:result={'valid':False,'error':type(e).__name__+': '+str(e)}
     results[i]=result|{'source':row['provenance'],'source_model':row['model'],'source_characters':row['observed_contents_characters'],'seconds':round(time.monotonic()-started,2)};save('running');print(json.dumps({'completed':sum(x is not None for x in results),'valid':sum(bool(x and x.get('valid')) for x in results),'last_characters':result.get('characters')}),flush=True)
   try:

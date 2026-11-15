@@ -25,7 +25,10 @@ while time.time()<1794762000:
  for rid,meta in tracked.items():
   if rid in cache:report['runs'][rid]=cache[rid];continue
   try:
-   run=c.eval.get(rid);scores=[] if meta['kind']=='sealed_health_only' else c.analytics.scores(run_ids=[rid]).to_records();row=meta|{'status':run.status,'compute_job':run.job_id,'graded':len(scores),'scores':scores};report['runs'][rid]=row
+   run=c.eval.get(rid);scores=[] if meta['kind']=='sealed_health_only' else c.analytics.scores(run_ids=[rid]).to_records();row=meta|{'status':run.status,'compute_job':run.job_id,'graded':None if meta['kind']=='sealed_health_only' else len(scores),'scores':scores}
+   if run.status not in ['succeeded','failed','stopped','cancelled']:
+    spans=c.analytics.spans(run_ids=[rid]).select('start_time').filter(name='get_completion').to_records();row['policy_completion_spans']=len(spans);row['last_policy_completion']=max((str(x.get('start_time')) for x in spans),default=None)
+   report['runs'][rid]=row
    if run.status in ['failed','stopped','cancelled'] or (run.status=='succeeded' and (meta['kind']=='sealed_health_only' or len(scores)>=meta['expected'])):cache[rid]=row
   except Exception as e:report['runs'][rid]=meta|{'query_error':type(e).__name__+': '+str(e)[:300]}
  report['local_completed_games']={name:len(list((ROOT/name/'logs').glob('*.json'))) for name in ['overnight-incumbent-select','overnight-ad74-select','overnight-incumbent-frozen-select']};tmp=OUT/'status.tmp';tmp.write_text(json.dumps(report,indent=2));tmp.replace(OUT/'status.json');print(json.dumps({'time':report['updated_at'],'runs':{v['label']:{'status':v.get('status'),'graded':v.get('graded'),'expected':v['expected'],'error':v.get('query_error')} for v in report['runs'].values()},'local':report['local_completed_games']}),flush=True);time.sleep(60)
