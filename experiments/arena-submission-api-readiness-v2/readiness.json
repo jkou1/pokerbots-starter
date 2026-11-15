@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-11-15T14:37:04.782016+00:00",
+  "bounded_followup_minutes": 10,
+  "prior_receipt_sha256": "1dfc4265050064387bacbf539cdfb6fbf316facfabd3a26b99d55a83c864af71",
+  "sdk_version": "0.4.7",
+  "covered_probes_not_repeated": [
+    "exactplatformUIURLBearer302",
+    "apiOpenAPIroot404",
+    "versionedOpenAPI404",
+    "CLIcommandguesses"
+  ],
+  "new_gap_checks": {
+    "cached_console_document_title": "Sign in",
+    "cached_console_document_sha256": "3a05d7c86573ad689ec89580bdb3790a3a7a768b0346d28d8dc0d35bac4b7513",
+    "console_scripts_are_authkit_not_platform": true,
+    "public_assets_inspected": 8,
+    "source_backed_uninspected_arena_lazy_chunks_found": 0,
+    "complete_sdk_non_pyc_arena_symbol_matches": 0,
+    "embedded_json_js_map_yaml_pyi_sdk_assets_found": 0
+  },
+  "source_primary_urls": [
+    "https://github.com/Applied-Compute/pokerbots-starter",
+    "https://www.appliedcompute.com/"
+  ],
+  "route": null,
+  "payload_schema": null,
+  "source_proven_authenticated_arena_GET": null,
+  "mutations_modelcalls_gpujobs_credential_extraction": false,
+  "status": "blocked; no new source-backed route; stop covered-gap search"
+}

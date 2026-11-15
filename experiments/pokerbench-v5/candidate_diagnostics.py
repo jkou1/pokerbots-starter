@@ -58,6 +58,8 @@ async def run():
      results[i]=record;save('running')
    await asyncio.gather(*(one(i,row)for i,row in enumerate(rows)));save('complete');summary={'examples':len(rows),'valid':sum(x.get('valid',False)for x in results),'overlong':sum((x.get('characters')or 0)>5000 for x in results),'wrong_tool_calls':sum(x.get('wrong_tool_calls',0)for x in results)}if is_cleanup else imitation_metrics(rows,[x['action']for x in results]);(O/f'{name}-summary.json').write_text(json.dumps({'label':'LOCAL diagnostic, not poker EV','model':MODEL,'checkpoint':info.checkpoint_id,'summary':summary},indent=2)+'\n');print(name,json.dumps(summary),flush=True)
   async with asyncio.timeout(900):
-   await stage('pokerbench-select136',pb);await stage('preflop-select354',pre);await stage('cleanup-stress10',cleanup,True)
+   await stage('pokerbench-select136',pb)
+   selected=json.loads((O/'raw/pokerbench-select136.json').read_text())['results'];subset=imitation_metrics(pb[:41],[x['action']for x in selected[:41]]);(O/'original41-subset-summary.json').write_text(json.dumps({'label':'LOCAL original41subset within136,no extra queries','model':MODEL,'checkpoint':info.checkpoint_id,'summary':subset},indent=2)+'\n')
+   await stage('preflop-select354',pre);await stage('cleanup-stress10',cleanup,True)
  (O/'complete.json').write_text(json.dumps({'complete':True,'calls':500,'all_requests_drained':True,'no_retries':True,'no_final':True},indent=2)+'\n')
 asyncio.run(run())

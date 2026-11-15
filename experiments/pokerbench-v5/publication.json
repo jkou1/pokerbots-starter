@@ -63,6 +63,16 @@
       "id": "art_f6770a75b509",
       "state": "ready",
       "sha256": "c557ab65b045fceb68d158df8d0c0ab2c7b4d3aa92910982da09c799fa69b7ca"
+    },
+    "first-managed-batch-proof.json": {
+      "id": "art_094534dc23f3",
+      "state": "ready",
+      "sha256": "b1c80bbce2cad1ff14bf538815f7df8ac2b20e8fc4ac39f0c44298baf38dfd5b"
+    },
+    "training-audit-summary.json": {
+      "id": "art_57fae23af70c",
+      "state": "ready",
+      "sha256": "54fc263ef5080adeb40c95252d79d106ebfe1b4bfb5bd4752688d350537ad1cb"
     }
   },
   "train_linked": true,

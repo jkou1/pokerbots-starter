@@ -1,0 +1,223 @@
+{
+  "train_id": "train_091b190911a9",
+  "optimizer_updates": 20,
+  "source_presentations": {
+    "postflop_reconciled": 431,
+    "preflop": 680,
+    "postflop_consistent": 169
+  },
+  "actual_total_presentations": 1280,
+  "unique_remote_tasks_observed": 1280,
+  "unique_original_source_records_observed": {
+    "postflop_reconciled": 431,
+    "preflop": 337,
+    "postflop_consistent": 169
+  },
+  "pre_anchor_copy_presentations": {
+    "6": 69,
+    "1": 68,
+    "5": 70,
+    "4": 70,
+    "0": 61,
+    "9": 62,
+    "3": 75,
+    "7": 78,
+    "2": 64,
+    "8": 63
+  },
+  "exact_target_errors": [],
+  "action_and_amount_CE_windows": {
+    "first10": {
+      "postflop_reconciled": {
+        "samples": 229,
+        "per_action": {
+          "bet": {
+            "samples": 32,
+            "action_ce": 2.340375
+          },
+          "call": {
+            "samples": 60,
+            "action_ce": 0.8688233333333333
+          },
+          "check": {
+            "samples": 53,
+            "action_ce": 0.4833201886792453
+          },
+          "fold": {
+            "samples": 55,
+            "action_ce": 1.0452194545454545
+          },
+          "raise": {
+            "samples": 29,
+            "action_ce": 1.9032310344827585
+          }
+        },
+        "class_balanced_action_ce": 1.3281938022081583,
+        "micro_action_ce": 1.1585944978165938,
+        "amount_samples": 61,
+        "amount_ce": 1.7302501092896174
+      },
+      "preflop": {
+        "samples": 335,
+        "per_action": {
+          "call": {
+            "samples": 39,
+            "action_ce": 1.3388538461538462
+          },
+          "check": {
+            "samples": 8,
+            "action_ce": 0.11514375
+          },
+          "fold": {
+            "samples": 214,
+            "action_ce": 0.315228285046729
+          },
+          "raise": {
+            "samples": 74,
+            "action_ce": 0.5816539864864865
+          }
+        },
+        "class_balanced_action_ce": 0.5877199669217654,
+        "micro_action_ce": 0.48847074029850746,
+        "amount_samples": 74,
+        "amount_ce": 0.421277972972973
+      },
+      "postflop_consistent": {
+        "samples": 76,
+        "per_action": {
+          "bet": {
+            "samples": 5,
+            "action_ce": 2.1848
+          },
+          "call": {
+            "samples": 22,
+            "action_ce": 0.8931318181818182
+          },
+          "check": {
+            "samples": 22,
+            "action_ce": 0.396715
+          },
+          "fold": {
+            "samples": 20,
+            "action_ce": 0.68821
+          },
+          "raise": {
+            "samples": 7,
+            "action_ce": 2.0788857142857142
+          }
+        },
+        "class_balanced_action_ce": 1.2483485064935065,
+        "micro_action_ce": 0.8896977631578947,
+        "amount_samples": 12,
+        "amount_ce": 1.3307102777777777
+      }
+    },
+    "last10": {
+      "preflop": {
+        "samples": 345,
+        "per_action": {
+          "call": {
+            "samples": 30,
+            "action_ce": 1.3589366666666665
+          },
+          "check": {
+            "samples": 11,
+            "action_ce": 0.0727609090909091
+          },
+          "fold": {
+            "samples": 244,
+            "action_ce": 0.10981504344262295
+          },
+          "raise": {
+            "samples": 60,
+            "action_ce": 0.6263874650000001
+          }
+        },
+        "class_balanced_action_ce": 0.5419750210500497,
+        "micro_action_ce": 0.30709156086956524,
+        "amount_samples": 60,
+        "amount_ce": 0.5197448833333334
+      },
+      "postflop_consistent": {
+        "samples": 93,
+        "per_action": {
+          "bet": {
+            "samples": 9,
+            "action_ce": 1.293988888888889
+          },
+          "call": {
+            "samples": 27,
+            "action_ce": 0.8290851851851853
+          },
+          "check": {
+            "samples": 27,
+            "action_ce": 0.33333703703703704
+          },
+          "fold": {
+            "samples": 24,
+            "action_ce": 0.7180708333333333
+          },
+          "raise": {
+            "samples": 6,
+            "action_ce": 1.7594166666666666
+          }
+        },
+        "class_balanced_action_ce": 0.9867797222222222,
+        "micro_action_ce": 0.7615215053763441,
+        "amount_samples": 15,
+        "amount_ce": 1.4582794444444442
+      },
+      "postflop_reconciled": {
+        "samples": 202,
+        "per_action": {
+          "bet": {
+            "samples": 24,
+            "action_ce": 1.1395708333333332
+          },
+          "call": {
+            "samples": 48,
+            "action_ce": 0.7418020833333333
+          },
+          "check": {
+            "samples": 52,
+            "action_ce": 0.38105384615384613
+          },
+          "fold": {
+            "samples": 52,
+            "action_ce": 0.6752
+          },
+          "raise": {
+            "samples": 26,
+            "action_ce": 1.7018615384615383
+          }
+        },
+        "class_balanced_action_ce": 0.9278976602564102,
+        "micro_action_ce": 0.8026227722772277,
+        "amount_samples": 50,
+        "amount_ce": 1.2762096
+      }
+    }
+  },
+  "planned_weighted_corpus": 7369,
+  "actual_weighted_epoch_fraction": 0.17370063780702943,
+  "checkpoint_conversions": {
+    "ckpt_2d48668f564d": {
+      "iter_num": 9,
+      "requested": true,
+      "requested_at": "2026-11-15T14:21:08.345226+00:00",
+      "state": "available"
+    },
+    "ckpt_84112d4189e7": {
+      "iter_num": 19,
+      "requested": true,
+      "requested_at": "2026-11-15T14:22:49.148463+00:00",
+      "state": "available"
+    }
+  },
+  "notes": [
+    "Protocol text/toolname/parameter syntax excluded from action/amount CE.",
+    "First10 and last10 contain different examples; composition and per-class sample counts matter.",
+    "Training CE is not fixed validation, convergence, label optimality or poker EV.",
+    "No generated V5candidate outcome was used in this report."
+  ]
+}
