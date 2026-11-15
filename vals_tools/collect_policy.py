@@ -174,7 +174,13 @@ async def collect(args):
                     )
                     for s in range(6)
                 ]
+                deadline = None
+
                 def progress(partial):
+                    if deadline is not None:
+                        deadline.reschedule(
+                            asyncio.get_running_loop().time() + args.hand_timeout_seconds
+                        )
                     policy_actions = [
                         action
                         for played_hand in partial["hands"]
@@ -196,7 +202,25 @@ async def collect(args):
                         },
                     )
 
-                log = await play_session(str(seed), seed, players, rules, on_hand=progress)
+                try:
+                    async with asyncio.timeout(args.game_timeout_seconds):
+                        async with asyncio.timeout(args.hand_timeout_seconds) as deadline:
+                            log = await play_session(
+                                str(seed), seed, players, rules, on_hand=progress
+                            )
+                except TimeoutError:
+                    failure = {
+                        "trace_id": f"local-{seed}",
+                        "model": args.model,
+                        "policy_seat": policy_seat,
+                        "split": args.split,
+                        "failed": True,
+                        "error": "hand or game deadline exceeded",
+                        "spans": spans,
+                    }
+                    write_json(args.out / "failures" / f"{seed}.json", failure)
+                    print(json.dumps({"seed": seed, "failed": True, "error": failure["error"]}), flush=True)
+                    return failure
                 log["policy_seats"] = [f"seat{policy_seat}"]
                 log["opponent_model"] = args.opponent
                 log["split"] = args.split
@@ -225,6 +249,7 @@ async def collect(args):
             "model": args.model,
             "opponent": args.opponent,
             "hands": len(traces),
+            "failed_games": sum(bool(trace.get("failed")) for trace in traces),
             "seeds": seeds,
             "split": args.split,
         },
@@ -240,10 +265,12 @@ def main():
     p.add_argument("--split", choices=["train", "select", "eval"], default="train")
     p.add_argument("--seed-source", choices=["policy", "starter"], default="policy")
     p.add_argument("--concurrency", type=int, default=4)
+    p.add_argument("--hand-timeout-seconds", type=float, default=300)
+    p.add_argument("--game-timeout-seconds", type=float, default=3600)
     p.add_argument("--out", type=Path, default=Path("data/experiments/principles-base"))
     args = p.parse_args()
-    if args.hands < 1 or args.concurrency < 1:
-        p.error("hands and concurrency must be positive")
+    if min(args.hands, args.concurrency, args.hand_timeout_seconds, args.game_timeout_seconds) <= 0:
+        p.error("hands, concurrency, and deadlines must be positive")
     asyncio.run(collect(args))
 
 
