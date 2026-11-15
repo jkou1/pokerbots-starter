@@ -340,7 +340,11 @@ def create_app(
         params = with_preset(request.task.env_params or {})  # `preset: "event"` applies the event rules
         if "seed" not in params:
             raise HTTPException(status_code=422, detail="env_params.seed is required")
-        rollout = Rollout(id=rollout_id, rules=table_rules(params))
+        try:
+            rules = table_rules(params)
+        except (TypeError, ValueError) as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        rollout = Rollout(id=rollout_id, rules=rules)
         skip_cleanup = params.get("training_skip_final_cleanup", False)
         if type(skip_cleanup) is not bool:
             raise HTTPException(status_code=422, detail="training_skip_final_cleanup must be a boolean")

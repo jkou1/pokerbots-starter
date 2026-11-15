@@ -248,6 +248,8 @@ def table_rules(params: dict[str, Any]) -> TableRules:
         small_blind=int(params.get("small_blind", 1)),
         big_blind=int(params.get("big_blind", 2)),
         starting_stack=int(params.get("starting_stack", 200)),
+        starting_stacks=params.get("starting_stacks"),
+        button_seat=params.get("button_seat"),
         reset_stacks=bool(params.get("reset_stacks", True)),
         table_talk=bool(params.get("table_talk", False)),
         seats=int(params.get("seats", 10)),
@@ -273,6 +275,8 @@ def rules_output(rules: TableRules) -> dict[str, Any]:
         "scratchpad": False,
         "scratchpad_chars": 5000,
         "cleanup_max_completion_tokens": None,
+        "starting_stacks": None,
+        "button_seat": None,
     }  # left out at their defaults, so 10-max talk-off outputs are unchanged
     return {k: v for k, v in asdict(rules).items() if k not in defaults or v != defaults[k]}
 
