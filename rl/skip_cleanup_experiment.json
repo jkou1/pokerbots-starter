@@ -1,8 +1,29 @@
 {
-  "problem": "Single-hand training calls cleanup after terminal reward, although no later hand reads the scratchpad. Observed frozen game cleanup13\u201316seconds dominates~0.5secondactioncalls.",
+  "problem": "Single-hand training calls cleanup after terminal reward although no later hand reads the scratchpad. Full-game collector observations show cleanup can be expensive; its magnitude on fresh single-hand tasks requires measurement.",
   "hypothesis": "Opt-in skipping only the final cleanup of exactly one-hand training tasks removes unrewarded inference time/tokens while preserving actions, stacks, reward and official defaults.",
   "targeted_change": "Add training_skip_final_cleanup=False explicit option to play_session and pass opt-in envflag from server; reject if total_hands !=1. Default and everymulti-handgame unchanged.",
   "test": "Focused mockedgame/server tests compare same-seed actions, finalstacks and grade with cleanup on/off, verify default cleanupcalls and reject multi-hand skip. Existing officialrules/engineparity suites. Live timing optional, no liveharness restart.",
   "success": "SkippedonehandcleanupzeroAPIcalls; pokeraction/rewardparity; default/multihand behaviorpasses.",
-  "stop": "Any action/state/reward difference, any30hand skip acceptance, or inability toisolatechange. No production rollout without separatelyvalidatedharness."
+  "stop": "Any action/state/reward difference, any30hand skip acceptance, or inability toisolatechange. No production rollout without separatelyvalidatedharness.",
+  "validation": {
+    "harness_suite": "126 passed,1skipped",
+    "lint": "All changed files passruff; existing untouchedseat.py/spots.py importorderwarns excluded",
+    "live_probe": "Two same-seed temperature0 games against existing frozenad74 deployment on isolatedport8877, complete through /collect_score; no productionconnectorchange.",
+    "default_seconds": 4.582289042067714,
+    "skip_seconds": 6.837801374960691,
+    "cleanup_seats": [
+      6,
+      0
+    ],
+    "policy_format_errors": [
+      0,
+      0
+    ],
+    "grade_equal": true,
+    "actions_equal": false,
+    "stacks_equal": false,
+    "interpretation": "Live serving nondeterminism changed opponent actions despite temperature0. Both policy grades5.5 match, but timing4.58sdefault vs6.84sskip establishes NO speedup. Exact action/stack/reward parity proven by deterministic mockedAPItests only.",
+    "external_probe": "Aborted at coordinator instruction before any completed result; no claim.",
+    "rollout": "Feature stays opt-in on isolatedbranch; no liveharnessswitch justified by currenttiming."
+  }
 }
