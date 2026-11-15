@@ -92,3 +92,11 @@ Fresh Pete postflop collection/export, corrected PokerBench upload, live RL moni
 **Targeted decision:** Gracefully stop inherited broad GRPO and its queued evaluation sidecar, preserve parent/checkpoints/rollout evidence, and use released8GPUs for two parallel4GPU Pete pilots: incumbent continuation (LR2e-6) and independent base start (LR5e-6), same1667examples/40updates/checkpoint20. Two existing serving deployments retain2GPUs, totaling10. This avoids waiting for a long broad RL run before addressing a directly measured defect. Teardown/start verification is assigned to RL/data agents.
 
 **Predeclared diagnostic:** Restore at least10/39teacher bets while retaining at least69/77teacher checks and99%legal outputs. Also inspect bet sizes/street breakdown, preflop preservation, known enum regression, and cleanup. These diagnostics select candidates; promotion additionally requires matched official-game evidence, separate final holdout, work-safe table-talk review, and rollback readiness. No ad74 promotion based solely on its slightly higher overall imitation agreement.
+
+## Resource transition verified — 00:39 PST
+
+- GRPO and its evaluation sidecar are stopped; parent/ad74 and incumbent deployments are preserved. Final captured RL signal:217scored samples,12complete groups,10nondegenerate,3model-format failures; no saved checkpoint or verified optimizer update. The run was not zero-signal or broken; it was stopped for higher expected ROI from fixing measured postflop collapse.
+- Both targeted SFT pilots are **running**: continuation `train_e3fba0323bd2` / `job_f528c97a9589`, base control `train_4cc69b58d8e9` / `job_b8b470832d80`. Each reserves4GPUs; two serving deployments reserve2: **10/10allocated**. Confirm training throughput/utilization after startup; allocation alone is not saturation.
+- Fast incumbent AC2 selection completed32hands with zeroformaterrors, meanEV+0.344BB/hand. Parent comparison interim is noisy; no evidence to replace incumbent with ad74.
+- Root verified authenticated Safari AC2arena controls and currententry `return of rain man` / `infer_b0f5e9429b7e`. Arena promotion/rollback access is ready; no entry was changed.
+- Practical promotion gate and rollback criteria are recorded in `/Users/lance/Documents/pokerbots-overnight-eval/experiments/overnight-evaluation.md`.
