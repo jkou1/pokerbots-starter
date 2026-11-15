@@ -20,7 +20,7 @@ else:
  parent=read(a.parent)
  if parent['status']=='succeeded' and len(parent['tasks'])==32:parent_cache.write_text(json.dumps(parent,indent=2))
 candidate=read(a.candidate);common=set(parent['tasks'])&set(candidate['tasks']);paired=[]
-for key in common:
+for key in sorted(common):
  if parent['tasks'][key]['ev_bb'] is not None and candidate['tasks'][key]['ev_bb'] is not None:paired.append(candidate['tasks'][key]['ev_bb']-parent['tasks'][key]['ev_bb'])
 def metrics(run):
  rows=list(run['tasks'].values());ev=[x['ev_bb'] for x in rows if x['ev_bb'] is not None];decisions=sum(x['decisions'] or 0 for x in rows);errors=sum(x['format_errors'] or 0 for x in rows)

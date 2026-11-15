@@ -21,7 +21,7 @@ for f in SOURCE.glob('*.json'):
 summary={'eval_id':a.eval,'job_id':run.job_id,'status':run.status,'planned_games':6,'completed_logs':len(rows),'scope':'Actual native official30hand games; unclipped EV and raw placement. Dashboard primary reward is clipped and is not a placement metric. EV is the official harness adjustment; unsupported side pots fall back to realized returns, not solver EV.','games':rows,'source_manifest':manifest}
 if rows:
  native=game_rows(out/'logs');parent=game_rows(ROOT/'overnight-incumbent-frozen-select/logs');common=native.keys()&parent.keys();summary['outcomes']=summarize_games(native);summary['mean_unclipped_ev_bb']=statistics.fmean(x['ev_bb'] for x in rows)
- if common:summary['paired_vs_incumbent']=summarize_games({k:native[k] for k in common},{k:parent[k] for k in common})
+ if common:summary['paired_vs_incumbent']=summarize_games({k:native[k] for k in sorted(common)},{k:parent[k] for k in sorted(common)})
  baseline_path=ROOT/'overnight-incumbent-frozen-select/summary.json'
  if baseline_path.exists():
   baseline={row['seed']:row for row in json.loads(baseline_path.read_text())['games']};diffs=[row['ev_bb']-baseline[row['seed']]['ev_bb'] for row in rows if row['seed'] in baseline];summary['paired_unclipped_ev_vs_incumbent']={'games':len(diffs),'mean_difference_bb':statistics.fmean(diffs) if diffs else None,'bootstrap_ci95':bootstrap(diffs),'baseline_EV_scope':'Official helper applied after local baseline games with same8variants/64runouts; raw logs unchanged.'}

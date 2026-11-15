@@ -130,3 +130,37 @@ Hypothesis: a fixed balanced256decision source-held-out diagnostic distinguishes
 Targeted approach: run the existing incumbent only on `mixed-teacher-actions-v1/fast-select.jsonl` at concurrency4 while the separate rotating slot finishes its promised RL preparation. Do not delay RL checkpoint selection to add more candidate diagnostics. Preserve source order/provenance and keep all final records untouched.
 
 Test/success: report legal rate, action/sizing agreement and per-action recall, explicitly teacher imitation rather than winnings. Stop on source schema or split mismatch; no new deployment or GPU allocation.
+
+## Fixed river-overbet attribution probe
+
+Problem: one RL5 loss involved a legal king-high call against an extreme river shove, but the paired opponent path is stochastic and does not identify whether the behavior is inherited.
+
+Hypothesis: replaying the exact acting-player information across parent ad74, RL20 and baseSFT20 distinguishes an inherited range/sizing weakness from a new policy change.
+
+Targeted approach: retrieve the actual river decision input from native RL5 traces; preserve its public observations, own cards and actual tool history, excluding un-echoed historical reasoning. Four samples per existing endpoint, global concurrency2, official tools/thinking/cap. No opponent hole cards, future outcomes, training labels or new GPUs.
+
+Test/success: report only requested actions, legal rate and call/raise bounds. This selection-only source stays excluded from training. Stop on source-state mismatch or transport failures; do not infer optimality from showdown outcome.
+
+## Sealed final holdout against frozen base SFT20
+
+Problem: final validation needs fresh deals and an opponent distinct from the ad74 selection pool, while long opponent cleanups slow testing.
+
+Hypothesis: six fresh, balanced official 30-hand games against the already-serving base SFT20 provide a faster, distinct-opponent final comparison without extra GPUs.
+
+Targeted approach: pin the base SFT20 inference ID, checkpoint and version as a frozen dependency. Launch only the incumbent baseline now, at parallelism two, under the required new account. Do not query scores, inspect game outcomes, summarize poker metrics or use those results for model choice until one candidate is explicitly selected using selection evidence. Later test that one candidate on the same six deals/seats/opponent. This is an operational seal, not a claim that AC2 dashboard access is restricted.
+
+Test/success: native job ID and health metadata are visible; dataset membership and sampled content are verified; opponent identity/version remain unchanged. After selection, compare paired placement, raw EV, invalid actions and cleanup. Base SFT20 remains frozen through the whole test, even after its own selection eval finishes. Its known occasional short-stack sizing errors are part of this fixed imperfect opponent, not expert labels.
+
+Stop/triage: investigate setup or transport failures and sustained lack of technical progress; do not inspect poker results to decide whether to stop or choose a model. No active training/eval opponent changes, no extra serving model, and no duplicate baseline submission. A revised candidate after failed final validation needs a fresh holdout release.
+
+## RL20 paired development full games against frozen base20
+
+Problem: the positive fixed32 RL20 chip-EV screen does not establish carried-stack placement or reliability against a betting opponent.
+
+Hypothesis: RL20 improves matched game EV and placement relative to the incumbent against base20 without material tool, sizing or cleanup regression.
+
+Targeted approach: four fresh selection-only deals, identical seats/seeds for both policies, immutable base20 inference ID and version, official 30-hand format. Both native existing-deployment jobs run at maximum parallelism two with retries zero, using no additional GPUs. The four seeds are verified disjoint from the six sealed final seeds and prior training/selection releases.
+
+Test/success: compare raw attributed logs for paired unclipped EV, placement, realized returns, busts, invalid decisions and cleanup. Directional gains with intact reliability justify candidate consideration; four games remain noisy. Dashboard clipped reward cannot establish quality.
+
+Stop/triage: repair technical failures or sustained stalls, preserve all model versions while requests are active, and do not inspect sealed final outcomes for development choice. Framework and receipt are written before native submission under verified lmathias UID10464.
