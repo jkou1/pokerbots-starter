@@ -122,3 +122,13 @@ Fresh Pete postflop collection/export, corrected PokerBench upload, live RL moni
 - Canonical managed-SFT boundary fix cherry-picked onto main as `3230221`;7focused tests passed in its isolated worktree. It checks combined prompt+target and rejects double-newline/missing or unsupervised closing-tag errors.
 - Authorized next queued4GPU experiment: corrected PokerBench base-start pilot,40updates,batch64,LR5e-6,checkpoint20, zero rollout/eval engines. **Problem:** Pete-only demonstrations may leave strategic coverage gaps. **Hypothesis:** broader solver-derived labels, with verified chip scaling/group splits/protocol, improve decision quality. **Target:** corrected versioned PokerBench only. **Test:** stratified selection diagnostics and matched official poker versus incumbents/Pete candidates; legal>=99%, sizing checks, separate final holdout; never select on training loss alone. Source-quality audit is a launch prerequisite.
 - Resource plan after current pilots:4GPU nexttraining+2preservedserving+2newPete candidate deployments=8; remaining2GPUs can run a checkpoint-native AC2evaluation of final versus early weights. Every allocation must wait for verified released capacity.
+
+## User steering: GRPO remains the main track — 00:53 PST
+
+The user emphasized that GRPO is the recommended method and setup failures must be diagnosed rather than interpreted as failure of the approach. Coordinator acknowledged the previous stop was premature before a verified optimizer update/checkpoint. The run had real signal; its stop was an ROI scheduling choice, not evidence against GRPO.
+
+**Updated plan:** Finish the two short running SFT pilots, then restore GRPO immediately. Keep the existing ad74 checkpoint/historical dataset/opponents/reward/prompt lineage, make checkpoint cadence explicit, verify real optimizer updates/checkpoints, and monitor infrastructure/model-format failures separately. Use6GPUs with in-run evaluation off and manual checkpoint comparisons, leaving4serving GPUs for incumbent, frozen parent, and two SFT/RL candidate slots:10total. The exact launch/monitor recipe is owned by RLoperations.
+
+**Canceled GPU authorizations:** PokerBench pilot launch is on hold; its corrected v3 preparation/upload remains CPU-only. The proposed extra2GPU standalone checkpoint evaluation is canceled; no such job launched. Candidate evaluation will use the two1GPU slots sequentially after verified capacity release.
+
+The Pete SFT experiment remains a targeted parallel test of measured0/39bet recall; its result can inform a later GRPO initialization, but does not replace reward-based training. A properly graded live hand, an optimizer update, and a saved checkpoint are required before claiming RL progress.
