@@ -1,0 +1,147 @@
+{
+  "scope": "Selection-only four paired official30hand development games. Raw EV uses official harness adjustment, with unsupported sidepots falling back to realized returns. Small sample, no claim of convergence.",
+  "schema_scope": "Task submit_fields action/amount; live event server automatically adds say. Effective action/amount/say, omitting local-default p_win/read. Reduced optional diagnostic schema; sanitizer/caps unchanged. Live Arena code not independently retrieved.",
+  "frozen_opponent": {
+    "inference_id": "infer_21f395f49bff",
+    "checkpoint": "ckpt_23b6b6239f26",
+    "version": 1
+  },
+  "runs": {
+    "incumbent": {
+      "eval_id": "eval_0d1639973dff",
+      "inference_id": "infer_b0f5e9429b7e",
+      "checkpoint": "ckpt_51eee61470f7",
+      "version": 1,
+      "name": "overnight-development-incumbent-vs-base20",
+      "submitted_at": 1794737058.694995,
+      "dashboard": "https://platform.appliedcompute.com/org_cd68943dd947/p/prj_ba36d29befaf/observability/evals/eval_0d1639973dff",
+      "job_id": "job_0825bcd42f49",
+      "status": "succeeded",
+      "completed_games": 4,
+      "planned_games": 4,
+      "cleanup_protocol": {
+        "turns": 96,
+        "attempts": 114,
+        "accepted_updated": 82,
+        "kept_unchanged": 0,
+        "cut": 14,
+        "retried_turns": 18,
+        "exact_valid_update_attempts": 82,
+        "exact_valid_final_updates": 82,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 82,
+          "too_long": 32
+        },
+        "result_counts": {
+          "updated": 82,
+          "cut": 14
+        },
+        "scope": "Recorded cleanup protocol/acceptance only, not factual-memory quality."
+      },
+      "summary": {
+        "place": 4.0,
+        "ev_bb": -27.29175,
+        "realized_bb": -27.125,
+        "busted": 0.5,
+        "decisions": 154,
+        "invalid_decisions": 2,
+        "cleanup_turns": 96,
+        "cleanup_attempts": 114,
+        "cleanup_overlong_attempts": 32,
+        "cleanup_final_cut": 14
+      }
+    },
+    "rl20": {
+      "eval_id": "eval_41013908bd59",
+      "inference_id": "infer_9efa1c614a32",
+      "checkpoint": "ckpt_11e7c430069c",
+      "version": 1,
+      "name": "overnight-development-rl20-vs-base20",
+      "submitted_at": 1794737060.866132,
+      "dashboard": "https://platform.appliedcompute.com/org_cd68943dd947/p/prj_ba36d29befaf/observability/evals/eval_41013908bd59",
+      "job_id": "job_3e27b14afe27",
+      "status": "succeeded",
+      "completed_games": 4,
+      "planned_games": 4,
+      "cleanup_protocol": {
+        "turns": 120,
+        "attempts": 120,
+        "accepted_updated": 120,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 120,
+        "exact_valid_final_updates": 120,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 120
+        },
+        "result_counts": {
+          "updated": 120
+        },
+        "scope": "Recorded cleanup protocol/acceptance only, not factual-memory quality."
+      },
+      "summary": {
+        "place": 3.0,
+        "ev_bb": 28.4825,
+        "realized_bb": 27.0,
+        "busted": 0.0,
+        "decisions": 217,
+        "invalid_decisions": 0,
+        "cleanup_turns": 120,
+        "cleanup_attempts": 120,
+        "cleanup_overlong_attempts": 0,
+        "cleanup_final_cut": 0
+      }
+    }
+  },
+  "matched_games": 4,
+  "paired": {
+    "ev_gain_bb": {
+      "mean": 55.77425,
+      "ci95": [
+        -11.642499999999998,
+        110.215
+      ],
+      "individual_differences": [
+        52.667,
+        103.43,
+        117.0,
+        -50.0
+      ]
+    },
+    "placement_improvement": {
+      "mean": 1.0,
+      "ci95": [
+        -0.5,
+        2.5
+      ],
+      "individual_differences": [
+        0,
+        2,
+        3,
+        -1
+      ]
+    },
+    "realized_gain_bb": {
+      "mean": 54.125,
+      "ci95": [
+        -13.125,
+        107.25
+      ],
+      "individual_differences": [
+        52.0,
+        97.5,
+        117.0,
+        -50.0
+      ]
+    }
+  }
+}

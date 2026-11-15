@@ -1,0 +1,5 @@
+evidence/
+activation.json
+*.jsonl
+*.tmp
+__pycache__/

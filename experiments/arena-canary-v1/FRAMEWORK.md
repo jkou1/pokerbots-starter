@@ -1,0 +1,9 @@
+# Read-only actual Arena canary
+
+Problem: native functional/evaluation runs do not prove the actual Arena request/output protocol after promotion. Hypothesis: examining actual pinned-version Arena gateway spans can detect endpoint, action-format, cleanup-routing and table-talk regressions promptly without new model calls.
+
+Target: no model, job, request, promotion or rollback mutation. Reuse the positively identified Arena span query and observed payloads. Remain inactive until an activation file pins confirmed model/inferenceID/version and cutoverUTC. Do not mix baseline and candidate versions. Poll45seconds until09:00PST, deduplicate span IDs, retain exact evidence only in ignored owner-only files. Public status/alerts contain aggregates and evidence references, never private cards or scratchpad contents.
+
+Test: fixture validation before activation against observed incumbent Arena spans and known native failures. Parse visible legal-actions text from the same decision only. Validate legal enum, check/call availability and bet/raise street-total bounds. Parse actual tool outputs, missing/multiple calls and truncation. Cleanup must call exactly one update_scratchpad with contents string<=5000; correctness here means protocol, not factual truth. Own say content is screened for workplace appropriateness; no opponent private facts are inferred. Tool definitions absent from source are unsupported, including any Arena p_win/read requirement.
+
+Guard: critical endpoint/output or inappropriate talk triggers an alert; at least5%invalid among first40observed unique decisions triggers an alert. Repeated enum/cleanup failures are flagged. Root decides any rollback; this monitor never submits, cancels or changes entries. Losses alone are not format failures. No new training, GPU allocations, sealed final outcome reads or model calls.

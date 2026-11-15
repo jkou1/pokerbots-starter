@@ -1,0 +1,40 @@
+{
+  "eval_id": "eval_79f6e2df2956",
+  "job_id": "job_90e85a7ab1b1",
+  "status": "succeeded",
+  "scope": "One fresh LOCAL-default-schema functional smoke. Optional p_win/read extend the documented Arena action/amount/say interface; live Arena server code not retrieved. No poker performance conclusion.",
+  "effective_submit_fields": [
+    "action",
+    "amount",
+    "p_win",
+    "read",
+    "say"
+  ],
+  "completed_games": 1,
+  "policy_decisions": 53,
+  "invalid_decisions": 0,
+  "hands": 30,
+  "cleanup_protocol": {
+    "turns": 30,
+    "attempts": 30,
+    "accepted_updated": 30,
+    "kept_unchanged": 0,
+    "cut": 0,
+    "retried_turns": 0,
+    "exact_valid_update_attempts": 30,
+    "exact_valid_final_updates": 30,
+    "wrong_tool_calls": 0,
+    "attempts_with_wrong_tools": 0,
+    "missing_update_attempts": 0,
+    "multiple_update_attempts": 0,
+    "attempt_outcomes": {
+      "ok": 30
+    },
+    "result_counts": {
+      "updated": 30
+    },
+    "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok."
+  },
+  "talk": [],
+  "errors": []
+}

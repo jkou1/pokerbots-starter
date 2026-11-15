@@ -1,0 +1,11 @@
+{
+  "active": false,
+  "promotion_confirmed": false,
+  "model": "REPLACE_WITH_CONFIRMED_MODEL",
+  "inference_id": "REPLACE_WITH_CONFIRMED_INFERENCE_ID",
+  "version": 1,
+  "cutover_utc": "REPLACE_WITH_CONFIRMATION_TIME",
+  "entry_id": "org_cd68943dd947",
+  "poll_seconds": 45,
+  "stop_utc": "2026-11-15T17:00:00+00:00"
+}

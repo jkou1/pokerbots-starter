@@ -1,0 +1,35 @@
+{
+  "actual_arena_fixtures": 12,
+  "arena_kinds": {
+    "decision": 9,
+    "cleanup": 3
+  },
+  "arena_detected_errors": {},
+  "native_exact_cases": 12,
+  "known_native_detected_errors": {
+    "invalid_action_enum": 2,
+    "cleanup_contents_not_string": 4,
+    "cleanup_unknown_argument_keys": 9,
+    "wrong_tool": 10,
+    "multiple_tool_calls": 1
+  },
+  "native_control_and_failure_spans": 95,
+  "native95_detected_errors": {
+    "invalid_action_enum": 2,
+    "cleanup_contents_not_string": 15,
+    "cleanup_unknown_argument_keys": 23,
+    "wrong_tool": 24,
+    "action_not_legal": 2,
+    "multiple_tool_calls": 1
+  },
+  "non_arena_excluded": true,
+  "visible_raise_total_and_check_fixture_tests_passed": true,
+  "source_sha256": {
+    "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/arena-schema-inspection/actual-arena-input-output.json": "9e31564be55fb1e4b39e23a53c023579351ce4d2ce98ce8b024c41e4dbd0e7f5",
+    "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/native-official30/base-s20/enum-invalid-exact-inputs.json": "0cd6a9fb74289610c2d6478a638da449d05d8fe97388f2db00f2910c74716388",
+    "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/native-official30/base-s20/enum-native-spans.json": "22f1935b4fd595b3f755d091464fd261f0b6d40f87f585b0e2019778f01979c7"
+  },
+  "no_model_calls": true,
+  "no_training_use": true,
+  "private_evidence_not_copied_to_git": true
+}
