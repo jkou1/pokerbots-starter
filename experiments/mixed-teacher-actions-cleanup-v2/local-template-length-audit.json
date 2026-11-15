@@ -1,0 +1,76 @@
+{
+  "records": 7720,
+  "official_template_source": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B/resolve/main/chat_template.jinja",
+  "template_sha256": "1b8361565cc35d47551d342214cff341c0f1a9685ce529c7ce31de0ed3616248",
+  "generation_mask_extension_removed_for_render_only": true,
+  "all_scaffolds_passed": true,
+  "all_have_one_final_supervised_reply": true,
+  "historical_assistant_supervision": false,
+  "target_tokens": {
+    "submit_action": 292962,
+    "update_scratchpad": 14220
+  },
+  "rendered_sequence_lengths": {
+    "submit_action": {
+      "max_prompt_tokens": 1752,
+      "max_full_sequence_tokens": 1787
+    },
+    "update_scratchpad": {
+      "max_prompt_tokens": 2262,
+      "max_full_sequence_tokens": 2453
+    }
+  },
+  "all_full_sequences_within8192": true,
+  "cleanup_target_token_fraction": 0.04629177490868606,
+  "samples": [
+    {
+      "source_index": 0,
+      "tool": "submit_action",
+      "target_tokens": 35,
+      "target_sha256": "00982c58953cda47d4de6ceee4fa40ccfbe5d9862b95b64ce5161cedbf6ef9de",
+      "one_supervised_reply": true,
+      "boundary_valid": true
+    },
+    {
+      "source_index": 1,
+      "tool": "submit_action",
+      "target_tokens": 48,
+      "target_sha256": "810ff22206ef39d9483abf6c836220443c6db551925e5c63f719fc32b9224faf",
+      "one_supervised_reply": true,
+      "boundary_valid": true
+    },
+    {
+      "source_index": 2,
+      "tool": "submit_action",
+      "target_tokens": 35,
+      "target_sha256": "7ef30cab74e5879ad52ccb9604d44ca477b01a49e3096e9748f99a474cc8cf6c",
+      "one_supervised_reply": true,
+      "boundary_valid": true
+    },
+    {
+      "source_index": 51,
+      "tool": "update_scratchpad",
+      "target_tokens": 149,
+      "target_sha256": "653725ecbbc5756780231822874a8080fe3b7ea7fc50973c41751e43096e93d3",
+      "one_supervised_reply": true,
+      "boundary_valid": true
+    },
+    {
+      "source_index": 91,
+      "tool": "update_scratchpad",
+      "target_tokens": 197,
+      "target_sha256": "37507f1e970d789ef79dd2aede9c9cc812b745b4406f23c49c1c4809d4d0ed7d",
+      "one_supervised_reply": true,
+      "boundary_valid": true
+    },
+    {
+      "source_index": 209,
+      "tool": "update_scratchpad",
+      "target_tokens": 197,
+      "target_sha256": "37507f1e970d789ef79dd2aede9c9cc812b745b4406f23c49c1c4809d4d0ed7d",
+      "one_supervised_reply": true,
+      "boundary_valid": true
+    }
+  ],
+  "managed_backend_render_verification_pending_until_first_update": true
+}

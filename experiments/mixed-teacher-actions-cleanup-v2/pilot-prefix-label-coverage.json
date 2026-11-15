@@ -1,0 +1,161 @@
+{
+  "128": {
+    "teachers": {
+      "house-professor-pete": {
+        "examples": 63,
+        "actions": {
+          "fold": 33,
+          "raise": 10,
+          "call": 10,
+          "check": 8,
+          "bet": 2
+        },
+        "streets": {
+          "preflop": 44,
+          "turn": 7,
+          "flop": 12
+        },
+        "postflop_bets": 2
+      },
+      "house-chatty-carlos": {
+        "examples": 63,
+        "actions": {
+          "check": 13,
+          "raise": 11,
+          "call": 8,
+          "fold": 26,
+          "bet": 5
+        },
+        "streets": {
+          "flop": 7,
+          "river": 7,
+          "preflop": 41,
+          "turn": 8
+        },
+        "postflop_bets": 5
+      }
+    },
+    "cleanup": 2,
+    "note": "Source order; actual backend batch participation is verified separately from managed task IDs."
+  },
+  "640": {
+    "teachers": {
+      "house-professor-pete": {
+        "examples": 299,
+        "actions": {
+          "fold": 148,
+          "raise": 39,
+          "call": 35,
+          "check": 61,
+          "bet": 16
+        },
+        "streets": {
+          "preflop": 201,
+          "turn": 36,
+          "flop": 49,
+          "river": 13
+        },
+        "postflop_bets": 16
+      },
+      "house-chatty-carlos": {
+        "examples": 334,
+        "actions": {
+          "check": 59,
+          "raise": 60,
+          "call": 40,
+          "fold": 134,
+          "bet": 41
+        },
+        "streets": {
+          "flop": 53,
+          "river": 26,
+          "preflop": 215,
+          "turn": 40
+        },
+        "postflop_bets": 41
+      }
+    },
+    "cleanup": 7,
+    "note": "Source order; actual backend batch participation is verified separately from managed task IDs."
+  },
+  "1280": {
+    "teachers": {
+      "house-professor-pete": {
+        "examples": 617,
+        "actions": {
+          "fold": 298,
+          "raise": 76,
+          "call": 77,
+          "check": 124,
+          "bet": 42
+        },
+        "streets": {
+          "preflop": 408,
+          "turn": 76,
+          "flop": 97,
+          "river": 36
+        },
+        "postflop_bets": 42
+      },
+      "house-chatty-carlos": {
+        "examples": 646,
+        "actions": {
+          "check": 112,
+          "raise": 121,
+          "call": 76,
+          "fold": 257,
+          "bet": 80
+        },
+        "streets": {
+          "flop": 102,
+          "river": 59,
+          "preflop": 403,
+          "turn": 82
+        },
+        "postflop_bets": 80
+      }
+    },
+    "cleanup": 17,
+    "note": "Source order; actual backend batch participation is verified separately from managed task IDs."
+  },
+  "7720": {
+    "teachers": {
+      "house-professor-pete": {
+        "examples": 3820,
+        "actions": {
+          "fold": 1817,
+          "raise": 586,
+          "call": 409,
+          "check": 775,
+          "bet": 233
+        },
+        "streets": {
+          "preflop": 2566,
+          "turn": 387,
+          "flop": 581,
+          "river": 286
+        },
+        "postflop_bets": 233
+      },
+      "house-chatty-carlos": {
+        "examples": 3820,
+        "actions": {
+          "check": 669,
+          "raise": 711,
+          "call": 420,
+          "fold": 1473,
+          "bet": 547
+        },
+        "streets": {
+          "flop": 667,
+          "river": 325,
+          "preflop": 2364,
+          "turn": 464
+        },
+        "postflop_bets": 547
+      }
+    },
+    "cleanup": 80,
+    "note": "Source order; actual backend batch participation is verified separately from managed task IDs."
+  }
+}

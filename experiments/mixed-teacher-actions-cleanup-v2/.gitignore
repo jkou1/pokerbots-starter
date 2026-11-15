@@ -5,3 +5,4 @@ task-provenance-map.json
 monitor-state.json
 *.tmp
 __pycache__/
+managed-aggregate-audit.json
