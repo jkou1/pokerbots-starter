@@ -132,3 +132,17 @@ The user emphasized that GRPO is the recommended method and setup failures must 
 **Canceled GPU authorizations:** PokerBench pilot launch is on hold; its corrected v3 preparation/upload remains CPU-only. The proposed extra2GPU standalone checkpoint evaluation is canceled; no such job launched. Candidate evaluation will use the two1GPU slots sequentially after verified capacity release.
 
 The Pete SFT experiment remains a targeted parallel test of measured0/39bet recall; its result can inform a later GRPO initialization, but does not replace reward-based training. A properly graded live hand, an optimizer update, and a saved checkpoint are required before claiming RL progress.
+
+## Early-stop correction and GRPO restart — 00:57 PST
+
+The user correctly challenged why the base SFT pilot ran its entire40update budget without an early-stop decision. Coordinator acknowledged a monitoring gap: job health was watched, but the20update checkpoint was not enforced as a stop/extend decision point. Future launches require predeclared automatic plateau/target-metric rules, earlier checkpoints, and evidence to justify extensions. Retrospective action/amount-token loss analysis is underway to distinguish useful learning from fixed protocol-token loss; different minibatches are not a fixed-validation convergence proof.
+
+Both SFT runs finished40updates and saved final checkpoints: continuation `ckpt_dc82af619ad4`, base `ckpt_30d9913c74b6`. Exit0 confirmed00:54:33/36. Compute wrappers lingered; they were explicitly stopped00:56:02 to release8GPUs without deleting checkpoints.
+
+**GRPO restart submitted:** `train_0dcc5a192e21` / `job_4d0eb2a84133`,6GPUs, queued for released capacity. Samead74parent/20khistoricaldataset/frozenopponents/reward/prompt. Fourtaskgroups×16samples=64rollouts/update (instead of256),100steps,checkpoint5keep20,LR1e-6constant,originalGRPOadvantage/KL/clips,concurrency16,caps24576/32768, in-runevaloff. Server effective config verified optimizerbatch64. **Hypothesis:** retain within-task comparison quality while obtaining real optimizer updates/checkpoints4xsooner. Monitor smaller-batch variance, gradients/KL, legality, reward signal, throughput, and manual held-out checkpoint performance. Do not stop GRPO merely because of infrastructure errors; diagnose/repair them.
+
+Early20update Pete candidate deployments queued: continuation `infer_dd2fdb1ab055`, base `infer_df838d4a9741`. Final steady allocation target:6GRPO+2preserveddeployments+2candidates=10GPUs. No additionalGPUtraining/eval authorized.
+
+**Closed avenues:** Pairedtable-talk validation completed72calls; neither candidate met its predeclared gate. Fold had0/12completevalidtriples; all-in3/12, with zero exact-maxhits in any arm.41missing-toolresponses make effects inconclusive, not provenzero. No further search/training/promotion. Synthetic-reasoning draft was rejected for templated unsupported hand classifications; further generation stopped and no dataset was trained. Keep artifacts only as rejected evidence.
+
+**CPU-only readiness:** Corrected PokerBench v3 (4096cleanpostfloptrain/147fastselect/1582untouchedfinal) fully uploaded/verified after fixing bare action-amount scaling and excluding unsupported source labels. No training queued. Cleanup corpus has four exact recorded concise/factual targets; two concisebutfactuallywrong outputs were rejected. Neither tinycorpus is authorized for GPUtraining without a stronger justification.
