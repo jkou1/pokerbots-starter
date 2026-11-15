@@ -1,0 +1,48 @@
+{
+  "model": {
+    "checkpoint": "ckpt_51eee61470f7"
+  },
+  "name": "pete-postflop-v1-incumbent-sft-40steps-lr2e6",
+  "description": "109 replay-validated Pete matches.1250 postflop+417 unique preflop preservation train examples;75:25 mix;deal-heldout select147 eval103 postflop;protocol boundary v2.",
+  "tags": {
+    "stage": "pete-postflop",
+    "parent_checkpoint": "ckpt_51eee61470f7",
+    "dataset": "pokerbots-pete-postflop-v1-train",
+    "hypothesis": "broaden postflop value extraction with strongest public teacher"
+  },
+  "experiment_cfg": {
+    "method": {
+      "type": "sft"
+    },
+    "step": {
+      "num_train_steps": 40,
+      "problem_batch_size": 64,
+      "samples_per_problem": 1,
+      "checkpoint_interval": 20,
+      "seed": 42
+    },
+    "tasks": {
+      "datasets": [
+        {
+          "ac2_dataset_name": "pokerbots-pete-postflop-v1-train"
+        }
+      ]
+    },
+    "trainer": {
+      "learning_rate": 2e-06
+    },
+    "rollout": {
+      "n_inference_replicas": 0,
+      "max_total_len": 8192
+    },
+    "eval": {
+      "mode": "off"
+    }
+  },
+  "internal_cfg": {
+    "launch": {
+      "n_training_replicas": 1,
+      "tensorboard_enabled": true
+    }
+  }
+}

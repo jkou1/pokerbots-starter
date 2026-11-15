@@ -1,0 +1,46 @@
+{
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "name": "pokerbench-scaled-v2-base-sft-40steps",
+  "description": "Exact 2x chip scaling; scenario-group holdouts; Qwen protocol boundary v2. Short solver supervision pilot.",
+  "tags": {
+    "stage": "pokerbench",
+    "initialization": "base",
+    "target_format": "qwen-protocol-boundary-v2",
+    "dataset": "pokerbots-pokerbench-scaled-v2-train"
+  },
+  "experiment_cfg": {
+    "method": {
+      "type": "sft"
+    },
+    "step": {
+      "num_train_steps": 40,
+      "problem_batch_size": 64,
+      "samples_per_problem": 1,
+      "checkpoint_interval": 20,
+      "seed": 42
+    },
+    "tasks": {
+      "datasets": [
+        {
+          "ac2_dataset_name": "pokerbots-pokerbench-scaled-v2-train"
+        }
+      ]
+    },
+    "trainer": {
+      "learning_rate": 5e-06
+    },
+    "rollout": {
+      "n_inference_replicas": 0,
+      "max_total_len": 8192
+    },
+    "eval": {
+      "mode": "off"
+    }
+  },
+  "internal_cfg": {
+    "launch": {
+      "n_training_replicas": 1,
+      "tensorboard_enabled": true
+    }
+  }
+}

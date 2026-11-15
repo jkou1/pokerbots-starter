@@ -1,0 +1,47 @@
+{
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "name": "pete-postflop-v1-base-control-sft-40steps-lr5e6",
+  "description": "Independent base control on same1667validatedPeteexamples;matched40updates and checkpoint20;LR5e-6 vscontinuation2e-6.",
+  "tags": {
+    "stage": "pete-postflop",
+    "parent_checkpoint": null,
+    "dataset": "pokerbots-pete-postflop-v1-train",
+    "hypothesis": "broaden postflop value extraction with strongest public teacher",
+    "initialization": "base"
+  },
+  "experiment_cfg": {
+    "method": {
+      "type": "sft"
+    },
+    "step": {
+      "num_train_steps": 40,
+      "problem_batch_size": 64,
+      "samples_per_problem": 1,
+      "checkpoint_interval": 20,
+      "seed": 42
+    },
+    "tasks": {
+      "datasets": [
+        {
+          "ac2_dataset_name": "pokerbots-pete-postflop-v1-train"
+        }
+      ]
+    },
+    "trainer": {
+      "learning_rate": 5e-06
+    },
+    "rollout": {
+      "n_inference_replicas": 0,
+      "max_total_len": 8192
+    },
+    "eval": {
+      "mode": "off"
+    }
+  },
+  "internal_cfg": {
+    "launch": {
+      "n_training_replicas": 1,
+      "tensorboard_enabled": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "source": "https://huggingface.co/datasets/RZ412/PokerBench",
+  "hf_fingerprint": "96c12e6a9305380b",
+  "sample_seed": 0,
+  "sample_rows": 20000,
+  "counts": {
+    "train:postflop:bet": 1141,
+    "fractional_states_excluded": 4275,
+    "eval:postflop:raise": 212,
+    "eval:postflop:fold": 363,
+    "select:postflop:fold": 323,
+    "train:postflop:raise": 1600,
+    "train:postflop:check": 2915,
+    "train:postflop:call": 2609,
+    "train:preflop:fold": 735,
+    "train:postflop:fold": 2855,
+    "eval:postflop:call": 344,
+    "train:preflop:raise": 178,
+    "select:postflop:check": 334,
+    "eval:postflop:bet": 147,
+    "eval:preflop:call": 62,
+    "eval:postflop:check": 338,
+    "train:preflop:call": 624,
+    "select:postflop:raise": 206,
+    "select:preflop:raise": 32,
+    "select:postflop:call": 310,
+    "select:postflop:bet": 136,
+    "eval:preflop:fold": 102,
+    "select:preflop:call": 60,
+    "eval:preflop:raise": 14,
+    "select:preflop:fold": 69,
+    "train:preflop:check": 8,
+    "duplicate_observations": 8
+  },
+  "split_counts": {
+    "train": 12665,
+    "select": 1470,
+    "eval": 1582
+  },
+  "scaling": 2,
+  "split": "sha256(observation excluding hole cards) mod10:0 select,1 eval,other train",
+  "target_format": "qwen-protocol-boundary-v2",
+  "limitations": [
+    "Cash-game solver labels are not tournament-optimality proof.",
+    "Fractional-chip states excluded to preserve exact integer targets at official 1/2 blinds.",
+    "Original source has no match IDs; grouped observable scenarios are the strongest available split.",
+    "No full engine legality replay: benchmark labels retained as provided."
+  ],
+  "sha256": {
+    "source.jsonl": "711e1f865e6368f712cbd01caa3dd7ad0d14048ef4498027527264c165733190",
+    "train.jsonl": "859d3a56584526d5901c6aa2bacb10389decbe2e3e7b9160647f2ac978fb5b7d",
+    "eval.jsonl": "ada3f184a806a80ef87e5d8944195070c3badbd08ccca082a9021c0bf767c003",
+    "select.jsonl": "86a0287b5fc53e60aa855a97507bc330acdd5cf37eb8ee26451ad8db0de794ac",
+    "train-tasks.jsonl": "6a690b2119178a8637af17cac2ed9de35af195737a622aebecc5b05f134ba424",
+    "eval-tasks.jsonl": "523c135f2cb3e1bc5f3ab0f3deee1ed58a985eaa236d7664a923d3c86d2481af",
+    "select-tasks.jsonl": "eed14376fa2b7416586fcc67224380a3dcc22ce531dca854ac1d1133c95557b1"
+  }
+}

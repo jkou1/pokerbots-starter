@@ -1,0 +1,43 @@
+{
+  "source": "https://www.pokerbots.ac/matches?entry=house-professor-pete",
+  "cutoff": "2026-11-15T08:32:36.914498+00:00",
+  "discovered": 109,
+  "listing_pages": [
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=house-professor-pete",
+      "file": "listings/page-1.html",
+      "sha256": "39c438d16767265bdcc9c9c45a0863b92b86dbf8717fd37fabc29daae48a7be5",
+      "matches": 25
+    },
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=house-professor-pete&page=2",
+      "file": "listings/page-2.html",
+      "sha256": "c41973c5c13c87282ec400fc8442cc0d29633d0092fa3918a2ed21309d09fc15",
+      "matches": 50
+    },
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=house-professor-pete&page=3",
+      "file": "listings/page-3.html",
+      "sha256": "03554d8ed5df6220bd218c5c679e07dd90317d31b72561cabb1f3c75d455c1a2",
+      "matches": 75
+    },
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=house-professor-pete&page=4",
+      "file": "listings/page-4.html",
+      "sha256": "36eec86eb48738b6166de5aeb38b1a2698bdeb74bf29b4fd4a2d0b7aa4fe292e",
+      "matches": 100
+    },
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=house-professor-pete&page=5",
+      "file": "listings/page-5.html",
+      "sha256": "e86080c9e348c85664099eb47d5904ab271311ca3d328ed193dba01b75eadf1d",
+      "matches": 109
+    }
+  ],
+  "results": {
+    "complete": 109,
+    "failed": 0,
+    "incomplete": 0,
+    "after_cutoff": 0
+  }
+}
