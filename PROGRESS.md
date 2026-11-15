@@ -207,3 +207,11 @@ The revised requested teacherpilot was verified locally with the actual35Btempla
 All four development pairs finished before freezing RL20. Directional improvement and substantially better cleanup reliability justify a possible monitored canary, not a statistical superiority claim. Separate six-game final is running with pinned opponent/deals and no extra inference GPUs. Functional smoke passed one complete30hand game,0/53invalid,30/30correct accepted cleanup. Workplace probes were legal and silent; actual final outputs will be reviewed within the five-minute promotion budget.
 
 Current entry remains `return of rain man` / `infer_b0f5e9429b7e`. Root browser retries still report `cgWindowNotFound` and browser host unavailable. New-account API exploration was read-only and found no authoritative submit route/schema; no fabricated route, old credential fallback, entry mutation, or job cancellation. Prepared canary remains inactive pending an actual verified promotion.
+
+## Post-GRPO allocation and factual-memory limit — 02:46 PST
+
+After100updates and verified final-save/teardown, budget is mixedteacherSFT4GPUs + four protected serving dependencies + lateGRPO100candidate1GPU + checkpoint40intermediate1GPU =10. Latecheckpoints get one fresh64deal paired selection against frozenRL20 with fixed opponent strata; no sweep of every checkpoint or reuse of the sealed final. Native checkpoint evaluations cannot use customharness in this SDK; known-working standalone deployments/nativeBYOH will be used. No new inference allocations before actual capacity verification.
+
+RL20 cleanup protocol success does not establish factual memory accuracy. A CPU-only audit of150accepted selection/functionalupdates found17with factual-copy mismatches among1370recognizableclaims, mostly oldhistory drift; one currenthand mismatch and one missingcurrenthandclaim. No incumbent factual comparison exists. These are disclosed limitations, not invented training targets or a new perfection gate.
+
+The step85zero-variance alert resolved in subsequent16samplegroups with observed rewardstandarddeviations1.829/0.650/1.291 and healthygradient0.8553. No sustained setupdefect or stoptrigger; recipe unchanged.
