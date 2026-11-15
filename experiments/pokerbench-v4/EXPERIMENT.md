@@ -1,0 +1,15 @@
+# Proposed short ad74 knowledge pilot — not submitted
+
+Problem: old SFT policy has weak postflop value betting; broader solver decisions were prepared but never trained. Hypothesis: a very small update from the stronger proven old SFT ad74 parent on unchanged, monetarily consistent PokerBench decisions improves action knowledge while preflop anchors preserve behavior.
+
+Target: checkpoint `ckpt_ad74c826c9ad`,1060unique consistent postflop rows plus387unique heldout-safe preflop rows sampled3times.2221weighted examples,52.27%preflop. No cleanup demonstrations or fabricated strategic reasoning; the existing nonempty protocol scaffold matches the old SFT format. Cash-game solver transfer and absent memory training remain limitations.
+
+Prepared config: LR1e-6,batch64,hard10updates,checkpoints at updates5/10(iterations4/9),seed42,one4GPU trainer,zero rollout/eval engines,max2048tokens versus measured1424max. No training launch before successful clean-runtime-secret ad74 warm-start control and explicit rootGO. Never use the stale V3 forty-step configuration.
+
+Test: freeze the same41PokerBench SELECT decisions and independent preflop retention suite; measure action-balanced agreement, exact sizing, legal enums/bounds, bet/check recall, and action/amount-token CE separately from protocol text. Report CPU versus managed-boundary evidence distinctly. Early/final checkpoints receive identical probes; no FINAL queries or ranking. Official paired poker EV/placement is primary for model advancement, not teacher agreement or loss.
+
+Success for this knowledge pilot: all41selection outputs legal; at least3additional exact teacher decisions versus the frozen ad74 reference without a drop in action-balanced agreement; preflop agreement within3percentage points of the same parent reference and no new enum regression. Any apparent poker advancement also needs the unchanged official paired selection protocol, no increased invalid rate, strict factual/useful cleanup checks, and the required workplace review. Passing imitation alone never authorizes promotion.
+
+Stop/extension rules: hard stop at10updates; no automatic extension. Inspect checkpoint5as soon as saved. Stop earlier on source/mask/parent-loading failure, invalid enums, significant preflop regression, or sustained stalled work. If checkpoint5/10show no meaningful action improvement, or action-token CE plateaus without behavior improvement, close negative rather than repeat unchanged runs. Plateau rule for a future extension decision: less than5%relative reduction in class-balanced action CE across the latest comparable five-update window is insufficient by itself; extension additionally requires a passing fixed behavioral gate and explicit root approval. Distinct shuffled batches are not a valid convergence proof.
+
+These numerical knowledge gates are prospective and must be frozen before any model output on the41-case V4 selection. Parent reference and candidate outputs are not yet collected here. FINAL stays sealed and is never used to tune these rules.
