@@ -1,0 +1,2165 @@
+{
+  "entry_id": "org_cd68943dd947",
+  "source_url": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947",
+  "started_at": "2026-11-15T05:55:43.613027+00:00",
+  "listing_pages": [
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947&page=1",
+      "file": "listings/pass-1-page-1.html",
+      "fetched_at": "2026-11-15T05:55:44.571418+00:00",
+      "sha256": "4c71fd6121bca4c3953535d0c3d1882af812862fbd0a2a6686fe2b5111be4c31"
+    },
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947&page=2",
+      "file": "listings/pass-1-page-2.html",
+      "fetched_at": "2026-11-15T05:55:45.328180+00:00",
+      "sha256": "dcdc83ad354e5f6e52d972cce4fb60a8c67644ce10415399bee582861e113cbc"
+    },
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947&page=3",
+      "file": "listings/pass-1-page-3.html",
+      "fetched_at": "2026-11-15T05:55:46.416348+00:00",
+      "sha256": "7a022dbfa4963c598c3ad54491df36ced9fd5c3d386fa5c40e6149811ebc758d"
+    },
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947&page=4",
+      "file": "listings/pass-1-page-4.html",
+      "fetched_at": "2026-11-15T05:55:46.840312+00:00",
+      "sha256": "776769b7b85e833a0e831a77b36bf756192469997cd8fdc28c63d6f0a3f90a26"
+    },
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947&page=1",
+      "file": "listings/pass-2-page-1.html",
+      "fetched_at": "2026-11-15T05:56:13.632301+00:00",
+      "sha256": "8425f7b64d0c92391e2acab670eb025d2953712fcf8ce8cec1d9236fcb7d939b"
+    },
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947&page=2",
+      "file": "listings/pass-2-page-2.html",
+      "fetched_at": "2026-11-15T05:56:14.280806+00:00",
+      "sha256": "7b2fe6c674f810a0925709508b506228a3f0b51029bf848dbbfc827152fd4258"
+    },
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947&page=3",
+      "file": "listings/pass-2-page-3.html",
+      "fetched_at": "2026-11-15T05:56:14.888881+00:00",
+      "sha256": "89dbf7b9c004420ff9f665a5415032eed26b01640a103cb837ad25706d765ee3"
+    },
+    {
+      "url": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947&page=4",
+      "file": "listings/pass-2-page-4.html",
+      "fetched_at": "2026-11-15T05:56:16.246048+00:00",
+      "sha256": "af81d713211ce8a8b25f828ef4b02d4bad12033d820c1aa33e7e8b4c3812f791"
+    }
+  ],
+  "matches": [
+    {
+      "match_id": "m_20261114t235230_5ff9ab",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t235230_5ff9ab",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t235230_5ff9ab-x66rbn8bFaWYb4WzppYmKBh9GQfRXX.json",
+      "file": "raw/m_20261114t235230_5ff9ab.json",
+      "fetched_at": "2026-11-15T05:55:48.088359+00:00",
+      "sha256": "056ac3c8ceef4f72230830aa71cbbf94cda33f9cb5e4abc749ca62ac11a311f0",
+      "bytes": 106048,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 2,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261114t235426_15b7d2",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t235426_15b7d2",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t235426_15b7d2-Bw0dziyzITId7ppoAEfBqFHCu3Qx2M.json",
+      "file": "raw/m_20261114t235426_15b7d2.json",
+      "fetched_at": "2026-11-15T05:55:48.130768+00:00",
+      "sha256": "a02963572f0be12cd40ee497488df656db3de5473dc4bb5e649f813a1095ba07",
+      "bytes": 152581,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 3,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261114t235527_eb1de4",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t235527_eb1de4",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t235527_eb1de4-880zks0IGXag0lL0oHcQmhZXxSXAqf.json",
+      "file": "raw/m_20261114t235527_eb1de4.json",
+      "fetched_at": "2026-11-15T05:55:48.108705+00:00",
+      "sha256": "dede51fb795dbf21cf8c8f8770a24f0d6cc0f7d9c0c3a37d25c3c54e726d769d",
+      "bytes": 102751,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261114t235626_1861d3",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t235626_1861d3",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t235626_1861d3-CqYV41PqcmbQnKrydkQQP76VlExB6h.json",
+      "file": "raw/m_20261114t235626_1861d3.json",
+      "fetched_at": "2026-11-15T05:55:48.080433+00:00",
+      "sha256": "2d30e79dc72392b299a87aee852b6967799aad497f7adfca9675bd025456f116",
+      "bytes": 123988,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 4,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261114t235726_c058f3",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261114t235726_c058f3",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261114t235726_c058f3-JNvNRR1MXBpOAcSXuuXulAniSZYiED.json",
+      "file": "raw/m_20261114t235726_c058f3.json",
+      "fetched_at": "2026-11-15T05:55:48.887383+00:00",
+      "sha256": "f2876679e5ebf85ece0d2560656c6c15530409105606e17b755b8c9f406ba92c",
+      "bytes": 129246,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t000257_51a318",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t000257_51a318",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t000257_51a318-QrrvMMfmVM53Nal7pRWAsIUyV3Imui.json",
+      "file": "raw/m_20261115t000257_51a318.json",
+      "fetched_at": "2026-11-15T05:55:48.773343+00:00",
+      "sha256": "507d2c4391470a7b577233f125bab3d649ee234cd13367901b36368bc54c9707",
+      "bytes": 94354,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t000931_736efb",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t000931_736efb",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t000931_736efb-GPLp0rFmWrF1ecrhZ19i32zcdwhq49.json",
+      "file": "raw/m_20261115t000931_736efb.json",
+      "fetched_at": "2026-11-15T05:55:49.004579+00:00",
+      "sha256": "385dbcbb0b1d3d5c724587812c4ebbe557540ce42b670428dc815470a0e12b41",
+      "bytes": 143842,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 4,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t001330_01660e",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t001330_01660e",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t001330_01660e-sfGwBu8zF8A2Innm3QzOvaDgDgYmLG.json",
+      "file": "raw/m_20261115t001330_01660e.json",
+      "fetched_at": "2026-11-15T05:55:49.215445+00:00",
+      "sha256": "0b1f6b0a99b6a6893efaeddf902bb8e60b4d4bb8ceb10f34d4dbfb4be743558a",
+      "bytes": 146434,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t001431_a2bcbe",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t001431_a2bcbe",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t001431_a2bcbe-rj9WCClKr1AfxP3AhnRD3P3X7A6sbB.json",
+      "file": "raw/m_20261115t001431_a2bcbe.json",
+      "fetched_at": "2026-11-15T05:55:50.680369+00:00",
+      "sha256": "4a5c53a129be4fd8a4007b8bea1c14b4e562671a13aae51d8a8ea7e178057b58",
+      "bytes": 71066,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t001601_1b8159",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t001601_1b8159",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t001601_1b8159-WMaCqRRAZZfJZjBleGsMYo9wU4m5CY.json",
+      "file": "raw/m_20261115t001601_1b8159.json",
+      "fetched_at": "2026-11-15T05:55:49.627459+00:00",
+      "sha256": "6b73c64fd4f23bc0b2939970d1b13a9ebc3117909289d0f30f20c036107133cb",
+      "bytes": 131191,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t001701_188496",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t001701_188496",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t001701_188496-j6pn1cUqrZDGWlAl0wvdccLoTPy3Fm.json",
+      "file": "raw/m_20261115t001701_188496.json",
+      "fetched_at": "2026-11-15T05:55:50.061410+00:00",
+      "sha256": "8fcefb3c9f1bc292951a12fae6251e233813dfa8239c537cee619f3424fbd50a",
+      "bytes": 147071,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t002032_334b3a",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t002032_334b3a",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t002032_334b3a-4GnbN4YnlbcqHMJFYwZDqXV4ovAscX.json",
+      "file": "raw/m_20261115t002032_334b3a.json",
+      "fetched_at": "2026-11-15T05:55:51.530593+00:00",
+      "sha256": "0950bd5c81c2c75a4ee8408a832a78e51f1c5031bededc7da79f27380b6f8f8a",
+      "bytes": 96210,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 2,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t002634_78ab7f",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t002634_78ab7f",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t002634_78ab7f-ub5jPCSrWnCiLAfr3lS6qUfxt8mTRt.json",
+      "file": "raw/m_20261115t002634_78ab7f.json",
+      "fetched_at": "2026-11-15T05:55:50.589164+00:00",
+      "sha256": "9fd550fe9e40c5dbd7575999f265a543018df261362b06dd489db63630fc2f20",
+      "bytes": 153170,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t003536_6444bc",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003536_6444bc",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t003536_6444bc-i6fLEUBHzTezFvmiMi0FFcp9bMoAhm.json",
+      "file": "raw/m_20261115t003536_6444bc.json",
+      "fetched_at": "2026-11-15T05:55:51.310113+00:00",
+      "sha256": "3fe5c09ce68c8eeebc5c42845f2cf5d8c6e94644309caac74def5ff6ea2fd6cb",
+      "bytes": 127799,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t003636_c03b04",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003636_c03b04",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t003636_c03b04-F9hnlV0VTxZY7XRAkOhBqPyjcKM075.json",
+      "file": "raw/m_20261115t003636_c03b04.json",
+      "fetched_at": "2026-11-15T05:55:52.072007+00:00",
+      "sha256": "68c8a9dab25304b95cfcc557ccc83ac0383b2713b95dcec0e3ddd7df467be4da",
+      "bytes": 147686,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t003737_1aeb6b",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003737_1aeb6b",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t003737_1aeb6b-ge51Q8PiEcixjRwAhdqFMerzodpByZ.json",
+      "file": "raw/m_20261115t003737_1aeb6b.json",
+      "fetched_at": "2026-11-15T05:55:51.876031+00:00",
+      "sha256": "b235a51dbfe6942fcd7c2038b7c6deff9256d16c78fa18272d90cdc5af2168a1",
+      "bytes": 142564,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t003944_108a47",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t003944_108a47",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t003944_108a47-H4paOIDR8brgrLG751QyLGtuY65gOd.json",
+      "file": "raw/m_20261115t003944_108a47.json",
+      "fetched_at": "2026-11-15T05:55:52.245207+00:00",
+      "sha256": "a626adc34c3655984fba17fe5ce2b9463990076f00b5cacd37039c837184143a",
+      "bytes": 157772,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t004546_325992",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t004546_325992",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t004546_325992-ro12y3BSko43XorgFZAxOA38PBTp8p.json",
+      "file": "raw/m_20261115t004546_325992.json",
+      "fetched_at": "2026-11-15T05:55:52.849984+00:00",
+      "sha256": "305b6b5f758fd08d0f9ef684ec088e2477ef87e3407f4d4ab0a56a2fd1a12708",
+      "bytes": 152191,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t005550_50c669",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t005550_50c669",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t005550_50c669-Y2SaALObW5JBFHQL5Pt39tmhU4OqTp.json",
+      "file": "raw/m_20261115t005550_50c669.json",
+      "fetched_at": "2026-11-15T05:55:53.254019+00:00",
+      "sha256": "d75e17f21caa2514cd07726e5e016c92e3f9bf4bc8360d766cf520780199d4f9",
+      "bytes": 153129,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t005650_2de5bd",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t005650_2de5bd",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t005650_2de5bd-Q5clB7W05TWSNpjRBzpGEZp1NsirCn.json",
+      "file": "raw/m_20261115t005650_2de5bd.json",
+      "fetched_at": "2026-11-15T05:55:53.485722+00:00",
+      "sha256": "bed6bf10b66515a5fef5910c647086cdb265a129483abd8fa763763d530f7f0f",
+      "bytes": 142220,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t005750_42daae",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t005750_42daae",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t005750_42daae-iSrYtqGEAKoCBeqBjk5IgkDWbTBmrQ.json",
+      "file": "raw/m_20261115t005750_42daae.json",
+      "fetched_at": "2026-11-15T05:55:53.615012+00:00",
+      "sha256": "243c4682b9772f462a9d366d60123b14e40de94231c277d1e473dd3a8865ff9a",
+      "bytes": 153328,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 2,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t010422_1ccae2",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t010422_1ccae2",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t010422_1ccae2-lh6VDGjND5V1KrZfGoFMt3P6irNTMk.json",
+      "file": "raw/m_20261115t010422_1ccae2.json",
+      "fetched_at": "2026-11-15T05:55:54.153409+00:00",
+      "sha256": "3be1bd408a099365f8fcc245bbb99702c2de65cb289f932b11adf806949b506b",
+      "bytes": 121892,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 2,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t010552_3d4cab",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t010552_3d4cab",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t010552_3d4cab-zdHkvYxCtRYTLVV0AqnWsEe9gYzrZq.json",
+      "file": "raw/m_20261115t010552_3d4cab.json",
+      "fetched_at": "2026-11-15T05:55:54.520612+00:00",
+      "sha256": "6910924e927dc1fe3f78474caf8c36c92592d5a35c144216549a29e44dfb3bf9",
+      "bytes": 131713,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t012227_1f66b5",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t012227_1f66b5",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t012227_1f66b5-4v5yU7EdWhI8YbtUC1CjlhSDGNQmvo.json",
+      "file": "raw/m_20261115t012227_1f66b5.json",
+      "fetched_at": "2026-11-15T05:55:54.808233+00:00",
+      "sha256": "ed337a53e3fabd5a6f2182142dcfcd66ece2c509bf40f13712344559e1540792",
+      "bytes": 143481,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t012329_b6f7d3",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t012329_b6f7d3",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t012329_b6f7d3-2p7M3CuD4hU8XlpwS3grtAh1itSSRv.json",
+      "file": "raw/m_20261115t012329_b6f7d3.json",
+      "fetched_at": "2026-11-15T05:55:54.710294+00:00",
+      "sha256": "0aa870383934c75b55b7c33fcaf28c768ddcb74de7116a0ffb81985b9903aac8",
+      "bytes": 106198,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 2,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t012659_720eb0",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t012659_720eb0",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t012659_720eb0-tlJbajlDWJ2WxDzopGBhEpL9V0JGOm.json",
+      "file": "raw/m_20261115t012659_720eb0.json",
+      "fetched_at": "2026-11-15T05:55:55.515240+00:00",
+      "sha256": "ea3d0426eb0c5bc4f7c7a19d1f9413573e716ed9846c737157e956baff75cf09",
+      "bytes": 154816,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t012758_837f44",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t012758_837f44",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t012758_837f44-9sbk4vSdGjTpuL9pCBqx5kQmVlqGkk.json",
+      "file": "raw/m_20261115t012758_837f44.json",
+      "fetched_at": "2026-11-15T05:55:56.522340+00:00",
+      "sha256": "d483107885ddcde7f5342211ff4258c270de524400cf439599ab9097068a465b",
+      "bytes": 151530,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 2,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t012959_a0c9f4",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t012959_a0c9f4",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t012959_a0c9f4-5hzWKtS0EK82BBnaLNad4cfrAGm8Yn.json",
+      "file": "raw/m_20261115t012959_a0c9f4.json",
+      "fetched_at": "2026-11-15T05:55:56.235481+00:00",
+      "sha256": "520459aa15e51a44417b629bddd1b7c9d81e7a2a5328404a7a21b0f65b5b580b",
+      "bytes": 145783,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t013837_abfdcb",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t013837_abfdcb",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t013837_abfdcb-idA04dc4dL4WgWR4VaHeFtJBFjrW8S.json",
+      "file": "raw/m_20261115t013837_abfdcb.json",
+      "fetched_at": "2026-11-15T05:55:56.472769+00:00",
+      "sha256": "0e0940af1e443367c522a7820bb83e00de0f98a30fcc5a4f700a4ccc5d02693f",
+      "bytes": 146213,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t014226_aeb4cf",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t014226_aeb4cf",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t014226_aeb4cf-adzyyctaUA15bA0tiZIs6wGVGpIS4Z.json",
+      "file": "raw/m_20261115t014226_aeb4cf.json",
+      "fetched_at": "2026-11-15T05:55:56.854427+00:00",
+      "sha256": "df5a8f5ca7d534fdcc4bcfc4c5e317f9780ec598154d404116655d10f3f4dfda",
+      "bytes": 153471,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t014923_39be93",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t014923_39be93",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t014923_39be93-aOMcqXjokHTnOBnvxOxFrMxOCxTz6Q.json",
+      "file": "raw/m_20261115t014923_39be93.json",
+      "fetched_at": "2026-11-15T05:55:57.510321+00:00",
+      "sha256": "4de25f6214ccc244a8939bd2b2d0e7bfe3594ab8843a1ca368fe9ee3d7994b8e",
+      "bytes": 162193,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t015141_20f6d9",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t015141_20f6d9",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t015141_20f6d9-A7eOR5ks9eIDqiuQ35YJl3GsvaVqBs.json",
+      "file": "raw/m_20261115t015141_20f6d9.json",
+      "fetched_at": "2026-11-15T05:55:57.509909+00:00",
+      "sha256": "ec41b472ac1985aee9d8dce43e69c069aee9ffab5da1a76102ce39dfe0c61d6f",
+      "bytes": 141740,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t015242_c17114",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t015242_c17114",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t015242_c17114-wO4LHOpWzwvOCJBLUTWXnf2XyI18RD.json",
+      "file": "raw/m_20261115t015242_c17114.json",
+      "fetched_at": "2026-11-15T05:55:57.397328+00:00",
+      "sha256": "eb9847b4462c3a4cc123b4e9ff0fb5a6ab604584e29d285927ac205a3c492cc2",
+      "bytes": 96871,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "rain man",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_576c834b176a",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": null,
+          "updated_at": "2026-11-14T23:47:10.763432Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t015342_6c0f26",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t015342_6c0f26",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t015342_6c0f26-ffTDSe3wI5x9xm6kIELel25f8YDwoi.json",
+      "file": "raw/m_20261115t015342_6c0f26.json",
+      "fetched_at": "2026-11-15T05:55:57.871215+00:00",
+      "sha256": "b06746e4b6bfe1d943a3f01753c5e4010bcce6f20893adc8641395e398512159",
+      "bytes": 111824,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t015510_3d673a",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t015510_3d673a",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t015510_3d673a-v8bQz4WwDQFNqHIudJcbNjtdEZRGiU.json",
+      "file": "raw/m_20261115t015510_3d673a.json",
+      "fetched_at": "2026-11-15T05:55:58.933923+00:00",
+      "sha256": "a24f090deb729d3a371349e1fdf37d8506ab95c4a176afb7fe158773a9c3bdba",
+      "bytes": 152513,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 3,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t015610_191300",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t015610_191300",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t015610_191300-2uoX8tyKhXbmgB3e7vuoryANypppUK.json",
+      "file": "raw/m_20261115t015610_191300.json",
+      "fetched_at": "2026-11-15T05:55:58.882474+00:00",
+      "sha256": "7e03b27720b34347e4e1f1fabfb6b52352ca6d2a978e0ffeb37034a46d737c18",
+      "bytes": 132132,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 4,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t020516_99d87e",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t020516_99d87e",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t020516_99d87e-QUOm6xdrTYM09vocHQnf51RVT0AgCa.json",
+      "file": "raw/m_20261115t020516_99d87e.json",
+      "fetched_at": "2026-11-15T05:55:58.933970+00:00",
+      "sha256": "a8ec05e65395bbfb124dd4b7a84dc69c72a92d6e499731834362325361516f68",
+      "bytes": 99342,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 3,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t020616_aaaaa9",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t020616_aaaaa9",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t020616_aaaaa9-jEcVwV5Z5qXKfe2DrkkuD7xeCa7xWH.json",
+      "file": "raw/m_20261115t020616_aaaaa9.json",
+      "fetched_at": "2026-11-15T05:55:59.404797+00:00",
+      "sha256": "fd79b75f4ad74a1ced4b83e2965b114c596c4b56245d60e208346c9c86ce462e",
+      "bytes": 136035,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 3,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t020717_b22233",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t020717_b22233",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t020717_b22233-AK7wP7dhOJfrll7WX7YbZ4okSMxsor.json",
+      "file": "raw/m_20261115t020717_b22233.json",
+      "fetched_at": "2026-11-15T05:55:59.779337+00:00",
+      "sha256": "9a82d8daabdeebff73192f92232dede6728946428067decf8d55e8c9bc04f603",
+      "bytes": 148858,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t021023_267ac0",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t021023_267ac0",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t021023_267ac0-hNCAzyQ7JSa02M5laicImEXRmuFr5L.json",
+      "file": "raw/m_20261115t021023_267ac0.json",
+      "fetched_at": "2026-11-15T05:56:00.008681+00:00",
+      "sha256": "19ff2ce62c3a1eb22aa8df471708eb1766490a92001c1b241c99e9a7389015d7",
+      "bytes": 71922,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 4,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t021344_102ff3",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t021344_102ff3",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t021344_102ff3-6Za3q2yOFMwUzwf7zSwD5PHzdOa9Zh.json",
+      "file": "raw/m_20261115t021344_102ff3.json",
+      "fetched_at": "2026-11-15T05:56:00.059736+00:00",
+      "sha256": "ab2f2071a3308ddb9958402f93af178b2426392ce352bb4b789b2ec4940254f4",
+      "bytes": 59123,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 26
+    },
+    {
+      "match_id": "m_20261115t021725_0d2cb9",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t021725_0d2cb9",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t021725_0d2cb9-UI7WgVYxNUjKXjAnH1tacf2V6X566o.json",
+      "file": "raw/m_20261115t021725_0d2cb9.json",
+      "fetched_at": "2026-11-15T05:56:00.577540+00:00",
+      "sha256": "a4340e2f1ea0694815c6701423b2f4489c64c3ec64de8f527b1cec804a13f1f8",
+      "bytes": 155759,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t021825_b4b5d2",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t021825_b4b5d2",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t021825_b4b5d2-tvXbrRrLHuwx7aNPvBub0G0GAugnVE.json",
+      "file": "raw/m_20261115t021825_b4b5d2.json",
+      "fetched_at": "2026-11-15T05:56:00.933558+00:00",
+      "sha256": "04b7d5577b9c94890fcb1dbe04688b6f7fc619893bf412c086ae56b41f724498",
+      "bytes": 155516,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t022136_ae9f6b",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t022136_ae9f6b",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t022136_ae9f6b-W5HfwvUO67S70gGxAIdfvbAwUnJdO6.json",
+      "file": "raw/m_20261115t022136_ae9f6b.json",
+      "fetched_at": "2026-11-15T05:56:01.081510+00:00",
+      "sha256": "8f28cb296d125e2197e1c3326e11679f4dcec978a2bc2c49fbaf567124b29d6d",
+      "bytes": 67884,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t022237_b2b237",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t022237_b2b237",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t022237_b2b237-61iALpYLK3gZ5JIt5NqJdU7ECoSQtG.json",
+      "file": "raw/m_20261115t022237_b2b237.json",
+      "fetched_at": "2026-11-15T05:56:01.281588+00:00",
+      "sha256": "ad75acc580fb54e82d9cb1bdfd6b7280ae59ee4707d079d58ba43a94eff1cac3",
+      "bytes": 167599,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t023142_8f5abb",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t023142_8f5abb",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t023142_8f5abb-rKfbgcDcik8VFvp5G739SDk9EPodKM.json",
+      "file": "raw/m_20261115t023142_8f5abb.json",
+      "fetched_at": "2026-11-15T05:56:01.548403+00:00",
+      "sha256": "8b5ce000152962fce83d974b5a25fb155bdaf698b06fc1c711bd4eaa3e3ed4d0",
+      "bytes": 139487,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t023457_170e96",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t023457_170e96",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t023457_170e96-Di7WJuz0zMWVOEwxmDnx2aXZFxTbDj.json",
+      "file": "raw/m_20261115t023457_170e96.json",
+      "fetched_at": "2026-11-15T05:56:01.843454+00:00",
+      "sha256": "7683ca551e553073ac7b7e145ad4a18c1eb823d1a5917dd8d8821daf35ead02d",
+      "bytes": 82628,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t023758_9f67b8",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t023758_9f67b8",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t023758_9f67b8-CeU9Q0LAa4D5Lnpa3XKuoC6VSsj8l6.json",
+      "file": "raw/m_20261115t023758_9f67b8.json",
+      "fetched_at": "2026-11-15T05:56:02.088989+00:00",
+      "sha256": "9015d8d592f06377369c0281bad1225206bced71f12f8f1748f24e705434838b",
+      "bytes": 100214,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t024452_2eb64f",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t024452_2eb64f",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t024452_2eb64f-Z6huh54o34dxLD1pu5TtrbsQcu8yyn.json",
+      "file": "raw/m_20261115t024452_2eb64f.json",
+      "fetched_at": "2026-11-15T05:56:03.149273+00:00",
+      "sha256": "b54eb52647b55113ba95336472d33a61844bd8884febd3205360ffc06bd897a7",
+      "bytes": 142601,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 4,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t024721_18b974",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t024721_18b974",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t024721_18b974-HH21lFThHdRxmP7hyVWgJsDPvviY0i.json",
+      "file": "raw/m_20261115t024721_18b974.json",
+      "fetched_at": "2026-11-15T05:56:02.696814+00:00",
+      "sha256": "d415a2c928efb785c4c8c12453e6a837c9709f458aff4f1a9dabe1583022f0b5",
+      "bytes": 88206,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 3,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t034228_904c29",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t034228_904c29",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t034228_904c29-A0EGO2hTGakImWXHDDqOoDvToxGTa9.json",
+      "file": "raw/m_20261115t034228_904c29.json",
+      "fetched_at": "2026-11-15T05:56:03.352473+00:00",
+      "sha256": "d433bbc150596abfc081047c50e630a75957d3c949e442a7c2515cb65b086caf",
+      "bytes": 126528,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 2,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t034330_baea81",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t034330_baea81",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t034330_baea81-mMHW5fZpF2JNKxtW3OqyKEXNPcCjsj.json",
+      "file": "raw/m_20261115t034330_baea81.json",
+      "fetched_at": "2026-11-15T05:56:04.184786+00:00",
+      "sha256": "965235e5e17ec372084f514f9c6f24b3e4d4fa26baf1f59b861b40f6c5e248f4",
+      "bytes": 133722,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t040211_53d67e",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t040211_53d67e",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t040211_53d67e-ROusgD5cuNN6xAHng673TXbzy8QzJL.json",
+      "file": "raw/m_20261115t040211_53d67e.json",
+      "fetched_at": "2026-11-15T05:56:04.184743+00:00",
+      "sha256": "8c78bb5e05ec41cfd7caba7cba5189778b93ad127ae99aa11c8807817d46e806",
+      "bytes": 147525,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t040251_2888c0",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t040251_2888c0",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t040251_2888c0-4N2JG4FwkJLYejghytPrzsBKCLNrKs.json",
+      "file": "raw/m_20261115t040251_2888c0.json",
+      "fetched_at": "2026-11-15T05:56:04.526713+00:00",
+      "sha256": "b9ac393304ca9b141271ceb7cd61bea5b8b94ce5d6c5efcb30f67f124102d45f",
+      "bytes": 116840,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 2,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t040312_0f42ec",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t040312_0f42ec",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t040312_0f42ec-SM3XW2KFJD9hKfpQxnxHvaI3rMZx2d.json",
+      "file": "raw/m_20261115t040312_0f42ec.json",
+      "fetched_at": "2026-11-15T05:56:04.798342+00:00",
+      "sha256": "030c75863db828bb61a889b73cd5dc67db055e603f54af50ddb8cc2c0467d746",
+      "bytes": 134530,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 3,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t040332_699f3e",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t040332_699f3e",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t040332_699f3e-E9jcpRTvzq5tQRZLWbJiaxvZ1K8DQu.json",
+      "file": "raw/m_20261115t040332_699f3e.json",
+      "fetched_at": "2026-11-15T05:56:05.785169+00:00",
+      "sha256": "16074d85d02a5aa9a83840cd0c0499418ef8f93ddd91e2f9f019696de7f8e3fe",
+      "bytes": 130173,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 4,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t040412_75a089",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t040412_75a089",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t040412_75a089-8t5crXLjx6bBZOnYOScfj0aXCvOMRJ.json",
+      "file": "raw/m_20261115t040412_75a089.json",
+      "fetched_at": "2026-11-15T05:56:05.780363+00:00",
+      "sha256": "9b86243c8a2dd6f6f509eb85cd40f19f0ec94f69eb92a6201d73a25d9fdd099b",
+      "bytes": 116093,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t040452_45e3f4",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t040452_45e3f4",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t040452_45e3f4-l5IVZ7mo8ojiBcAcnKlw7JvXUk0tc5.json",
+      "file": "raw/m_20261115t040452_45e3f4.json",
+      "fetched_at": "2026-11-15T05:56:06.202800+00:00",
+      "sha256": "6eebd6f77165b3607604b80f982dd0af0401f1f35ca4b2d9077ab8e6db1899a7",
+      "bytes": 134997,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 2,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t043851_b17aa0",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t043851_b17aa0",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t043851_b17aa0-Smv1w1zqhMvQnzfIkNOWCKNhfDutZX.json",
+      "file": "raw/m_20261115t043851_b17aa0.json",
+      "fetched_at": "2026-11-15T05:56:06.202860+00:00",
+      "sha256": "77614ab9b7a7db526566775333720d5e8a5fe6dbaf02e0edf6b38edcd2c610f2",
+      "bytes": 130914,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t043911_f9c09f",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t043911_f9c09f",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t043911_f9c09f-uZ411WTxgnRN0lSAjlR6mYLGSO0BnG.json",
+      "file": "raw/m_20261115t043911_f9c09f.json",
+      "fetched_at": "2026-11-15T05:56:06.958983+00:00",
+      "sha256": "596047ead9968fe917d7036480e6953a6a135d70a01e0fc75c98952ab479747c",
+      "bytes": 139218,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 3,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t043951_2413dc",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t043951_2413dc",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t043951_2413dc-khAwdGZcejL6PRQUnbXLIsplLuxCDR.json",
+      "file": "raw/m_20261115t043951_2413dc.json",
+      "fetched_at": "2026-11-15T05:56:06.936177+00:00",
+      "sha256": "102958edc23559670c065ebc8d5d4b9ce382db4ffdfb702f938c0ae7c1a0f5f2",
+      "bytes": 114100,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t044013_0524a1",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t044013_0524a1",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t044013_0524a1-qOMmGhfnvcqsQGsip577twUYhv9WWN.json",
+      "file": "raw/m_20261115t044013_0524a1.json",
+      "fetched_at": "2026-11-15T05:56:07.353616+00:00",
+      "sha256": "25e429ca04ceabac5296d2ebe40361348af381221e4dad2fe193b28f8828b8a3",
+      "bytes": 141921,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 2,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t044052_475e1d",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t044052_475e1d",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t044052_475e1d-9mEIJRBk0RRW95cyCBZOJ8F0i3OLY1.json",
+      "file": "raw/m_20261115t044052_475e1d.json",
+      "fetched_at": "2026-11-15T05:56:07.496837+00:00",
+      "sha256": "bce92bf2e8e8a954e7bd4d7d05ddb6f7469424a032df2408247a26a6027de201",
+      "bytes": 122895,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 4,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t044112_0dba06",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t044112_0dba06",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t044112_0dba06-X88SnKMLTTU7vSbLeefq6Iccc6ROa0.json",
+      "file": "raw/m_20261115t044112_0dba06.json",
+      "fetched_at": "2026-11-15T05:56:08.686124+00:00",
+      "sha256": "855653e066fb5d270c5ded41310a6d5b42114d8adee279dcccdd5f87d59a5a66",
+      "bytes": 145984,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t045347_51fcdd",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t045347_51fcdd",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t045347_51fcdd-VK8wR20qItmkZ4EXLKqus9da37fEwo.json",
+      "file": "raw/m_20261115t045347_51fcdd.json",
+      "fetched_at": "2026-11-15T05:56:08.493628+00:00",
+      "sha256": "d1567fc8548516d539dc51ad79b8b8127c6ff1fddd75fca06cba9bd0188bdd85",
+      "bytes": 122610,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 4,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t045749_7c7c86",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t045749_7c7c86",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t045749_7c7c86-XWcf9OlfNQqNUXCBKFKQDj0OzmvvSO.json",
+      "file": "raw/m_20261115t045749_7c7c86.json",
+      "fetched_at": "2026-11-15T05:56:08.821215+00:00",
+      "sha256": "d677525b91667205b3c3d8dac5982b97dffc458e81579580bbe78035c76a7a05",
+      "bytes": 123947,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 3,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t045809_83bc16",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t045809_83bc16",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t045809_83bc16-4l1GBzdqelHOiMnHkhsueYgwn1HxHh.json",
+      "file": "raw/m_20261115t045809_83bc16.json",
+      "fetched_at": "2026-11-15T05:56:08.988262+00:00",
+      "sha256": "da726742cabb9f905a5ce5115bbd6070ee7cf142d76c2b79dbbd6e8aac47328e",
+      "bytes": 90856,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 2,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t050030_5022f0",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050030_5022f0",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t050030_5022f0-xKiXvVfRjG3upeX7dFn8soACapUZNM.json",
+      "file": "raw/m_20261115t050030_5022f0.json",
+      "fetched_at": "2026-11-15T05:56:10.044684+00:00",
+      "sha256": "fc698eaee90f65c18fa0541d7b1513b5f9ac8509ff555dde327fa26e95b71ec7",
+      "bytes": 157809,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 3,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t050311_3650ee",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050311_3650ee",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t050311_3650ee-iUDQ52QI32Cd79CVIGDLe9rW6HcMOG.json",
+      "file": "raw/m_20261115t050311_3650ee.json",
+      "fetched_at": "2026-11-15T05:56:09.918676+00:00",
+      "sha256": "5c5f85cfcbe39a1545a285cd70f5789d407d2de5b83ecf685032b5d8b815ef31",
+      "bytes": 124620,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t050654_364e19",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050654_364e19",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t050654_364e19-LTJO6wM3SKZUxyclFeuE694biJEofe.json",
+      "file": "raw/m_20261115t050654_364e19.json",
+      "fetched_at": "2026-11-15T05:56:10.206941+00:00",
+      "sha256": "dbcaf2e7822a639175fb403dfe0628b52ada18a8b1ecdc338cf1cf8c5f8a49ac",
+      "bytes": 101728,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 3,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t050956_cb3ffe",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t050956_cb3ffe",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t050956_cb3ffe-aseeum9aqIso2ccxFh4uNMIapnC8ZY.json",
+      "file": "raw/m_20261115t050956_cb3ffe.json",
+      "fetched_at": "2026-11-15T05:56:10.413898+00:00",
+      "sha256": "c32d6115cf21ac745ee579cf854c1c3139304ad13284879b9936eb7a1f8b8133",
+      "bytes": 123969,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t051117_331702",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t051117_331702",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t051117_331702-HJc7b8KpUAva9DToNEEZDZr8Znb5TJ.json",
+      "file": "raw/m_20261115t051117_331702.json",
+      "fetched_at": "2026-11-15T05:56:12.217252+00:00",
+      "sha256": "07476ad08b70b6f2773ed67a59b88fc17dd7c9f043787b365a857c6a92e20773",
+      "bytes": 88220,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 4,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t052001_dbc1c5",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052001_dbc1c5",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t052001_dbc1c5-LC3t4uS5Ih9CpdUXSvZUjGJIBGkPNh.json",
+      "file": "raw/m_20261115t052001_dbc1c5.json",
+      "fetched_at": "2026-11-15T05:56:11.516593+00:00",
+      "sha256": "1ddff6d3b07f0eb74eedef33bd636f9a020fd3674e758296ed23c53b42cb3a3f",
+      "bytes": 129517,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t052343_8812a3",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052343_8812a3",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t052343_8812a3-mgkCuuwxgmRu1BzNwHItENVw69uiT5.json",
+      "file": "raw/m_20261115t052343_8812a3.json",
+      "fetched_at": "2026-11-15T05:56:11.741203+00:00",
+      "sha256": "4f50005b549648eb3c71c901169329a13110f2a286f43a2999b7abfced50cf18",
+      "bytes": 135403,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 0,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t052404_d6063b",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052404_d6063b",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t052404_d6063b-2Rczmok4e7UToSYDo7Q57JPtBxmkw9.json",
+      "file": "raw/m_20261115t052404_d6063b.json",
+      "fetched_at": "2026-11-15T05:56:11.741312+00:00",
+      "sha256": "8d11cca4c107b85184a82fbaeca4b3e8e03c94df162ba17e4cf1d3c09cb63e59",
+      "bytes": 122688,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t052424_d02162",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052424_d02162",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t052424_d02162-pg08tnhCXbcXQzNqVBs6J1HSgl4AIX.json",
+      "file": "raw/m_20261115t052424_d02162.json",
+      "fetched_at": "2026-11-15T05:56:12.502781+00:00",
+      "sha256": "20ebbbb4f589e2a6fa2af9ae0882f38411e2014aaaa44a77c63d0888013cc375",
+      "bytes": 133190,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t052605_6603d2",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052605_6603d2",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t052605_6603d2-zrbmhwIfwgyOj7ljEiyXcd7898PIpu.json",
+      "file": "raw/m_20261115t052605_6603d2.json",
+      "fetched_at": "2026-11-15T05:56:12.793316+00:00",
+      "sha256": "77179333d71534e22538b849f5d258adbf5c588f283c624ff8ce62343ce3ce63",
+      "bytes": 130641,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 1,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    },
+    {
+      "match_id": "m_20261115t052745_82e234",
+      "replay_url": "https://www.pokerbots.ac/matches/m_20261115t052745_82e234",
+      "raw_url": "https://hcgxhgpocwwu7ggt.public.blob.vercel-storage.com/matches/m_20261115t052745_82e234-kbJ8RkrEpC103OPaYNx7lJyxz6LimS.json",
+      "file": "raw/m_20261115t052745_82e234.json",
+      "fetched_at": "2026-11-15T05:56:12.884271+00:00",
+      "sha256": "e515e33b17afe78b3ffa78a64bc3ba909efd0d05fdfe35fdcfc679e42cfbc2fb",
+      "bytes": 132568,
+      "status": "complete",
+      "kind": "ranked",
+      "seat": 5,
+      "entry": {
+        "id": "org_cd68943dd947",
+        "kind": "team",
+        "name": "The Evaluators",
+        "submission_name": "step2",
+        "org_id": "org_cd68943dd947",
+        "deployment_id": "infer_dd8c2952bf59",
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "deployment": {
+          "version": 1,
+          "checkpoint_id": "ckpt_012f74ea70f9",
+          "updated_at": "2026-11-15T01:40:06.140680Z"
+        }
+      },
+      "hands_recorded": 30
+    }
+  ],
+  "errors": [],
+  "finished_at": "2026-11-15T05:56:16.249350+00:00"
+}

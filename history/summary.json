@@ -1,0 +1,117 @@
+{
+  "entry_id": "org_cd68943dd947",
+  "snapshot_finished_at": "2026-11-15T05:56:16.249350+00:00",
+  "raw_matches": 78,
+  "statuses": {
+    "complete": 78
+  },
+  "target_hand_rows": 2031,
+  "target_decision_rows": 3604,
+  "target_action_flags": {
+    "format_error": 59,
+    "fallback": 59,
+    "afk": 59,
+    "token_cap": 20,
+    "coerced": 14
+  },
+  "overall": {
+    "completed_matches": 78,
+    "hands": 2031,
+    "decisions": 3604,
+    "wins": 15,
+    "places": {
+      "1": 15,
+      "2": 15,
+      "3": 14,
+      "4": 6,
+      "5": 15,
+      "6": 13
+    },
+    "net_bb": 971.5,
+    "ev_net_bb": 796.9499999999999,
+    "bb_per_100": 47.83357951747907,
+    "ev_bb_per_100": 39.23929098966027,
+    "fallbacks": 59,
+    "coerced": 14,
+    "afk": 59,
+    "timeouts": 0
+  },
+  "by_kind": {
+    "ranked": {
+      "completed_matches": 78,
+      "hands": 2031,
+      "decisions": 3604,
+      "wins": 15,
+      "places": {
+        "1": 15,
+        "2": 15,
+        "3": 14,
+        "4": 6,
+        "5": 15,
+        "6": 13
+      },
+      "net_bb": 971.5,
+      "ev_net_bb": 796.9499999999999,
+      "bb_per_100": 47.83357951747907,
+      "ev_bb_per_100": 39.23929098966027,
+      "fallbacks": 59,
+      "coerced": 14,
+      "afk": 59,
+      "timeouts": 0
+    }
+  },
+  "by_submission": [
+    {
+      "submission_name": "rain man",
+      "deployment_id": "infer_576c834b176a",
+      "checkpoint_id": null,
+      "version": 1,
+      "completed_matches": 33,
+      "hands": 793,
+      "decisions": 1426,
+      "wins": 4,
+      "places": {
+        "1": 4,
+        "2": 3,
+        "3": 7,
+        "4": 4,
+        "5": 10,
+        "6": 5
+      },
+      "net_bb": -665.0,
+      "ev_net_bb": -415.4750000000001,
+      "bb_per_100": -83.85876418663304,
+      "ev_bb_per_100": -52.39281210592687,
+      "fallbacks": 29,
+      "coerced": 3,
+      "afk": 29,
+      "timeouts": 0
+    },
+    {
+      "submission_name": "step2",
+      "deployment_id": "infer_dd8c2952bf59",
+      "checkpoint_id": "ckpt_012f74ea70f9",
+      "version": 1,
+      "completed_matches": 45,
+      "hands": 1238,
+      "decisions": 2178,
+      "wins": 11,
+      "places": {
+        "1": 11,
+        "2": 12,
+        "3": 7,
+        "4": 2,
+        "5": 5,
+        "6": 8
+      },
+      "net_bb": 1636.5,
+      "ev_net_bb": 1212.425,
+      "bb_per_100": 132.18901453957997,
+      "ev_bb_per_100": 97.93416801292408,
+      "fallbacks": 30,
+      "coerced": 11,
+      "afk": 30,
+      "timeouts": 0
+    }
+  ]
+}
