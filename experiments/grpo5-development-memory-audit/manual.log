@@ -1,0 +1,24 @@
+{
+  "scope": "Eightinitial parent5notes h5/h10/h20/h25 on2games. Bounded manual review, not full prose factuality or memory quality.",
+  "notes_reviewed": 8,
+  "all_explicit_current_stack_values_match_cleanup_input": 8,
+  "complete_six_seat_stack_tables": 6,
+  "tables_omitting_busted_zero_stack": 2,
+  "explicit_current_board_sequences_verified": 5,
+  "other_current_hands_end_preflop_no_board_claim": 3,
+  "own_hole_card_claims_reviewed": 6,
+  "own_hole_card_suit_contradictions": 1,
+  "definite_current_blind_position_errors": 5,
+  "unsupported_current_street_claims": 1,
+  "ambiguous_temporal_wording_not_counted_as_definite": 1,
+  "manual_verified_useful_prior_fact": {
+    "notes_with_verified_prior_fact": 1,
+    "source_hand": 24,
+    "note_hand": 25,
+    "kind": "Previously publicly shown opponent cards exactly retained; original earlier cleanup USER is evidence, not scratchpad text."
+  },
+  "current_public_card_category_error": 1,
+  "prior_memory": "Strict parser finds no fully verified blocks; manual one prior showdown-card fact verified. Other free-prose tendencies remain unknown.",
+  "no_raw_private_note_quotes_in_this_aggregate": true,
+  "no_hidden_engine_truth_used": true
+}

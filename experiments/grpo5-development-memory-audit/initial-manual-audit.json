@@ -1,0 +1,87 @@
+{
+  "scope": "Eightinitial parent5notes h5/h10/h20/h25 on2games. Bounded manual review, not full prose factuality or memory quality.",
+  "notes_reviewed": 8,
+  "all_explicit_current_stack_values_match_cleanup_input": 8,
+  "complete_six_seat_stack_tables": 6,
+  "tables_omitting_busted_zero_stack": 2,
+  "explicit_current_board_sequences_verified": 5,
+  "other_current_hands_end_preflop_no_board_claim": 3,
+  "own_hole_card_claims_reviewed": 6,
+  "own_hole_card_suit_contradictions": 1,
+  "definite_current_blind_position_errors": 5,
+  "position_evidence_aggregate": [
+    {
+      "trace_id": "5e4af0640fa391eb6d27ea071a17f7e5",
+      "span_id": "d7452b260856f852",
+      "hand": 20,
+      "temporal_scope": "Current hand summary, not copied prior SP header",
+      "classification": "definite current blind-position contradiction; source player name is seatN, not SB/BB",
+      "source_input_sha256": "bc68241c74dc6a3cb86f6e68da5bf662afa0acf71164ba899069e83e8715d1f4",
+      "source_output_sha256": "f2468537d203ad5a9c8f135537c344026adff7aad1becd232d017cd028e71b92"
+    },
+    {
+      "trace_id": "8d8271039addbe8de5d4a974a56143a5",
+      "span_id": "0a3d92b2f5ab608c",
+      "hand": 5,
+      "temporal_scope": "Current hand summary, not copied prior SP header",
+      "classification": "definite current blind-position contradiction; source player name is seatN, not SB/BB",
+      "source_input_sha256": "a12efd48ea346c4851135c0a6b215cd6f80bfb6a2b1f304748bc7a318d65bdea",
+      "source_output_sha256": "03d8ef9f1af63e366c0898185f82d4f120c509319e384f87e4e5d59fe6b4792e"
+    },
+    {
+      "trace_id": "8d8271039addbe8de5d4a974a56143a5",
+      "span_id": "2983d6a4414f5800",
+      "hand": 20,
+      "temporal_scope": "Current hand summary, not copied prior SP header",
+      "classification": "definite current blind-position contradiction; source player name is seatN, not SB/BB",
+      "source_input_sha256": "e63a37d543cf588228afb7dac7ab0a322245f60cc6fec2574e92e11500bba40a",
+      "source_output_sha256": "253346836c35e1a63cb81fc44362417bfeed813f4da30d89b9d3aa28a0ed23cf"
+    },
+    {
+      "trace_id": "8d8271039addbe8de5d4a974a56143a5",
+      "span_id": "34d3daf419b5ce65",
+      "hand": 10,
+      "temporal_scope": "Current hand summary, not copied prior SP header",
+      "classification": "definite current blind-position contradiction; source player name is seatN, not SB/BB",
+      "source_input_sha256": "bb2dea235350437df95b70a879ce6a8092093df21f34ab1b7b42e22f0c6268e5",
+      "source_output_sha256": "79ebd761dd34b618d946f071bdbf37be8868dea0952ee5d9d35c61c5e9147c33"
+    },
+    {
+      "trace_id": "8d8271039addbe8de5d4a974a56143a5",
+      "span_id": "523b02714d1c1880",
+      "hand": 25,
+      "temporal_scope": "Current hand summary, not copied prior SP header",
+      "classification": "definite current blind-position contradiction; source player name is seatN, not SB/BB",
+      "source_input_sha256": "7e66b3f7152818ea7fbb7d54639fe3831b14031e5c8b36498754a520b84b819e",
+      "source_output_sha256": "8254b81fedd05e9ab2eb3c53b545dce99c63fe69c49b730372e9768716fbfbaa"
+    }
+  ],
+  "unsupported_current_street_claims": 1,
+  "ambiguous_temporal_wording_not_counted_as_definite": 1,
+  "manual_verified_useful_prior_fact": {
+    "notes_with_verified_prior_fact": 1,
+    "source_hand": 24,
+    "note_hand": 25,
+    "kind": "Previously publicly shown opponent cards exactly retained; original earlier cleanup USER is evidence, not scratchpad text.",
+    "evidence": [
+      {
+        "hand": 24,
+        "kind": "original visible prior observation",
+        "source_input_sha256": "625d36dae2a93335b83e02aca7006c264deff4c44f6a1c3461ceaf833071659a"
+      },
+      {
+        "hand": 25,
+        "kind": "actual generated retained prior fact",
+        "source_output_sha256": "7e61daadf104669803f39791a19741ec0e74efe99c905c8629f7137c18cc5d58"
+      }
+    ]
+  },
+  "current_public_card_category_error": 1,
+  "prior_memory": "Strict parser finds no fully verified blocks; manual one prior showdown-card fact verified. Other free-prose tendencies remain unknown.",
+  "no_raw_private_note_quotes_in_this_aggregate": true,
+  "no_hidden_engine_truth_used": true,
+  "own_card_evidence_source_hashes": {
+    "source_input_sha256": "bc68241c74dc6a3cb86f6e68da5bf662afa0acf71164ba899069e83e8715d1f4",
+    "source_output_sha256": "f2468537d203ad5a9c8f135537c344026adff7aad1becd232d017cd028e71b92"
+  }
+}
