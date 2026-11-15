@@ -1,0 +1,73 @@
+{
+  "curation": "Input-only canonical monetary replay: initial1200chips,blinds1/2,street-total contributions,stack bounds,printed pot equality. NOT full engine action-order replay. No text/label changes.",
+  "source_v3_manifest_sha256": "9009d410a076a256f83518d477c45c502dfa900fbaba95db407ca79b98ad2721",
+  "counts": {
+    "train": {
+      "source": 4096,
+      "input_consistent": 1060,
+      "usable": 1060,
+      "rejected": {
+        "printed_pot_mismatch": 3036
+      }
+    },
+    "select": {
+      "source": 147,
+      "input_consistent": 41,
+      "usable": 41,
+      "rejected": {
+        "printed_pot_mismatch": 106
+      }
+    },
+    "final": {
+      "source": 1582,
+      "input_consistent": 392,
+      "usable": 389,
+      "rejected": {
+        "printed_pot_mismatch": 1190,
+        "label_quarantine:raise_without_bet": 3
+      }
+    }
+  },
+  "source_hashes": {
+    "train": "f07acbbe398d5749a69bde3da85ae9c48d4e66ac32a3868e245f8b073ee1d72f",
+    "select": "f4d155e98fc355cf64f7dfb0c37873711011b93f3863dd1ba4171eefb0a430f9",
+    "final": "59b32783243b5c140c83ec9215f25eb3322e4d5a51b5b7f0c332399dc9988fa1"
+  },
+  "no_upload": true,
+  "no_training": true,
+  "preflop_anchors": {
+    "unique": 387,
+    "matches": 80,
+    "excluded_new_mixed_heldout_matches": 6,
+    "old_and_new_holdout_match_overlap": 0,
+    "weighted_copies": 1161,
+    "copy_metadata_only_in_env_params_not_model_input": true
+  },
+  "training": {
+    "unique": 1447,
+    "postflop_unique_and_weighted": 1060,
+    "preflop_unique": 387,
+    "preflop_weighted": 1161,
+    "weighted_total": 2221,
+    "preflop_weighted_fraction": 0.5227375056280954,
+    "model_input_and_targets_unchanged": true,
+    "target_scaffold": "nonempty protocol marker, not attributed solver private reasoning",
+    "cleanup_targets": 0
+  },
+  "split_scenario_group_overlap": 0,
+  "final_policy": "Only count/hash reported; no model calls or final selection. Unsupported labels quarantined without repairs.",
+  "sha256": {
+    "train.jsonl": "0ac0330c74fe09b74c05e27caa755ee3fb213c99c3314d8e8f60e597f03cd442",
+    "preflop-anchors.jsonl": "ad90dd9f9b18513ea3bcd8cc51a086ef64b0f888f4ea0fe69a37718f47d23244",
+    "final.jsonl": "f08aefe5378a583039a47477ddcc44f8280eddd826bcb3ee50fc55a8fcef1b74",
+    "preflop-anchor-tasks.jsonl": "e5f594bd41309b54ab43c840b8565b9e136aab352066a47315a741a75521f90c",
+    "weighted-train-tasks.jsonl": "252df726b550e2ab07a5bb79c7164fb01a4cc4e78a515ed292eeac7385ca87f3",
+    "final-tasks.jsonl": "3302fa0bdef382d2183085022e674e98c40d2b4b1d5f17f664b9ceccb22d2e56",
+    "select.jsonl": "29fca45edae3e9eef63e66acc303c75319b012c5d01029a1d01e80d6e4852f7c",
+    "train-tasks.jsonl": "2b77d937be833c1d83e9fd863acc0de8b995ce74359385ec969f3b71a05b8b87",
+    "select-quarantine.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "select-tasks.jsonl": "4cf027f95b9efa60322e9b8a87242063363e0a86f512da7736458ef9f9485db7",
+    "train-quarantine.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final-quarantine.jsonl": "970ca34d3523d1e072985968496c5447777f3be9d87e45097207feda8807fbee"
+  }
+}
