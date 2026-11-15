@@ -1,0 +1,161 @@
+{
+  "scope": "Final-only six paired official30hand games for one previously selected candidate; do not use for checkpoint ranking. Raw EV uses official harness adjustment, with unsupported sidepots falling back to realized returns. Small sample, no claim of convergence.",
+  "schema_scope": "Task submit_fields action/amount; live event server automatically adds say. Effective action/amount/say, omitting local-default p_win/read. Reduced optional diagnostic schema; sanitizer/caps unchanged. Live Arena code not independently retrieved.",
+  "frozen_opponent": {
+    "inference_id": "infer_21f395f49bff",
+    "model": "vals-hackathon/pete-postflop-base-s20-jkou",
+    "checkpoint": "ckpt_23b6b6239f26",
+    "version": 1
+  },
+  "runs": {
+    "baseline": {
+      "eval_id": "eval_be4a7c44dc07",
+      "model": "vals-hackathon/combined-sft-v3",
+      "checkpoint": "ckpt_51eee61470f7",
+      "name": "overnight-sealed-final-incumbent-vs-base20",
+      "identity_preflight": {
+        "owner": "lmathias@berkeley.edu",
+        "org_id": "org_cd68943dd947",
+        "unix_uid": 10464,
+        "runtime_user_secret_exists": true
+      },
+      "submitted_at": 1794736766.965415,
+      "dashboard": "https://platform.appliedcompute.com/org_cd68943dd947/p/prj_ba36d29befaf/observability/evals/eval_be4a7c44dc07",
+      "job_id": "job_3c1dfedbeab5",
+      "status": "succeeded",
+      "completed_games": 6,
+      "planned_games": 6,
+      "cleanup_protocol": {
+        "turns": 180,
+        "attempts": 225,
+        "accepted_updated": 139,
+        "kept_unchanged": 0,
+        "cut": 41,
+        "retried_turns": 45,
+        "exact_valid_update_attempts": 139,
+        "exact_valid_final_updates": 139,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 139,
+          "too_long": 86
+        },
+        "result_counts": {
+          "updated": 139,
+          "cut": 41
+        },
+        "scope": "Recorded cleanup protocol/acceptance only, not factual-memory quality."
+      },
+      "summary": {
+        "place": 3.1666666666666665,
+        "ev_bb": 16.01033333333333,
+        "realized_bb": 14.5,
+        "busted": 0.0,
+        "decisions": 309,
+        "invalid_decisions": 0,
+        "cleanup_turns": 180,
+        "cleanup_attempts": 225,
+        "cleanup_overlong_attempts": 86,
+        "cleanup_final_cut": 41
+      }
+    },
+    "candidate": {
+      "eval_id": "eval_8a14524c0e64",
+      "inference_id": "infer_9efa1c614a32",
+      "checkpoint": "ckpt_11e7c430069c",
+      "version": 1,
+      "submitted_at": 1794738588.690357,
+      "dashboard": "https://platform.appliedcompute.com/org_cd68943dd947/p/prj_ba36d29befaf/observability/evals/eval_8a14524c0e64",
+      "job_id": "job_473114d1be85",
+      "status": "succeeded",
+      "completed_games": 6,
+      "planned_games": 6,
+      "cleanup_protocol": {
+        "turns": 180,
+        "attempts": 180,
+        "accepted_updated": 180,
+        "kept_unchanged": 0,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 180,
+        "exact_valid_final_updates": 180,
+        "wrong_tool_calls": 0,
+        "attempts_with_wrong_tools": 0,
+        "missing_update_attempts": 0,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "ok": 180
+        },
+        "result_counts": {
+          "updated": 180
+        },
+        "scope": "Recorded cleanup protocol/acceptance only, not factual-memory quality."
+      },
+      "summary": {
+        "place": 2.0,
+        "ev_bb": 91.37650000000001,
+        "realized_bb": 93.16666666666667,
+        "busted": 0.0,
+        "decisions": 298,
+        "invalid_decisions": 2,
+        "cleanup_turns": 180,
+        "cleanup_attempts": 180,
+        "cleanup_overlong_attempts": 0,
+        "cleanup_final_cut": 0
+      }
+    }
+  },
+  "matched_games": 6,
+  "paired": {
+    "ev_gain_bb": {
+      "mean": 75.36616666666667,
+      "ci95": [
+        -23.208,
+        170.3355
+      ],
+      "individual_differences": [
+        -124.062,
+        92.0,
+        51.234,
+        263.025,
+        -8.5,
+        178.5
+      ]
+    },
+    "placement_improvement": {
+      "mean": 1.1666666666666667,
+      "ci95": [
+        -0.6666666666666666,
+        2.6666666666666665
+      ],
+      "individual_differences": [
+        -3,
+        1,
+        1,
+        4,
+        2,
+        2
+      ]
+    },
+    "realized_gain_bb": {
+      "mean": 78.66666666666667,
+      "ci95": [
+        -20.833333333333332,
+        178.83333333333334
+      ],
+      "individual_differences": [
+        -115.0,
+        92.0,
+        36.0,
+        289.0,
+        -8.5,
+        178.5
+      ]
+    }
+  },
+  "evidence_stage": "FINAL VALIDATION, not selection/checkpoint ranking",
+  "no_training_reuse": true,
+  "one_frozen_candidate": true
+}

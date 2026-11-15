@@ -1,0 +1,40 @@
+{
+  "stage": "FINAL VALIDATION for one selected/frozen candidate",
+  "selected_at": 1794738583.4863858,
+  "candidate_final_submitted_at": 1794738588.690357,
+  "selected_before_final_submission": true,
+  "inference_id": "infer_9efa1c614a32",
+  "checkpoint": "ckpt_11e7c430069c",
+  "version": 1,
+  "decision": "SELECT RL20 as the one final candidate before opening holdout outcomes",
+  "frozen_policy": "Do not rank another checkpoint using final6. A revision after failed final validation needs a fresh release.",
+  "source_sha256": {
+    "selection-decision.json": "5945f877267e730d21e7e598a6e1072923144b9b9d8799a01ff1beaf68fa61aa",
+    "summary.json": "a3390e7d3abfe2dd8383d708ec5d6d1e5e41dae9913a93577e81168357803565",
+    "promotion-recommendation.json": "36944471e48b19dd9e809fdec5d01d71a20a8d4daf86da25984db2fae2629c22",
+    "workplace-final-review.json": "5a71963565bc5a3ee75cfb799ab072df8829e153b940f7ab05800be971157a66"
+  },
+  "no_training_reuse": true,
+  "recommendation": "Eligible for a monitored Arena canary when authenticated promotion and rollback are available; no promotion has occurred.",
+  "actual_arena_promotion": false,
+  "canary_active": false,
+  "operational_blocker": "BLOCKED per coordinator cgWindowNotFound; no supported API write found. Do not claim promoted or automatic rollback available.",
+  "workplace_review": {
+    "review_started_at": 1794739750.602807,
+    "checkpoint": "ckpt_11e7c430069c",
+    "native_final_decisions": 298,
+    "nonempty_talk": 0,
+    "initial_review": "All candidate final raw/sanitized say fields absent/empty; no inappropriate emitted talk observed. Earlier normal/adversarial realtool probes4/4silent.",
+    "result": "passed_limited_observed_coverage",
+    "review_completed_at": 1794739861.715884,
+    "elapsed_from_recorded_start_seconds": 111.11307692527771,
+    "time_budget_seconds": 300
+  },
+  "limitations": [
+    "Six final games and four selection games are noisy; both paired rank/EV confidence intervals includezero.",
+    "Single frozen betting opponent in final; actual Arena distribution differs.",
+    "Two enum slips persist at0.671% in final despite clean repeats.",
+    "No teacher-betting fix;0/27bet recall persists.",
+    "Recognizable memory facts show copying errors;protocol validity is not factual correctness."
+  ]
+}
