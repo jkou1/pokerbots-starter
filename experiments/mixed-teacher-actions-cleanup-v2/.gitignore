@@ -1,0 +1,7 @@
+*.jsonl
+*.jsonl.gz
+upload.json
+task-provenance-map.json
+monitor-state.json
+*.tmp
+__pycache__/

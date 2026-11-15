@@ -1,0 +1,36 @@
+{
+  "total": 7720,
+  "unchanged_teacher_actions": 7640,
+  "cleanup_unique_sources": 4,
+  "cleanup_copies": 80,
+  "cleanup_example_fraction": 0.010362694300518135,
+  "estimated_cleanup_token_fraction": 0.0472180109663,
+  "all_action_content_hashes_preserved": true,
+  "prefix_balance": {
+    "128": {
+      "house-professor-pete": 63,
+      "house-chatty-carlos": 63,
+      "genuine-own-cleanup": 2
+    },
+    "256": {
+      "house-professor-pete": 121,
+      "house-chatty-carlos": 131,
+      "genuine-own-cleanup": 4
+    },
+    "640": {
+      "house-professor-pete": 299,
+      "house-chatty-carlos": 334,
+      "genuine-own-cleanup": 7
+    },
+    "1280": {
+      "house-professor-pete": 617,
+      "house-chatty-carlos": 646,
+      "genuine-own-cleanup": 17
+    }
+  },
+  "source_action_sha256": "7140f8e9bab7bf513d582da1d606f9c72a99f028c84ad396b81cb732eed8d6b5",
+  "source_cleanup_manifest_sha256": "d371c7afc9d22da065d3baa52c18bb9e737c8c06680a184672d10888e8b1a48b",
+  "selection_final_unchanged": true,
+  "replacement_reason": "Observednativebase20incorrectcleanuptoolrouting;notidentitymigration",
+  "no_job_mutation": true
+}

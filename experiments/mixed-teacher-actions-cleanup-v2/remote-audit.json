@@ -1,0 +1,116 @@
+{
+  "full_membership_verified": true,
+  "expected": 7720,
+  "actual": 7720,
+  "counts": {
+    "house-professor-pete": 3820,
+    "house-chatty-carlos": 3820,
+    "genuine-own-cleanup": 80
+  },
+  "samples": [
+    {
+      "kind": "house-professor-pete",
+      "task_id": "tsk_34420fa2f40d",
+      "content_hash": "669817f3380b7eb3694d18be623b5be04a57ac1fbfe8ba8e8f93a986a03b8707",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": null
+    },
+    {
+      "kind": "house-professor-pete",
+      "task_id": "tsk_4859b9a7306f",
+      "content_hash": "a5e5a7995a6cdcd08a9e15121c05094161923bea324c459d97412288d14cf341",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": null
+    },
+    {
+      "kind": "house-chatty-carlos",
+      "task_id": "tsk_f57d87c6652f",
+      "content_hash": "f52b3295a7ff5e73436875fc8085a27a77c7211b3e2feaa96130fbff89cf647f",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": null
+    },
+    {
+      "kind": "house-chatty-carlos",
+      "task_id": "tsk_fd1e6e6740c6",
+      "content_hash": "a4a3d073e2f80abf5472751bcb46b8ccd934995e073e046fb7ce48d067785d81",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": null
+    },
+    {
+      "kind": "house-professor-pete",
+      "task_id": "tsk_14fef5ef149d",
+      "content_hash": "a69fe14f93c3904485faabd6c3bf33ea2a9e5c847a7d3bd9fd235a41bb689c37",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": null
+    },
+    {
+      "kind": "house-chatty-carlos",
+      "task_id": "tsk_b8fd81cc2440",
+      "content_hash": "5c6b7b73443efc424fc940df9146e895bf90116f9076e52180b5290db2dbeca0",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": null
+    },
+    {
+      "kind": "house-chatty-carlos",
+      "task_id": "tsk_d915385fa982",
+      "content_hash": "e0cdfb014d5c96c18b6da6deca4877966815ed957d918edd2421108195f30ac9",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": null
+    },
+    {
+      "kind": "house-professor-pete",
+      "task_id": "tsk_cf0d1d2eda11",
+      "content_hash": "ad3c6a9dfb91412d51fa1d6a4ed13a47a2a27cb32a69d83d10b8b6aa7af65bfe",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": null
+    },
+    {
+      "kind": "genuine-own-cleanup",
+      "task_id": "tsk_472675dace7c",
+      "content_hash": "1dfb50049c7753584b66849f7971e374af76b10fc28cd3b987a26ca5d07f0f03",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": 1
+    },
+    {
+      "kind": "genuine-own-cleanup",
+      "task_id": "tsk_d0bd8735485c",
+      "content_hash": "b24942a74d207b1beba6729c8989240b43f1cc2fb56942f88f8b89932f94d684",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": 0
+    },
+    {
+      "kind": "genuine-own-cleanup",
+      "task_id": "tsk_cdd9d82eb6ab",
+      "content_hash": "e8bb8eb87711e6703fc2152b4d4cf99d522e01fc1bb1636d0ab422c65f603dd5",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": 2
+    },
+    {
+      "kind": "genuine-own-cleanup",
+      "task_id": "tsk_bed2ffd037d3",
+      "content_hash": "982cc2e813e68d4bbddd79fc385f1d4d326086afc2b878c9886672b610f66318",
+      "payload_equal": true,
+      "one_supervised_target": true,
+      "source_index": 3
+    }
+  ],
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "local_template_audit_passed": true,
+  "source_selection_datasets_unchanged": true
+}

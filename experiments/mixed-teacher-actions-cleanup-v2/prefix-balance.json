@@ -1,0 +1,22 @@
+{
+  "128": {
+    "house-professor-pete": 63,
+    "house-chatty-carlos": 63,
+    "genuine-own-cleanup": 2
+  },
+  "256": {
+    "house-professor-pete": 121,
+    "house-chatty-carlos": 131,
+    "genuine-own-cleanup": 4
+  },
+  "640": {
+    "house-professor-pete": 299,
+    "house-chatty-carlos": 334,
+    "genuine-own-cleanup": 7
+  },
+  "1280": {
+    "house-professor-pete": 617,
+    "house-chatty-carlos": 646,
+    "genuine-own-cleanup": 17
+  }
+}

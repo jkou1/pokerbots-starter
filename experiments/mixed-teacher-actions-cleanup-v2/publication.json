@@ -1,0 +1,54 @@
+{
+  "collection_id": "coll_6c119f846b5e",
+  "slug": "mixed-pete-carlos-actions-v1",
+  "artifacts": {
+    "REPLACEMENT_README.md": {
+      "id": "art_acc357726b72",
+      "state": "ready",
+      "sha256": "1dfca6305d1e5462f4327a3d64df205d21081b6c3330f6ba7d30c7033f96894f"
+    },
+    "EXPERIMENT.md": {
+      "id": "art_3efda4065685",
+      "state": "ready",
+      "sha256": "f3fa7ce9681e72a0d77ce2a68dc14edeb79c0ba270c28509a5b140e2d4dbc571"
+    },
+    "prepared.json": {
+      "id": "art_37c74229bb77",
+      "state": "ready",
+      "sha256": "430f4e8575d1e26128aa3a37c2b295a8824bbe8fdc671ce4fb04da9d72b1e4a2"
+    },
+    "prefix-balance.json": {
+      "id": "art_e4f8e5473bea",
+      "state": "ready",
+      "sha256": "ebdc4f7460207c79e1d997ffe746270a749ef629b43f3907f6033023053c584d"
+    },
+    "local-template-audit.json": {
+      "id": "art_ef3523af8f37",
+      "state": "ready",
+      "sha256": "d0e9f72643a5cf4b123538f524c2515cab7e2ee22a7f00983b299237430f7e8c"
+    },
+    "remote-audit.json": {
+      "id": "art_264cc2020ee8",
+      "state": "ready",
+      "sha256": "a1ec0f9d7ffa5a5ad16709cc0db2fa9408a28f26a55bf6901c0cc08acafe4fce"
+    },
+    "STOP_AND_EXTENSION_POLICY.json": {
+      "id": "art_d09b622492d0",
+      "state": "ready",
+      "sha256": "45132dd455316ff3638a2dad638a145cc28d348b0456763f75a11a6fcf2bd680"
+    },
+    "run.json": {
+      "id": "art_d46208d17eab",
+      "state": "ready",
+      "sha256": "a6ed1f0e21892afa097be7e35b439f0e8ac5f865735f47b023dc2eba2c0ccf7b"
+    }
+  },
+  "verified_train_membership": true,
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "monitor_pid": 87020
+}

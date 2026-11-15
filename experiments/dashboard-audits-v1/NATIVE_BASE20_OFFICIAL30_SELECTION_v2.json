@@ -1,0 +1,330 @@
+{
+  "eval_id": "eval_b539897717d8",
+  "job_id": "job_d21ee17bf239",
+  "status": "succeeded",
+  "planned_games": 6,
+  "completed_logs": 6,
+  "scope": "Actual native official30hand games; unclipped EV and raw placement. Dashboard primary reward is clipped and is not a placement metric. EV is the official harness adjustment; unsupported side pots fall back to realized returns, not solver EV.",
+  "games": [
+    {
+      "seed": 32129134682652,
+      "policy_seat": "seat3",
+      "place": 6,
+      "ev_bb": -2.3850000000000016,
+      "realized_bb": -82.5,
+      "decisions": 54,
+      "invalid_decisions": 3,
+      "hands": 30,
+      "ev_methods": {
+        "no-showdown": 22,
+        "showdown": 6,
+        "allin": 1,
+        "side-pot": 1
+      },
+      "cleanup_protocol": {
+        "turns": 30,
+        "attempts": 30,
+        "accepted_updated": 7,
+        "kept_unchanged": 23,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 7,
+        "exact_valid_final_updates": 7,
+        "wrong_tool_calls": 23,
+        "attempts_with_wrong_tools": 23,
+        "missing_update_attempts": 23,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "none": 23,
+          "ok": 7
+        },
+        "result_counts": {
+          "unchanged": 23,
+          "updated": 7
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok."
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    },
+    {
+      "seed": 65147353836095,
+      "policy_seat": "seat4",
+      "place": 1,
+      "ev_bb": 46.5,
+      "realized_bb": 46.5,
+      "decisions": 61,
+      "invalid_decisions": 1,
+      "hands": 30,
+      "ev_methods": {
+        "showdown": 8,
+        "no-showdown": 22
+      },
+      "cleanup_protocol": {
+        "turns": 30,
+        "attempts": 30,
+        "accepted_updated": 9,
+        "kept_unchanged": 21,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 9,
+        "exact_valid_final_updates": 9,
+        "wrong_tool_calls": 21,
+        "attempts_with_wrong_tools": 21,
+        "missing_update_attempts": 21,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "none": 21,
+          "ok": 9
+        },
+        "result_counts": {
+          "unchanged": 21,
+          "updated": 9
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok."
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    },
+    {
+      "seed": 167682508893636,
+      "policy_seat": "seat5",
+      "place": 6,
+      "ev_bb": -20.5,
+      "realized_bb": -20.5,
+      "decisions": 65,
+      "invalid_decisions": 3,
+      "hands": 30,
+      "ev_methods": {
+        "no-showdown": 20,
+        "showdown": 10
+      },
+      "cleanup_protocol": {
+        "turns": 30,
+        "attempts": 30,
+        "accepted_updated": 6,
+        "kept_unchanged": 24,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 6,
+        "exact_valid_final_updates": 6,
+        "wrong_tool_calls": 25,
+        "attempts_with_wrong_tools": 24,
+        "missing_update_attempts": 24,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "none": 24,
+          "ok": 6
+        },
+        "result_counts": {
+          "unchanged": 24,
+          "updated": 6
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok."
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    },
+    {
+      "seed": 61637709364564,
+      "policy_seat": "seat2",
+      "place": 4,
+      "ev_bb": -36.0,
+      "realized_bb": -36.0,
+      "decisions": 62,
+      "invalid_decisions": 1,
+      "hands": 30,
+      "ev_methods": {
+        "no-showdown": 21,
+        "showdown": 8,
+        "side-pot": 1
+      },
+      "cleanup_protocol": {
+        "turns": 30,
+        "attempts": 30,
+        "accepted_updated": 7,
+        "kept_unchanged": 23,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 7,
+        "exact_valid_final_updates": 7,
+        "wrong_tool_calls": 23,
+        "attempts_with_wrong_tools": 23,
+        "missing_update_attempts": 23,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "none": 23,
+          "ok": 7
+        },
+        "result_counts": {
+          "unchanged": 23,
+          "updated": 7
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok."
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    },
+    {
+      "seed": 169935285067393,
+      "policy_seat": "seat1",
+      "place": 2,
+      "ev_bb": 13.75,
+      "realized_bb": 14.0,
+      "decisions": 60,
+      "invalid_decisions": 0,
+      "hands": 30,
+      "ev_methods": {
+        "no-showdown": 23,
+        "showdown": 7
+      },
+      "cleanup_protocol": {
+        "turns": 30,
+        "attempts": 30,
+        "accepted_updated": 7,
+        "kept_unchanged": 23,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 7,
+        "exact_valid_final_updates": 7,
+        "wrong_tool_calls": 23,
+        "attempts_with_wrong_tools": 23,
+        "missing_update_attempts": 23,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "none": 23,
+          "ok": 7
+        },
+        "result_counts": {
+          "unchanged": 23,
+          "updated": 7
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok."
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    },
+    {
+      "seed": 45780757290026,
+      "policy_seat": "seat0",
+      "place": 1,
+      "ev_bb": 86.5,
+      "realized_bb": 86.5,
+      "decisions": 59,
+      "invalid_decisions": 0,
+      "hands": 30,
+      "ev_methods": {
+        "showdown": 9,
+        "no-showdown": 20,
+        "side-pot": 1
+      },
+      "cleanup_protocol": {
+        "turns": 30,
+        "attempts": 30,
+        "accepted_updated": 3,
+        "kept_unchanged": 27,
+        "cut": 0,
+        "retried_turns": 0,
+        "exact_valid_update_attempts": 3,
+        "exact_valid_final_updates": 3,
+        "wrong_tool_calls": 27,
+        "attempts_with_wrong_tools": 27,
+        "missing_update_attempts": 27,
+        "multiple_update_attempts": 0,
+        "attempt_outcomes": {
+          "none": 27,
+          "ok": 3
+        },
+        "result_counts": {
+          "unchanged": 27,
+          "updated": 3
+        },
+        "scope": "Protocol/acceptance only; contents factuality is not established. Exact validity requires one update_scratchpad, string contents <=5000, zero other calls, no truncation, and harness outcome ok."
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    }
+  ],
+  "outcomes": {
+    "games": 6,
+    "mean_placement": 3.3333333333333335,
+    "first_place_rate": 0.3333333333333333,
+    "bust_rate": 0.0,
+    "mean_realized_bb": 1.3333333333333333,
+    "invalid_decisions": 8
+  },
+  "mean_unclipped_ev_bb": 14.644166666666665,
+  "paired_vs_incumbent": {
+    "games": 6,
+    "mean_placement": 3.3333333333333335,
+    "first_place_rate": 0.3333333333333333,
+    "bust_rate": 0.0,
+    "mean_realized_bb": 1.3333333333333333,
+    "invalid_decisions": 8,
+    "paired_improvement": {
+      "mean": 0.5,
+      "ci95": [
+        -0.8333333333333334,
+        2.3333333333333335
+      ]
+    }
+  },
+  "paired_unclipped_ev_vs_incumbent": {
+    "games": 6,
+    "mean_difference_bb": 20.1025,
+    "bootstrap_ci95": [
+      -29.147499999999997,
+      61.705000000000005
+    ],
+    "baseline_EV_scope": "Official helper applied after local baseline games with same8variants/64runouts; raw logs unchanged."
+  },
+  "cleanup_protocol": {
+    "turns": 180,
+    "attempts": 180,
+    "accepted_updated": 39,
+    "kept_unchanged": 141,
+    "cut": 0,
+    "retried_turns": 0,
+    "exact_valid_update_attempts": 39,
+    "exact_valid_final_updates": 39,
+    "wrong_tool_calls": 142,
+    "attempts_with_wrong_tools": 141,
+    "missing_update_attempts": 141,
+    "multiple_update_attempts": 0,
+    "attempt_outcomes": {
+      "none": 141,
+      "ok": 39
+    },
+    "result_counts": {
+      "unchanged": 141,
+      "updated": 39
+    },
+    "scope": "Recorded cleanup protocol/acceptance only, not factual-memory quality."
+  },
+  "cleanup_totals": {
+    "cleanup_turns": 180,
+    "cleanup_attempts": 180,
+    "cleanup_overlong_attempts": 0,
+    "cleanup_final_cut": 0
+  },
+  "supersedes_artifact_id": "art_5f1f74b38dc7",
+  "interpretation": "Native six-game selection, wide CI includes zero; eight invalid decisions block reliability claims. Short cleanup outputs do not establish factual/protocol correctness. Paired incumbent baseline was local, not a second native job. No sealed final queried."
+}

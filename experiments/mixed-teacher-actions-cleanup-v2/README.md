@@ -1,0 +1,1 @@
+Versioned protocol-retention replacement of the queued mixed-teacher pilot. See EXPERIMENT.md, prepared.json, local-template-audit.json, remote-audit.json and run.json. Selection/final datasets remain the original v1 whole-match holdouts. Runtime artifacts and private source-derived task files are ignored by Git.

@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "config": {
+    "model": "Qwen/Qwen3.6-35B-A3B",
+    "name": "mixed-pete-carlos-actions-cleanup-v2-base-sft-10steps-b128",
+    "description": "Same7640legalPeteCarlosactions+80copiesof4genuinevalidatedowncleanupTRAINreplies;protocolretentionbugfix;10updates;checkpoint5/10;noautomaticextension.",
+    "tags": {
+      "stage": "mixed-teacher-actions",
+      "initialization": "base",
+      "dataset": "pokerbots-mixed-pete-carlos-actions-cleanup-v2-train",
+      "teacher_mix": "50percentPete50percentCarlos",
+      "initial_max_updates": 10,
+      "requires_milestone_validation": true,
+      "protocol_retention": "4genuine_sources80copies"
+    },
+    "experiment_cfg": {
+      "method": {
+        "type": "sft"
+      },
+      "step": {
+        "num_train_steps": 10,
+        "problem_batch_size": 128,
+        "samples_per_problem": 1,
+        "checkpoint_interval": 5,
+        "seed": 42
+      },
+      "tasks": {
+        "datasets": [
+          {
+            "ac2_dataset_name": "pokerbots-mixed-pete-carlos-actions-cleanup-v2-train"
+          }
+        ]
+      },
+      "trainer": {
+        "learning_rate": 5e-06
+      },
+      "rollout": {
+        "n_inference_replicas": 0,
+        "max_total_len": 8192
+      },
+      "eval": {
+        "mode": "off"
+      }
+    },
+    "internal_cfg": {
+      "launch": {
+        "n_training_replicas": 1,
+        "tensorboard_enabled": true
+      }
+    }
+  },
+  "replaces": "train_93e592d258f9",
+  "old_job_id": "job_fb59a46dc0ee",
+  "reason": "ObservedincorrectcleanuptoolroutinginbaseSFT;protocolretentionbugfix,notidentitymigration",
+  "old_config_preserved_at": "/Users/lance/Documents/pokerbots-pokerbench/experiments/mixed-teacher-actions-v1/run.json",
+  "old_pre_action_check": {
+    "train_status": "pending",
+    "job_state": "pending",
+    "optimizer_updates": 0,
+    "checked_at": "2026-11-15T10:15:28.606582+00:00"
+  },
+  "requested_training_gpus": 4,
+  "requested_rollout_gpus": 0,
+  "requested_eval_gpus": 0,
+  "initial_max_updates": 10,
+  "no_automatic_extension": true,
+  "created_at": "2026-11-15T10:15:28.606624+00:00",
+  "old_queued_stop_requested_at": "2026-11-15T10:15:29.529255+00:00",
+  "old_stop_verified": {
+    "train_status": "stopped",
+    "job_state": "stopped"
+  },
+  "train_id": "train_41ab837f39e5",
+  "status": "pending",
+  "job_id": "job_669c09f1d753",
+  "actual_owner": "lmathias@berkeley.edu",
+  "actual_unix_uid": 10464
+}
