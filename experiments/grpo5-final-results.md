@@ -1,0 +1,11 @@
+# Frozen GRPO5 validation result
+
+The selected parent checkpoint a7a227 passed the fixed64 single-hand selection and four development games, then failed the separately released six-game final validation. It was not promoted. Full six-game paired placement gain was0.1667 (95% bootstrap interval−1.3333to1.6667), below the frozen0.5 requirement; legal actions were248/252 (98.413%), below99%; two cleanup turns called an ignored/wrong tool rather than update_scratchpad, violating the zero-wrong-tool rule. Cleanup acceptance was131/133. All248legal decisions used genuine tools. All13raw/sanitized SAY messages passed a bounded45-second workplace review.
+
+Paired final EV gain was+72.9118BB (interval−45.9167to215.0368), with three candidate busts versus zero incumbent busts. This positive noisy EV does not override the failed release criteria. Excluding the one incumbent deal affected by a recovered connection error gives diagnostic five-pair placement gain+0.4 and EV+98.0942BB, both with wide intervals. All six remain the primary analysis; no deal was replaced or rerun. Both native arms completed before their original45-minute walls; no extension was needed.
+
+The five-update stability child572d also failed its separate frozen64selection:−0.931BB/hand versus parent5, with ad74−3.25/base20+1.388. Its138policy actions and64cleanup updates were valid, but these do not rescue the EV/stratum failure. No child final study, benchmark clone or further training was launched. Both parent5 and child serving were retired after drainage, with checkpoints/results preserved.
+
+The previously qualified RL20 checkpoint11e7 was restored solely as a fallback, independently of these final outcomes. Its one reused TRAIN functional game completed30hands/30correct cleanup updates, but had one malformed actual-tool reply among41policy actions. This is explicitly not a clean functional pass, and no new performance-selection claim is made. The existing Arena entry remained incumbent C throughout.
+
+Ignored private artifacts retain complete logs, source hashes and exact failures under data/experiments/grpo5-fresh-final6-v2, late-grpo-fresh64-v1, and rl20-fallback-functional. Selection, development and final evidence remain distinct. No statistical-superiority or general GRPO-convergence conclusion follows from these small tests.
