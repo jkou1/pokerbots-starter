@@ -1,0 +1,62 @@
+{
+  "continuation": {
+    "train_id": "train_e3fba0323bd2",
+    "status": "stopped",
+    "completed": true,
+    "train_metric_steps": 40,
+    "first_train": [
+      {
+        "step": 0,
+        "train/grad_norm": 1.6267788410186768,
+        "train/loss": 0.032154728766201304,
+        "train/lr-pg_0": 1.6666666666666667e-06,
+        "train/lr-pg_1": 1.6666666666666667e-06,
+        "train/lr-pg_2": 1.6666666666666667e-06
+      }
+    ],
+    "last_train": [
+      {
+        "step": 39,
+        "train/grad_norm": 0.8579066395759583,
+        "train/loss": 0.019216342947011876,
+        "train/lr-pg_0": 1e-06,
+        "train/lr-pg_1": 1e-06,
+        "train/lr-pg_2": 1e-06
+      }
+    ],
+    "all_finite_loss": true,
+    "max_rollout_truncated_ratio": 0.0,
+    "recorded_at": "2026-11-15T09:01:52.096724+00:00",
+    "note": "40 optimizer updates and both checkpoints registered; coordinator stopped completed pilots to release GPUs."
+  },
+  "base": {
+    "train_id": "train_4cc69b58d8e9",
+    "status": "stopped",
+    "completed": true,
+    "train_metric_steps": 40,
+    "first_train": [
+      {
+        "step": 0,
+        "train/grad_norm": 85.03052520751953,
+        "train/loss": 1.0245288667224703,
+        "train/lr-pg_0": 4.166666666666667e-06,
+        "train/lr-pg_1": 4.166666666666667e-06,
+        "train/lr-pg_2": 4.166666666666667e-06
+      }
+    ],
+    "last_train": [
+      {
+        "step": 39,
+        "train/grad_norm": 0.6470710635185242,
+        "train/loss": 0.017251982105721674,
+        "train/lr-pg_0": 1e-06,
+        "train/lr-pg_1": 1e-06,
+        "train/lr-pg_2": 1e-06
+      }
+    ],
+    "all_finite_loss": true,
+    "max_rollout_truncated_ratio": 0.0,
+    "recorded_at": "2026-11-15T09:01:52.309414+00:00",
+    "note": "40 optimizer updates and both checkpoints registered; coordinator stopped completed pilots to release GPUs."
+  }
+}
