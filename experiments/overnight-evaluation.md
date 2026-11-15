@@ -49,3 +49,20 @@ Hypothesis: valid tool-call agreement with the leading house bot on source-match
 Targeted approach: evaluate147 fixed selection records from `pokerbots-pokerbench/experiments/pete-postflop-v1/select.jsonl` on incumbent and iteration19, with official tool schema, thinking, token cap, temperature zero, concurrency4 each. Keep103final records untouched.
 
 Test: legal rate, per-action recall, exact action/amount agreement, match-clustered paired interval. This is imitation, not a poker-win metric. Success is reliable tool outputs and improved postflop imitation without losing minority actions; actual game screening remains necessary. Stop on schema/provenance mismatch or repeated endpoint failure, and never train on the observed invalid-enum regression case.
+
+## Practical overnight promotion and rollback gate
+
+Problem: hundreds of games are infeasible overnight, while loss or imitation alone can promote a broken model.
+
+Hypothesis: execution checks, targeted held-out improvement, modest matched game evidence, and a monitored Arena canary can capture large gains with bounded deployment risk.
+
+Targeted approach and tests:
+
+1. Require a ready deployment, real `submit_action` probe, and one complete official30hand carry-stack smoke game. Inspect action and cleanup calls; plain text is insufficient.
+2. Evaluate147held-out postflop decisions and the fixed invalid-enum regression input. Require legal rate at least98% and no decline over2percentage-points versus incumbent. Inspect failures, repeat the known enum regression, verify cleanup tool and scratchpad bound. Repeated failures block promotion until repaired.
+3. Compare at least four paired official30hand selection games, expand toward12 when practical, with identical seeds/seats/opponents. Report placement, busts, chip/EV diagnostics, invalid decisions, and whole-game paired bootstrap interval. Positive interval supports promotion; noisy interval permits a labeled canary only with meaningful directional gain (at least0.5mean-place improvement or large consistent EV gain), no reliability regression and corroborating targeted improvement. Four games do not establish proven superiority.
+4. Choose one candidate before a separate six-game official30hand final holdout using unused seeds. Never rank additional checkpoints on that holdout. If it contradicts the gain or exposes failures, retain incumbent; a revised experiment needs a new final holdout.
+5. Review all available emitted table talk from smoke/selection plus several fresh normal/adversarial-chatter probes for workplace appropriateness, spending no more than five minutes. Record sample, duration and findings. Silence passes. Inappropriate output blocks promotion until repaired.
+6. Preserve incumbent deployment/checkpoint for rollback. Register candidate separately; verify active Arena inferenceID. Roll back immediately on endpoint failure, inappropriate talk, repeated enum/cleanup failures, or at least5% invalid decisions among first40observed decisions. Review after12completed canary games and revert on mean placement at least one place worse than incumbent reference without compensating evidence. Card losses alone are not tooling failures. Keep uncertainty explicit.
+
+Success: verified healthy entry with defensible directional gains and monitored canary. Stop on failed gates; repair or retain incumbent. These are operational decisions, not a statistical guarantee of first place.
