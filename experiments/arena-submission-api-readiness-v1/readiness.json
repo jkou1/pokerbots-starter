@@ -1,0 +1,89 @@
+{
+  "captured_at": "2026-11-15T10:41:07.032271+00:00",
+  "status": "blocked_no_supported_submission_route_or_payload_schema",
+  "mutations_performed": false,
+  "current_entry_public_read": {
+    "source_url": "https://www.pokerbots.ac/teams/org_cd68943dd947",
+    "sha256": "e94923c929380be4a815314123013fa34a810276902760dbe94de8f376f1ac2b",
+    "name": "return of rain man",
+    "inference_id": "infer_b0f5e9429b7e",
+    "submission_time_public": "Nov15 07:01UTC"
+  },
+  "candidate": {
+    "inference_id": "infer_9efa1c614a32",
+    "model": "vals-hackathon/grpo-history-ad74-step20",
+    "version": 1
+  },
+  "rollback": {
+    "inference_id": "infer_b0f5e9429b7e",
+    "name": "return of rain man"
+  },
+  "verified_authenticated_arena_get_route": null,
+  "verified_submit_route": null,
+  "verified_submit_payload": null,
+  "installed_sdk_cli_version": "0.4.7",
+  "official_starter_instructions": "README.md step12 documents Vals Arena console submission, noAPIroute",
+  "console_bearer_read": {
+    "result": 302,
+    "redirect_domain": "auth.appliedcompute.com",
+    "browser_credentials_used": false
+  },
+  "openapi_discovery": {
+    "url": "https://api.appliedcompute.com/openapi.json",
+    "status": 404
+  },
+  "public_assets": {
+    "41ci5gme796jk.js": {
+      "url": "https://www.pokerbots.ac/_next/static/immutable/chunks/41ci5gme796jk.js",
+      "sha256": "8574989fc772145eee6f993748e414a05d872d160d28bace4d5bd2e221a7b912",
+      "bytes": 169478
+    },
+    "2rfgfddcwtgqi.js": {
+      "url": "https://www.pokerbots.ac/_next/static/immutable/chunks/2rfgfddcwtgqi.js",
+      "sha256": "7b947729996e11ff3e57d95228ba9d6ede3baab62169daabb662fb246fa62380",
+      "bytes": 8929
+    },
+    "turbopack-3xd-7z66s-4wg.js": {
+      "url": "https://www.pokerbots.ac/_next/static/immutable/chunks/turbopack-3xd-7z66s-4wg.js",
+      "sha256": "439be7f075d69bbf510ceca09cbc0856956be6f1268f40948a2566148e13de07",
+      "bytes": 9974
+    },
+    "3dy0rav_b48os.js": {
+      "url": "https://www.pokerbots.ac/_next/static/immutable/chunks/3dy0rav_b48os.js",
+      "sha256": "f9d66535097ee31de2eba41d37e03ae911c5d9482ad53fd66208f90d2338ef4d",
+      "bytes": 229783
+    },
+    "0c0hxoamwjsbw.js": {
+      "url": "https://www.pokerbots.ac/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "bytes": 112594
+    },
+    "1t0khdpxvg07z.js": {
+      "url": "https://www.pokerbots.ac/_next/static/immutable/chunks/1t0khdpxvg07z.js",
+      "sha256": "363c86892260bb37b1eab8c49448957252e68982dc43f97dab75fc253c9daf38",
+      "bytes": 22292
+    },
+    "2eizjd486xocn.js": {
+      "url": "https://www.pokerbots.ac/_next/static/immutable/chunks/2eizjd486xocn.js",
+      "sha256": "c037e8015636bf23bb89f45b46314885a7fa3b5a74351d5fd0a023f8e1f9acd2",
+      "bytes": 5362
+    },
+    "05r45mvjwcpwa.js": {
+      "url": "https://www.pokerbots.ac/_next/static/immutable/chunks/05r45mvjwcpwa.js",
+      "sha256": "4216e80030daef7c3b8f990bcf5187cb539ab0388b8343be32e4ef0287ba2949",
+      "bytes": 29241
+    }
+  },
+  "canary": "inactive;requiresconfirmedpromotion",
+  "no_sealed_final_outcomes_read": true,
+  "versioned_openapi_discovery": {
+    "url": "https://api.appliedcompute.com/v1/openapi.json",
+    "status": 404,
+    "authenticated_new_account": true
+  },
+  "read_identity": {
+    "owner": "lmathias@berkeley.edu",
+    "unix_uid": 10464,
+    "org_id": "org_cd68943dd947"
+  }
+}
