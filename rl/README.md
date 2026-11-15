@@ -1,5 +1,10 @@
 # RL: GRPO on single 6-max hands
 
+For the 20,000-task dataset using real historical six-seat stack distributions,
+see [GRPO from historical stack scenarios](HISTORY_DATASET.md). It includes
+source-match-disjoint selection/eval splits, fresh deals, upload receipts, and
+the required per-seat-stack harness settings.
+
 [`train.py`](train.py) trains Qwen3.6-35B-A3B on `pokerbots-train` through your self-hosted harness:
 
 - **Rollouts:** each hand is played by the harness; the trained seat calls the run's inference engine through the

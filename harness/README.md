@@ -68,6 +68,8 @@ model.
 | `seats` | 10 | Table size (the event is 6) |
 | `total_hands`, `reset_stacks` | 3, true | Hands per table; reset every stack to `starting_stack` each hand |
 | `small_blind`, `big_blind`, `starting_stack` | 1, 2, 200 | Chips |
+| `starting_stacks` | unset | Optional array of one positive integer chip balance per seat; overrides `starting_stack` |
+| `button_seat` | last seat | Initial button index; subsequent hands move to the next live seat |
 | `policy_seats` | every seat | Seats played by the model AC2 evaluates or trains |
 | `opponent_model` | none | Model for every other seat |
 | `opponent_api` | chat | `responses` for the Responses API |
@@ -76,6 +78,29 @@ model.
 | `submit_fields` | action, amount, p_win, read | Fields of the `submit_action` tool |
 | `ev_labels`, `ev_runouts` | false, 32 | All-in EV labels for grading |
 | `table_talk` | false | Optional sanitized `say` line |
+
+### Historical stack scenarios
+
+For example, a six-player task can set:
+
+```json
+{"seats": 6, "total_hands": 1, "starting_stacks": [20, 50, 90, 160, 280, 600], "button_seat": 2}
+```
+
+Stacks are pre-blind balances in seat order; seat 3 posts the small blind and seat 4 the big blind in this example.
+The vector must have exactly `seats` positive integers, and the button must be an integer seat index. Booleans,
+floats, zero/negative stacks, incorrect lengths, and out-of-range buttons are rejected with HTTP 422 at submission.
+Omitting these fields preserves the original equal-stack and last-seat-button behavior.
+
+With `reset_stacks=false`, chips carry forward and busted players sit out. With `reset_stacks=true`, each seat is
+restored to its **own** configured initial balance before every hand. Session `starting_stacks`, `final_stacks`,
+and net-chip grading use those individual baselines. Prompts show the actual initial balances.
+
+The hand engine handles unequal-stack all-ins and side pots. The existing EV grader intentionally retains realized
+returns with `method="side-pot"` when live commitments differ; it does not remove runout luck for those pots.
+Fold-regret diagnostics use a single-pot shortcut, so unequal initial-stack tables instead record
+`fold_regret_bb=null` with `fold_regret_unavailable="unequal-starting-stacks"`. These diagnostics are not the training
+reward. The original clipped reward scale is unchanged.
 
 ## Table talk
 

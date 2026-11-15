@@ -23,6 +23,8 @@ def fold_regret_bb(action: dict[str, Any], hole: list[str], opponents: list[list
 def label_folds(log: dict[str, Any], seats: set[str]) -> None:
     """Add `fold_regret_bb` (and the equity inputs) to every fold by a player in `seats`, in place."""
     big_blind = log["session_info"]["big_blind"]
+    starts = log["session_info"].get("starting_stacks", [])
+    unequal_starts = len(set(starts)) > 1
     for hand in log["hands"]:
         starting = hand["starting_state"]
         live = set(starting)
@@ -30,7 +32,13 @@ def label_folds(log: dict[str, Any], seats: set[str]) -> None:
             name = action["player"]
             if name in seats and action["action"]["type"] == "fold":
                 opponents = [starting[o]["hole_cards"] for o in sorted(live) if o != name]
-                action["fold_regret_bb"] = fold_regret_bb(action, starting[name]["hole_cards"], opponents, big_blind)
+                if unequal_starts:
+                    # The old one-pot shortcut includes pots a short caller cannot win and unmatched bets.
+                    # Keep this diagnostic unavailable rather than emit misleading counterfactual values.
+                    action["fold_regret_bb"] = None
+                    action["fold_regret_unavailable"] = "unequal-starting-stacks"
+                else:
+                    action["fold_regret_bb"] = fold_regret_bb(action, starting[name]["hole_cards"], opponents, big_blind)
                 action["fold_live_opponents"] = len(opponents)
             if action["action"]["type"] == "fold":
                 live.discard(name)

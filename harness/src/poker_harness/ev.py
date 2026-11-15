@@ -19,8 +19,9 @@ candidate hand the way `poker_spots` tests its deterministic bots. Preflop it ma
 to a minimum Chen score; postflop, a bet or raise needs a pair using a hole card or a four-flush, and a call also
 accepts two overcards. An opponent with no consistent hand within `MAX_TRIES` keeps the hand it was dealt.
 
-Stacks reset to the same size every hand, so everyone who reaches showdown has put in the same amount and there are
-no side pots; hands where that does not hold keep the realized result and say so.
+Unequal commitments create side pots. Such hands keep the realized result and are explicitly labeled `side-pot`;
+this module does not smooth side-pot runout luck. Official logs' `stacks_before` and `blinds_posted` are used when
+present, since an all-in blind can settle before the engine records its `starting_state`.
 """
 
 from __future__ import annotations
@@ -101,8 +102,12 @@ def _contributions(hand: dict[str, Any]) -> dict[str, int]:
     """Chips each player put in. A seat's stack after its last action is pre-payout, except for the action that
     ends the hand: the engine pays the pot before recording it, so that stack is rebuilt from the stack before the
     action minus what the action committed (a call's price; a check or fold commits nothing)."""
+    starts = hand.get("stacks_before") or {name: info["starting_stack"] for name, info in hand["starting_state"].items()}
+    posted = hand.get("blinds_posted")
     stack = {
-        name: info["starting_stack"] - BLINDS_BY_POSITION.get(info.get("position", -1), 0)
+        name: starts[name] - (
+            posted.get(name, 0) if posted is not None else BLINDS_BY_POSITION.get(info.get("position", -1), 0)
+        )
         for name, info in hand["starting_state"].items()
     }
     actions = hand["actions"]
@@ -113,7 +118,7 @@ def _contributions(hand: dict[str, Any]) -> dict[str, int]:
             stack[a["player"]] = before - committed
         else:
             stack[a["player"]] = a["stack_after"]
-    return {name: info["starting_stack"] - stack[name] for name, info in hand["starting_state"].items()}
+    return {name: starts[name] - stack[name] for name in hand["starting_state"]}
 
 
 def hand_ev(
@@ -128,7 +133,7 @@ def hand_ev(
     """The hero's realized and expected result for one hand, in big blinds, and how the expectation was taken.
 
     With `redraw=False` the opponents keep the hands they were dealt, so only an all-in's runout is averaged."""
-    start = hand["starting_state"][hero]["starting_stack"]
+    start = (hand.get("stacks_before") or {}).get(hero, hand["starting_state"][hero]["starting_stack"])
     realized = (hand["ending_stacks"][hero] - start) / big_blind
     folded = {a["player"] for a in hand["actions"] if a["action"]["type"] == "fold"}
     live = [name for name in hand["starting_state"] if name not in folded]
@@ -138,9 +143,12 @@ def hand_ev(
     contrib = _contributions(hand)
     if len({contrib[name] for name in live}) > 1:
         return out | {"method": "side-pot"}
+    if not hand["actions"]:
+        return out | {"method": "blind-allin"}
     pot = sum(contrib.values())
     last_street = hand["actions"][-1]["street"]
-    able = [name for name in live if hand["starting_state"][name]["starting_stack"] - contrib[name] > 0]
+    starts = hand.get("stacks_before") or {name: info["starting_stack"] for name, info in hand["starting_state"].items()}
+    able = [name for name in live if starts[name] - contrib[name] > 0]
     allin_before_river = len(able) <= 1 and last_street != "river"
     known_board = hand["final_board"][: BOARD_AT[last_street]] if allin_before_river else hand["final_board"]
     rng = random.Random(f"ev:{seed}:{hand['hand_number']}:{hero}")

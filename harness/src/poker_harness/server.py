@@ -312,7 +312,11 @@ def create_app(
         params = with_preset(request.task.env_params or {})  # `preset: "event"` applies the event rules
         if "seed" not in params:
             raise HTTPException(status_code=422, detail="env_params.seed is required")
-        rollout = Rollout(id=rollout_id, rules=table_rules(params))
+        try:
+            rules = table_rules(params)
+        except (TypeError, ValueError) as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        rollout = Rollout(id=rollout_id, rules=rules)
         rollouts[rollout_id] = rollout
         rollout.task = asyncio.create_task(run_table(rollout, request))
         logger.info("rollout %s: %d hands, relay %s", rollout_id, rollout.rules.total_hands, request.ac_api_url)

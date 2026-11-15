@@ -21,7 +21,9 @@ from .engine import parse_decision as parse_vals_decision
 
 @dataclass(frozen=True)
 class TableRules:
-    """`reset_stacks` restores every seat to `starting_stack` before each hand (cash-game sessions, no busting).
+    """`reset_stacks` restores every seat to its initial balance before each hand (cash-game sessions, no busting).
+    `starting_stacks`, when supplied, overrides the scalar `starting_stack` with seat-ordered balances.
+    `button_seat` optionally chooses the first hand's button.
     `table_talk` lets every seat add a sanitized `say` line to its actions. `max_completion_tokens` caps each reply
     (reasoning included). The defaults keep existing datasets and runs unchanged; the official rules are the "event"
     preset (`completions.EVENT_PARAMS`).
@@ -51,6 +53,20 @@ class TableRules:
     scratchpad: bool = False
     scratchpad_chars: int = 5000
     cleanup_max_completion_tokens: int | None = None  # the cleanup turn's output cap; the event's is 10000
+    starting_stacks: tuple[int, ...] | None = None  # overrides starting_stack, in seat order
+    button_seat: int | None = None  # initial button; None preserves the last-seat default
+
+    def __post_init__(self) -> None:
+        if self.starting_stacks is not None:
+            if not isinstance(self.starting_stacks, (list, tuple)) or len(self.starting_stacks) != self.seats:
+                raise ValueError(f"env_params.starting_stacks must contain exactly {self.seats} positive integer stacks")
+            if any(type(stack) is not int or stack <= 0 for stack in self.starting_stacks):
+                raise ValueError("env_params.starting_stacks must contain positive integers (not booleans or floats)")
+            object.__setattr__(self, "starting_stacks", tuple(self.starting_stacks))
+        if self.button_seat is not None and (
+            type(self.button_seat) is not int or not 0 <= self.button_seat < self.seats
+        ):
+            raise ValueError(f"env_params.button_seat must be an integer in 0-{self.seats - 1}")
 
 
 SYSTEM_PROMPT = """You are a professional poker player in a {seat_count}-seat no-limit Texas Hold'em game against other AI players.
@@ -175,6 +191,15 @@ def system_prompt(rules: TableRules) -> str:
     stack_rule = (RESET_RULE if rules.reset_stacks else carry).format(
         starting_stack=rules.starting_stack, total_hands=rules.total_hands
     )
+    if rules.starting_stacks is not None:
+        stacks = ", ".join(f"seat {seat}: {stack} chips" for seat, stack in enumerate(rules.starting_stacks))
+        if rules.reset_stacks:
+            stack_rule = stack_rule.replace(
+                f"Every hand starts with every player at {rules.starting_stack} chips",
+                f"Every hand restores each seat to its own starting stack ({stacks})",
+            )
+        else:
+            stack_rule = stack_rule.replace(f"Everyone starts with {rules.starting_stack} chips.", f"Starting stacks: {stacks}.")
     prompt = SYSTEM_PROMPT.format(
         small_blind=rules.small_blind,
         big_blind=rules.big_blind,

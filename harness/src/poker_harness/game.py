@@ -119,20 +119,24 @@ async def play_session(
     rules: TableRules = DEFAULT_RULES,
     on_hand: Callable[[dict[str, Any]], None] | None = None,
 ) -> dict[str, Any]:
-    """Returns the game log. With `rules.reset_stacks`, every hand starts at `starting_stack` and nobody busts;
-    `final_stacks` is then the starting stack plus the session's net chips."""
+    """Returns the game log. With `rules.reset_stacks`, every hand restores each seat's initial balance;
+    `final_stacks` is then that seat's initial balance plus the session's net chips."""
     names = [p.name for p in players]
     if len(set(names)) != len(names):
         raise ValueError(f"duplicate players at one table: {names}")
     by_seat = dict(enumerate(players))
-    start = rules.starting_stack
-    stacks = dict.fromkeys(by_seat, start)
+    if rules.starting_stacks is not None and len(rules.starting_stacks) != len(players):
+        raise ValueError("starting_stacks must have one stack per player")
+    if rules.button_seat is not None and rules.button_seat not in by_seat:
+        raise ValueError("button_seat must identify a player at the table")
+    initial = dict(enumerate(rules.starting_stacks or [rules.starting_stack] * len(players)))
+    stacks = dict(initial)
     net = dict.fromkeys(by_seat, 0)
     no_history = dict.fromkeys(by_seat, "")
     hands: list[dict[str, Any]] = []
     eliminated: dict[str, int] = {}
     start_time = datetime.now(UTC).isoformat()
-    button = max(by_seat)
+    button = rules.button_seat if rules.button_seat is not None else max(by_seat)
     official = rules.ranking is not None
     # Multi-hand talk tables without the after-hand turn: each seat's next hand opens with what it missed of the last.
     recap = rules.table_talk and not rules.scratchpad and rules.total_hands > 1
@@ -144,7 +148,7 @@ async def play_session(
             "hands": hands,
             "session_info": {
                 "player_names": names,
-                "starting_stacks": [start] * len(names),
+                "starting_stacks": list(initial.values()),
                 "small_blind": rules.small_blind,
                 "big_blind": rules.big_blind,
                 "seed": seed,
@@ -155,10 +159,12 @@ async def play_session(
                 "table_talk": rules.table_talk,
                 "history": "current_hand",
             },
-            "final_stacks": {by_seat[s].name: start + net[s] for s in by_seat},
+            "final_stacks": {by_seat[s].name: initial[s] + net[s] for s in by_seat},
             "eliminated_on_hand": dict(eliminated),
             "complete": complete,
         }
+        if rules.button_seat is not None:
+            out["session_info"]["button_seat"] = rules.button_seat
         if official:
             out["net_chips"] = {by_seat[s].name: net[s] for s in by_seat}
             out["ranking"] = {"mode": rules.ranking, "places": placements(out, rules.ranking)}
@@ -174,7 +180,7 @@ async def play_session(
 
     for hand_number in range(1, rules.total_hands + 1):
         if rules.reset_stacks:
-            stacks = dict.fromkeys(by_seat, start)
+            stacks = dict(initial)
         elif sum(s > 0 for s in stacks.values()) < 2:
             break
         if hand_number > 1:
