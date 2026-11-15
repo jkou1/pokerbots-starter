@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-15T01:18:19-08:00",
+  "problem": "Public match failures can reveal execution defects that chip outcomes and leaderboard rank conceal. Prior table-talk optimization failed its paired gate and is permanently stopped unless separately instructed. A bounded public miner is needed to identify reproducible action/tool failures in our current entry without private traces, paid inference, GPUs, or repeated archive downloads.",
+  "hypothesis": "The public replay JSON for our latest matches contains explicit execution metadata and submitted tool arguments sufficient to measure missing-tool, token-cap, invalid-enum, invalid-check, and invalid-bet/raise-amount failures, plus workplace-appropriateness flags from our actual published table talk. A small current-leader sample provides context but is not treated as a statistically representative benchmark.",
+  "target": {
+    "team_url": "https://www.pokerbots.ac/teams/org_cd68943dd947",
+    "our_org_id": "org_cd68943dd947",
+    "own_listing": "https://www.pokerbots.ac/matches?entry=org_cd68943dd947",
+    "own_matches_per_cycle_max": 8,
+    "leader_sample_per_cycle_max": 3,
+    "poll_seconds": 600,
+    "deadline": "2026-11-15T17:00:00Z",
+    "deadline_timezone": "2026-11-15 09:00:00-08:00 (PST)",
+    "network": "Public unauthenticated HTTP only; no AC2 or paid APIs",
+    "resources": "CPU only; no GPU, cloud, deployment, arena, account, or PROGRESS.md changes"
+  },
+  "test": {
+    "collection": "Fetch only the first own-entry listing page and a small current leader sample. For each uncached match ID, fetch its replay page and follow the single actual Raw JSON link. Persist exact response bytes, source URLs, SHA256, fetch time, global cutoff, listing coverage, and errors. Reuse complete cached files whose hash matches their manifest. Never paginate the whole archive.",
+    "cache_reuse": "Read the 109 replay-validated Pete matches and source manifest at /Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1 without modifying them. Use them only for schema/diagnostic cross-checks, not as our-entry evidence or strategic labels.",
+    "failure_labels": "Use only published per-action fields such as tool_args, fallback, coerced, format_error, token_cap, error, and the executed action. Missing tool requires absent tool arguments or an explicit missing-tool error. Token cap requires token_cap=true or an explicit cap error. Invalid enum/check/amount requires direct tool-argument evidence or an explicit engine error; generic format_error alone remains unclassified rather than guessed.",
+    "finding_receipt": "Every finding records match ID, hand number, zero-based action index and street, seat, source raw URL and replay URL, failure reason, category numerator and our-action denominator, match time window, and the published actual say text when applicable.",
+    "table_talk": "Flag only deterministic workplace-safety categories from our actual published say strings: threats, slurs, sexual content, harassment/profanity, and instruction-manipulation language. Flags require human review; absence of flags is not proof of appropriateness. Do not optimize or search table talk.",
+    "unsupported": "Private scratchpads, cleanup behavior, private reasoning, and decision-time optimal-action labels are unsupported by public replay data. No private text is fabricated. No handwritten poker evaluator is used. Lucky wins are never called optimal, and hidden cards/future actions/future boards/outcomes/current stack_after are not exported as student inputs.",
+    "status": "Write latest machine-readable snapshot/findings under experiments/public-failure-miner-v1 and coordinator status/alerts to /tmp/pokerbots-public-failure-status.json."
+  },
+  "success_criteria": [
+    "First snapshot completes with explicit discovered/downloaded/cached/failed coverage and source hashes, including zero-finding outcomes.",
+    "Each reported execution finding is directly supported by published raw fields and has match/hand/action provenance and a category numerator/denominator/time window.",
+    "Cached IDs prevent repeated raw downloads across polling cycles; public request rate and retries are bounded.",
+    "A detached process remains alive after launch, polls every 600 seconds, and exits at the deadline.",
+    "Unsupported private/strategic diagnostics are explicitly marked and no leakage-bearing student dataset is produced."
+  ],
+  "stop_criteria": [
+    "Stop permanently at 2026-11-15T17:00:00Z; do not launch a replacement poller.",
+    "Bound each request to 30 seconds with at most 4 attempts for transient errors and a one-second base interval; record permanent failures instead of crawling around them.",
+    "Stop a cycle before new downloads if the deadline is reached; preserve the last valid status and mark incomplete coverage.",
+    "Do not infer strategic optimality, cleanup, scratchpad, or private-reasoning labels from public matches.",
+    "Do not resume table-talk search under any circumstances without a separate explicit instruction."
+  ]
+}

@@ -1,0 +1,14 @@
+__pycache__/
+raw/
+replays/
+cycles/
+*.log
+*.pid
+manifest.jsonl
+release.json
+latest.json
+findings.jsonl
+regression_examples.jsonl
+current_entry_regression_examples.jsonl
+table_talk_review.jsonl
+REPORT.md

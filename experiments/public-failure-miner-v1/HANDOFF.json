@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-15T09:26:00Z",
+  "problem": "Expand the existing miner to the leading human-team entry Accord and reuse prior exact-byte archives without adding archive-wide HTTP traffic or ambiguous listing URLs.",
+  "hypothesis": "Team pages publish actual entry-filtered match-listing links, and the supplied local manifests provide enough provenance to incorporate historical own/Pete/Accord execution findings without redownloading raws.",
+  "target": {
+    "own": "org_cd68943dd947; latest 8 from actual team-page listing link",
+    "pete_incumbent": "house-professor-pete; latest 3 from actual team-page listing link",
+    "accord_leader": "org_4aab0c8828ea; latest 3 from actual team-page listing link",
+    "local_caches": [
+      "/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/manifest.jsonl",
+      "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/arena-incumbent-audit/manifest.jsonl",
+      "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/arena-leader-audit/manifest.jsonl",
+      "/Users/lance/Documents/pokerbots-starter-sft/history/manifest.json"
+    ]
+  },
+  "test": "Validate every reused raw against its source SHA256 and preserve its published Raw/replay URLs. Ingest all valid local cache rows for historical mining, but fetch only the bounded latest samples from team-discovered listings. Use the supplied verified Python runtime and restart the same deadline-bound poller.",
+  "success_criteria": "All four sources appear in cache coverage; no invalid hash is ingested; repeated cycles perform zero raw downloads for unchanged selected IDs; own/Pete/Accord aggregates retain action provenance and unsupported-label limitations.",
+  "stop_criteria": "No full-archive pagination, no AC2 writes or credentials, no GPU/cloud/deployment/account changes, no competing training miner, no table-talk search, and unchanged 2026-11-15T17:00:00Z deadline."
+}
