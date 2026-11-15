@@ -34,6 +34,11 @@ if all(label in result['runs'] for label in ['baseline','candidate']):
  if common:
   result['paired']={}
   for metric,diffs in {'ev_gain_bb':[new[s]['ev_bb']-base[s]['ev_bb'] for s in common],'placement_improvement':[base[s]['place']-new[s]['place'] for s in common],'realized_gain_bb':[new[s]['realized_bb']-base[s]['realized_bb'] for s in common]}.items():result['paired'][metric]={'mean':statistics.fmean(diffs),'ci95':bootstrap(diffs),'individual_differences':diffs}
+error_meta=ROOT/'infrastructure-error-deal.json'
+if error_meta.exists() and result.get('matched_games'):
+ omitted=json.loads(error_meta.read_text())['seed'];sensitivity_seeds=[seed for seed in common if seed!=omitted];result['infrastructure_sensitivity']={'diagnostic_only':True,'excluded_seed':omitted,'pairs':len(sensitivity_seeds),'full6_remains_primary':True}
+ if sensitivity_seeds:
+  result['infrastructure_sensitivity']['placement_gain']={'mean':statistics.fmean([base[z]['place']-new[z]['place']for z in sensitivity_seeds]),'ci95':bootstrap([base[z]['place']-new[z]['place']for z in sensitivity_seeds])};result['infrastructure_sensitivity']['ev_gain_bb']={'mean':statistics.fmean([new[z]['ev_bb']-base[z]['ev_bb']for z in sensitivity_seeds]),'ci95':bootstrap([new[z]['ev_bb']-base[z]['ev_bb']for z in sensitivity_seeds])}
 if result.get('matched_games')==6:
  cand=result['runs']['candidate'];cp=cand['cleanup_protocol'];sm=cand['summary'];result['release_numeric_protocol_pass']=all(v['completed_games']==6 for v in result['runs'].values()) and result['paired']['placement_improvement']['mean']>=.5 and 1-sm['invalid_decisions']/sm['decisions']>=.99 and all(g['policy_action_channel']['legal_text_fallback']==0 and g['policy_action_channel']['legal_unexposed']==0 for g in cand['games']) and cp['accepted_updated']/cp['turns']>=.98 and cp['wrong_tool_calls']==0;result['workplace_review_pending']=True;result['factual_memory_scope']='Diagnostic limitations disclosed; protocol pass does not prove factual memory.'
 (ROOT/'summary.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps({'matched_games':result.get('matched_games'),'paired':result.get('paired'),'runs':{k:{x:v[x] for x in ['eval_id','status','completed_games'] }|{'summary':v.get('summary')} for k,v in result['runs'].items()}},indent=2))
