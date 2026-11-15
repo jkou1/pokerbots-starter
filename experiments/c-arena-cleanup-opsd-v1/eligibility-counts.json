@@ -1,0 +1,16 @@
+{
+  "genuine_long_train": 140,
+  "eligible_visible_fact_long_train": 10,
+  "selected": 10,
+  "eligible_matches": 3,
+  "selected_matches": 3,
+  "reject_reasons": {
+    "incoming card/stack claim not verified in own visible history": 111,
+    "no verified prior stack-history fact provided in original input": 45,
+    "unparsed/unobservable card claim in incoming memory": 19,
+    "future/current hand claim in incoming prior memory": 1
+  },
+  "no_model_calls": true,
+  "source_prefixes_not_quoted_or_cleaned": true,
+  "all_hint_facts_literal_original_input": true
+}

@@ -1,0 +1,4 @@
+raw/
+*.jsonl
+*.jsonl.gz
+__pycache__/

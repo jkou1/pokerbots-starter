@@ -1,0 +1,12 @@
+{
+  "genuine_source_train_long": 140,
+  "eligible_unused_contexts": 85,
+  "selected": 10,
+  "selected_matches": 9,
+  "new_matches_vs_v1": 6,
+  "overlap_span_ids": 0,
+  "source_contexts_unmodified": true,
+  "specific_hint_facts_verified_original_visible_ledger": true,
+  "teacher_hint_closed_world_board_stacks_only": true,
+  "no_model_calls": true
+}

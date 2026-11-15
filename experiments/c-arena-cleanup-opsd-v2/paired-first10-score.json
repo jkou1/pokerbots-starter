@@ -1,0 +1,358 @@
+{
+  "cases_intention_to_treat": 10,
+  "logical_calls": 20,
+  "counts": {
+    "unhinted": 0,
+    "hinted": 0
+  },
+  "gain": 0,
+  "gate_pass": false,
+  "factual_scope": "Conservative all-claims validation; unparsed residual claims quarantined, not accepted",
+  "finish_metadata_recovery_pending": false,
+  "cases": [
+    {
+      "case": 1,
+      "arms": {
+        "unhinted": {
+          "useful_valid": false,
+          "characters": 6056,
+          "errors": [
+            "board differs from exact recorded hand",
+            "future/nonexistent hand claim",
+            "length outside1..1500",
+            "stack copy differs from recorded hand",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 21,
+          "provided_prior_facts_retained": [
+            24
+          ]
+        },
+        "hinted": {
+          "useful_valid": false,
+          "characters": 949,
+          "errors": [
+            "future/nonexistent hand claim",
+            "no provided verified prior fact retained",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 3,
+          "provided_prior_facts_retained": []
+        }
+      }
+    },
+    {
+      "case": 2,
+      "arms": {
+        "unhinted": {
+          "useful_valid": false,
+          "characters": 5703,
+          "errors": [
+            "future/nonexistent hand claim",
+            "length outside1..1500",
+            "stack copy differs from recorded hand",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 23,
+          "provided_prior_facts_retained": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        "hinted": {
+          "useful_valid": false,
+          "characters": 5703,
+          "errors": [
+            "future/nonexistent hand claim",
+            "length outside1..1500",
+            "stack copy differs from recorded hand",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 23,
+          "provided_prior_facts_retained": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        }
+      }
+    },
+    {
+      "case": 3,
+      "arms": {
+        "unhinted": {
+          "useful_valid": false,
+          "characters": 2304,
+          "errors": [
+            "future/nonexistent hand claim",
+            "length outside1..1500",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 8,
+          "provided_prior_facts_retained": [
+            5,
+            6,
+            7
+          ]
+        },
+        "hinted": {
+          "useful_valid": false,
+          "characters": 339,
+          "errors": [
+            "no provided verified prior fact retained",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 1,
+          "provided_prior_facts_retained": []
+        }
+      }
+    },
+    {
+      "case": 4,
+      "arms": {
+        "unhinted": {
+          "useful_valid": false,
+          "characters": 3969,
+          "errors": [
+            "future/nonexistent hand claim",
+            "length outside1..1500",
+            "stack copy differs from recorded hand",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 13,
+          "provided_prior_facts_retained": [
+            4,
+            5,
+            6,
+            8,
+            9,
+            12
+          ]
+        },
+        "hinted": {
+          "useful_valid": false,
+          "characters": 402,
+          "errors": [
+            "no provided verified prior fact retained",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 1,
+          "provided_prior_facts_retained": []
+        }
+      }
+    },
+    {
+      "case": 5,
+      "arms": {
+        "unhinted": {
+          "useful_valid": false,
+          "characters": 1575,
+          "errors": [
+            "length outside1..1500",
+            "stack copy differs from recorded hand",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 6,
+          "provided_prior_facts_retained": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "hinted": {
+          "useful_valid": false,
+          "characters": 1629,
+          "errors": [
+            "length outside1..1500",
+            "stack copy differs from recorded hand",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 6,
+          "provided_prior_facts_retained": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "case": 6,
+      "arms": {
+        "unhinted": {
+          "useful_valid": false,
+          "characters": 1544,
+          "errors": [
+            "length outside1..1500",
+            "stack copy differs from recorded hand",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 5,
+          "provided_prior_facts_retained": [
+            1,
+            2,
+            4
+          ]
+        },
+        "hinted": {
+          "useful_valid": false,
+          "characters": 270,
+          "errors": [
+            "no provided verified prior fact retained",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 1,
+          "provided_prior_facts_retained": []
+        }
+      }
+    },
+    {
+      "case": 7,
+      "arms": {
+        "unhinted": {
+          "useful_valid": false,
+          "characters": 4484,
+          "errors": [
+            "future/nonexistent hand claim",
+            "length outside1..1500",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 17,
+          "provided_prior_facts_retained": [
+            14,
+            15,
+            16
+          ]
+        },
+        "hinted": {
+          "useful_valid": false,
+          "characters": 529,
+          "errors": [
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 2,
+          "provided_prior_facts_retained": [
+            16
+          ]
+        }
+      }
+    },
+    {
+      "case": 8,
+      "arms": {
+        "unhinted": {
+          "useful_valid": false,
+          "characters": 3280,
+          "errors": [
+            "future/nonexistent hand claim",
+            "length outside1..1500",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 13,
+          "provided_prior_facts_retained": [
+            11,
+            12
+          ]
+        },
+        "hinted": {
+          "useful_valid": false,
+          "characters": 3343,
+          "errors": [
+            "future/nonexistent hand claim",
+            "length outside1..1500",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 13,
+          "provided_prior_facts_retained": [
+            11,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "case": 9,
+      "arms": {
+        "unhinted": {
+          "useful_valid": false,
+          "characters": 4573,
+          "errors": [
+            "board differs from exact recorded hand",
+            "future/nonexistent hand claim",
+            "length outside1..1500",
+            "stack copy differs from recorded hand",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 14,
+          "provided_prior_facts_retained": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "hinted": {
+          "useful_valid": false,
+          "characters": 305,
+          "errors": [
+            "no provided verified prior fact retained",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 1,
+          "provided_prior_facts_retained": []
+        }
+      }
+    },
+    {
+      "case": 10,
+      "arms": {
+        "unhinted": {
+          "useful_valid": false,
+          "characters": 5231,
+          "errors": [
+            "future/nonexistent hand claim",
+            "length outside1..1500",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 20,
+          "provided_prior_facts_retained": [
+            24
+          ]
+        },
+        "hinted": {
+          "useful_valid": false,
+          "characters": 5231,
+          "errors": [
+            "future/nonexistent hand claim",
+            "length outside1..1500",
+            "unparsed residual prose/claims require quarantine; no silent factuality waiver"
+          ],
+          "fact_blocks": 20,
+          "provided_prior_facts_retained": [
+            24
+          ]
+        }
+      }
+    }
+  ],
+  "all20_replies_finished_tool_calls": true,
+  "hinted_strict_useful_upper_bound": 6,
+  "definitive_overlength_cases": {
+    "2": 5703,
+    "5": 1629,
+    "8": 3343,
+    "10": 5231
+  },
+  "decision": "STOP; no further hint variants/calls/training without root authorization"
+}

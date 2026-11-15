@@ -1,0 +1,16 @@
+{
+  "queried_rows": 512,
+  "reported_total": 4502,
+  "actual_arena_rows": 512,
+  "cleanup_inputs": 222,
+  "excluded_cleanup": 0,
+  "long_cleanup_after_exclusions": 182,
+  "train_long_contexts": 140,
+  "distinct_long_matches": 16,
+  "train_distinct_matches": 13,
+  "heldout_long_matches": 3,
+  "cutoff_utc": "2026-11-15T12:26:48.093798+00:00",
+  "source_access": "working",
+  "full_input_bytes_present": true,
+  "no_model_calls": true
+}

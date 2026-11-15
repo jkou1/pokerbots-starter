@@ -1,0 +1,61 @@
+{
+  "original_prefix_unchanged_all_cases": true,
+  "source_contexts_off_policy": "incumbent C",
+  "response_sampler_and_hinted_reference": "same OWN10 ckpt_95bc5ed22ed8",
+  "canonical_tool_definitions_supplied_not_claimed_original_arena": true,
+  "supervision_boundary": "future native HintedTask rollout_prefix_len=len(original P); no old assistant/tool-history supervision",
+  "managed_loss_mask_proven": false,
+  "training_approved": false,
+  "cases": [
+    {
+      "span_id": "e63dcdb22824671b",
+      "prefix_items": 7,
+      "teacher_hint_system_only": true
+    },
+    {
+      "span_id": "43b3b181bda1c8d5",
+      "prefix_items": 7,
+      "teacher_hint_system_only": true
+    },
+    {
+      "span_id": "c5faa66db498faf7",
+      "prefix_items": 7,
+      "teacher_hint_system_only": true
+    },
+    {
+      "span_id": "e7d844aaf5f8932d",
+      "prefix_items": 27,
+      "teacher_hint_system_only": true
+    },
+    {
+      "span_id": "7d5835964ad988f6",
+      "prefix_items": 7,
+      "teacher_hint_system_only": true
+    },
+    {
+      "span_id": "f946b34a1bd34224",
+      "prefix_items": 7,
+      "teacher_hint_system_only": true
+    },
+    {
+      "span_id": "86c49be6dc0dc634",
+      "prefix_items": 7,
+      "teacher_hint_system_only": true
+    },
+    {
+      "span_id": "940c2d4e926a0994",
+      "prefix_items": 7,
+      "teacher_hint_system_only": true
+    },
+    {
+      "span_id": "1cfee86a0476f886",
+      "prefix_items": 23,
+      "teacher_hint_system_only": true
+    },
+    {
+      "span_id": "13785892fa375dbd",
+      "prefix_items": 10,
+      "teacher_hint_system_only": true
+    }
+  ]
+}

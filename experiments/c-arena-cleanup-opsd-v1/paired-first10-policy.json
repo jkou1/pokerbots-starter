@@ -1,0 +1,28 @@
+{
+  "locked_at": 1794746087.7996101,
+  "model": "infer_42df4eab0ad2",
+  "checkpoint": "ckpt_95bc5ed22ed8",
+  "cases": 10,
+  "logical_model_call_cap": 20,
+  "concurrency": 2,
+  "temperature": 0.0,
+  "cleanup_reply_budget_each_arm": 10000,
+  "hinted_min_useful_valid": 8,
+  "hinted_min_gain_over_unhinted": 3,
+  "maximum_note_characters": 1500,
+  "all_cases_intention_to_treat": true,
+  "no_hint_rewrites_or_replacement_cases": true,
+  "original_source_sha256": "ce48f48302cb17e8008705168aae30b94319bfac85c1cb80d97500bdc9e3f717",
+  "hint_sha256": [
+    "93e73972330aaec4a860754672cbf754ec2b40664d29d62b0b3421e30632a3ad",
+    "a530c2e2995f356f457cd9509e26fc124efdb7c933de52fb9570c7bdd7c416da",
+    "b29089ddaeedf066d2d6701c0a842087021c14fd71d7baefc5478a739f839ddb",
+    "63ec3fe41f834161d093e563b2e1622f0af124e704e46b1cace19ebe9b20f7ed",
+    "760919c389a5a60867efc6d1f2d1f5d336ecf862a9a0b9434ba8e1e18f99c186",
+    "ef01196889153235a091117940b061513b9713449d337020d1dcbca4e71cd3ea",
+    "345fc27bd719082c0b3da6e68c1b4e8fcedf5744bf999225ee6a4cddb6aa0077",
+    "7e134ed563e5ed89805677b5a5af83724793612ccb557b281e5dabd5c5416a2b",
+    "6894c1d75aa1b18f77a8763eb731b3f61dfd7e9b1c37fc772bf20e9a19e79009",
+    "984c550da40df47d4f9c4f07b55f55013e69ea117306116f68bfe2dc55a0e7ce"
+  ]
+}

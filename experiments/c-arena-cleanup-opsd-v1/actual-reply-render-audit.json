@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "case": 1,
+      "original_prefix_items": 7,
+      "fresh_reply_items": 3,
+      "actual_reasoning_preserved": true,
+      "close_think_once_before_tool": true,
+      "student_total_tokens": 2667,
+      "teacher_total_tokens": 2917,
+      "prefix_loss_mask_claim": "CPU boundary only; managed token mask NOT proved"
+    },
+    {
+      "case": 2,
+      "original_prefix_items": 11,
+      "fresh_reply_items": 3,
+      "actual_reasoning_preserved": true,
+      "close_think_once_before_tool": true,
+      "student_total_tokens": 3039,
+      "teacher_total_tokens": 3287,
+      "prefix_loss_mask_claim": "CPU boundary only; managed token mask NOT proved"
+    },
+    {
+      "case": 3,
+      "original_prefix_items": 15,
+      "fresh_reply_items": 3,
+      "actual_reasoning_preserved": true,
+      "close_think_once_before_tool": true,
+      "student_total_tokens": 3429,
+      "teacher_total_tokens": 3681,
+      "prefix_loss_mask_claim": "CPU boundary only; managed token mask NOT proved"
+    },
+    {
+      "case": 4,
+      "original_prefix_items": 11,
+      "fresh_reply_items": 3,
+      "actual_reasoning_preserved": true,
+      "close_think_once_before_tool": true,
+      "student_total_tokens": 3525,
+      "teacher_total_tokens": 3764,
+      "prefix_loss_mask_claim": "CPU boundary only; managed token mask NOT proved"
+    },
+    {
+      "case": 5,
+      "original_prefix_items": 7,
+      "fresh_reply_items": 3,
+      "actual_reasoning_preserved": true,
+      "close_think_once_before_tool": true,
+      "student_total_tokens": 3230,
+      "teacher_total_tokens": 3475,
+      "prefix_loss_mask_claim": "CPU boundary only; managed token mask NOT proved"
+    },
+    {
+      "case": 6,
+      "original_prefix_items": 23,
+      "fresh_reply_items": 3,
+      "actual_reasoning_preserved": true,
+      "close_think_once_before_tool": true,
+      "student_total_tokens": 4525,
+      "teacher_total_tokens": 4772,
+      "prefix_loss_mask_claim": "CPU boundary only; managed token mask NOT proved"
+    },
+    {
+      "case": 7,
+      "original_prefix_items": 7,
+      "fresh_reply_items": 3,
+      "actual_reasoning_preserved": true,
+      "close_think_once_before_tool": true,
+      "student_total_tokens": 3065,
+      "teacher_total_tokens": 3322,
+      "prefix_loss_mask_claim": "CPU boundary only; managed token mask NOT proved"
+    },
+    {
+      "case": 8,
+      "original_prefix_items": 7,
+      "fresh_reply_items": 3,
+      "actual_reasoning_preserved": true,
+      "close_think_once_before_tool": true,
+      "student_total_tokens": 3061,
+      "teacher_total_tokens": 3311,
+      "prefix_loss_mask_claim": "CPU boundary only; managed token mask NOT proved"
+    },
+    {
+      "case": 9,
+      "original_prefix_items": 7,
+      "fresh_reply_items": 3,
+      "actual_reasoning_preserved": true,
+      "close_think_once_before_tool": true,
+      "student_total_tokens": 3100,
+      "teacher_total_tokens": 3350,
+      "prefix_loss_mask_claim": "CPU boundary only; managed token mask NOT proved"
+    },
+    {
+      "case": 10,
+      "original_prefix_items": 11,
+      "fresh_reply_items": 3,
+      "actual_reasoning_preserved": true,
+      "close_think_once_before_tool": true,
+      "student_total_tokens": 4006,
+      "teacher_total_tokens": 4253,
+      "prefix_loss_mask_claim": "CPU boundary only; managed token mask NOT proved"
+    }
+  ],
+  "max_student_total": 4525,
+  "max_teacher_total": 4772,
+  "managed_mask_proof": false,
+  "no_reply_fabrication": true,
+  "max_unhinted_reply_reported_tokens": 1161,
+  "all_retained_replies_complete": true,
+  "completion_evidence": "paired-first10-finish-audit.json:20exactmatched gateway spans finish_reason tool_calls",
+  "training_approved": false
+}
