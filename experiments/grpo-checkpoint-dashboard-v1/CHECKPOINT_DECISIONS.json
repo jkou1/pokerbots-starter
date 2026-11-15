@@ -1,0 +1,316 @@
+{
+  "captured_at": "2026-11-15T10:09:06.890274+00:00",
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "train_id": "train_f759c4cb331e",
+  "native_eval_metadata": {
+    "eval_1712153a22c5": {
+      "name": "overnight-grpo-step5-paired32-select",
+      "status": "succeeded",
+      "project_id": "prj_ba36d29befaf",
+      "project_name": "vals-hackathon",
+      "dataset_names": [
+        "pokerbots-overnight-fast-select-v1"
+      ],
+      "created_at": "2026-11-15T09:31:54.555086Z"
+    },
+    "eval_a62651277efa": {
+      "name": "overnight-grpo-step20-paired32-select",
+      "status": "succeeded",
+      "project_id": "prj_ba36d29befaf",
+      "project_name": "vals-hackathon",
+      "dataset_names": [
+        "pokerbots-overnight-fast-select-v1"
+      ],
+      "created_at": "2026-11-15T09:46:41.269733Z"
+    },
+    "eval_0d1639973dff": {
+      "name": "overnight-development-incumbent-vs-base20",
+      "status": "running",
+      "project_id": "prj_ba36d29befaf",
+      "project_name": "vals-hackathon",
+      "dataset_names": [
+        "pokerbots-overnight-base20-development-v1"
+      ],
+      "created_at": "2026-11-15T10:04:18.415239Z"
+    },
+    "eval_41013908bd59": {
+      "name": "overnight-development-rl20-vs-base20",
+      "status": "running",
+      "project_id": "prj_ba36d29befaf",
+      "project_name": "vals-hackathon",
+      "dataset_names": [
+        "pokerbots-overnight-base20-development-v1"
+      ],
+      "created_at": "2026-11-15T10:04:20.588924Z"
+    }
+  },
+  "completed_single_hand_selection": {
+    "step5": {
+      "candidate": {
+        "eval_id": "eval_1712153a22c5",
+        "status": "succeeded",
+        "graded_tasks": 32,
+        "unclipped_ev_coverage": 32,
+        "mean_unclipped_ev_bb": -2.9375,
+        "policy_decisions": 50,
+        "invalid_decisions": 0,
+        "invalid_rate": 0.0,
+        "technical_failure_without_ev": 0,
+        "mean_clipped_reward": 6.03125
+      },
+      "parent": {
+        "eval_id": "eval_7353b52d4873",
+        "status": "succeeded",
+        "graded_tasks": 32,
+        "unclipped_ev_coverage": 32,
+        "mean_unclipped_ev_bb": -0.578125,
+        "policy_decisions": 56,
+        "invalid_decisions": 0,
+        "invalid_rate": 0.0,
+        "technical_failure_without_ev": 0,
+        "mean_clipped_reward": 5.921875
+      },
+      "paired_tasks": 32,
+      "candidate_minus_parent_ev_bb": -2.359375,
+      "paired_bootstrap_ci95": [
+        -9.5625,
+        1.78125
+      ],
+      "scope": "Fixed-deal/seat/opponent single-hand selection screen; not official30hand placement or Arena rating. EV artifact can fall back to realized for unsupported side pots. Clipped reward is diagnostic only, never convergence proof."
+    },
+    "step20": {
+      "candidate": {
+        "eval_id": "eval_a62651277efa",
+        "status": "succeeded",
+        "graded_tasks": 32,
+        "unclipped_ev_coverage": 32,
+        "mean_unclipped_ev_bb": 0.65625,
+        "policy_decisions": 53,
+        "invalid_decisions": 0,
+        "invalid_rate": 0.0,
+        "technical_failure_without_ev": 0,
+        "mean_clipped_reward": 6.171875
+      },
+      "parent": {
+        "eval_id": "eval_7353b52d4873",
+        "status": "succeeded",
+        "graded_tasks": 32,
+        "unclipped_ev_coverage": 32,
+        "mean_unclipped_ev_bb": -0.578125,
+        "policy_decisions": 56,
+        "invalid_decisions": 0,
+        "invalid_rate": 0.0,
+        "technical_failure_without_ev": 0,
+        "mean_clipped_reward": 5.921875
+      },
+      "paired_tasks": 32,
+      "candidate_minus_parent_ev_bb": 1.234375,
+      "paired_bootstrap_ci95": [
+        -0.109375,
+        3.0
+      ],
+      "scope": "Fixed-deal/seat/opponent single-hand selection screen; not official30hand placement or Arena rating. EV artifact can fall back to realized for unsupported side pots. Clipped reward is diagnostic only, never convergence proof."
+    }
+  },
+  "development_status": "Pending at metadata capture; linked for visibility, no development scores published as final.",
+  "reward_clipping_read_only": {
+    "captured_at": "2026-11-15T09:40:22.425599+00:00",
+    "run": "train_f759c4cb331e",
+    "scored_rollouts": 1577,
+    "valid_ev_rollouts": 1568,
+    "excluded_failures_or_missing_ev": 9,
+    "positive_clipped_gt5": 61,
+    "negative_clipped_ltminus5": 57,
+    "positive_at_boundary5": 7,
+    "negative_at_boundary_minus5": 3,
+    "positive_clip_fraction_valid": 0.0389030612244898,
+    "negative_clip_fraction_valid": 0.03635204081632653,
+    "total_task_groups": 99,
+    "complete_raw16_groups": 97,
+    "max_samples_per_task": 16,
+    "grouping": "BydatapointID:onepass20kdataset,norepeatedtask(max16samples). Groupmaycrossgeneratedpolicyversions; doNOTsplititbygenerated_step.",
+    "complete_groups_with_distinct_ev_score_ties": 20,
+    "legal_within_complete_group_pairs": 11506,
+    "different_EV_positive_tie_pairs": 180,
+    "different_EV_negative_tie_pairs": 118,
+    "tie_pair_fraction": 0.025899530679645403,
+    "interpretation": "Descriptive saturation,notcausalproof. No reward/promptchange,nostop ofcurrentrun. Assesslateronlyifheldoutnegative-tailbehaviorrepeats.",
+    "unequal_EV_within_complete_group_pairs": 4433,
+    "tie_fraction_of_unequal_EV_pairs": 0.06722309948116399
+  },
+  "throughput_read_only": {
+    "captured_at": "2026-11-15T09:40:20.321518+00:00",
+    "run": "train_f759c4cb331e",
+    "recent12_timing": {
+      "steps": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "n": 12,
+      "wait_seconds": 488.26225304603577,
+      "train_seconds": 349.6850528717041,
+      "actor_seconds": 241.74869990348816,
+      "reference_seconds": 90.18875193595886,
+      "weight_update_seconds": 98.70502042770386,
+      "raw_wait_fraction": 0.5826884931759274,
+      "wait_after_weight_update_upper_bound_seconds": 389.5572326183319,
+      "wait_dominates_steps": 7
+    },
+    "exclude_post_checkpoint_timing": {
+      "steps": [
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24
+      ],
+      "n": 10,
+      "wait_seconds": 289.04583740234375,
+      "train_seconds": 255.414621591568,
+      "actor_seconds": 179.28580164909363,
+      "reference_seconds": 61.33537411689758,
+      "weight_update_seconds": 82.0863311290741,
+      "raw_wait_fraction": 0.5308849019751789,
+      "wait_after_weight_update_upper_bound_seconds": 206.95950627326965,
+      "wait_dominates_steps": 5
+    },
+    "frozen_gpu_utilization": {
+      "n": 21,
+      "mean": 0.8933333333333333,
+      "median": 1.0,
+      "at_least95percent_count": 13,
+      "samples": [
+        [
+          1794734420.322,
+          0.9400000000000001
+        ],
+        [
+          1794734480.322,
+          0.53
+        ],
+        [
+          1794734540.322,
+          1.0
+        ],
+        [
+          1794734600.322,
+          1.0
+        ],
+        [
+          1794734660.322,
+          1.0
+        ],
+        [
+          1794734720.322,
+          1.0
+        ],
+        [
+          1794734780.322,
+          0.18
+        ],
+        [
+          1794734840.322,
+          1.0
+        ],
+        [
+          1794734900.322,
+          1.0
+        ],
+        [
+          1794734960.322,
+          1.0
+        ],
+        [
+          1794735020.322,
+          0.8300000000000001
+        ],
+        [
+          1794735080.322,
+          1.0
+        ],
+        [
+          1794735140.322,
+          1.0
+        ],
+        [
+          1794735200.322,
+          1.0
+        ],
+        [
+          1794735260.322,
+          1.0
+        ],
+        [
+          1794735320.322,
+          0.8200000000000001
+        ],
+        [
+          1794735380.322,
+          0.73
+        ],
+        [
+          1794735440.322,
+          0.89
+        ],
+        [
+          1794735500.322,
+          1.0
+        ],
+        [
+          1794735560.322,
+          0.84
+        ],
+        [
+          1794735620.322,
+          1.0
+        ]
+      ]
+    },
+    "action_latency_from_completed_training_logs": {
+      "latest10min": {
+        "calls": 3709,
+        "mean_seconds": 0.701064437853869,
+        "p95_seconds": 0.888,
+        "hand_count": 499,
+        "mean_hand_seconds": 9.216672396793587
+      },
+      "preceding10min": {
+        "calls": 4545,
+        "mean_seconds": 0.7204699669966996,
+        "p95_seconds": 0.892,
+        "hand_count": 560,
+        "mean_hand_seconds": 10.281319125
+      }
+    },
+    "queue_metric": "Not exposed by installed SDK ContainerMetric enum; latency is a proxy, not proof of no queue.",
+    "scaling_supported": "InferenceManager.update(existing_id,expected_version=current.version,scaling=ScalingConfig(min_replicas=2,max_replicas=2)); same model checkpoint and prompt. This is schema support, not tested mutation/permission or rollout-behavior guarantee.",
+    "recommendation": "Wait is material (53percent outside post-checkpoint updates), but roughly82s is weight refresh and opponent action latency remains0.70s/p950.89s. Do not attribute all wait to the frozen GPU or scale merely from89percent utilization. Preserve checkpoint20 evaluation slot. A later root-approved bounded second-replica A/B can measure ROI: same checkpoint/prompt, compare >=10 non-checkpoint updates and opponentlatency before/after warmup, then reclaim slot; no training restart.",
+    "scaling_cautions": [
+      "Read current inference version immediately before CAS update. Schema supports min=max2, but account permission and whether existing worker stays unchanged are not exercised by this diagnostic.",
+      "Model router uses KV routing with1200second session affinity; new replica can warm slowly and may not receive existing sessions immediately.",
+      "Do not exceed10GPUquota: extra replica requires a freed1GPU evaluation slot. Preserve incumbent/frozen source checkpoints and active full-game evaluation.",
+      "Rollback is scaling min=max1 with fresh expected_version; scale-down controller latency must be verified before reserving slot for another checkpoint."
+    ]
+  },
+  "scope": "Single-hand selection screens are not 30-hand placement or Arena rating. Clipped reward is not poker EV. No sealed final queried. No raw private traces uploaded."
+}

@@ -1,0 +1,12 @@
+{
+  "train_unique_sources": 4,
+  "select_unique_inputs": 10,
+  "input_hash_overlap": 0,
+  "target_bytes_unchanged": true,
+  "one_supervised_function_call_each": true,
+  "historical_assistant_turns_supervised": 0,
+  "adapter_changes_runtime_representation": true,
+  "source_sha256": "4bff2d4907812addc213fbb4482e21fdbe4835f988213b752b2192b2e113dc75",
+  "select_sha256": "375585a0c8b95d690366eef1605dfddd94dd92ace5cd68d4a878d90c27768a61",
+  "queued_job_mutated": false
+}

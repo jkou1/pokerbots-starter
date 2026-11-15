@@ -1,0 +1,168 @@
+{
+  "eval_id": "eval_b539897717d8",
+  "job_id": "job_d21ee17bf239",
+  "status": "succeeded",
+  "planned_games": 6,
+  "completed_logs": 6,
+  "scope": "Actual native official30hand games; unclipped EV and raw placement. Dashboard primary reward is clipped and is not a placement metric. EV is the official harness adjustment; unsupported side pots fall back to realized returns, not solver EV.",
+  "games": [
+    {
+      "seed": 32129134682652,
+      "policy_seat": "seat3",
+      "place": 6,
+      "ev_bb": -2.3850000000000016,
+      "realized_bb": -82.5,
+      "decisions": 54,
+      "invalid_decisions": 3,
+      "hands": 30,
+      "ev_methods": {
+        "no-showdown": 22,
+        "showdown": 6,
+        "allin": 1,
+        "side-pot": 1
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    },
+    {
+      "seed": 65147353836095,
+      "policy_seat": "seat4",
+      "place": 1,
+      "ev_bb": 46.5,
+      "realized_bb": 46.5,
+      "decisions": 61,
+      "invalid_decisions": 1,
+      "hands": 30,
+      "ev_methods": {
+        "showdown": 8,
+        "no-showdown": 22
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    },
+    {
+      "seed": 167682508893636,
+      "policy_seat": "seat5",
+      "place": 6,
+      "ev_bb": -20.5,
+      "realized_bb": -20.5,
+      "decisions": 65,
+      "invalid_decisions": 3,
+      "hands": 30,
+      "ev_methods": {
+        "no-showdown": 20,
+        "showdown": 10
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    },
+    {
+      "seed": 61637709364564,
+      "policy_seat": "seat2",
+      "place": 4,
+      "ev_bb": -36.0,
+      "realized_bb": -36.0,
+      "decisions": 62,
+      "invalid_decisions": 1,
+      "hands": 30,
+      "ev_methods": {
+        "no-showdown": 21,
+        "showdown": 8,
+        "side-pot": 1
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    },
+    {
+      "seed": 169935285067393,
+      "policy_seat": "seat1",
+      "place": 2,
+      "ev_bb": 13.75,
+      "realized_bb": 14.0,
+      "decisions": 60,
+      "invalid_decisions": 0,
+      "hands": 30,
+      "ev_methods": {
+        "no-showdown": 23,
+        "showdown": 7
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    },
+    {
+      "seed": 45780757290026,
+      "policy_seat": "seat0",
+      "place": 1,
+      "ev_bb": 86.5,
+      "realized_bb": 86.5,
+      "decisions": 59,
+      "invalid_decisions": 0,
+      "hands": 30,
+      "ev_methods": {
+        "showdown": 9,
+        "no-showdown": 20,
+        "side-pot": 1
+      },
+      "cleanup_turns": 30,
+      "cleanup_attempts": 30,
+      "cleanup_overlong_attempts": 0,
+      "cleanup_final_cut": 0,
+      "talk": []
+    }
+  ],
+  "outcomes": {
+    "games": 6,
+    "mean_placement": 3.3333333333333335,
+    "first_place_rate": 0.3333333333333333,
+    "bust_rate": 0.0,
+    "mean_realized_bb": 1.3333333333333333,
+    "invalid_decisions": 8
+  },
+  "mean_unclipped_ev_bb": 14.644166666666665,
+  "paired_vs_incumbent": {
+    "games": 6,
+    "mean_placement": 3.3333333333333335,
+    "first_place_rate": 0.3333333333333333,
+    "bust_rate": 0.0,
+    "mean_realized_bb": 1.3333333333333333,
+    "invalid_decisions": 8,
+    "paired_improvement": {
+      "mean": 0.5,
+      "ci95": [
+        -0.8333333333333334,
+        2.3333333333333335
+      ]
+    }
+  },
+  "paired_unclipped_ev_vs_incumbent": {
+    "games": 6,
+    "mean_difference_bb": 20.1025,
+    "bootstrap_ci95": [
+      -29.147499999999997,
+      61.705000000000005
+    ],
+    "baseline_EV_scope": "Official helper applied after local baseline games with same8variants/64runouts; raw logs unchanged."
+  },
+  "cleanup_totals": {
+    "cleanup_turns": 180,
+    "cleanup_attempts": 180,
+    "cleanup_overlong_attempts": 0,
+    "cleanup_final_cut": 0
+  },
+  "interpretation": "Native six-game selection, wide CI includes zero; eight invalid decisions block reliability claims. Short cleanup outputs do not establish factual/protocol correctness. Paired incumbent baseline was local, not a second native job. No sealed final queried."
+}

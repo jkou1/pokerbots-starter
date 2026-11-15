@@ -1,0 +1,24 @@
+{
+  "collection_id": "coll_6dbffac3ae9c",
+  "slug": "grpo-checkpoint-decisions-20261115",
+  "artifacts": {
+    "READ_ME_FIRST.md": {
+      "id": "art_593fec8121e7",
+      "sha256": "35f6da3b014075582853396a3cdabc20886ea1c7e2e4b38dbad0178689fe0aaa",
+      "state": "ready"
+    },
+    "CHECKPOINT_DECISIONS.json": {
+      "id": "art_fbe4fa8cd096",
+      "sha256": "e352c4328071da4bd024d89f77380cd0e342aed093104858d1b1d8104500cf5d",
+      "state": "ready"
+    }
+  },
+  "verified_membership": true,
+  "identity": {
+    "owner": "lmathias@berkeley.edu",
+    "org_id": "org_cd68943dd947",
+    "unix_uid": 10464,
+    "runtime_user_secret_exists": true
+  },
+  "collections_url": "https://platform.appliedcompute.com/org_cd68943dd947/p/prj_ba36d29befaf/collections"
+}
