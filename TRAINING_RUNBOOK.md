@@ -1,5 +1,22 @@
 # Training runbook
 
+## Verified overnight platform constraints (2026-11-15)
+
+These are observed account-specific constraints, not guesses about general AC2 capability. Current user instructions take precedence over older recipes below.
+
+- Future submissions use the newly authorized account (UID 10464) and the existing organization. Verify identity before each train, deployment, evaluation, or artifact write. Do not cancel existing jobs merely to migrate their owner.
+- Native BYOH evaluations require `AC2_API_KEY` in the submitting account's **USER-scoped runtime secrets**. Check key-name metadata without printing values. The new account initially lacked this secret; adding its existing key to its own user scope enabled native evaluations. Do not overwrite organization secrets.
+- Use `checkpoints.promote()` / `promotion_status()` for serving conversion. The legacy `checkpoints.convert()` endpoint returned 403 for this event account. Conversion does not itself create an inference deployment.
+- Set replica counts explicitly. A Qwen training job uses four trainer GPUs plus two for one rollout engine; a standalone deployment uses one. Current GRPO has in-run evaluation off and uses existing deployments for manual evaluations.
+- The server rejected explicit `trainer.samples_per_optimizer_step`; derive the optimizer batch from `problem_batch_size * samples_per_problem` and verify the effective configuration. It also rejected explicit SFT GPU overrides and SFT evaluation-replica fields. Do not repeatedly submit unsupported fields.
+- The event account cannot inspect unfiltered engine logs, job specifications, or SSH into jobs. Preserve complete customer logs and available dispatch state. Missing log permission is not proof of a model or algorithm failure.
+- Managed SFT may place the single newline after `<think>` in `student_prompt`, rather than in target tokens. Audit the combined prompt and target; require a supervised `</think>` before the real tool call. An API effective config omitting warmstart metadata is not sufficient evidence that checkpoint restoration failed; compare matching-batch losses and runtime seed paths.
+- Distinguish SFT zero-based checkpoint iterations (e.g. 19 after 20 updates) from GRPO checkpoints (e.g. iteration 5 after update 5).
+- Overall SFT loss is dominated by repeated protocol/tool syntax. Use action- and amount-token diagnostics plus fixed held-out behavior for stop/extend decisions. GRPO mean advantage near zero is normal; use nonzero gradients, within-group reward variation, validity, and paired checkpoint evaluations.
+- Full-game primary grader scores are clipped rewards. Report unclipped chip EV, placement, busts, invalid actions, and cleanup behavior from attributed game logs; a score of 11 is not proof of convergence or superiority.
+- All official event games conserve 1,200 chips = 600 BB. During a hand, remaining stacks plus the pot equal that total.
+
+
 This runbook implements the experiments defined in [STRATEGY.md](STRATEGY.md). The current experiment starts from base weights and uses the refreshed Pete archive plus starter-deal replay; historical step2 continuation recipes appear below. No model from the new SFT experiments has yet passed promotion evaluation. The user requested committing and pushing the implementation while the corrected run is in progress. Organization-scoped temporary connector credentials are authorized, but these offline SFT runs require no connector. The upstream opponent-credential issue from the stopped GRPO run is documented in [TRAINING_RUN_AUDIT.md](TRAINING_RUN_AUDIT.md).
 
 ## Active experiment: corrected combined SFT from base
