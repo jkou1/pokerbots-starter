@@ -12,3 +12,4 @@ base-control-token-samples.json
 *-metrics.json
 *-first-token-samples.json
 conversion-status.json
+*.jsonl.gz
