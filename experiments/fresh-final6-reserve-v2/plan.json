@@ -1,0 +1,321 @@
+{
+  "frozen_at": "2026-11-15T14:50:03.586678+00:00",
+  "stage": "RESERVE ONLY; no uploads/evals/modelcalls",
+  "games": 6,
+  "policy_seats": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "seeds": [
+    15841067135482,
+    83913755747480,
+    154948385799550,
+    49037400235700,
+    86522303526796,
+    207472757887168
+  ],
+  "rules": {
+    "seats": 6,
+    "initial_stacks": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "small_blind": 1,
+    "big_blind": 2,
+    "hands": 30,
+    "carried_stacks": true,
+    "rebuys": false,
+    "hints": false
+  },
+  "fixed_opponent": {
+    "inference_id": "infer_21f395f49bff",
+    "checkpoint": "ckpt_23b6b6239f26",
+    "expected_version": 1,
+    "all_five_opponent_seats": true
+  },
+  "reference": {
+    "inference_id": "infer_b0f5e9429b7e",
+    "checkpoint": "ckpt_51eee61470f7",
+    "expected_version": 1
+  },
+  "selected_candidate": null,
+  "launch_requires_frozen_selection_decision": {
+    "immutable_inference_checkpoint_version_before_any_game": true,
+    "must_pass_fixed_native64_EV_protocol_gates": true,
+    "root_GO_required": true,
+    "same_tasks_rules_opponent_for_candidate_and_incumbent": true,
+    "no_choice_or_retraining_from_these_final_outcomes": true
+  },
+  "tasks_sha256": "d3bf239d555adba594481780bc57501aa2ce1f12d0834dac726bf63a4713bfdf",
+  "task_content_hashes": [
+    "b06e83cdec2d67569ef402ed7c88f702b5c4d67f0461697f9293c230b81f1a90",
+    "b85f138a0697056eaf3c133e9982ccdbe1177f01322e171b8a42821198c5c10c",
+    "c8422b95a3b33f5a3310308ceaec1deaab550545e0ed951da7fb87032b3b0491",
+    "c4ea16c2c8bd0049273ea90244f4ab0e1e72a7f278301dfeaf2574a987e1640f",
+    "e829380a5a1fd98036f69834c9b9da2bd16fb399289a1950415ac3e00673c9f8",
+    "ded46d314308bc13df165606eb7cc5362cfcd4af86ca745f5ffe17d7eb4814d2"
+  ],
+  "known_distinct_seeds_excluded": 44701,
+  "new_overlap_with_any_known": 0,
+  "memory_reserved_seeds_excluded": 14,
+  "current7500_proof": {
+    "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-opponent-mixture-v2/pilot-train.jsonl",
+    "sha256": "ff1f17e4c6bc84be4c168ddebaa4624c5e769485dfe691aae91b97a74e8ab837",
+    "remote_receipt": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-opponent-mixture-v2/pilot-upload-verified.json",
+    "receipt_sha256": "a5c700df5e77af7bc9dd7feefae6002a47fe14d65f7bd45112aa57feff35a691",
+    "ordered_remote_task_ids": 7500,
+    "current_effective_config_sha256": "9fb0527febace3bdac96d2eb493367987924e7dd4baf637fda6edaefee5a7e5a"
+  },
+  "seed_intersections": {
+    "current7500_vs_fixed_native64": 0,
+    "by_native64_opponent_stratum": {
+      "base20": {
+        "seeds": 32,
+        "intersection": 0
+      },
+      "ad74": {
+        "seeds": 32,
+        "intersection": 0
+      }
+    },
+    "current7500_vs_original_historical20k": 0,
+    "current7500_vs_old_selfplay20k": 0,
+    "current7500_vs_prior_fullgame_final6": 0,
+    "current7500_vs_retained_mixture_local20k_pool": 7500,
+    "retained_pool_overlap_is_expected_subset_not_holdout_leak": true,
+    "by_native64_opponent_and_seat": {
+      "base20|seat1": {
+        "seeds": 6,
+        "intersection": 0
+      },
+      "ad74|seat4": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "ad74|seat1": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "base20|seat2": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "ad74|seat2": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "base20|seat3": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "ad74|seat3": {
+        "seeds": 6,
+        "intersection": 0
+      },
+      "ad74|seat0": {
+        "seeds": 6,
+        "intersection": 0
+      },
+      "ad74|seat5": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "base20|seat4": {
+        "seeds": 6,
+        "intersection": 0
+      },
+      "base20|seat5": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "base20|seat0": {
+        "seeds": 5,
+        "intersection": 0
+      }
+    },
+    "historical_select_eval_smoke_sets": {
+      "pokerbots-history-20k-v1/select": {
+        "seeds": 500,
+        "intersection": 0,
+        "sha256": "1d1239f343305ead8a3eefc43f28fb4ba248ab53110e53089ce7e698608349eb"
+      },
+      "pokerbots-history-20k-v1/eval": {
+        "seeds": 1000,
+        "intersection": 0,
+        "sha256": "54612f2252a118b73373949a46e0d016a6ddfab0c766022eaddd34c8a763aec4"
+      },
+      "pokerbots-history-20k-v1/smoke": {
+        "seeds": 8,
+        "intersection": 0,
+        "sha256": "937117e537cee08d8c674ee2546c3117598c8b7009dc4e1bcfb7bfca9a3c4d93"
+      },
+      "pokerbots-history-selfplay-ad74-v1/select": {
+        "seeds": 500,
+        "intersection": 0,
+        "sha256": "5928256738fa0d1b46e787c5c4567f76003c5ad4c20a126f1a7448e4d7505491"
+      },
+      "pokerbots-history-selfplay-ad74-v1/eval": {
+        "seeds": 1000,
+        "intersection": 0,
+        "sha256": "1e1cb155b88f37009c2b82eec4ef65570fd62599eb8904fcd5319c874c05c031"
+      },
+      "pokerbots-history-selfplay-ad74-v1/smoke": {
+        "seeds": 8,
+        "intersection": 0,
+        "sha256": "9c590344486dcbf86ad01d63ccb143e8904ccff51cae3716ec8e2e0649e13586"
+      }
+    }
+  },
+  "exclusion_sources": [
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/base20-development-v1/tasks.jsonl",
+      "task_seed_records": 4,
+      "unique_seeds": 4,
+      "sha256": "f5f94174966331d2ad9fbeed245f316f20ad87c979c71538703c72bfd97597be"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/fast-screen-v1/tasks.jsonl",
+      "task_seed_records": 32,
+      "unique_seeds": 32,
+      "sha256": "9a0ae8a8c4fa4d4dcbbcfcebe4365436a23b6695cc78588eb6ed0b6c830c3066"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/fullschema-functional30/rl20/task.json",
+      "task_seed_records": 1,
+      "unique_seeds": 1,
+      "sha256": "61a2bf096ec44d445f0bd258ccef092a227b79f61d1803c5721d0d3992244054"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/late-grpo-fresh64-v1/tasks.jsonl",
+      "task_seed_records": 64,
+      "unique_seeds": 64,
+      "sha256": "473f8b4bbd9568c9472a32ec48e7232664d2b8e333021420879ce51f83cb8989"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/platform-official30-v1/select/tasks.jsonl",
+      "task_seed_records": 6,
+      "unique_seeds": 6,
+      "sha256": "2cf858e900dc2aa58a91a5800270fa9b92b5af5ad0c6855bc2b1943732f17c89"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/sealed-final-base20-v1/tasks.jsonl",
+      "task_seed_records": 6,
+      "unique_seeds": 6,
+      "sha256": "8997dfd41ca609025d771179835b52ae59977d83f9878a0e5f7527f0532ef7ab"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/cleanup-multihand-rl20-v1/eval-tasks.jsonl",
+      "task_seed_records": 2,
+      "unique_seeds": 2,
+      "sha256": "368ec53327fefa073e5fcacf2bac582e7ecb08acd2594de790795be513551e2e"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/cleanup-multihand-rl20-v1/reserve_train-tasks.jsonl",
+      "task_seed_records": 2,
+      "unique_seeds": 2,
+      "sha256": "070bc07019ab50bb73462d2e3870702956559a9a8a8bb618bc07c48c48966748"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/cleanup-multihand-rl20-v1/select-tasks.jsonl",
+      "task_seed_records": 2,
+      "unique_seeds": 2,
+      "sha256": "4a539d92fde3adf73032e8a925d17163f548093db1a3938617e3a11f016dcc40"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-pokerbench/experiments/cleanup-multihand-rl20-v1/train-tasks.jsonl",
+      "task_seed_records": 8,
+      "unique_seeds": 8,
+      "sha256": "14fd00659219013eac61568e6d2ce94bacdfba39b0f957661658263adc47695a"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-20k-v1/eval.jsonl",
+      "task_seed_records": 1000,
+      "unique_seeds": 1000,
+      "sha256": "54612f2252a118b73373949a46e0d016a6ddfab0c766022eaddd34c8a763aec4"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-20k-v1/select.jsonl",
+      "task_seed_records": 500,
+      "unique_seeds": 500,
+      "sha256": "1d1239f343305ead8a3eefc43f28fb4ba248ab53110e53089ce7e698608349eb"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-20k-v1/smoke.jsonl",
+      "task_seed_records": 8,
+      "unique_seeds": 8,
+      "sha256": "937117e537cee08d8c674ee2546c3117598c8b7009dc4e1bcfb7bfca9a3c4d93"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-20k-v1/train.jsonl",
+      "task_seed_records": 20000,
+      "unique_seeds": 20000,
+      "sha256": "8398701df081e7d5bdcf6d33e1fd9985a144c72a07b7fa94675494a7a356ffa1"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-opponent-mixture-v2/pilot-train.jsonl",
+      "task_seed_records": 7500,
+      "unique_seeds": 7500,
+      "sha256": "ff1f17e4c6bc84be4c168ddebaa4624c5e769485dfe691aae91b97a74e8ab837"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-opponent-mixture-v2/train.jsonl",
+      "task_seed_records": 20000,
+      "unique_seeds": 20000,
+      "sha256": "b06a06c3c7919278628dbb8b35a6cd6d7d8df17b62acc5dc1d04cf7c2b75ea50"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-selfplay-ad74-v1/eval.jsonl",
+      "task_seed_records": 1000,
+      "unique_seeds": 1000,
+      "sha256": "1e1cb155b88f37009c2b82eec4ef65570fd62599eb8904fcd5319c874c05c031"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-selfplay-ad74-v1/select.jsonl",
+      "task_seed_records": 500,
+      "unique_seeds": 500,
+      "sha256": "5928256738fa0d1b46e787c5c4567f76003c5ad4c20a126f1a7448e4d7505491"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-selfplay-ad74-v1/smoke.jsonl",
+      "task_seed_records": 8,
+      "unique_seeds": 8,
+      "sha256": "9c590344486dcbf86ad01d63ccb143e8904ccff51cae3716ec8e2e0649e13586"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-starter-grpo-history/history/training/pokerbots-history-selfplay-ad74-v1/train.jsonl",
+      "task_seed_records": 20000,
+      "unique_seeds": 20000,
+      "sha256": "9337cc8ca21cef2e4bcfbe3a03a264672e3320e7b93062532b8e3f018c24a3e4"
+    },
+    {
+      "path": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/selection-seed-exclusions.json",
+      "seed_records": 119,
+      "sha256": "e76e2682689d104f6ef2503bd9f6e88da7194e9b2fd71af1c9e0fc56b9304679"
+    },
+    {
+      "source": "puredeal_seeds(train/select/eval,1024)from existingcollector; no cards generated",
+      "seed_records": 3072
+    }
+  ],
+  "limitations": [
+    "Smalln6andwidepaireduncertainty.",
+    "Weakfixedbase20opponentpoolcannotguaranteeArena superiority.",
+    "Nativepolicysamplingdefaultsnotfullyexposed;pairedseedsarenotidenticalmodelresponses.",
+    "Paths/stacks/eliminationsmaydivergewithpolicyactions; no board/cardpeek or forcedfuturestate."
+  ],
+  "no_cards_or_boards_generated_or_inspected": true,
+  "local_published_source_hashes": {
+    "/Users/lance/Documents/pokerbots-overnight-eval/harness/src/poker_harness/completions.py": "f1a392e71c9be17556d382907861c286fcd54d9cf15cf4b7f10f4b1a871e6cb2",
+    "/Users/lance/Documents/pokerbots-overnight-eval/harness/src/poker_harness/prompts.py": "1ac188c9bcc9478f621809a08c710a43855b7823804d3fbf1161a37cea9d6d9b",
+    "/Users/lance/Documents/pokerbots-overnight-eval/harness/src/poker_harness/training.py": "e2ff6c3db34e2c6581dea4923c21a06b897e82f46fda779fdf7a1e64715f3117"
+  },
+  "source_launch_gate": "Verify actual live harness/project version matches frozen intended source before launch; localfilehash alone is not live-code proof"
+}

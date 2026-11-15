@@ -1,0 +1,108 @@
+{
+  "current7500_artifact_sha256": "ff1f17e4c6bc84be4c168ddebaa4624c5e769485dfe691aae91b97a74e8ab837",
+  "remote_receipt_sha256": "a5c700df5e77af7bc9dd7feefae6002a47fe14d65f7bd45112aa57feff35a691",
+  "native64_task_sha256": "473f8b4bbd9568c9472a32ec48e7232664d2b8e333021420879ce51f83cb8989",
+  "original20k_task_sha256": "8398701df081e7d5bdcf6d33e1fd9985a144c72a07b7fa94675494a7a356ffa1",
+  "prior_final_task_sha256": "8997dfd41ca609025d771179835b52ae59977d83f9878a0e5f7527f0532ef7ab",
+  "intersections": {
+    "current7500_vs_fixed_native64": 0,
+    "by_native64_opponent_stratum": {
+      "base20": {
+        "seeds": 32,
+        "intersection": 0
+      },
+      "ad74": {
+        "seeds": 32,
+        "intersection": 0
+      }
+    },
+    "current7500_vs_original_historical20k": 0,
+    "current7500_vs_old_selfplay20k": 0,
+    "current7500_vs_prior_fullgame_final6": 0,
+    "current7500_vs_retained_mixture_local20k_pool": 7500,
+    "retained_pool_overlap_is_expected_subset_not_holdout_leak": true,
+    "by_native64_opponent_and_seat": {
+      "base20|seat1": {
+        "seeds": 6,
+        "intersection": 0
+      },
+      "ad74|seat4": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "ad74|seat1": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "base20|seat2": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "ad74|seat2": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "base20|seat3": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "ad74|seat3": {
+        "seeds": 6,
+        "intersection": 0
+      },
+      "ad74|seat0": {
+        "seeds": 6,
+        "intersection": 0
+      },
+      "ad74|seat5": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "base20|seat4": {
+        "seeds": 6,
+        "intersection": 0
+      },
+      "base20|seat5": {
+        "seeds": 5,
+        "intersection": 0
+      },
+      "base20|seat0": {
+        "seeds": 5,
+        "intersection": 0
+      }
+    },
+    "historical_select_eval_smoke_sets": {
+      "pokerbots-history-20k-v1/select": {
+        "seeds": 500,
+        "intersection": 0,
+        "sha256": "1d1239f343305ead8a3eefc43f28fb4ba248ab53110e53089ce7e698608349eb"
+      },
+      "pokerbots-history-20k-v1/eval": {
+        "seeds": 1000,
+        "intersection": 0,
+        "sha256": "54612f2252a118b73373949a46e0d016a6ddfab0c766022eaddd34c8a763aec4"
+      },
+      "pokerbots-history-20k-v1/smoke": {
+        "seeds": 8,
+        "intersection": 0,
+        "sha256": "937117e537cee08d8c674ee2546c3117598c8b7009dc4e1bcfb7bfca9a3c4d93"
+      },
+      "pokerbots-history-selfplay-ad74-v1/select": {
+        "seeds": 500,
+        "intersection": 0,
+        "sha256": "5928256738fa0d1b46e787c5c4567f76003c5ad4c20a126f1a7448e4d7505491"
+      },
+      "pokerbots-history-selfplay-ad74-v1/eval": {
+        "seeds": 1000,
+        "intersection": 0,
+        "sha256": "1e1cb155b88f37009c2b82eec4ef65570fd62599eb8904fcd5319c874c05c031"
+      },
+      "pokerbots-history-selfplay-ad74-v1/smoke": {
+        "seeds": 8,
+        "intersection": 0,
+        "sha256": "9c590344486dcbf86ad01d63ccb143e8904ccff51cae3716ec8e2e0649e13586"
+      }
+    }
+  },
+  "no_models_or_cards": true
+}
