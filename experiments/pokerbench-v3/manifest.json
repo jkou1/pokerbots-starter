@@ -1,0 +1,50 @@
+{
+  "source_file": "/Users/lance/Documents/pokerbots-pokerbench/experiments/pokerbench-v2/source.jsonl",
+  "source_sha256": "711e1f865e6368f712cbd01caa3dd7ad0d14048ef4498027527264c165733190",
+  "counts": {
+    "fractional_states_excluded": 4332,
+    "excluded:call_without_bet": 365,
+    "excluded:target_below_minimum": 66,
+    "excluded:raise_without_bet": 140,
+    "duplicate_observations": 8
+  },
+  "split_counts": {
+    "train": 4096,
+    "select": 1280,
+    "fast-select": 147,
+    "eval": 1582
+  },
+  "source_eligible_split_counts": {
+    "train": 12109,
+    "select": 1398,
+    "eval": 1582
+  },
+  "training": "4096postfloponly,seed42subsetofsource-train",
+  "fast_selection": {
+    "size": 147,
+    "action_counts": {
+      "fold": 37,
+      "check": 38,
+      "raise": 20,
+      "call": 36,
+      "bet": 16
+    }
+  },
+  "scaling": "Exact2x of bare action amounts and Nchips in one pass; exclude fractional states",
+  "target_format": "qwen-protocol-boundary-v2",
+  "limitations": [
+    "Solver labels are cash-game demonstrations, not tournament optimality.",
+    "No full engine legality replay; original source monetary histories and target bounds audited separately.",
+    "Source has no match IDs; holdouts group board/betting scenarios excluding hero cards."
+  ],
+  "sha256": {
+    "train.jsonl": "f07acbbe398d5749a69bde3da85ae9c48d4e66ac32a3868e245f8b073ee1d72f",
+    "eval.jsonl": "59b32783243b5c140c83ec9215f25eb3322e4d5a51b5b7f0c332399dc9988fa1",
+    "fast-select.jsonl": "f4d155e98fc355cf64f7dfb0c37873711011b93f3863dd1ba4171eefb0a430f9",
+    "select.jsonl": "cdf7541fc2cd92b7afa645e4731ed5e797b06b941dc266f64b85ee9a3a2a6f73",
+    "train-tasks.jsonl": "26854f5dc9d094c138924d67a3e8a9ec91a8948a6f72caad922f8fe41b0c17a2",
+    "eval-tasks.jsonl": "b424d42f8ccc120a20b9c1bdb04c54d711a82da48eceb55fe697fc67d699c6db",
+    "select-tasks.jsonl": "eb0b5fac8b12d816b3ed1b48f07fe0caf41e1b1e96b99fc568112050449bb7f5",
+    "fast-select-tasks.jsonl": "252eb582506034e79942fde9adf2725ef98868dc3a673d95fbdd718d0adf769b"
+  }
+}

@@ -6,7 +6,7 @@ from ac2.sdk import Client
 from ac2.sdk.analytics.types import ColumnSpec,QuerySpec
 ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,'/Users/lance/Documents/pokerbots-main')
-from vals_tools.sft_audit import audit_target
+from audit import audit_target
 c=Client(project='vals-hackathon');train=json.loads((ROOT/'run.json').read_text())['train_id']
 while True:
  try:

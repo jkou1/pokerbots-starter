@@ -1,0 +1,17 @@
+{
+  "train": {
+    "passed": 4096
+  },
+  "select": {
+    "passed": 1280
+  },
+  "fast-select": {
+    "passed": 147
+  },
+  "eval": {
+    "passed": 1514,
+    "call_without_bet": 47,
+    "raise_without_bet": 18,
+    "target_below_minimum": 3
+  }
+}

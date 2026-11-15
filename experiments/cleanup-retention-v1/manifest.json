@@ -1,0 +1,48 @@
+{
+  "source": "/Users/lance/Documents/pokerbots-overnight-eval/data/experiments/cleanup-own-train-v1/validated-train.jsonl",
+  "source_sha256": "4bff2d4907812addc213fbb4482e21fdbe4835f988213b752b2192b2e113dc75",
+  "records": 4,
+  "checks": [
+    {
+      "seed": 178646165717482,
+      "source_trace_sha256": "718f66c74f0794a26af8b9efa5c04e43dfc40be9e9546e2e1976592e3297a588",
+      "input_source_sha256": "6d3d9a2c33ba3ca1c6d57731463ad6211d878815ece9bf2d90ae464b3e5a9d1a",
+      "contents_characters": 434,
+      "target_unchanged": true,
+      "facts_validated": true
+    },
+    {
+      "seed": 226231624340008,
+      "source_trace_sha256": "b920773590ad88dab53d1e8148bd6803917b843421a91156e350d0e92a9ded0c",
+      "input_source_sha256": "d9a632a64772d2f6a0127f35fd7c2e15a10f7a6f0224100063df2ec7cc17afb1",
+      "contents_characters": 279,
+      "target_unchanged": true,
+      "facts_validated": true
+    },
+    {
+      "seed": 237970736715971,
+      "source_trace_sha256": "192b4fd570ad9a9057b7af53ba36e39f9bd84730fdfd208de8681b0e8473c0f7",
+      "input_source_sha256": "57995ef291acbffb434b2f12b5d4a0b11e2a69055b2a97c28d2e3d8e66f93e53",
+      "contents_characters": 404,
+      "target_unchanged": true,
+      "facts_validated": true
+    },
+    {
+      "seed": 45345391061164,
+      "source_trace_sha256": "d0a750437890d992dca107031cca1a7f0103e173da43ca485721d1aa1a309bb0",
+      "input_source_sha256": "792478910a788f5854caef4b390c8d6b5e9864c587e97d2f93e13a2e911de041",
+      "contents_characters": 359,
+      "target_unchanged": true,
+      "facts_validated": true
+    }
+  ],
+  "no_generated_private_notes": true,
+  "no_selection_inputs": true,
+  "no_upload_or_training": true,
+  "input_representation_changed": true,
+  "limitations": [
+    "Only four unique short after-hand targets.",
+    "Prior own assistant/tool items are explicitly quoted as user context to avoid supervising historical replies.",
+    "One-hand TRAIN collection does not establish useful cross-hand memory."
+  ]
+}

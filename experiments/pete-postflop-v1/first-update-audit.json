@@ -1,0 +1,142 @@
+{
+  "continuation": {
+    "samples": [
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 47,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      }
+    ],
+    "initial_train_metrics": [
+      {
+        "step": 0,
+        "train/grad_norm": 1.6267788410186768,
+        "train/loss": 0.032154728766201304,
+        "train/lr-pg_0": 1.6666666666666667e-06,
+        "train/lr-pg_1": 1.6666666666666667e-06,
+        "train/lr-pg_2": 1.6666666666666667e-06
+      }
+    ]
+  },
+  "base": {
+    "samples": [
+      {
+        "response_tokens": 48,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      },
+      {
+        "response_tokens": 35,
+        "first_target_token": "Tool",
+        "prefill_newline_location": "prompt",
+        "reasoning_close_supervised": true,
+        "combined_boundary_verified": true
+      }
+    ],
+    "initial_train_metrics": [
+      {
+        "step": 0,
+        "train/grad_norm": 85.03052520751953,
+        "train/loss": 1.0245288667224703,
+        "train/lr-pg_0": 4.166666666666667e-06,
+        "train/lr-pg_1": 4.166666666666667e-06,
+        "train/lr-pg_2": 4.166666666666667e-06
+      }
+    ]
+  }
+}

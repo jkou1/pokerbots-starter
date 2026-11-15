@@ -9,3 +9,6 @@ __pycache__/
 base-control-run.json
 base-control-status.json
 base-control-token-samples.json
+*-metrics.json
+*-first-token-samples.json
+conversion-status.json

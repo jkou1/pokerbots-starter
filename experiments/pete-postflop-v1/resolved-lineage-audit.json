@@ -1,0 +1,23 @@
+{
+  "train_e3fba0323bd2": {
+    "requested_model": "Qwen/Qwen3.6-35B-A3B",
+    "requested_from_checkpoint": "ckpt_51eee61470f7",
+    "effective_checkpoint_fields": {
+      ".model": "Qwen/Qwen3.6-35B-A3B",
+      ".tags.parent_checkpoint": "ckpt_51eee61470f7",
+      ".experiment_cfg.step.checkpoint_interval": 20,
+      ".experiment_cfg.step.keep_last_checkpoints": 20
+    }
+  },
+  "train_4cc69b58d8e9": {
+    "requested_model": "Qwen/Qwen3.6-35B-A3B",
+    "requested_from_checkpoint": null,
+    "effective_checkpoint_fields": {
+      ".model": "Qwen/Qwen3.6-35B-A3B",
+      ".tags.initialization": "base",
+      ".tags.parent_checkpoint": null,
+      ".experiment_cfg.step.checkpoint_interval": 20,
+      ".experiment_cfg.step.keep_last_checkpoints": 20
+    }
+  }
+}

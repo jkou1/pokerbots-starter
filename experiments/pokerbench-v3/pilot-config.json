@@ -1,0 +1,45 @@
+{
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "name": "pokerbench-v3-postflop4096-base-sft-40steps-lr5e6",
+  "description": "Corrected exact2x scaling including bare action amounts;4096postfloptrain;147stratifiedfastselect;source-group holdouts;Qwenboundaryv2.",
+  "tags": {
+    "stage": "pokerbench-postflop",
+    "initialization": "base",
+    "dataset": "pokerbots-pokerbench-postflop-v3-train"
+  },
+  "experiment_cfg": {
+    "method": {
+      "type": "sft"
+    },
+    "step": {
+      "num_train_steps": 40,
+      "problem_batch_size": 64,
+      "samples_per_problem": 1,
+      "checkpoint_interval": 20,
+      "seed": 42
+    },
+    "tasks": {
+      "datasets": [
+        {
+          "ac2_dataset_name": "pokerbots-pokerbench-postflop-v3-train"
+        }
+      ]
+    },
+    "trainer": {
+      "learning_rate": 5e-06
+    },
+    "rollout": {
+      "n_inference_replicas": 0,
+      "max_total_len": 8192
+    },
+    "eval": {
+      "mode": "off"
+    }
+  },
+  "internal_cfg": {
+    "launch": {
+      "n_training_replicas": 1,
+      "tensorboard_enabled": true
+    }
+  }
+}
