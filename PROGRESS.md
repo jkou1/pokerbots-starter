@@ -3,16 +3,16 @@
 Coordinator: Codex. Window: Sunday 2026-11-15 00:27–09:00 PST.
 Standing orders: `/Users/lance/Documents/pokerbots-starter-grpo-history/AGENTS.md`.
 
-## Current status — 01:03 PST
+## Current status — 01:04 PST
 
-- **Goal:** #1 leaderboard, then defend through day2. Current autonomous window ends09:00PST.
-- **Main training:** GRPO `train_f759c4cb331e` running;6GPUs,ad74parent,historical20k,frozenopponents,64rollouts/update,checkpoint5,manualevaluation. Startup repaired using the existing authorized working account identity; firstoptimizer/checkpoint stillpending.
-- **Serving/evaluation:** incumbent and frozenopponent retained; two SFTcandidate1GPUslots. Continuation candidate recreated underworkingidentity afterrestarts; basecandidate remainscontrol. Realtoolprobes and AC2fullgame comparisons pendingready. Totalintendedallocation10GPUs.
-- **SFT:** both40updatepilotsfinished, checkpoints preserved, jobs stopped. ImportantactionCE stillimproved~21%inlast10updates; coordinatorcorrectedearlierconvergenceclaim. Missingearlycheckpointdecision was a coordinationgap; tested milestoneguardprepared forfuture.
-- **Measured defects:** botholdcheckpoints0/39heldoutPetebets; incumbentcleanupoverlength/retriesconfirmedinfullgames. Newweightsmustfixthese withoutpreflop/legalityregression.
-- **AC2visibleevals:** `eval_bf31fcaff054`, `eval_521f73148d31`, `eval_7353b52d4873` (allcompleted). Dashboard: https://platform.appliedcompute.com/org_cd68943dd947/p/prj_ba36d29befaf/observability/evals . Other147/354diagnostics andongoingfullgameswerelocal, notpublished; nextfullgameswilluseAC2nativeBYOH. Publishingauditsasclearlylabeledprojectartifactsisunderway.
+- **Goal:** reach #1 on the leaderboard and defend the lead through day 2. This autonomous run ends at 09:00 PST.
+- **Main training:** GRPO `train_f759c4cb331e` is running on 6 GPUs, from ad74, using the historical 20k dataset and frozen opponents. It uses 64 rollouts per update and saves every 5 updates. Startup was repaired using the existing authorized account identity that served prior working jobs. First optimizer update and checkpoint are still pending.
+- **Serving:** the incumbent and frozen opponent remain protected. Two additional 1-GPU slots are assigned to the SFT candidates. The continuation candidate was recreated under the working identity after restarts; the base candidate remains a control. Tool probes and AC2 full-game comparisons await readiness. Intended allocation: 10 GPUs.
+- **SFT:** both 40-update pilots finished and their checkpoints are preserved. Action-token loss still improved about 21% over the last 10 updates; the earlier convergence claim was corrected. Missing the intermediate stop/extend decision was a coordination gap. A tested milestone guard is ready for future runs.
+- **Measured defects:** both old checkpoints made none of 39 held-out Pete bets. Excessively long cleanup notes and retries are also confirmed for the incumbent. Candidates must address these without harming preflop play or legality.
+- **Visible AC2 evaluations:** `eval_bf31fcaff054`, `eval_521f73148d31`, and `eval_7353b52d4873`, all completed. [Evaluations dashboard](https://platform.appliedcompute.com/org_cd68943dd947/p/prj_ba36d29befaf/observability/evals). The 147-state and 354-state diagnostics and ongoing full-game collectors were local. Next full games will use AC2 BYOH. Publishing clearly labeled audit artifacts is in progress.
 - **Action-token audits:** [base](/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/base-action-ce.json), [continuation](/Users/lance/Documents/pokerbots-pokerbench/experiments/pete-postflop-v1/continuation-action-ce.json).
-- **Not running:** PokerBenchtraining, talksearch, syntheticreasoninggeneration. CorrectedPokerBenchv3isCPU-readyonly; failed/inconclusiveavenuesstopped.
+- **Stopped or on hold:** PokerBench training, table-talk search, and synthetic reasoning generation. Corrected PokerBench v3 is prepared and uploaded; no GPU training is queued for it.
 
 ## Decision log
 
